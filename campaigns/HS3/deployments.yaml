@@ -1,0 +1,99 @@
+---
+deployments:
+- name: HS3-D1_2012
+  platforms:
+  - name: GH
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N871NA_IWG1_20121106-2103.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N871NA_IWG1_20121106-2151.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N871NA_IWG1_20130904.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20120907-0711.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20120907-1528.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20120907-1537.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20120912-1236.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20120920-1908.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20120923-1840.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20120923-1854.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20120927-1146.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20120927-1155.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20121006-1956.txt
+- name: HS3-D2_2013
+  platforms:
+  - name: GH
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N871NA_IWG1_20130904.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N871NA_IWG1_20130904-1020.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N871NA_IWG1_20130904-1041.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N871NA_IWG1_20130916.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N871NA_IWG1_20130916-1233.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N871NA_IWG1_20130916-1214.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N871NA_IWG1_20130917-1815.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N871NA_IWG1_20130917-1838.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N871NA_IWG1_20130926-0359.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N871NA_IWG1_20130926.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N871NA_IWG1_20130926-0411.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N871NA_IWG1_20130917.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130820-2248.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130821-1321.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130821-1348.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130825.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130825-1114.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130825-1135.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130830.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130830-1125.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130830-1138.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130905.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130905-1347.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130905-1403.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130908-1108.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130908-1119.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130916.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130916-1419.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130917.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130917-1050.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130917-1119.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130919.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130919-1016.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130920.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130920-1045.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130920-1055.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130926.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130926-2321.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20130926-2339.txt
+- name: HS3-D3_2014
+  platforms:
+  - name: GH
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140827-1128.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140827.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140827-1144.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140829-2214.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140829.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140829-2240.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140903-1121.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140903.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140903-1135.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140906-1056.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140906.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140906-1112.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140912.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140912-2133.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140912-2151.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140915.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140915-1040.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140915-1051.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140917.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140917-1107.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140917-1122.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140919-1045.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140919.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140919-1059.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140923.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140923-1119.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140923-1129.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140929-1124.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140929.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140929-1134.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140930.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140930-2242.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/hs3navgh__1/hs3_navgh_N872NA_IWG1_20140930-2316.txt

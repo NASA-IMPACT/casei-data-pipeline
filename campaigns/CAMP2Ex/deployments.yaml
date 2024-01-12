@@ -1,0 +1,50 @@
+---
+deployments:
+- name: CAMP2Ex-D1_2019
+  platforms:
+  - name: Learjet
+    files:
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_Learjet_Data_1/CAMP2EX-PAGE0_LEARJET_20190907_R0_L1.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_Learjet_Data_1/CAMP2EX-PAGE0_LEARJET_20190907_R0_L2.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_Learjet_Data_1/CAMP2EX-PAGE0_LEARJET_20190909_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_Learjet_Data_1/CAMP2EX-PAGE0_LEARJET_20190910_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_Learjet_Data_1/CAMP2EX-PAGE0_LEARJET_20190913_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_Learjet_Data_1/CAMP2EX-PAGE0_LEARJET_20190915_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_Learjet_Data_1/CAMP2EX-PAGE0_LEARJET_20190917_R0_L1.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_Learjet_Data_1/CAMP2EX-PAGE0_LEARJET_20190917_R0_L2.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_Learjet_Data_1/CAMP2EX-PAGE0_LEARJET_20190920_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_Learjet_Data_1/CAMP2EX-PAGE0_LEARJET_20190921_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_Learjet_Data_1/CAMP2EX-PAGE0_LEARJET_20190924_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_Learjet_Data_1/CAMP2EX-PAGE0_LEARJET_20190925_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_Learjet_Data_1/CAMP2EX-PAGE0_LEARJET_20190929_R0.ict
+  - name: P-3
+    files:
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20190803_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20190805_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20190812_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20190813_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20190815_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20190816_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20190824_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20190827_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20190829_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20190830_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20190904_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20190906_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20190908_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20190913_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20190915_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20190916_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20190919_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20190921_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20190923_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20190925_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20190927_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20190929_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20191001_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20191003_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20191005_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20191006_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20191008_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20191009_R0.ict
+    - https://asdc.larc.nasa.gov/data/CAMP2Ex/MetNav_AircraftInSitu_P3_Data_1/CAMP2EX-METNAV_P3B_20191010_R0.ict

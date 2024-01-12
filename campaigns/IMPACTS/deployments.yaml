@@ -1,0 +1,55 @@
+---
+deployments:
+- name: IMPACTS-D1_2020
+  platforms:
+  - name: P-3
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/p3metnavimpacts__1/IMPACTS_MetNav_P3B_20200225_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/p3metnavimpacts__1/IMPACTS_MetNav_P3B_20200224_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/p3metnavimpacts__1/IMPACTS_MetNav_P3B_20200220_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/p3metnavimpacts__1/IMPACTS_MetNav_P3B_20200218_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/p3metnavimpacts__1/IMPACTS_MetNav_P3B_20200213_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/p3metnavimpacts__1/IMPACTS_MetNav_P3B_20200207_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/p3metnavimpacts__1/IMPACTS_MetNav_P3B_20200205_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/p3metnavimpacts__1/IMPACTS_MetNav_P3B_20200201_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/p3metnavimpacts__1/IMPACTS_MetNav_P3B_20200125_R1.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/p3metnavimpacts__1/IMPACTS_MetNav_P3B_20200118_R1.ict
+  - name: ER-2
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2navimpacts__1/IMPACTS_MetNav_ER2_20200118_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2navimpacts__1/IMPACTS_MetNav_ER2_20200125_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2navimpacts__1/IMPACTS_MetNav_ER2_20200201_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2navimpacts__1/IMPACTS_MetNav_ER2_20200205_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2navimpacts__1/IMPACTS_MetNav_ER2_20200207_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2navimpacts__1/IMPACTS_MetNav_ER2_20200223_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2navimpacts__1/IMPACTS_MetNav_ER2_20200225_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2navimpacts__1/IMPACTS_MetNav_ER2_20200227_R0.ict
+- name: IMPACTS-D2_2022
+  platforms:
+  - name: P-3
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/p3metnavimpacts__1/IMPACTS_MetNav_P3B_20220225_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/p3metnavimpacts__1/IMPACTS_MetNav_P3B_20220219_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/p3metnavimpacts__1/IMPACTS_MetNav_P3B_20220217_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/p3metnavimpacts__1/IMPACTS_MetNav_P3B_20220213_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/p3metnavimpacts__1/IMPACTS_MetNav_P3B_20220208_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/p3metnavimpacts__1/IMPACTS_MetNav_P3B_20220204_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/p3metnavimpacts__1/IMPACTS_MetNav_P3B_20220203_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/p3metnavimpacts__1/IMPACTS_MetNav_P3B_20220129_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/p3metnavimpacts__1/IMPACTS_MetNav_P3B_20220128_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/p3metnavimpacts__1/IMPACTS_MetNav_P3B_20220119_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/p3metnavimpacts__1/IMPACTS_MetNav_P3B_20220117_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/p3metnavimpacts__1/IMPACTS_MetNav_P3B_20220114_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/p3metnavimpacts__1/IMPACTS_MetNav_P3B_20220111_R0.ict
+  - name: ER-2
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2navimpacts__1/IMPACTS_MetNav_ER2_20220108_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2navimpacts__1/IMPACTS_MetNav_ER2_20220129_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2navimpacts__1/IMPACTS_MetNav_ER2_20220203_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2navimpacts__1/IMPACTS_MetNav_ER2_20220204_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2navimpacts__1/IMPACTS_MetNav_ER2_20220208_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2navimpacts__1/IMPACTS_MetNav_ER2_20220213_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2navimpacts__1/IMPACTS_MetNav_ER2_20220217_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2navimpacts__1/IMPACTS_MetNav_ER2_20220219_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2navimpacts__1/IMPACTS_MetNav_ER2_20220225_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2navimpacts__1/IMPACTS_MetNav_ER2_20220228_R0.ict

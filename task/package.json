@@ -1,0 +1,16 @@
+{
+  "name": "casei-campaigns-download",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "download": "node downloadCampaign.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "download": "8.0.0",
+    "yaml": "2.3.4"
+  },
+  "author": "Development Seed",
+  "license": "ISC"
+}
