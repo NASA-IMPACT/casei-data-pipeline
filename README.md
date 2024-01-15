@@ -1,4 +1,4 @@
-# admg-casei-campaigns
+# casei-data-pipeline
 
 This repository hosts the code to download ADMG CASEI campaigns data from CMR portal and also a catalog of yaml files containing a list of deployments and files that need to be download.
 
