@@ -1,0 +1,11 @@
+---
+deployments:
+- name: Aeolus Cal/Val-D1_2019
+  platforms:
+  - name: DC-8
+    files:
+    - https://asdc.larc.nasa.gov/data/Aeolus/CalVal-MetNav_DC8_1/AEOLUS-METNAV_DC8_20190417_R0.ict
+    - https://asdc.larc.nasa.gov/data/Aeolus/CalVal-MetNav_DC8_1/AEOLUS-METNAV_DC8_20190422_R0.ict
+    - https://asdc.larc.nasa.gov/data/Aeolus/CalVal-MetNav_DC8_1/AEOLUS-METNAV_DC8_20190425_R0.ict
+    - https://asdc.larc.nasa.gov/data/Aeolus/CalVal-MetNav_DC8_1/AEOLUS-METNAV_DC8_20190427_R0.ict
+    - https://asdc.larc.nasa.gov/data/Aeolus/CalVal-MetNav_DC8_1/AEOLUS-METNAV_DC8_20190429_R0.ict

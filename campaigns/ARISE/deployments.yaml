@@ -1,0 +1,24 @@
+---
+deployments:
+- name: ARISE-D1_2014
+  platforms:
+  - name: C-130
+    files:
+    - https://asdc.larc.nasa.gov/data/ARISE/MetNav_AircraftInSitu_C130_Data_1/ARISE-METNAV_C130_20140901_R4.ict
+    - https://asdc.larc.nasa.gov/data/ARISE/MetNav_AircraftInSitu_C130_Data_1/ARISE-METNAV_C130_20140902_R4.ict
+    - https://asdc.larc.nasa.gov/data/ARISE/MetNav_AircraftInSitu_C130_Data_1/ARISE-METNAV_C130_20140904_R4.ict
+    - https://asdc.larc.nasa.gov/data/ARISE/MetNav_AircraftInSitu_C130_Data_1/ARISE-METNAV_C130_20140905_R4.ict
+    - https://asdc.larc.nasa.gov/data/ARISE/MetNav_AircraftInSitu_C130_Data_1/ARISE-METNAV_C130_20140906_R4.ict
+    - https://asdc.larc.nasa.gov/data/ARISE/MetNav_AircraftInSitu_C130_Data_1/ARISE-METNAV_C130_20140907_R4.ict
+    - https://asdc.larc.nasa.gov/data/ARISE/MetNav_AircraftInSitu_C130_Data_1/ARISE-METNAV_C130_20140909_R4.ict
+    - https://asdc.larc.nasa.gov/data/ARISE/MetNav_AircraftInSitu_C130_Data_1/ARISE-METNAV_C130_20140910_R4.ict
+    - https://asdc.larc.nasa.gov/data/ARISE/MetNav_AircraftInSitu_C130_Data_1/ARISE-METNAV_C130_20140911_R4.ict
+    - https://asdc.larc.nasa.gov/data/ARISE/MetNav_AircraftInSitu_C130_Data_1/ARISE-METNAV_C130_20140913_R4.ict
+    - https://asdc.larc.nasa.gov/data/ARISE/MetNav_AircraftInSitu_C130_Data_1/ARISE-METNAV_C130_20140915_R4.ict
+    - https://asdc.larc.nasa.gov/data/ARISE/MetNav_AircraftInSitu_C130_Data_1/ARISE-METNAV_C130_20140916_R4.ict
+    - https://asdc.larc.nasa.gov/data/ARISE/MetNav_AircraftInSitu_C130_Data_1/ARISE-METNAV_C130_20140917_R4.ict
+    - https://asdc.larc.nasa.gov/data/ARISE/MetNav_AircraftInSitu_C130_Data_1/ARISE-METNAV_C130_20140918_R4.ict
+    - https://asdc.larc.nasa.gov/data/ARISE/MetNav_AircraftInSitu_C130_Data_1/ARISE-METNAV_C130_20140919_R4.ict
+    - https://asdc.larc.nasa.gov/data/ARISE/MetNav_AircraftInSitu_C130_Data_1/ARISE-METNAV_C130_20140921_R4.ict
+    - https://asdc.larc.nasa.gov/data/ARISE/MetNav_AircraftInSitu_C130_Data_1/ARISE-METNAV_C130_20140924_R4.ict
+    - https://asdc.larc.nasa.gov/data/ARISE/MetNav_AircraftInSitu_C130_Data_1/ARISE-METNAV_C130_20141002_R4.ict

@@ -1,0 +1,63 @@
+---
+deployments:
+- name: DC3-D1_2012
+  platforms:
+  - name: DC-8
+    files:
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-DC8HSKPING_DC8_20120518_R1.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-DC8HSKPING_DC8_20120519_R1.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-DC8HSKPING_DC8_20120521_R1.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-DC8HSKPING_DC8_20120525_R1.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-DC8HSKPING_DC8_20120526_R1.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-DC8HSKPING_DC8_20120529_R1.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-DC8HSKPING_DC8_20120530_R1.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-DC8HSKPING_DC8_20120601_R1.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-DC8HSKPING_DC8_20120602_R1.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-DC8HSKPING_DC8_20120605_R1.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-DC8HSKPING_DC8_20120606_R1.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-DC8HSKPING_DC8_20120611_R1.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-DC8HSKPING_DC8_20120607_R1.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-DC8HSKPING_DC8_20120615_R1.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-DC8HSKPING_DC8_20120616_R1.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-DC8HSKPING_DC8_20120617_R1.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-DC8HSKPING_DC8_20120621_R1.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-DC8HSKPING_DC8_20120622_R1.ict
+  - name: G-V
+    files:
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_NSF-GV-HIAPER_Data_1/DC3-RAF-NAV_GV_20120518_R2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_NSF-GV-HIAPER_Data_1/DC3-RAF-NAV_GV_20120519_R2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_NSF-GV-HIAPER_Data_1/DC3-RAF-NAV_GV_20120521_R2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_NSF-GV-HIAPER_Data_1/DC3-RAF-NAV_GV_20120525_R2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_NSF-GV-HIAPER_Data_1/DC3-RAF-NAV_GV_20120526_R2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_NSF-GV-HIAPER_Data_1/DC3-RAF-NAV_GV_20120529_R2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_NSF-GV-HIAPER_Data_1/DC3-RAF-NAV_GV_20120530_R2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_NSF-GV-HIAPER_Data_1/DC3-RAF-NAV_GV_20120601_R2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_NSF-GV-HIAPER_Data_1/DC3-RAF-NAV_GV_20120605_R2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_NSF-GV-HIAPER_Data_1/DC3-RAF-NAV_GV_20120606_R2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_NSF-GV-HIAPER_Data_1/DC3-RAF-NAV_GV_20120607_R2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_NSF-GV-HIAPER_Data_1/DC3-RAF-NAV_GV_20120611_R2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_NSF-GV-HIAPER_Data_1/DC3-RAF-NAV_GV_20120615_R2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_NSF-GV-HIAPER_Data_1/DC3-RAF-NAV_GV_20120616_R2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_NSF-GV-HIAPER_Data_1/DC3-RAF-NAV_GV_20120617_R2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_NSF-GV-HIAPER_Data_1/DC3-RAF-NAV_GV_20120621_R2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_NSF-GV-HIAPER_Data_1/DC3-RAF-NAV_GV_20120622_R2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_NSF-GV-HIAPER_Data_1/DC3-RAF-NAV_GV_20120623_R2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_NSF-GV-HIAPER_Data_1/DC3-RAF-NAV_GV_20120625_R2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_NSF-GV-HIAPER_Data_1/DC3-RAF-NAV_GV_20120627_R2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_NSF-GV-HIAPER_Data_1/DC3-RAF-NAV_GV_20120628_R2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_NSF-GV-HIAPER_Data_1/DC3-RAF-NAV_GV_20120630_R2.ict
+  - name: Falcon
+    files:
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DLR-Falcon_Data_1/DC3-METEO_FALCON_20120529_R0_L1.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DLR-Falcon_Data_1/DC3-METEO_FALCON_20120529_R0_L2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DLR-Falcon_Data_1/DC3-METEO_FALCON_20120530_R0_L1.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DLR-Falcon_Data_1/DC3-METEO_FALCON_20120530_R0_L2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DLR-Falcon_Data_1/DC3-METEO_FALCON_20120605_R0_L1.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DLR-Falcon_Data_1/DC3-METEO_FALCON_20120605_R0_L2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DLR-Falcon_Data_1/DC3-METEO_FALCON_20120606_R0.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DLR-Falcon_Data_1/DC3-METEO_FALCON_20120608_R0_L1.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DLR-Falcon_Data_1/DC3-METEO_FALCON_20120608_R0_L2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DLR-Falcon_Data_1/DC3-METEO_FALCON_20120611_R0_L1.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DLR-Falcon_Data_1/DC3-METEO_FALCON_20120611_R0_L2.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DLR-Falcon_Data_1/DC3-METEO_FALCON_20120612_R0.ict
+    - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DLR-Falcon_Data_1/DC3-METEO_FALCON_20120614_R0.ict

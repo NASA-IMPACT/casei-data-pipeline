@@ -1,0 +1,15 @@
+---
+deployments:
+- name: ACEPOL-D1_2017
+  platforms:
+  - name: ER-2
+    files:
+    - https://asdc.larc.nasa.gov/data/ACEPOL/MetNav_AircraftInSitu_Data_1/ACEPOL-HSKPING_ER2_20171019_R0.ict
+    - https://asdc.larc.nasa.gov/data/ACEPOL/MetNav_AircraftInSitu_Data_1/ACEPOL-HSKPING_ER2_20171023_R0.ict
+    - https://asdc.larc.nasa.gov/data/ACEPOL/MetNav_AircraftInSitu_Data_1/ACEPOL-HSKPING_ER2_20171025_R0.ict
+    - https://asdc.larc.nasa.gov/data/ACEPOL/MetNav_AircraftInSitu_Data_1/ACEPOL-HSKPING_ER2_20171026_R0.ict
+    - https://asdc.larc.nasa.gov/data/ACEPOL/MetNav_AircraftInSitu_Data_1/ACEPOL-HSKPING_ER2_20171027_R0.ict
+    - https://asdc.larc.nasa.gov/data/ACEPOL/MetNav_AircraftInSitu_Data_1/ACEPOL-HSKPING_ER2_20171101_R0.ict
+    - https://asdc.larc.nasa.gov/data/ACEPOL/MetNav_AircraftInSitu_Data_1/ACEPOL-HSKPING_ER2_20171103_R0.ict
+    - https://asdc.larc.nasa.gov/data/ACEPOL/MetNav_AircraftInSitu_Data_1/ACEPOL-HSKPING_ER2_20171107_R0.ict
+    - https://asdc.larc.nasa.gov/data/ACEPOL/MetNav_AircraftInSitu_Data_1/ACEPOL-HSKPING_ER2_20171109_R0.ict
