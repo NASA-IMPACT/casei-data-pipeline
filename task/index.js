@@ -9,6 +9,8 @@ const getDeployments = (file) => {
   return parse(f.toString()).deployments;
 };
 
+const replaceSlash = (str) => str.replaceAll('/', '-');
+
 const downloadFile = async (url, dir) => {
   await download(
     url,
@@ -23,9 +25,18 @@ const downloadCampaign = (campaignPath) => {
   Promise.all(deployments.map(
     async (deployment) => {
       await deployment.platforms.map(async (platform) => {
-        const platformPath = path.join(campaignPath, deployment.name, platform.name);
+        const platformPath = path.join(
+          campaignPath,
+          replaceSlash(deployment.name),
+          replaceSlash(platform.name)
+        );
         await createDir(platformPath);
-        await downloadPlatform(campaignPath, deployment.name, platform.name, platform.files);
+        await downloadPlatform(
+          campaignPath,
+          replaceSlash(deployment.name),
+          replaceSlash(platform.name),
+          platform.files
+        );
       });
     }
   ));
