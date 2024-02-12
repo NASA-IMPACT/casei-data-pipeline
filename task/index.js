@@ -25,12 +25,6 @@ const downloadCampaign = (campaignPath) => {
   Promise.all(deployments.map(
     async (deployment) => {
       await deployment.platforms.map(async (platform) => {
-        const platformPath = path.join(
-          campaignPath,
-          replaceSlash(deployment.name),
-          replaceSlash(platform.name)
-        );
-        await createDir(platformPath);
         await downloadPlatform(
           campaignPath,
           replaceSlash(deployment.name),
@@ -44,7 +38,7 @@ const downloadCampaign = (campaignPath) => {
 
 const downloadPlatform = async (campaignPath, deployment, platform, files) => {
   const platformPath = path.join(campaignPath, deployment, platform);
-  createDir(platformPath);
+  await createDir(platformPath);
   await Promise.all(files.map((file) => downloadFile(file, platformPath)));
 };
 
