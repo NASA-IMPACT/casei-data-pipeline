@@ -1,0 +1,22 @@
+---
+deployments:
+- name: GOES-R-PLT-D1_2017
+  platforms:
+  - name: ER-2
+    files:
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/goesrpltnaver2__1/goesrplt_naver2_IWG1_20170322-0136.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/goesrpltnaver2__1/goesrplt_naver2_IWG1_20170323-2335.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/goesrpltnaver2__1/goesrplt_naver2_IWG1_20170328-2303.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/goesrpltnaver2__1/goesrplt_naver2_IWG1_20170411-2104.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/goesrpltnaver2__1/goesrplt_naver2_IWG1_20170413-0933.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/goesrpltnaver2__1/goesrplt_naver2_IWG1_20170416-1433.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/goesrpltnaver2__1/goesrplt_naver2_IWG1_20170418-2321.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/goesrpltnaver2__1/goesrplt_naver2_IWG1_20170421-0459.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/goesrpltnaver2__1/goesrplt_naver2_IWG1_20170423-0142.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/goesrpltnaver2__1/goesrplt_naver2_IWG1_20170429-1112.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/goesrpltnaver2__1/goesrplt_naver2_IWG1_20170507-2001.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/goesrpltnaver2__1/goesrplt_naver2_IWG1_20170509-0412.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/goesrpltnaver2__1/goesrplt_naver2_IWG1_20170512-2104.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/goesrpltnaver2__1/goesrplt_naver2_IWG1_20170514-1922.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/goesrpltnaver2__1/goesrplt_naver2_IWG1_20170517-1010.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_10hz_parameters_20151219.xml
