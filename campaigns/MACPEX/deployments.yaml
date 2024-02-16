@@ -1,0 +1,38 @@
+---
+deployments:
+- name: MACPEX-D1_2011
+  platforms:
+  - name: WB-57
+    files:
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FLIGHTPATH_WB57_20110327_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FlightPath_WB57_20110327_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FLIGHTPATH_WB57_20110330_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FlightPath_WB57_20110330_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FLIGHTPATH_WB57_20110401_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FlightPath_WB57_20110401_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FLIGHTPATH_WB57_20110403_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FlightPath_WB57_20110403_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FLIGHTPATH_WB57_20110405_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FlightPath_WB57_20110405_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FLIGHTPATH_WB57_20110407_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FlightPath_WB57_20110407_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FLIGHTPATH_WB57_20110411_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FlightPath_WB57_20110411_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FLIGHTPATH_WB57_20110413_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FlightPath_WB57_20110413_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FLIGHTPATH_WB57_20110414_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FlightPath_WB57_20110414_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FLIGHTPATH_WB57_20110416_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FlightPath_WB57_20110416_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FLIGHTPATH_WB57_20110418_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FlightPath_WB57_20110418_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FLIGHTPATH_WB57_20110420_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FlightPath_WB57_20110420_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FLIGHTPATH_WB57_20110421_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FlightPath_WB57_20110421_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FLIGHTPATH_WB57_20110423_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FlightPath_WB57_20110423_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FLIGHTPATH_WB57_20110425_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FlightPath_WB57_20110425_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FLIGHTPATH_WB57_20110426_R1.ict
+      - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FlightPath_WB57_20110426_R1.ict
