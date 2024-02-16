@@ -1,0 +1,41 @@
+---
+deployments:
+- name: MC3E-D1_2011
+  platforms:
+  - name: ER-2
+    files:
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmer2navmc3e__1/mc3e_er2_20110422_6036_F13.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmer2navmc3e__1/mc3e_er2_20110425_6037_F13.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmer2navmc3e__1/mc3e_er2_20110427_6038_F13.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmer2navmc3e__1/mc3e_er2_20110507_6041_F13.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmer2navmc3e__1/mc3e_er2_20110508_6042_F13.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmer2navmc3e__1/mc3e_er2_20110511_6043_F13.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmer2navmc3e__1/mc3e_er2_20110518_6044_F13.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmer2navmc3e__1/mc3e_er2_20110520_6045_F13.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmer2navmc3e__1/mc3e_er2_20110523_6046_F13.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmer2navmc3e__1/mc3e_er2_20110524_6047_F13.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmer2navmc3e__1/mc3e_er2_20110529_6048_F13.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmer2navmc3e__1/mc3e_er2_20110601_6049_F13.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmer2navmc3e__1/mc3e_er2_20110603_6050.F13.txt
+  - name: Citation
+    files:
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitmc3e__1/mc3e_navCit_20110422_214935_1Hz.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitmc3e__1/mc3e_navCit_20110425_090751_1Hz.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitmc3e__1/mc3e_navCit_20110425_104420_1Hz.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitmc3e__1/mc3e_navCit_20110427_075141_1Hz.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitmc3e__1/mc3e_navCit_20110501_161847_1Hz.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitmc3e__1/mc3e_navCit_20110510_124010_1Hz.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitmc3e__1/mc3e_navCit_20110511_064609_1Hz.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitmc3e__1/mc3e_navCit_20110511_150256_1Hz.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitmc3e__1/mc3e_navCit_20110511_154609_1Hz.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitmc3e__1/mc3e_navCit_20110518_070845_1Hz.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitmc3e__1/mc3e_navCit_20110520_125403_1Hz.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitmc3e__1/mc3e_navCit_20110523_212021_1Hz.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitmc3e__1/mc3e_navCit_20110524_200942_1Hz.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitmc3e__1/mc3e_navCit_20110527_114926_1Hz.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitmc3e__1/mc3e_navCit_20110528_181635_1Hz.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitmc3e__1/mc3e_navCit_20110529_020126_1Hz.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitmc3e__1/mc3e_navCit_20110530_171133_1Hz.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitmc3e__1/mc3e_navCit_20110601_162026_1Hz.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitmc3e__1/mc3e_navCit_20110601_185943_1Hz.txt
+      - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitmc3e__1/mc3e_navCit_20110602_142955_1Hz.txt
