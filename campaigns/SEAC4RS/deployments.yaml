@@ -1,0 +1,69 @@
+---
+deployments:
+- name: SEAC4RS-D1_2013
+  platforms:
+  - name: Learjet
+    files:
+      - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_Learjet_Data_1/SEAC4RS-NAV_LEARJET_20130812_R0.ict
+      - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_Learjet_Data_1/SEAC4RS-NAV_LEARJET_20130821_R0.ict
+      - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_Learjet_Data_1/SEAC4RS-NAV_LEARJET_20130823_R0.ict
+      - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_Learjet_Data_1/SEAC4RS-NAV_LEARJET_20130830_R0.ict
+      - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_Learjet_Data_1/SEAC4RS-NAV_LEARJET_20130902_R0.ict
+      - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_Learjet_Data_1/SEAC4RS-NAV_LEARJET_20130904_R0.ict
+      - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_Learjet_Data_1/SEAC4RS-NAV_LEARJET_201309091323_R0.ict
+      - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_Learjet_Data_1/SEAC4RS-NAV_LEARJET_201309091631_R0.ict
+      - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_Learjet_Data_1/SEAC4RS-NAV_LEARJET_201309111947_R0.ict
+      - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_Learjet_Data_1/SEAC4RS-NAV_LEARJET_201309112210_R0.ict
+      - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_Learjet_Data_1/SEAC4RS-NAV_LEARJET_20130916_R0.ict
+      - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_Learjet_Data_1/SEAC4RS-NAV_LEARJET_20130917_R0.ict
+      - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_Learjet_Data_1/SEAC4RS-NAV_LEARJET_201309181435_R0.ict
+      - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_Learjet_Data_1/SEAC4RS-NAV_LEARJET_201309181724_R0.ict
+      - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_Learjet_Data_1/SEAC4RS-NAV_LEARJET_20130922_R0.ict
+  - name: ER-2
+    files:
+    - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_ER2_Data_1/SEAC4RS-NASDAT_ER2_20130801_R0.ict
+    - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_ER2_Data_1/SEAC4RS-NASDAT_ER2_20130802_R0.ict
+    - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_ER2_Data_1/SEAC4RS-NASDAT_ER2_20130806_R0.ict
+    - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_ER2_Data_1/SEAC4RS-NASDAT_ER2_20130808_R0.ict
+    - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_ER2_Data_1/SEAC4RS-NASDAT_ER2_20130812_R0.ict
+    - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_ER2_Data_1/SEAC4RS-NASDAT_ER2_20130814_R0.ict
+    - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_ER2_Data_1/SEAC4RS-NASDAT_ER2_20130816_R0.ict
+    - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_ER2_Data_1/SEAC4RS-NASDAT_ER2_20130819_R0.ict
+    - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_ER2_Data_1/SEAC4RS-NASDAT_ER2_20130821_R0.ict
+    - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_ER2_Data_1/SEAC4RS-NASDAT_ER2_20130823_R0.ict
+    - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_ER2_Data_1/SEAC4RS-NASDAT_ER2_20130827_R0.ict
+    - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_ER2_Data_1/SEAC4RS-NASDAT_ER2_20130830_R0.ict
+    - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_ER2_Data_1/SEAC4RS-NASDAT_ER2_20130902_R0.ict
+    - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_ER2_Data_1/SEAC4RS-NASDAT_ER2_20130904_R0.ict
+    - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_ER2_Data_1/SEAC4RS-NASDAT_ER2_20130906_R0.ict
+    - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_ER2_Data_1/SEAC4RS-NASDAT_ER2_20130909_R0.ict
+    - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_ER2_Data_1/SEAC4RS-NASDAT_ER2_20130911_R0.ict
+    - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_ER2_Data_1/SEAC4RS-NASDAT_ER2_20130913_R0.ict
+    - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_ER2_Data_1/SEAC4RS-NASDAT_ER2_20130916_R0.ict
+    - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_ER2_Data_1/SEAC4RS-NASDAT_ER2_20130918_R0.ict
+    - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_ER2_Data_1/SEAC4RS-NASDAT_ER2_20130922_R0.ict
+    - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_ER2_Data_1/SEAC4RS-NASDAT_ER2_20130923_R0.ict
+  - name: DC-8
+    files:
+      - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-MMS-METDATA_DC8_20120504_R0.ict
+      - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-MMS-METDATA_DC8_20120508_R0.ict
+      - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-MMS-METDATA_DC8_20120511_R0.ict
+      - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-MMS-METDATA_DC8_20120514_R0.ict
+      - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-MMS-METDATA_DC8_20120518_R0.ict
+      - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-MMS-METDATA_DC8_20120519_R0.ict
+      - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-MMS-METDATA_DC8_20120521_R0.ict
+      - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-MMS-METDATA_DC8_20120525_R0.ict
+      - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-MMS-METDATA_DC8_20120526_R0.ict
+      - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-MMS-METDATA_DC8_20120529_R0.ict
+      - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-MMS-METDATA_DC8_20120530_R0.ict
+      - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-MMS-METDATA_DC8_20120601_R0.ict
+      - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-MMS-METDATA_DC8_20120602_R0.ict
+      - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-MMS-METDATA_DC8_20120605_R0.ict
+      - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-MMS-METDATA_DC8_20120606_R0.ict
+      - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-MMS-METDATA_DC8_20120607_R0.ict
+      - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-MMS-METDATA_DC8_20120611_R0.ict
+      - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-MMS-METDATA_DC8_20120615_R0.ict
+      - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-MMS-METDATA_DC8_20120616_R0.ict
+      - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-MMS-METDATA_DC8_20120617_R0.ict
+      - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-MMS-METDATA_DC8_20120621_R0.ict
+      - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-MMS-METDATA_DC8_20120622_R0.ict
