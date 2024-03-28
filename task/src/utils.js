@@ -1,4 +1,6 @@
 const fs = require('fs');
+const path = require('path');
+const { readCampaignYaml } = require('./download');
 
 const getMax = (arr) => {
   let len = arr.length;
@@ -35,8 +37,27 @@ const concatenateFiles = (file1, file2, output) => {
   fs.writeFileSync(output, data1 + data2);
 };
 
+const getPlatformConfig = (platformPath) => {
+  const campaignConfig = readCampaignYaml(path.resolve(platformPath, '../..'));
+  const deployment = path.basename(path.resolve(platformPath, '../'));
+  const platform = path.basename(platformPath);
+  return campaignConfig
+    .find((d) => d.name === deployment).platforms
+    .find((p) => p.name === platform);
+};
+
+const divideCoordinates = (features, coordsDivisor) => features.map((i) => {
+  const newGeometry = {
+    ...i.geometry,
+    coordinates: i.geometry.coordinates.map((c) => c / coordsDivisor),
+  };
+  return { ...i, geometry: newGeometry };
+});
+
 module.exports = {
   getStats,
   tsv2csv,
   concatenateFiles,
+  getPlatformConfig,
+  divideCoordinates,
 };

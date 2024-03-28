@@ -8,7 +8,7 @@ const geojsonMerge = require('@mapbox/geojson-merge');
 const dist = require('@turf/distance');
 const splitGeoJSON = require('geojson-antimeridian-cut');
 
-const { getStats, tsv2csv } = require('./utils');
+const { getStats, tsv2csv, divideCoordinates } = require('./utils');
 
 /**
 * Read a XML file and get the headers information.
@@ -87,8 +87,12 @@ const splitICTFile = (filename, isTSVFormatted = false) => {
     .replace(',Long,', ',longitude,')
     .replace(',GGLAT,', ',latitude,')
     .replace(',GGLON,', ',longitude,')
+    .replace(', G_LAT,', ',latitude,')
+    .replace(', G_LONG,', ',longitude,')
     .replace(', GPS_LAT_NP,', ',latitude,')
-    .replace(', GPS_LON_NP,', ',longitude,');
+    .replace(', GPS_LON_NP,', ',longitude,')
+    .replace(', Latitude,', ',latitude,')
+    .replace(', Longitude,', ',longitude,');
 
   fs.writeFile(
     filename.replace('.ict', '.csv'),
@@ -179,7 +183,13 @@ Stats include the average, minimum and maximum values.
 See cleanCoords function.
 * @return {Object} resulting GeoJSON object
 */
-const makeGeoJSON = (filePath, extraProperties = {}, columnsStats = [], fixCoords = true) => {
+const makeGeoJSON = (
+  filePath,
+  extraProperties = {},
+  columnsStats = [],
+  coordsDivisor = null,
+  fixCoords = true
+) => {
   const file = fs.readFileSync(filePath);
   const content = file.toString();
   let geojson;
@@ -188,6 +198,9 @@ const makeGeoJSON = (filePath, extraProperties = {}, columnsStats = [], fixCoord
     { latfield: 'latitude', lonfield: 'longitude', delimiter: ',' },
     (err, data) => geojson = data
   );
+  if (coordsDivisor) {
+    geojson.features = divideCoordinates(geojson.features, coordsDivisor);
+  }
   geojson.features = geojson.features.filter((i) => (
     i.geometry.coordinates[0] >= -180 && i.geometry.coordinates[1] >= -90
     && i.geometry.coordinates[0] <= 180 && i.geometry.coordinates[1] <= 90
@@ -213,10 +226,11 @@ Stats include the average, minimum and maximum values.
 const convertToGeoJSON = (
   filePath,
   extraProperties = {},
+  coordsDivisor = null,
   columnsStats = ['gps_altitude', 'pressure_altitude']
 ) => {
   const geojson = simplify(
-    makeGeoJSON(filePath, extraProperties, columnsStats),
+    makeGeoJSON(filePath, extraProperties, columnsStats, coordsDivisor),
     0.001
   );
   // some files have the same pair coordinates repeated in all rows, what generates

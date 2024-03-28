@@ -9,10 +9,10 @@
     "convert_all": "node convertAll.js",
     "headers": "node exportHeaders.js",
     "lint": "eslint --ext .js",
-    "make_csv": "bash make_csv.sh",
+    "make_csv": "node makeCSV.js",
     "merge": "node merge.js",
     "process": "bash process.sh",
-    "process_all": "bash processAll.sh",
+    "process_all": "node processAll.js",
     "split_ict": "node splitIctFiles.js",
     "test": "jest"
   },
