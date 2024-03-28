@@ -74,7 +74,10 @@ const splitICTFile = (filename, isTSVFormatted = false) => {
   let columnNotFound = true;
 
   // ICART files can have different column names for the start time
-  ['Time_Start,', 'Time_mid,', 'Start_UTC,', 'TIME_NP,', 'UTC,'].forEach((col) => {
+  const possibleFirstColumnNames = [
+    'Time_Start,', 'Time_mid,', 'Start_UTC,', 'TIME_NP,', 'UTC,', 'Time',
+  ];
+  possibleFirstColumnNames.forEach((col) => {
     if (content.indexOf(col) !== -1 && columnNotFound) {
       content = content.substr(content.lastIndexOf(col));
       columnNotFound = false;
@@ -93,15 +96,21 @@ const splitICTFile = (filename, isTSVFormatted = false) => {
     .replace(', G_LONG,', ',longitude,')
     .replace(', GPS_LAT_NP,', ',latitude,')
     .replace(', GPS_LON_NP,', ',longitude,')
+    .replace(',POS_Lat,', ',latitude,')
+    .replace(',POS_Lon,', ',longitude,')
     .replace(', Latitude,', ',latitude,')
     .replace(', Longitude,', ',longitude,');
 
+  const newFileName = filename.endsWith('.ict')
+    ? filename.replace('.ict', '.csv')
+    : `${filename}.csv`;
+
   fs.writeFile(
-    filename.replace('.ict', '.csv'),
+    newFileName,
     content.toLowerCase(),
     (error) => {
       if (error) throw error;
-      console.log(`${filename.replace('.ict', '.csv')} created successfully.`);
+      console.log(`${newFileName} created successfully.`);
     }
   );
 };
