@@ -44,6 +44,7 @@ deployments:
     - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_ER2_Data_1/SEAC4RS-NASDAT_ER2_20130922_R0.ict
     - https://asdc.larc.nasa.gov/data/SEAC4RS/MetNav_AircraftInSitu_ER2_Data_1/SEAC4RS-NASDAT_ER2_20130923_R0.ict
   - name: DC-8
+    coords_divisor: 100000
     files:
       - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-MMS-METDATA_DC8_20120504_R0.ict
       - https://asdc.larc.nasa.gov/data/DC3/MetNav_AircraftInSitu_DC8_Data_1/DC3-MMS-METDATA_DC8_20120508_R0.ict
