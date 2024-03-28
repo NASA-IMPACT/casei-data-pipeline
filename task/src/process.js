@@ -85,6 +85,8 @@ const splitICTFile = (filename, isTSVFormatted = false) => {
   content = content
     .replace(',Lat,', ',latitude,')
     .replace(',Long,', ',longitude,')
+    .replace(', LAT,', ',latitude,')
+    .replace(', LONG,', ',longitude,')
     .replace(',GGLAT,', ',latitude,')
     .replace(',GGLON,', ',longitude,')
     .replace(', G_LAT,', ',latitude,')
