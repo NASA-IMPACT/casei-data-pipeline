@@ -1,15 +1,40 @@
 {
-  "name": "casei-campaigns-download",
+  "name": "casei-campaigns-js",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Download airbone data from CMR and convert the txt/icartt files to simplified GeoJSON",
+  "main": "src/download.js",
   "scripts": {
     "download": "node downloadCampaign.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "convert": "node convert.js",
+    "convert_all": "node convertAll.js",
+    "headers": "node exportHeaders.js",
+    "lint": "eslint --ext .js",
+    "make_csv": "node makeCSV.js",
+    "merge": "node merge.js",
+    "process": "bash process.sh",
+    "process_all": "node processAll.js",
+    "split_ict": "node splitIctFiles.js",
+    "test": "jest"
   },
   "dependencies": {
+    "@mapbox/geojson-merge": "^1.1.1",
+    "@turf/distance": "^6.5.0",
+    "csv2geojson": "^5.1.2",
+    "d3-dsv": "1.0.1",
     "download": "8.0.0",
+    "fast-xml-parser": "^4.3.2",
+    "geojson-antimeridian-cut": "^0.1.0",
+    "meow": "^12.1.1",
+    "simplify-geojson": "^1.0.5",
+    "slugify": "^1.6.6",
+    "xml2js": "^0.6.2",
     "yaml": "2.3.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "jest": "^29.7.0"
   },
   "author": "Development Seed",
   "license": "ISC"

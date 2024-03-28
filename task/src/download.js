@@ -2,7 +2,6 @@ const fs = require('fs');
 const path = require('path');
 const { parse } = require('yaml');
 const download = require('download');
-const { create } = require('domain');
 
 const getDeployments = (file) => {
   const f = fs.readFileSync(file);
@@ -15,13 +14,18 @@ const downloadFile = async (url, dir) => {
   await download(
     url,
     dir,
-    { headers: {Authorization: `Bearer ${process.env.EARTH_DATA_TOKEN}`} }
+    { headers: { Authorization: `Bearer ${process.env.EARTH_DATA_TOKEN}` } }
   );
 };
 
-const downloadCampaign = (campaignPath) => {
+const readCampaignYaml = (campaignPath) => {
   const campaignFilePath = path.join(campaignPath, 'deployments.yaml');
-  const deployments = getDeployments(campaignFilePath);
+  return getDeployments(campaignFilePath);
+};
+
+const downloadCampaign = (campaignPath) => {
+  const deployments = readCampaignYaml(campaignPath);
+
   Promise.all(deployments.map(
     async (deployment) => {
       await deployment.platforms.map(async (platform) => {
@@ -54,4 +58,5 @@ module.exports = {
   downloadPlatform,
   downloadFile,
   getDeployments,
+  readCampaignYaml,
 };
