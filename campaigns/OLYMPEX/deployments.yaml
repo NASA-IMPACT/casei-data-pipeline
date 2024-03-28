@@ -109,3 +109,27 @@ deployments:
     - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnaver2olyx__1/olympex_naver2_IWG1_20151214-0014.txt
     - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnaver2olyx__1/olympex_naver2_IWG1_parameters_20151215.xml
     - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnaver2olyx__1/olympex_naver2_IWG1_20151215-2007.txt
+  - name: Citation
+    tsv_format: true
+    process_as_ict: true
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitolyx__1/olympex_navcit_20151219_004208.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitolyx__1/olympex_navcit_20151218_052431.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitolyx__1/olympex_navcit_20151218_010559.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitolyx__1/olympex_navcit_20151213_195141.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitolyx__1/olympex_navcit_20151213_153928.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitolyx__1/olympex_navcit_20151212_163954.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitolyx__1/olympex_navcit_20151210_141454.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitolyx__1/olympex_navcit_20151205_141747.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitolyx__1/olympex_navcit_20151204_165019.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitolyx__1/olympex_navcit_20151204_124653.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitolyx__1/olympex_navcit_20151203_133543.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitolyx__1/olympex_navcit_20151201_222917.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitolyx__1/olympex_navcit_20151124_183352.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitolyx__1/olympex_navcit_20151124_155525.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitolyx__1/olympex_navcit_20151123_202309.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitolyx__1/olympex_navcit_20151123_144918.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitolyx__1/olympex_navcit_20151118_210626.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitolyx__1/olympex_navcit_20151114_192426.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitolyx__1/olympex_navcit_20151113_144036.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitolyx__1/olympex_navcit_20151112_184913.txt
