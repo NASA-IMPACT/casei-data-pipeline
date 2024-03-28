@@ -1,3 +1,3 @@
-const { downloadCampaign } = require('./index')
+const { downloadCampaign } = require('./src/download');
 
-downloadCampaign(process.argv[2])
+downloadCampaign(process.argv[2]);
