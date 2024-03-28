@@ -3,6 +3,7 @@ deployments:
 - name: MACPEX-D1_2011
   platforms:
   - name: WB-57
+    coords_divisor: 1000
     files:
       - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FLIGHTPATH_WB57_20110327_R1.ict
       - https://asdc.larc.nasa.gov/data/MACPEX/MetNav_AircraftInSitu_WB57_Data_1/MACPEX-MMS-FlightPath_WB57_20110327_R1.ict
