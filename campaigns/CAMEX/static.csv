@@ -1,0 +1,9 @@
+campaign,deployment,platform_name,latitude,longitude
+CAMEX,CAMEX-D1_1993,Field Site,37.93,-75.47
+CAMEX,CAMEX-D1_1993,Balloon Launch Site,37.93,-75.47
+CAMEX,CAMEX-D2_1995,Field Site,37.93,-75.47
+CAMEX,CAMEX-D3_1998,Field Site,24.76,-77.84
+CAMEX,CAMEX-D3_1998,Balloon Launch Site,24.76,-77.84
+CAMEX,CAMEX-D4_2001,Field Site,24.7,-81.6
+CAMEX,CAMEX-D4_2001,Balloon Launch Site,24.76,-77.84
+CAMEX,CAMEX-D4_2001,Vehicle,24.7,-81.6
