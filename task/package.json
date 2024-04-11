@@ -14,7 +14,8 @@
     "process": "bash process.sh",
     "process_all": "node processAll.js",
     "split_ict": "node splitIctFiles.js",
-    "test": "jest"
+    "test": "jest",
+    "xls2csv": "node xls2csv.js"
   },
   "dependencies": {
     "@mapbox/geojson-merge": "^1.1.1",
@@ -27,6 +28,7 @@
     "meow": "^12.1.1",
     "simplify-geojson": "^1.0.5",
     "slugify": "^1.6.6",
+    "xlsx": "^0.18.5",
     "xml2js": "^0.6.2",
     "yaml": "2.3.4"
   },
