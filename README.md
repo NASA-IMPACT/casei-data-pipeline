@@ -1,6 +1,6 @@
 # casei-data-pipeline
 
-This repository hosts the code to download ADMG CASEI campaigns data from CMR portal and also a catalog of yaml files containing a list of deployments and files that need to be downloaded.
+This repository hosts the code to download and process the ADMG CASEI campaigns navigational data from CMR portal and also a catalog of yaml files containing a list of deployments and files. Furthermore, we store the static platforms location data in a set of CSV files.
 
 ## How to use
 
@@ -55,3 +55,9 @@ We can also convert a single `.ict` or `.txt` file with the following command:
 ```
 yarn convert <FILE>
 ```
+
+### Convert a XLSX file to a set of CSVs
+
+The command `yarn xls2csv <FILE>` can be used to convert a XLSX file to CSV. On this case, each spreadsheet in the file will be exported to CSV, directly in the `campaigns` folder.
+
+Example of XLSX file: https://docs.google.com/spreadsheets/d/17v-ZfeWoPZoCAVSs57Y3Q1gKUe6S49fZ8rC2KOO_myY/edit?usp=sharing
