@@ -33,10 +33,12 @@ const findHeaderFile = (dir) => {
 */
 const exportHeaders = (dir) => {
   const filePath = findHeaderFile(dir);
-  const headers = getHeaders(path.join(dir, filePath));
-  const headersFile = path.join(dir, 'headers.csv');
-  fs.writeFileSync(headersFile, headers.join(','));
-  console.log(`headers file ${headersFile} created successfully.`);
+  if (filePath) {
+    const headers = getHeaders(path.join(dir, filePath));
+    const headersFile = path.join(dir, 'headers.csv');
+    fs.writeFileSync(headersFile, headers.join(','));
+    console.log(`headers file ${headersFile} created successfully.`);
+  }
 };
 
 module.exports = {
