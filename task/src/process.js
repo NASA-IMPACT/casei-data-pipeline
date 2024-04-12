@@ -3,50 +3,12 @@ const path = require('path');
 const dsv = require('d3-dsv');
 const csv2geojson = require('csv2geojson');
 const simplify = require('simplify-geojson');
-const { XMLParser } = require('fast-xml-parser');
+
 const geojsonMerge = require('@mapbox/geojson-merge');
 const dist = require('@turf/distance');
 const splitGeoJSON = require('geojson-antimeridian-cut');
 
 const { getStats, tsv2csv, divideCoordinates } = require('./utils');
-
-/**
-* Read a XML file and get the headers information.
-* @param {String} filename - path to the XML file
-* @return {Array} headers array
-*/
-const getHeaders = (filename) => {
-  const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: '$' });
-  const file = fs.readFileSync(filename);
-  const data = parser.parse(file.toString());
-  const headers = data.config.parameter
-    .map((i) => (i.$id ? 'timestamp' : i['$xml:id']))
-    .map((i) => i.toLowerCase());
-  return ['product', ...headers];
-};
-
-/**
-* Inspect a platform data directory and find the header file.
-* @param {String} dir - Directory containing the platform data
-* @return {String} header filename
-*/
-const findHeaderFile = (dir) => {
-  const files = fs.readdirSync(dir);
-  return files.filter((f) => f.endsWith('.xml'))[0];
-};
-
-/**
-* Reads a XML file and export the headers to a new CSV file.
-* @param {String} filePath - XML file path
-*/
-const exportHeaders = (filePath) => {
-  const headers = getHeaders(filePath);
-  const headersFile = path.join(path.dirname(filePath), 'headers.csv');
-  fs.writeFile(headersFile, headers.join(','), (error) => {
-    if (error) throw error;
-    console.log(`headers file ${headersFile} created successfully.`);
-  });
-};
 
 /**
 * Read a directory structure and return the properties metadata that needs to be added to a GeoJSON
@@ -105,14 +67,7 @@ const splitICTFile = (filename, isTSVFormatted = false) => {
     ? filename.replace('.ict', '.csv')
     : `${filename}.csv`;
 
-  fs.writeFile(
-    newFileName,
-    content.toLowerCase(),
-    (error) => {
-      if (error) throw error;
-      console.log(`${newFileName} created successfully.`);
-    }
-  );
+  fs.writeFileSync(newFileName, content.toLowerCase());
 };
 
 /**
@@ -260,14 +215,8 @@ const convertToGeoJSON = (
 const mergeGeoJSONCollection = (collection, outputFilename) => {
   const mergedStream = geojsonMerge.merge(collection);
 
-  fs.writeFile(
-    outputFilename,
-    JSON.stringify(mergedStream),
-    (error) => {
-      if (error) throw error;
-      console.log(`${outputFilename} created successfully.`);
-    }
-  );
+  fs.writeFileSync(outputFilename, JSON.stringify(mergedStream));
+  console.log(`${outputFilename} created successfully.`);
 };
 
 module.exports = {
@@ -275,9 +224,6 @@ module.exports = {
   makeGeoJSON,
   makeStaticLocationsGeoJSON,
   convertToGeoJSON,
-  getHeaders,
-  exportHeaders,
-  findHeaderFile,
   splitICTFile,
   getPropertiesFromPath,
   mergeGeoJSONCollection,

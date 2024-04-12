@@ -26,35 +26,15 @@ You can download the campaign files with:
 yarn download ../campaigns/<campaign_name>
 ```
 
-### Process a plaftorm file collection
-
-After downloading the files, execute the following command to process all the files in a directory:
-
-```
-yarn process <DIR>
-```
-
-It's expected that the directory structure is `./<campaign>/<deployment>/<platform_name>`, so the metadata that will be associated with the features will be get from the folder structure.
-
-All the data files will be converted and merged into a single GeoJSON file.
-
 ### Process a campaign file collection
 
 We can process a campaign file collection with 
 
 ```
-yarn process_all <DIR>
+yarn process_all ../campaigns/<campaign_name>
 ```
 
 In this case, the `<DIR>` is the campaign folder, which contains the deployments and platforms as subdirectories. It will generate a single geojson file, named as `<CAMPAIGN>.geojson`.
-
-### Convert a single file
-
-We can also convert a single `.ict` or `.txt` file with the following command:
-
-```
-yarn convert <FILE>
-```
 
 ### Convert a XLSX file to a set of CSVs
 
