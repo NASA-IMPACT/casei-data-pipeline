@@ -1,20 +1,26 @@
-const { execSync } = require('child_process');
 const path = require('path');
 const fs = require('fs');
 
 const { findDirectories, findFiles } = require('./src/find');
+const { exportHeaders } = require('./src/headers');
+const { makeCSV } = require('./makeCSV');
+const { convertAll } = require('./convertAll');
+const { convert } = require('./convert');
+const { mergeGeoJSONCollection } = require('./src/process');
 
 const campaignPath = process.argv[2];
 const platforms = findDirectories(campaignPath, 2);
 
-const opt = { encoding: 'utf-8' };
-
-platforms.forEach((p) => execSync(`yarn process ${p}`, opt));
+platforms.forEach((p) => {
+  exportHeaders(p);
+  makeCSV(p);
+  convertAll(p);
+});
 
 // convert the static CSV file to GeoJSON
 const staticFile = path.join(campaignPath, 'static.csv');
 if (fs.existsSync(staticFile)) {
-  execSync(`yarn convert ${staticFile}`, opt);
+  convert(staticFile);
 }
 
 // move platforms GeoJSON files to the campaign folder
@@ -28,10 +34,14 @@ const campaignGeojson = path.join(
   campaignPath,
   `${path.basename(campaignPath)}.geojson`
 );
-
 // Delete previous campaignGeojson, if there is any
 if (fs.existsSync(campaignGeojson)) {
   fs.unlinkSync(campaignGeojson);
 }
 
-execSync(`yarn merge ${campaignPath} ${path.basename(campaignGeojson)}`, opt);
+const files = fs.readdirSync(campaignPath).filter((i) => i.endsWith('.geojson'));
+const collection = files.map(
+  (i) => JSON.parse(fs.readFileSync(path.join(campaignPath, i)).toString())
+);
+
+mergeGeoJSONCollection(collection, campaignGeojson);

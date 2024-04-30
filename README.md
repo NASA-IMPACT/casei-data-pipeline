@@ -1,6 +1,6 @@
 # casei-data-pipeline
 
-This repository hosts the code to download ADMG CASEI campaigns data from CMR portal and also a catalog of yaml files containing a list of deployments and files that need to be downloaded.
+This repository hosts the code to download and process the ADMG CASEI campaigns navigational data from CMR portal and also a catalog of yaml files containing a list of deployments and files. Furthermore, we store the static platforms location data in a set of CSV files.
 
 ## How to use
 
@@ -26,32 +26,18 @@ You can download the campaign files with:
 yarn download ../campaigns/<campaign_name>
 ```
 
-### Process a plaftorm file collection
-
-After downloading the files, execute the following command to process all the files in a directory:
-
-```
-yarn process <DIR>
-```
-
-It's expected that the directory structure is `./<campaign>/<deployment>/<platform_name>`, so the metadata that will be associated with the features will be get from the folder structure.
-
-All the data files will be converted and merged into a single GeoJSON file.
-
 ### Process a campaign file collection
 
 We can process a campaign file collection with 
 
 ```
-yarn process_all <DIR>
+yarn process_all ../campaigns/<campaign_name>
 ```
 
 In this case, the `<DIR>` is the campaign folder, which contains the deployments and platforms as subdirectories. It will generate a single geojson file, named as `<CAMPAIGN>.geojson`.
 
-### Convert a single file
+### Convert a XLSX file to a set of CSVs
 
-We can also convert a single `.ict` or `.txt` file with the following command:
+The command `yarn xls2csv <FILE>` can be used to convert a XLSX file to CSV. On this case, each spreadsheet in the file will be exported to CSV, directly in the `campaigns` folder.
 
-```
-yarn convert <FILE>
-```
+Example of XLSX file: https://docs.google.com/spreadsheets/d/17v-ZfeWoPZoCAVSs57Y3Q1gKUe6S49fZ8rC2KOO_myY/edit?usp=sharing

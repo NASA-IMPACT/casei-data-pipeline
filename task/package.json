@@ -5,15 +5,8 @@
   "main": "src/download.js",
   "scripts": {
     "download": "node downloadCampaign.js",
-    "convert": "node convert.js",
-    "convert_all": "node convertAll.js",
-    "headers": "node exportHeaders.js",
     "lint": "eslint --ext .js",
-    "make_csv": "node makeCSV.js",
-    "merge": "node merge.js",
-    "process": "bash process.sh",
     "process_all": "node processAll.js",
-    "split_ict": "node splitIctFiles.js",
     "test": "jest",
     "xls2csv": "node xls2csv.js"
   },
