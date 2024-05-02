@@ -1,0 +1,171 @@
+---
+deployments:
+- name: ACT-America-D1_2016
+  platforms:
+  - name: C-130
+    files:
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2016/icartt/ACTAMERICA-Hskping_c130_20160718_R2.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2016/icartt/ACTAMERICA-Hskping_c130_20160719_R2.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2016/icartt/ACTAMERICA-Hskping_c130_20160722_R2.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2016/icartt/ACTAMERICA-Hskping_c130_20160725_R2.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2016/icartt/ACTAMERICA-Hskping_c130_20160726_R2.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2016/icartt/ACTAMERICA-Hskping_c130_20160727_R2.ict
+  - name: B-200
+    files:
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2016/icartt/ACTAMERICA-PDS_B200_20160718_R2.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2016/icartt/ACTAMERICA-PDS_B200_20160721_R2.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2016/icartt/ACTAMERICA-PDS_B200_20160725_R2.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2016/icartt/ACTAMERICA-PDS_B200_20160804_R2.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2016/icartt/ACTAMERICA-PDS_B200_20160808_R2.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2016/icartt/ACTAMERICA-PDS_B200_20160809_R2.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2016/icartt/ACTAMERICA-PDS_B200_20160812_R2.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2016/icartt/ACTAMERICA-PDS_B200_20160813_R2.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2016/icartt/ACTAMERICA-PDS_B200_20160814_R2.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2016/icartt/ACTAMERICA-PDS_B200_20160819_R2.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2016/icartt/ACTAMERICA-PDS_B200_20160822_R2.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2016/icartt/ACTAMERICA-PDS_B200_20160823_R2.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2016/icartt/ACTAMERICA-PDS_B200_20160824_R2.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2016/icartt/ACTAMERICA-PDS_B200_20160827_R2.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2016/icartt/ACTAMERICA-PDS_B200_20160828_R2.ict
+- name: ACT-America-D2_2017-Jan
+  platforms:
+  - name: C-130
+    files:
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-Hskping_c130_20170201_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-Hskping_c130_20170204_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-Hskping_c130_20170206_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-Hskping_c130_20170212_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-Hskping_c130_20170215_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-Hskping_c130_20170216_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-Hskping_c130_20170223_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-Hskping_c130_20170225_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-Hskping_c130_20170226_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-Hskping_c130_20170227_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-Hskping_c130_20170301_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-Hskping_c130_20170302_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-Hskping_c130_20170303_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-Hskping_c130_20170304_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-Hskping_c130_20170307_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-Hskping_c130_20170308_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-Hskping_c130_20170309_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-Hskping_c130_20170310_R1.ict
+  - name: B-200
+    files:
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-PDS_B200_20170201_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-PDS_B200_20170204_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-PDS_B200_20170206_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-PDS_B200_20170212_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-PDS_B200_20170216_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-PDS_B200_20170223_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-PDS_B200_20170225_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-PDS_B200_20170301_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-PDS_B200_20170304_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/winter2017/icartt/ACTAMERICA-PDS_B200_20170307_R1.ict
+- name: ACT-America-D3_2017-Oct
+  platforms:
+  - name: C-130
+    files:
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-Hskping_c130_20171003_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-Hskping_c130_20171004_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-Hskping_c130_20171005_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-Hskping_c130_20171008_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-Hskping_c130_20171010_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-Hskping_c130_20171011_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-Hskping_c130_20171014_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-Hskping_c130_20171016_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-Hskping_c130_20171018_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-Hskping_c130_20171020_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-Hskping_c130_20171021_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-Hskping_c130_20171022_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-Hskping_c130_20171024_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-Hskping_c130_20171026_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-Hskping_c130_20171027_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-Hskping_c130_20171030_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-Hskping_c130_20171102_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-Hskping_c130_20171103_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-Hskping_c130_20171105_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-Hskping_c130_20171106_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-Hskping_c130_20171109_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-Hskping_c130_20171110_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-Hskping_c130_20171113_R0.ict
+  - name: B-200
+    files:
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-PDS_B200_20171003_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-PDS_B200_20171004_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-PDS_B200_20171005_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-PDS_B200_20171008_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-PDS_B200_20171010_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-PDS_B200_20171011_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-PDS_B200_20171014_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-PDS_B200_20171018_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-PDS_B200_20171021_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-PDS_B200_20171024_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-PDS_B200_20171026_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-PDS_B200_20171030_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-PDS_B200_20171103_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-PDS_B200_20171105_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-PDS_B200_20171106_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/fall2017/icartt/ACTAMERICA-PDS_B200_20171110_R0.ict
+- name: ACT-America-D4_2018
+  platforms:
+  - name: C-130
+    files:
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-Hskping_c130_20180423_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-Hskping_c130_20180425_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-Hskping_c130_20180426_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-Hskping_c130_20180427_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-Hskping_c130_20180429_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-Hskping_c130_20180430_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-Hskping_c130_20180501_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-Hskping_c130_20180502_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-Hskping_c130_20180504_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-Hskping_c130_20180508_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-Hskping_c130_20180509_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-Hskping_c130_20180511_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-Hskping_c130_20180512_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-Hskping_c130_20180515_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-Hskping_c130_20180516_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-Hskping_c130_20180518_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-Hskping_c130_20180520_R0.ict
+  - name: B-200
+    files:
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-PDS_B200_20180413_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-PDS_B200_20180414_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-PDS_B200_20180419_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-PDS_B200_20180420_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-PDS_B200_20180426_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-PDS_B200_20180501_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-PDS_B200_20180502_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-PDS_B200_20180511_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-PDS_B200_20180512_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-PDS_B200_20180515_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/spring2018/icartt/ACTAMERICA-PDS_B200_20180518_R0.ict
+- name: ACT-America-D5_2019
+  platforms:
+  - name: C-130
+    files:
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2019/icartt/ACTAMERICA-Hskping_c130_20190617_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2019/icartt/ACTAMERICA-Hskping_c130_20190620_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2019/icartt/ACTAMERICA-Hskping_c130_20190622_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2019/icartt/ACTAMERICA-Hskping_c130_20190701_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2019/icartt/ACTAMERICA-Hskping_c130_20190704_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2019/icartt/ACTAMERICA-Hskping_c130_20190707_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2019/icartt/ACTAMERICA-Hskping_c130_20190708_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2019/icartt/ACTAMERICA-Hskping_c130_20190709_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2019/icartt/ACTAMERICA-Hskping_c130_20190710_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2019/icartt/ACTAMERICA-Hskping_c130_20190711_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2019/icartt/ACTAMERICA-Hskping_c130_20190719_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2019/icartt/ACTAMERICA-Hskping_c130_20190720_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2019/icartt/ACTAMERICA-Hskping_c130_20190722_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2019/icartt/ACTAMERICA-Hskping_c130_20190724_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2019/icartt/ACTAMERICA-Hskping_c130_20190725_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2019/icartt/ACTAMERICA-Hskping_c130_20190726_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2019/icartt/ACTAMERICA-Hskping_c130_20190727_R0.ict
+  - name: B-200
+    files:
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2019/icartt/ACTAMERICA-PDS_B200_20190704_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2019/icartt/ACTAMERICA-PDS_B200_20190707_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2019/icartt/ACTAMERICA-PDS_B200_20190708_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2019/icartt/ACTAMERICA-PDS_B200_20190709_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2019/icartt/ACTAMERICA-PDS_B200_20190710_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/actamerica/ACTAMERICA_Hskping/data/summer2019/icartt/ACTAMERICA-PDS_B200_20190722_R0.ict
