@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { readCampaignYaml } = require('./download');
+const { parse } = require('yaml');
 
 const getMax = (arr) => {
   let len = arr.length;
@@ -37,6 +37,16 @@ const concatenateFiles = (file1, file2, output) => {
   fs.writeFileSync(output, data1 + data2);
 };
 
+const getDeployments = (file) => {
+  const f = fs.readFileSync(file);
+  return parse(f.toString()).deployments;
+};
+
+const readCampaignYaml = (campaignPath) => {
+  const campaignFilePath = path.join(campaignPath, 'deployments.yaml');
+  return getDeployments(campaignFilePath);
+};
+
 const getPlatformConfig = (platformPath) => {
   const campaignConfig = readCampaignYaml(path.resolve(platformPath, '../..'));
   const deployment = path.basename(path.resolve(platformPath, '../'));
@@ -59,5 +69,6 @@ module.exports = {
   tsv2csv,
   concatenateFiles,
   getPlatformConfig,
+  readCampaignYaml,
   divideCoordinates,
 };

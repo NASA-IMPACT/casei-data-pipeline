@@ -6,7 +6,7 @@
   "scripts": {
     "download": "node downloadCampaign.js",
     "lint": "eslint --ext .js",
-    "process_all": "node processAll.js",
+    "process": "node processAll.js",
     "test": "jest",
     "xls2csv": "node xls2csv.js"
   },
