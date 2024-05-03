@@ -1,0 +1,14 @@
+---
+deployments:
+- name: CPEX-AW_D1_2021
+  platforms:
+  - name: DC-8
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexaw__1/CPEXAW_MetNav_DC8_20210817_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexaw__1/CPEXAW_MetNav_DC8_20210820_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexaw__1/CPEXAW_MetNav_DC8_20210821_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexaw__1/CPEXAW_MetNav_DC8_20210824_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexaw__1/CPEXAW_MetNav_DC8_20210826_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexaw__1/CPEXAW_MetNav_DC8_20210828_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexaw__1/CPEXAW_MetNav_DC8_20210901_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexaw__1/CPEXAW_MetNav_DC8_20210904_R0.ict

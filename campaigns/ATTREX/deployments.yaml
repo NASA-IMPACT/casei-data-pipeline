@@ -1,0 +1,11 @@
+---
+deployments:
+- name: ATTREX-D1_2011
+  platforms:
+  - name: GH
+    coords_divisor: 1000
+    files:
+    - https://espoarchive.nasa.gov/archive/download/MMS-FlightPath_GHawk_20111024_R2.ict
+    - https://espoarchive.nasa.gov/archive/download/MMS-FlightPath_GHawk_20111028_R2.ict
+    - https://espoarchive.nasa.gov/archive/download/MMS-FlightPath_GHawk_20111105_R2.ict
+    - https://espoarchive.nasa.gov/archive/download/MMS-FlightPath_GHawk_20111109_R1.ict
