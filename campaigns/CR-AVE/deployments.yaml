@@ -1,0 +1,23 @@
+---
+deployments:
+- name: CR-AVE-D1_2006
+  platforms:
+  - name: WB-57
+    tsv_format: true
+    files:
+    - https://espoarchive.nasa.gov/archive/download/NP20060109.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20060111.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20060114.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20060117.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20060119.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20060121.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20060122.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20060125.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20060127.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20060130.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20060201.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20060202.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20060206.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20060207.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20060209.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20060211.WB57
