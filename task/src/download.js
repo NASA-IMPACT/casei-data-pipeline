@@ -40,19 +40,25 @@ const downloadCampaign = (campaignPath) => {
   ));
 };
 
+const changeFileExtension = (files, platformPath) => {
+  const platformExtension = `.${path.basename(platformPath).replace('-', '')}`;
+  if (files.some((f) => f.endsWith(platformExtension))) {
+    fs.readdirSync(platformPath)
+      .filter((i) => i.endsWith(platformExtension))
+      .forEach((i) => fs.renameSync(
+        path.join(platformPath, i),
+        path.join(platformPath, i.replace(platformExtension, '.ict'))
+      ));
+  }
+};
+
 const downloadPlatform = async (campaignPath, deployment, platform, files) => {
   const platformPath = path.join(campaignPath, deployment, platform);
   await createDir(platformPath);
   await Promise.all(files.map((file) => downloadFile(file, platformPath)));
-  // some .ict files have a .ER2 extension, so we need to rename it after the download
-  if (files.some((f) => f.endsWith('.ER2'))) {
-    fs.readdirSync(platformPath)
-      .filter((i) => i.endsWith('.ER2'))
-      .forEach((i) => fs.renameSync(
-        path.join(platformPath, i),
-        path.join(platformPath, i.replace('.ER2', '.ict'))
-      ));
-  }
+  // some .ict files have a .ER2 or .WB57 extension,
+  // so we need to rename it after the download
+  changeFileExtension(files, platformPath);
 };
 
 const createDir = async (dir) =>

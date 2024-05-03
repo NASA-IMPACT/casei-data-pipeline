@@ -1,0 +1,23 @@
+---
+deployments:
+- name: CPEX-CV_D1_2022
+  platforms:
+  - name: DC-8
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexcv__1/CPEXCV_MetNav_DC8_20220902_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexcv__1/CPEXCV_MetNav_DC8_20220903_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexcv__1/CPEXCV_MetNav_DC8_20220906_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexcv__1/CPEXCV_MetNav_DC8_20220907_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexcv__1/CPEXCV_MetNav_DC8_20220909_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexcv__1/CPEXCV_MetNav_DC8_20220910_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexcv__1/CPEXCV_MetNav_DC8_20220914_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexcv__1/CPEXCV_MetNav_DC8_20220915_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexcv__1/CPEXCV_MetNav_DC8_20220916_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexcv__1/CPEXCV_MetNav_DC8_20220920_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexcv__1/CPEXCV_MetNav_DC8_20220922_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexcv__1/CPEXCV_MetNav_DC8_20220923_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexcv__1/CPEXCV_MetNav_DC8_20220926_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexcv__1/CPEXCV_MetNav_DC8_20220929_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexcv__1/CPEXCV_MetNav_DC8_20220930_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexcv__1/CPEXCV_MetNav_DC8_20221002_R0.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/metnavcpexcv__1/CPEXCV_MetNav_DC8_20221003_R0.ict
