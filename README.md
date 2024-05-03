@@ -31,7 +31,7 @@ yarn download ../campaigns/<campaign_name>
 We can process a campaign file collection with 
 
 ```
-yarn process_all ../campaigns/<campaign_name>
+yarn process ../campaigns/<campaign_name>
 ```
 
 In this case, the `<DIR>` is the campaign folder, which contains the deployments and platforms as subdirectories. It will generate a single geojson file, named as `<CAMPAIGN>.geojson`.

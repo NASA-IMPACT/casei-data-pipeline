@@ -1,0 +1,80 @@
+---
+deployments:
+- name: CRYSTAL-FACE-D1_2002
+  platforms:
+  - name: ER-2
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://espoarchive.nasa.gov/archive/download/NP20020624.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP20020626.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP20020701.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP20020703.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP20020707.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP20020709.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP20020711.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP20020713.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP20020716.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP20020719.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP20020723.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP20020726.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP20020728.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP20020729.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP20020730.ER2
+  - name: Citation
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://espoarchive.nasa.gov/archive/download/ND20020703__NAV.CIT
+    - https://espoarchive.nasa.gov/archive/download/ND20020707__NAV.CIT
+    - https://espoarchive.nasa.gov/archive/download/ND20020709__NAV.CIT
+    - https://espoarchive.nasa.gov/archive/download/ND20020711__NAV.CIT
+    - https://espoarchive.nasa.gov/archive/download/ND20020716__NAV.CIT
+    - https://espoarchive.nasa.gov/archive/download/ND20020718__NAV.CIT
+    - https://espoarchive.nasa.gov/archive/download/ND20020719__NAV.CIT
+    - https://espoarchive.nasa.gov/archive/download/ND20020721__NAV.CIT
+    - https://espoarchive.nasa.gov/archive/download/ND20020723__NAV.CIT
+    - https://espoarchive.nasa.gov/archive/download/ND20020725__NAV.CIT
+    - https://espoarchive.nasa.gov/archive/download/ND20020726__NAV.CIT
+    - https://espoarchive.nasa.gov/archive/download/ND20020728__NAV.CIT
+    - https://espoarchive.nasa.gov/archive/download/ND20020729__NAV.CIT
+  - name: WB-57
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://espoarchive.nasa.gov/archive/download/NP20020509.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20020511.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20020514.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20020516.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20020627.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20020629.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20020703.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20020707.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20020709.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20020711.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20020713.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20020716.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20020719.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20020721.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20020723.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20020726.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20020728.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20020729.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP20020731.WB57
+  - name: P-3
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://espoarchive.nasa.gov/archive/download/AD20020707.P3
+    - https://espoarchive.nasa.gov/archive/download/AD20020710.P3
+    - https://espoarchive.nasa.gov/archive/download/AD20020711.P3
+    - https://espoarchive.nasa.gov/archive/download/AD20020713.P3
+    - https://espoarchive.nasa.gov/archive/download/AD20020716.P3
+    - https://espoarchive.nasa.gov/archive/download/AD20020717.P3
+    - https://espoarchive.nasa.gov/archive/download/AD20020718.P3
+    - https://espoarchive.nasa.gov/archive/download/AD20020719.P3
+    - https://espoarchive.nasa.gov/archive/download/AD20020721.P3
+    - https://espoarchive.nasa.gov/archive/download/AD20020723.P3
+    - https://espoarchive.nasa.gov/archive/download/AD20020725.P3
+    - https://espoarchive.nasa.gov/archive/download/AD20020728.P3
+    - https://espoarchive.nasa.gov/archive/download/AD20020729.P3

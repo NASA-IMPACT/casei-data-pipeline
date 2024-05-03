@@ -4,6 +4,7 @@ deployments:
   platforms:
   - name: WB-57
     tsv_format: true
+    rename_as_ict: true
     files:
     - https://espoarchive.nasa.gov/archive/download/NP20060109.WB57
     - https://espoarchive.nasa.gov/archive/download/NP20060111.WB57

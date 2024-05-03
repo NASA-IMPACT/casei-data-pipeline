@@ -4,6 +4,7 @@ deployments:
   platforms:
   - name: ER-2
     tsv_format: true
+    rename_as_ict: true
     coords_divisor: 1000
     files:
     - https://espoarchive.nasa.gov/archive/download/NP19940121.ER2
