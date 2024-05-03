@@ -1,0 +1,52 @@
+---
+deployments:
+- name: ASHOE-D1_1994
+  platforms:
+  - name: ER-2
+    tsv_format: true
+    coords_divisor: 1000
+    files:
+    - https://espoarchive.nasa.gov/archive/download/NP19940121.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940202.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940204.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940214.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940218.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940219.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940314.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940318.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940320.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940321.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940322.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940327.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940329.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940330.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940403.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940405.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940408.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940413.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940415.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940523.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940524.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940528.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940601.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940603.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940605.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940608.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940728.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940730.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940801.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940806.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940808.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19940810.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19941003.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19941005.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19941008.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19941010.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19941013.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19941016.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19941020.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19941022.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19941026.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19941029.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19941102.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19941104.ER2
