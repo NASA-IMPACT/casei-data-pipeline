@@ -5,9 +5,7 @@ on: [push]
 jobs:
   lint:
     runs-on: ubuntu-latest
-
-    env:
-      NODE_ENV: test
+    working-directory: ./task
 
     steps:
       - name: Cancel Previous Runs
@@ -22,9 +20,6 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-
-      - name: Change directory
-        run: cd ./task
 
       - name: Install
         run: yarn install
