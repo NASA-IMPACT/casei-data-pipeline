@@ -12,21 +12,23 @@ deployments:
         required: true
         type: list
         schema:
-          name:
-            required: true
-            type: string
-          tsv_format:
-            require: false
-            type: boolean
-          rename_as_ict:
-            require: false
-            type: boolean
-          process_as_ict:
-            require: false
-            type: boolean
-          coords_divisor:
-            require: false
-            type: integer
-          files:
-            required: true
-            type: list
+          type: dict
+          schema:
+            name:
+              required: true
+              type: string
+            tsv_format:
+              require: false
+              type: boolean
+            rename_as_ict:
+              require: false
+              type: boolean
+            process_as_ict:
+              require: false
+              type: boolean
+            coords_divisor:
+              require: false
+              type: integer
+            files:
+              required: true
+              type: list
