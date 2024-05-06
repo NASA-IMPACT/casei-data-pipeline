@@ -41,3 +41,7 @@ In this case, the `<DIR>` is the campaign folder, which contains the deployments
 The command `yarn xls2csv <FILE>` can be used to convert a XLSX file to CSV. On this case, each spreadsheet in the file will be exported to CSV, directly in the `campaigns` folder.
 
 Example of XLSX file: https://docs.google.com/spreadsheets/d/17v-ZfeWoPZoCAVSs57Y3Q1gKUe6S49fZ8rC2KOO_myY/edit?usp=sharing
+
+### YAML Schema
+
+The file `campaigns-schema.yaml` describes the format used in the campaigns files.
