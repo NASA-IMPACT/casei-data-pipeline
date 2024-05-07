@@ -32,7 +32,7 @@ test('YAML files should be valid', () => {
   campaigns
     .filter((c) => fs.existsSync(path.join('../campaigns/', c, 'deployments.yaml')))
     .forEach((c) => {
-      console.log(`Checking: ${c}:`);
+      console.log(`Checking: ${c}`);
       assert(readCampaignYaml(path.join('../campaigns/', c)), structure);
     });
 });
