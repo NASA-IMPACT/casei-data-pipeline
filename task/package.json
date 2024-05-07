@@ -21,6 +21,7 @@
     "meow": "^12.1.1",
     "simplify-geojson": "^1.0.5",
     "slugify": "^1.6.6",
+    "superstruct": "^1.0.4",
     "xlsx": "^0.18.5",
     "xml2js": "^0.6.2",
     "yaml": "2.3.4"
