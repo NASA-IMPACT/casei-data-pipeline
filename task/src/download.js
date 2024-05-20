@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-
+const AdmZip = require('adm-zip');
 const download = require('download');
 const { getPlatformConfig, readCampaignYaml } = require('./utils');
 
@@ -12,6 +12,13 @@ const downloadFile = async (url, dir) => {
     dir,
     { headers: { Authorization: `Bearer ${process.env.EARTH_DATA_TOKEN}` } }
   );
+  // if the file is a zip, decompress it
+  if (url.endsWith('.zip')) {
+    const filePath = path.join(dir, path.basename(url));
+    const zip = new AdmZip(filePath);
+    zip.extractAllTo(dir);
+    fs.unlinkSync(filePath);
+  }
 };
 
 const downloadCampaign = (campaignPath) => {

@@ -33,12 +33,12 @@ const splitICTFile = (filename, isTSVFormatted = false) => {
   if (isTSVFormatted) {
     content = tsv2csv(content);
   }
-  let columnNotFound = true;
 
   // ICART files can have different column names for the start time
   const possibleFirstColumnNames = [
-    'Time_Start,', 'Time_mid,', 'Start_UTC,', 'TIME_NP,', 'UTC,', 'Time', 'UT',
+    'Time_Start,', 'Time_mid,', 'Time', 'UTC,', 'Start_UTC,', 'TIME_NP,', 'UT',
   ];
+  let columnNotFound = true;
   possibleFirstColumnNames.forEach((col) => {
     if (content.indexOf(col) !== -1 && columnNotFound) {
       content = content.substr(content.lastIndexOf(col));
@@ -53,6 +53,10 @@ const splitICTFile = (filename, isTSVFormatted = false) => {
     .replace(',Lon,', ',longitude,')
     .replace(', LAT,', ',latitude,')
     .replace(', LONG,', ',longitude,')
+    .replace(',LAT,', ',latitude,')
+    .replace(',LON,', ',longitude,')
+    .replace(',FMS_LAT,', ',latitude,')
+    .replace(',FMS_LON,', ',longitude,')
     .replace(',GGLAT,', ',latitude,')
     .replace(',GGLON,', ',longitude,')
     .replace(',GLAT,', ',latitude,')
@@ -67,6 +71,9 @@ const splitICTFile = (filename, isTSVFormatted = false) => {
     .replace(',POS_Lon,', ',longitude,')
     .replace(', Latitude,', ',latitude,')
     .replace(', Longitude,', ',longitude,');
+
+  const header = content.substr(0, content.indexOf('\n')).replaceAll(',,', ',');
+  content = `${header}${content.substr(content.indexOf('\n'))}`;
 
   const newFileName = filename.endsWith('.ict')
     ? filename.replace('.ict', '.csv')
