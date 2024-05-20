@@ -1,0 +1,19 @@
+---
+deployments:
+- name: NAMMA-D1_2006
+  platforms:
+  - name: DC-8
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/namlargen__1/namma_large_nav_20060912_larc.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/namlargen__1/namma_large_nav_20060909_larc.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/namlargen__1/namma_large_nav_20060908_larc.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/namlargen__1/namma_large_nav_20060905_larc.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/namlargen__1/namma_large_nav_20060904_larc.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/namlargen__1/namma_large_nav_20060903_larc.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/namlargen__1/namma_large_nav_20060901_larc.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/namlargen__1/namma_large_nav_20060830_larc.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/namlargen__1/namma_large_nav_20060826_larc.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/namlargen__1/namma_large_nav_20060825_larc.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/namlargen__1/namma_large_nav_20060823_larc.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/namlargen__1/namma_large_nav_20060820_larc.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/namlargen__1/namma_large_nav_20060819_larc.csv
