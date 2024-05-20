@@ -1,0 +1,71 @@
+---
+deployments:
+- name: ARCTAS-D1_2008-Apr
+  platforms:
+  - name: DC-8
+    tsv_format: true
+    files:
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_DC8_Data_1/ARCTAS-NAV_DC8_20080401_R1.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_DC8_Data_1/ARCTAS-NAV_DC8_20080404_R1.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_DC8_Data_1/ARCTAS-NAV_DC8_20080405_R1.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_DC8_Data_1/ARCTAS-NAV_DC8_20080408_R1.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_DC8_Data_1/ARCTAS-NAV_DC8_20080409_R1.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_DC8_Data_1/ARCTAS-NAV_DC8_20080412_R1.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_DC8_Data_1/ARCTAS-NAV_DC8_20080416_R1.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_DC8_Data_1/ARCTAS-NAV_DC8_20080417_R1.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_DC8_Data_1/ARCTAS-NAV_DC8_20080419_R1.zip
+  - name: P-3
+    tsv_format: true
+    files:
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_P3B_Data_1/ARCTAS-PDS_P3B_20080331_R2.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_P3B_Data_1/ARCTAS-PDS_P3B_20080401_R2.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_P3B_Data_1/ARCTAS-PDS_P3B_20080406_R2.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_P3B_Data_1/ARCTAS-PDS_P3B_20080408_R2.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_P3B_Data_1/ARCTAS-PDS_P3B_20080409_R2.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_P3B_Data_1/ARCTAS-PDS_P3B_20080413_R2.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_P3B_Data_1/ARCTAS-PDS_P3B_20080415_R2.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_P3B_Data_1/ARCTAS-PDS_P3B_20080419_R2.zip
+- name: ARCTAS-D2_2008-Jun_California
+  platforms:
+  - name: DC-8
+    tsv_format: true
+    files:
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_DC8_Data_1/ARCTAS-NAV_DC8_20080624_R1.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_DC8_Data_1/ARCTAS-NAV_DC8_20080622_R1.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_DC8_Data_1/ARCTAS-NAV_DC8_20080620_R1.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_DC8_Data_1/ARCTAS-NAV_DC8_20080618_R1.zip
+  - name: P-3
+    tsv_format: true
+    files:
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_P3B_Data_1/ARCTAS-PDS_P3B_20080622_R2.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_P3B_Data_1/ARCTAS-PDS_P3B_20080624_R2.zip
+- name: ARCTAS-D3_2008-Jun
+  platforms:
+  - name: DC-8
+    tsv_format: true
+    files:
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_DC8_Data_1/ARCTAS-NAV_DC8_20080626_R1.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_DC8_Data_1/ARCTAS-NAV_DC8_20080629_R1.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_DC8_Data_1/ARCTAS-NAV_DC8_20080701_R1.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_DC8_Data_1/ARCTAS-NAV_DC8_20080704_R1.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_DC8_Data_1/ARCTAS-NAV_DC8_20080705_R1.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_DC8_Data_1/ARCTAS-NAV_DC8_20080708_R1.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_DC8_Data_1/ARCTAS-NAV_DC8_20080709_R1.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_DC8_Data_1/ARCTAS-NAV_DC8_20080710_R1.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_DC8_Data_1/ARCTAS-NAV_DC8_20080713_R1.zip
+  - name: P-3
+    tsv_format: true
+    files:
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_P3B_Data_1/ARCTAS-PDS_P3B_20080626_R2_FLT13.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_P3B_Data_1/ARCTAS-PDS_P3B_20080626_R2_FLT14.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_P3B_Data_1/ARCTAS-PDS_P3B_20080628_R2.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_P3B_Data_1/ARCTAS-PDS_P3B_20080629_R2.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_P3B_Data_1/ARCTAS-PDS_P3B_20080630_R2.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_P3B_Data_1/ARCTAS-PDS_P3B_20080702_R2.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_P3B_Data_1/ARCTAS-PDS_P3B_20080703_R2.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_P3B_Data_1/ARCTAS-PDS_P3B_20080706_R2.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_P3B_Data_1/ARCTAS-PDS_P3B_20080707_R2.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_P3B_Data_1/ARCTAS-PDS_P3B_20080709_R2.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_P3B_Data_1/ARCTAS-PDS_P3B_20080710_R2.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_P3B_Data_1/ARCTAS-PDS_P3B_20080712_R2_FLT24.zip
+    - https://asdc.larc.nasa.gov/data/ARCTAS/MetNav_AircraftInSitu_P3B_Data_1/ARCTAS-PDS_P3B_20080712_R2_FLT25.zip
