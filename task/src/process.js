@@ -157,6 +157,8 @@ const makeStaticLocationsGeoJSON = (filePath) => {
 * @param {Object} extraProperties - predefined properties
 * @param {Array} columnsStats - an array containing the columns that will have the stats computed.
 Stats include the average, minimum and maximum values.
+* @param {Number} coordsDivisor - an optional integer number. Case informed,
+all coordinates values will be divided by it.
 * @param {Boolean} fixCoords - if true, coordinates that seems to be wrong will be removed.
 See cleanCoords function.
 * @return {Object} resulting GeoJSON object
@@ -170,15 +172,24 @@ const makeGeoJSON = (
 ) => {
   const file = fs.readFileSync(filePath);
   const content = file.toString();
+  // configure latitude and longitude fields
+  let latField = 'latitude';
+  let lonField = 'longitude';
+  if (content.includes('Latitude,') && content.includes('Longitude,')) {
+    latField = 'Latitude';
+    lonField = 'Longitude';
+  }
+
   let geojson;
   csv2geojson.csv2geojson(
     content,
-    { latfield: 'latitude', lonfield: 'longitude', delimiter: ',' },
+    { latfield: latField, lonfield: lonField, delimiter: ',' },
     (err, data) => geojson = data
   );
   if (coordsDivisor) {
     geojson.features = divideCoordinates(geojson.features, coordsDivisor);
   }
+  // remove invalid coordinates
   geojson.features = geojson.features.filter((i) => (
     i.geometry.coordinates[0] >= -180 && i.geometry.coordinates[1] >= -90
     && i.geometry.coordinates[0] <= 180 && i.geometry.coordinates[1] <= 90
