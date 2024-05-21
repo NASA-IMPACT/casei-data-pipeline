@@ -1,0 +1,87 @@
+---
+deployments:
+- name: LISTOS-D2_2018
+  platforms:
+  - name: HU-25
+    files:
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180618_RA_AM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180618_RA_PM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180625_RA_AM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180625_RA_PM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180630_RA_AM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180630_RA_PM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180702_RA_AM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180702_RA_PM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180710_RA_AM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180710_RA_PM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180719_RA_AM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180719_RA_PM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180720_RA_AM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180720_RA_PM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180805_RA_AM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180805_RA_PM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180806_RA_AM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180806_RA_PM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180815_RA_AM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180815_RA_PM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180816_RA_AM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180816_RA_PM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180824_RA_AM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180824_RA_PM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180828_RA_AM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180828_RA_PM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180829_RA_AM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180829_RA_PM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180906_RA_AM.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/MetNav_AircraftInSitu_NASAAircraft_Data_1/LISTOS-NAV_NASA-AIRCRAFT_20180906_RA_PM.ict
+  - name: Long-EZ
+    files:
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20180630_R0.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20180701_R0.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20180702_R0.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20180703_R0.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20180705_R0.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20180709_R0.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20180710_R0.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20180715_R0.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20180716_R0.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20180720_R0.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20180828_R0.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20180829_R0.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20190720_R0_FLIGHT1.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20190720_R0_FLIGHT2.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20190720_R1_FLIGHT1.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20190720_R1_FLIGHT2.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20190721_R0_FLIGHT1.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20190721_R0_FLIGHT2.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20190721_R1_FLIGHT1.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20190721_R1_FLIGHT2.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20190728_R0.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20190728_R1.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20190729_R0_FLIGHT2.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20190729_R0_FLIGHT1.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20190729_R1_FLIGHT1.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_StonyBrookAircraft_Data_1/LISTOS-UPAIR-OBSWINDS_STONY-BROOK-AIRCRAFT_20190729_R1_FLIGHT2.ict
+  - name: Cessna 402B
+    files:
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_UMDAircraft_Data_1/LISTOS-UMDAIRCRAFT_UMD-AIRCRAFT_20170517_R3.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_UMDAircraft_Data_1/LISTOS-UMDAIRCRAFT_UMD-AIRCRAFT_20170518_R3_L1.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_UMDAircraft_Data_1/LISTOS-UMDAIRCRAFT_UMD-AIRCRAFT_20170518_R3_L2.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_UMDAircraft_Data_1/LISTOS-UMDAIRCRAFT_UMD-AIRCRAFT_20180326_R2_L1.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_UMDAircraft_Data_1/LISTOS-UMDAIRCRAFT_UMD-AIRCRAFT_20180326_R2_L2.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_UMDAircraft_Data_1/LISTOS-UMDAIRCRAFT_UMD-AIRCRAFT_20180701_R2_L1.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_UMDAircraft_Data_1/LISTOS-UMDAIRCRAFT_UMD-AIRCRAFT_20180701_R2_L2.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_UMDAircraft_Data_1/LISTOS-UMDAIRCRAFT_UMD-AIRCRAFT_20180702_R2_L1.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_UMDAircraft_Data_1/LISTOS-UMDAIRCRAFT_UMD-AIRCRAFT_20180702_R2_L2.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_UMDAircraft_Data_1/LISTOS-UMDAIRCRAFT_UMD-AIRCRAFT_20180815_R2_L1.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_UMDAircraft_Data_1/LISTOS-UMDAIRCRAFT_UMD-AIRCRAFT_20180815_R2_L2.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_UMDAircraft_Data_1/LISTOS-UMDAIRCRAFT_UMD-AIRCRAFT_20180816_R2_L1.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_UMDAircraft_Data_1/LISTOS-UMDAIRCRAFT_UMD-AIRCRAFT_20180816_R2_L2.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_UMDAircraft_Data_1/LISTOS-UMDAIRCRAFT_UMD-AIRCRAFT_20190719_R1.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_UMDAircraft_Data_1/LISTOS-UMDAIRCRAFT_UMD-AIRCRAFT_20190720_R1_L1.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_UMDAircraft_Data_1/LISTOS-UMDAIRCRAFT_UMD-AIRCRAFT_20190720_R1_L2.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_UMDAircraft_Data_1/LISTOS-UMDAIRCRAFT_UMD-AIRCRAFT_20190721_R1_L1.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_UMDAircraft_Data_1/LISTOS-UMDAIRCRAFT_UMD-AIRCRAFT_20190721_R1_L2.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_UMDAircraft_Data_1/LISTOS-UMDAIRCRAFT_UMD-AIRCRAFT_20190722_R1.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_UMDAircraft_Data_1/LISTOS-UMDAIRCRAFT_UMD-AIRCRAFT_20190729_R2_L1.ict
+    - https://asdc.larc.nasa.gov/data/LISTOS/AircraftInSitu_UMDAircraft_Data_1/LISTOS-UMDAIRCRAFT_UMD-AIRCRAFT_20190729_R1_L2.ict

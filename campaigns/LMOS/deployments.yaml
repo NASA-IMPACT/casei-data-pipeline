@@ -1,0 +1,59 @@
+---
+deployments:
+- name: LMOS-D1_2017
+  platforms:
+  - name: B-200
+    files:
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170522_R0_F1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170522_R0_F2.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170525_R0_F1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170527_R0_F1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170601_R0_F1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170601_R0_F2.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170602_R0_F1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170604_R0_F1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170607_R0_F1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170607_R0_F2.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170608_R0_F1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170612_R0_F1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170613_R0_F1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170614_R0_F1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170615_R0_F1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170615_R0_F2.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170617_R0_F1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170618_R0_F1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170619_R0_F1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170621_R0_F1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170621_R0_F2.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170626_R0_F1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170626_R0_F2.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170627_R0_F1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170627_R0_F2.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/MetNav_AircraftInSitu_UC12_Data_1/LMOS-NAV_UC12_20170627_R0_F3.ict
+  - name: Mooney
+    files:
+    - https://asdc.larc.nasa.gov/data/LMOS/AircraftInSitu_ScientificAviation_Data_1/LMOS-AIRBORNEINSITU_SCI-AVIATION_20170522_R1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/AircraftInSitu_ScientificAviation_Data_1/LMOS-AIRBORNEINSITU_SCI-AVIATION_20170525_R1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/AircraftInSitu_ScientificAviation_Data_1/LMOS-AIRBORNEINSITU_SCI-AVIATION_20170527_R1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/AircraftInSitu_ScientificAviation_Data_1/LMOS-AIRBORNEINSITU_SCI-AVIATION_20170601_R1_L0.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/AircraftInSitu_ScientificAviation_Data_1/LMOS-AIRBORNEINSITU_SCI-AVIATION_20170601_R1_L1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/AircraftInSitu_ScientificAviation_Data_1/LMOS-AIRBORNEINSITU_SCI-AVIATION_20170602_R1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/AircraftInSitu_ScientificAviation_Data_1/LMOS-AIRBORNEINSITU_SCI-AVIATION_20170603_R1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/AircraftInSitu_ScientificAviation_Data_1/LMOS-AIRBORNEINSITU_SCI-AVIATION_20170604_R1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/AircraftInSitu_ScientificAviation_Data_1/LMOS-AIRBORNEINSITU_SCI-AVIATION_20170607_R1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/AircraftInSitu_ScientificAviation_Data_1/LMOS-AIRBORNEINSITU_SCI-AVIATION_20170608_R1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/AircraftInSitu_ScientificAviation_Data_1/LMOS-AIRBORNEINSITU_SCI-AVIATION_20170610_R1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/AircraftInSitu_ScientificAviation_Data_1/LMOS-AIRBORNEINSITU_SCI-AVIATION_20170611_R1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/AircraftInSitu_ScientificAviation_Data_1/LMOS-AIRBORNEINSITU_SCI-AVIATION_20170612_R1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/AircraftInSitu_ScientificAviation_Data_1/LMOS-AIRBORNEINSITU_SCI-AVIATION_20170614_R1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/AircraftInSitu_ScientificAviation_Data_1/LMOS-AIRBORNEINSITU_SCI-AVIATION_20170615_R1_L0.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/AircraftInSitu_ScientificAviation_Data_1/LMOS-AIRBORNEINSITU_SCI-AVIATION_20170615_R1_L1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/AircraftInSitu_ScientificAviation_Data_1/LMOS-AIRBORNEINSITU_SCI-AVIATION_20170617_R1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/AircraftInSitu_ScientificAviation_Data_1/LMOS-AIRBORNEINSITU_SCI-AVIATION_20170618_R1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/AircraftInSitu_ScientificAviation_Data_1/LMOS-AIRBORNEINSITU_SCI-AVIATION_20170619_R1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/AircraftInSitu_ScientificAviation_Data_1/LMOS-AIRBORNEINSITU_SCI-AVIATION_20170621_R1_L0.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/AircraftInSitu_ScientificAviation_Data_1/LMOS-AIRBORNEINSITU_SCI-AVIATION_20170621_R1_L1.ict
+    - https://asdc.larc.nasa.gov/data/LMOS/AircraftInSitu_ScientificAviation_Data_1/LMOS-AIRBORNEINSITU_SCI-AVIATION_20170624_R1.ict
+  - name: RV 5503
+    files:
+    - https://asdc.larc.nasa.gov/data/LMOS/TraceGas_ShipInSitu_Data_1/LMOS-O3_NOAA-RV_20170602_R1.ict
