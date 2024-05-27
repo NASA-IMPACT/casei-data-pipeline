@@ -36,7 +36,16 @@ const splitICTFile = (filename, isTSVFormatted = false) => {
 
   // ICART files can have different column names for the start time
   const possibleFirstColumnNames = [
-    'index, time_start,', 'Time_Start,', 'StartTime_UTsec,', 'Time_mid,', 'Time', 'UTC,', 'Start_UTC,', 'TIME_NP,', 'UT',
+    'index, time_start,',
+    'Time_Start,',
+    'StartTime_UTsec,',
+    'Time_mid,',
+    'Time',
+    'UTC,',
+    'Start_UTC,',
+    'TIME_NP,',
+    'UT',
+    'day:hh:mm:ss',
   ];
   let columnNotFound = true;
   possibleFirstColumnNames.forEach((col) => {
@@ -50,6 +59,8 @@ const splitICTFile = (filename, isTSVFormatted = false) => {
   content = content
     .replace(',Lat,', ',latitude,')
     .replace(',Long,', ',longitude,')
+    .replace(',lat,', ',latitude,')
+    .replace(',lon,', ',longitude,')
     .replace(',Lon,', ',longitude,')
     .replace(', LAT,', ',latitude,')
     .replace(', LONG,', ',longitude,')
@@ -71,6 +82,8 @@ const splitICTFile = (filename, isTSVFormatted = false) => {
     .replace(',POS_Lon,', ',longitude,')
     .replace(', Latitude,', ',latitude,')
     .replace(', Longitude,', ',longitude,')
+    .replace(',iLatitude,', ',latitude,')
+    .replace(',iLongitude,', ',longitude,')
     .replace(', ship_log_interp_lat,', ',latitude,')
     .replace(', ship_log_interp_lon,', ',longitude,');
 

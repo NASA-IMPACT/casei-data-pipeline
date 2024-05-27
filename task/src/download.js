@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const AdmZip = require('adm-zip');
 const download = require('download');
-const { getPlatformConfig, readCampaignYaml } = require('./utils');
+const { getPlatformConfig, readCampaignYaml, extractFromTar } = require('./utils');
 
 const replaceSlash = (str) => str.replaceAll('/', '-');
 
@@ -12,11 +12,16 @@ const downloadFile = async (url, dir) => {
     dir,
     { headers: { Authorization: `Bearer ${process.env.EARTH_DATA_TOKEN}` } }
   );
-  // if the file is a zip, decompress it
+  // if the file is a zip or tar, decompress it
   if (url.endsWith('.zip')) {
     const filePath = path.join(dir, path.basename(url));
     const zip = new AdmZip(filePath);
     zip.extractAllTo(dir);
+    fs.unlinkSync(filePath);
+  }
+  if (url.endsWith('.tar')) {
+    const filePath = path.join(dir, path.basename(url));
+    await extractFromTar(filePath, dir, '.txt');
     fs.unlinkSync(filePath);
   }
 };
