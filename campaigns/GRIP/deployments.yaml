@@ -1,0 +1,57 @@
+---
+deployments:
+- name: GRIP-D1_2010
+  platforms:
+  - name: DC-8
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavdc8__1/GRIP_DC8_QC_NAV_eng_10Aug2010.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavdc8__1/GRIP_DC8_QC_NAV_flight1_17Aug2010.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavdc8__1/GRIP_DC8_QC_NAV_flight2_24Aug2010.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavdc8__1/GRIP_DC8_QC_NAV_flight3_29Aug2010.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavdc8__1/GRIP_DC8_QC_NAV_flight4_30Aug2010.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavdc8__1/GRIP_DC8_QC_NAV_flight5_01Sep2010.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavdc8__1/GRIP_DC8_QC_NAV_flight6_02Sep2010.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavdc8__1/GRIP_DC8_QC_NAV_flight7_06Sep2010.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavdc8__1/GRIP_DC8_QC_NAV_flight8_07Sep2010.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavdc8__1/GRIP_DC8_QC_NAV_flight9_12Sep2010.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavdc8__1/GRIP_DC8_QC_NAV_flight10_13Sep2010.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavdc8__1/GRIP_DC8_QC_NAV_flight11_14Sep2010.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavdc8__1/GRIP_DC8_QC_NAV_flight12_16Sep2010.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavdc8__1/GRIP_DC8_QC_NAV_flight13_17Sep2010.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavdc8__1/GRIP_DC8_QC_NAV_flight14_21Sep2010.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavdc8__1/GRIP_DC8_QC_NAV_flight15_22Sep2010.csv
+  - name: WB-57
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavwb57__1/GRIP_20100827_WB57.dat
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavwb57__1/GRIP_20100831_WB57.dat
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavwb57__1/GRIP_20100901_WB57.dat
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavwb57__1/GRIP_20100902_WB57.dat
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavwb57__1/GRIP_20100903_WB57.dat
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavwb57__1/GRIP_20100914_WB57.dat
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavwb57__1/GRIP_20100915_WB57.dat
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavwb57__1/GRIP_20100916_WB57.dat
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavwb57__1/GRIP_20100917_WB57.dat
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavgh__1/IWG1.15Aug2010.xml
+  - name: GH
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavgh__1/IWG1.15Aug2010-2017
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavgh__1/IWG1.15Aug2010.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavgh__1/IWG1.15Aug2010-2111
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavgh__1/IWG1.15Aug2010-2126
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavgh__1/IWG1.24Aug2010.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavgh__1/IWG1.24Aug2010-1751
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavgh__1/IWG1.24Aug2010-1754
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavgh__1/IWG1.29Aug2010.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavgh__1/IWG1.29Aug2010-0342
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavgh__1/IWG1.03Sep2010-0349
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavgh__1/IWG1.03Sep2010.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavgh__1/IWG1.03Sep2010-0402
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavgh__1/IWG1.13Sep2010-1132
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavgh__1/IWG1.13Sep2010.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavgh__1/IWG1.13Sep2010-1152
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavgh__1/IWG1.17Sep2010.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavgh__1/IWG1.17Sep2010-1414
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavgh__1/IWG1.17Sep2010-1429
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavgh__1/IWG1.24Sep2010.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavgh__1/IWG1.24Sep2010-1650
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gripnavgh__1/IWG1.24Sep2010-1706

@@ -4,6 +4,7 @@ const {
   getStats,
   getPlatformConfig,
   divideCoordinates,
+  urlHasFileExtension,
 } = require('../src/utils');
 
 describe('tsv2csv', () => {
@@ -27,6 +28,18 @@ describe('getPlatformConfig', () => {
     const platformConfig = getPlatformConfig('../campaigns/OLYMPEX/OLYMPEX-D1_2015/ER-2');
     expect(platformConfig.name).toBe('ER-2');
     expect(platformConfig.files.length).toBe(30);
+  });
+});
+
+describe('urlHasFileExtension', () => {
+  it('return true if an URL ends with any 3 or 4 letters file extension', () => {
+    expect(urlHasFileExtension('https://a.com/b/c/d.ext')).toBeTruthy();
+    expect(urlHasFileExtension('https://a.com/b/c/d.WB57')).toBeTruthy();
+    expect(urlHasFileExtension('https://a.com/b/c/d.WB57')).toBeTruthy();
+    expect(urlHasFileExtension('https://a.com/b/c/d.extasd')).toBeFalsy();
+    expect(urlHasFileExtension('https://a.com/b/c/d32.ext1asd')).toBeFalsy();
+    expect(urlHasFileExtension('https://a.com/b/c/d12.ext1-asd')).toBeFalsy();
+    expect(urlHasFileExtension('https://a.com/b/c/d12.ER')).toBeFalsy();
   });
 });
 
