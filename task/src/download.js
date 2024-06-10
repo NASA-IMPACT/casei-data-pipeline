@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const AdmZip = require('adm-zip');
 const download = require('download');
-const { getPlatformConfig, readCampaignYaml } = require('./utils');
+const { getPlatformConfig, readCampaignYaml, urlHasFileExtension } = require('./utils');
 
 const replaceSlash = (str) => str.replaceAll('/', '-');
 
@@ -18,6 +18,11 @@ const downloadFile = async (url, dir) => {
     const zip = new AdmZip(filePath);
     zip.extractAllTo(dir);
     fs.unlinkSync(filePath);
+  }
+  // The GRIP campaign has files without an extension and others with .dat that should be txt
+  if (!urlHasFileExtension(url) || url.endsWith('.dat')) {
+    const filePath = path.join(dir, path.basename(url));
+    fs.renameSync(filePath, `${filePath}.txt`);
   }
 };
 

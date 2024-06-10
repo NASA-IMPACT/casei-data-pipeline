@@ -64,6 +64,12 @@ const divideCoordinates = (features, coordsDivisor) => features.map((i) => {
   return { ...i, geometry: newGeometry };
 });
 
+const urlHasFileExtension = (url) => {
+  // eslint-disable-next-line no-unused-vars
+  const [name, ext] = path.basename(url).split('.');
+  return ext && [3, 4].includes(ext.length);
+};
+
 module.exports = {
   getStats,
   tsv2csv,
@@ -71,4 +77,5 @@ module.exports = {
   getPlatformConfig,
   readCampaignYaml,
   divideCoordinates,
+  urlHasFileExtension,
 };
