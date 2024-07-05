@@ -1,0 +1,66 @@
+---
+deployments:
+- name: FIREX-AQ-D1_2019
+  platforms:
+  - name: ER-2
+    files:
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_ER2_Data_1/FIREXAQ-METNAV_ER2_20190801_R0.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_ER2_Data_1/FIREXAQ-METNAV_ER2_20190802_R0.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_ER2_Data_1/FIREXAQ-METNAV_ER2_20190806_R0.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_ER2_Data_1/FIREXAQ-METNAV_ER2_20190807_R0.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_ER2_Data_1/FIREXAQ-METNAV_ER2_20190808_R0.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_ER2_Data_1/FIREXAQ-METNAV_ER2_20190812_R0.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_ER2_Data_1/FIREXAQ-METNAV_ER2_20190813_R0.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_ER2_Data_1/FIREXAQ-METNAV_ER2_20190815_R0.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_ER2_Data_1/FIREXAQ-METNAV_ER2_20190816_R0.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_ER2_Data_1/FIREXAQ-METNAV_ER2_20190819_R0.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_ER2_Data_1/FIREXAQ-METNAV_ER2_20190820_R0.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_ER2_Data_1/FIREXAQ-METNAV_ER2_20190821_R0.ict
+  - name: DC-8
+    files:
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190715_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190716_R0.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190717_R0_L1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190717_R0_L2.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190722_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190724_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190725_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190729_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190730_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190802_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190803_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190806_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190807_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190808_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190812_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190813_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190815_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190816_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190819_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190821_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190823_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190826_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190829_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190830_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190831_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190903_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_DC8_Data_1/FIREXAQ-METNAV_DC8_20190905_R1.ict
+  - name: Twin Otter
+    files:
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_N48_Data_1/FIREXAQ-FLIGHTDATA_N48_20190729_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_N48_Data_1/FIREXAQ-FLIGHTDATA_N48_20190803_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_N48_Data_1/FIREXAQ-FLIGHTDATA_N48_20190805_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_N48_Data_1/FIREXAQ-FLIGHTDATA_N48_20190809_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_N48_Data_1/FIREXAQ-FLIGHTDATA_N48_20190810_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_N48_Data_1/FIREXAQ-FLIGHTDATA_N48_20190811_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_N48_Data_1/FIREXAQ-FLIGHTDATA_N48_20190816_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_N48_Data_1/FIREXAQ-FLIGHTDATA_N48_20190817_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_N48_Data_1/FIREXAQ-FLIGHTDATA_N48_20190820_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_N48_Data_1/FIREXAQ-FLIGHTDATA_N48_20190821_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_N48_Data_1/FIREXAQ-FLIGHTDATA_N48_20190824_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_N48_Data_1/FIREXAQ-FLIGHTDATA_N48_20190825_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_N48_Data_1/FIREXAQ-FLIGHTDATA_N48_20190827_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_N48_Data_1/FIREXAQ-FLIGHTDATA_N48_20190828_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_N48_Data_1/FIREXAQ-FLIGHTDATA_N48_20190903_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_N48_Data_1/FIREXAQ-FLIGHTDATA_N48_20190904_R1.ict
+    - https://asdc.larc.nasa.gov/data/FIREX-AQ/MetNav_AircraftInSitu_N48_Data_1/FIREXAQ-FLIGHTDATA_N48_20190905_R1.ict

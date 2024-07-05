@@ -1,0 +1,38 @@
+---
+deployments:
+- name: GCPEx-D1_2012
+  platforms:
+  - name: DC-8
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8gcpex__1/GCPEX_nav_dc8_20120111_r1.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8gcpex__1/GCPEX_nav_dc8_20120117_r1.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8gcpex__1/GCPEX_nav_dc8_20120119_r1.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8gcpex__1/GCPEX_nav_dc8_20120121_r1.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8gcpex__1/GCPEX_nav_dc8_20120126_r1.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8gcpex__1/GCPEX_nav_dc8_20120128_r1.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8gcpex__1/GCPEX_nav_dc8_20120130_r1.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8gcpex__1/GCPEX_nav_dc8_20120204_r1.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8gcpex__1/GCPEX_nav_dc8_20120207_r1.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8gcpex__1/GCPEX_nav_dc8_20120212_1_r1.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8gcpex__1/GCPEX_nav_dc8_20120212_2_r1.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8gcpex__1/GCPEX_nav_dc8_20120216_r1.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8gcpex__1/GCPEX_nav_dc8_20120220_r1.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8gcpex__1/GCPEX_nav_dc8_20120221_r1.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8gcpex__1/GCPEX_nav_dc8_20120224_r1.ict
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8gcpex__1/GCPEX_nav_dc8_20120225_r1.ict
+  - name: Citation
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitgcpex2__2/nav_2012_01_19_14_48_04.gcpex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitgcpex2__2/nav_2012_01_27_01_55_33.gcpex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitgcpex2__2/nav_2012_01_28_15_49_01.gcpex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitgcpex2__2/nav_2012_01_30_22_40_15.gcpex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitgcpex2__2/nav_2012_02_12_03_00_55.gcpex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitgcpex2__2/nav_2012_02_12_23_40_37.gcpex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitgcpex2__2/nav_2012_02_14_16_31_21.gcpex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitgcpex2__2/nav_2012_02_16_14_24_27.gcpex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitgcpex2__2/nav_2012_02_18_09_43_52.gcpex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitgcpex2__2/nav_2012_02_18_15_38_46.gcpex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitgcpex2__2/nav_2012_02_24_11_34_08.gcpex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitgcpex2__2/nav_2012_02_24_16_40_10.gcpex

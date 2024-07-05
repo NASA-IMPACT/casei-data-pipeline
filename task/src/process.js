@@ -7,6 +7,7 @@ const simplify = require('simplify-geojson');
 const geojsonMerge = require('@mapbox/geojson-merge');
 const dist = require('@turf/distance');
 const splitGeoJSON = require('geojson-antimeridian-cut');
+const geoPrecision = require("geojson-precision");
 
 const { getStats, tsv2csv, divideCoordinates } = require('./utils');
 
@@ -36,7 +37,7 @@ const splitICTFile = (filename, isTSVFormatted = false) => {
 
   // ICART files can have different column names for the start time
   const possibleFirstColumnNames = [
-    'index, time_start,', 'Time_Start,', 'StartTime_UTsec,', 'Time_mid,', 'Time', 'UTC,', 'Start_UTC,', 'TIME_NP,', 'UT',
+    'index, time_start,', 'Gps_time,', 'Time_Start,', 'StartTime_UTsec,', 'Time_mid,', 'Gps_time_midpoint,', 'Start_UTC,', 'UTC,', 'Time', 'TIME_NP,', 'UT',
   ];
   let columnNotFound = true;
   possibleFirstColumnNames.forEach((col) => {
@@ -63,10 +64,16 @@ const splitICTFile = (filename, isTSVFormatted = false) => {
     .replace(',GLON,', ',longitude,')
     .replace(',gLat,', ',latitude,')
     .replace(',gLon,', ',longitude,')
+    .replace(', GPSLat,', ',latitude,')
+    .replace(', GPSLon,', ',longitude,')
+    .replace(', Gps_lat,', ',latitude,')
+    .replace(', Gps_lon,', ',longitude,')
     .replace(', G_LAT,', ',latitude,')
     .replace(', G_LONG,', ',longitude,')
     .replace(', GPS_LAT_NP,', ',latitude,')
     .replace(', GPS_LON_NP,', ',longitude,')
+    .replace(', FMS_LAT,', ',latitude,')
+    .replace(', FMS_LON,', ',longitude,')
     .replace(',POS_Lat,', ',latitude,')
     .replace(',POS_Lon,', ',longitude,')
     .replace(', Latitude,', ',latitude,')
@@ -239,8 +246,9 @@ const convertToGeoJSON = (
 */
 const mergeGeoJSONCollection = (collection, outputFilename) => {
   const mergedStream = geojsonMerge.merge(collection);
+  const finalGeoJSON = geoPrecision.parse(mergedStream, 6);
 
-  fs.writeFileSync(outputFilename, JSON.stringify(mergedStream));
+  fs.writeFileSync(outputFilename, JSON.stringify(finalGeoJSON));
   console.log(`${outputFilename} created successfully.`);
 };
 
