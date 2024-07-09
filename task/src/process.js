@@ -37,7 +37,18 @@ const splitICTFile = (filename, isTSVFormatted = false) => {
 
   // ICART files can have different column names for the start time
   const possibleFirstColumnNames = [
-    'index, time_start,', 'Gps_time,', 'Time_Start,', 'StartTime_UTsec,', 'Time_mid,', 'Gps_time_midpoint,', 'Start_UTC,', 'UTC,', 'Time', 'TIME_NP,', 'UT',
+    'index, time_start,',
+    'Gps_time,',
+    'Time_Start,',
+    'TIME_START,',
+    'StartTime_UTsec,',
+    'Time_mid,',
+    'Gps_time_midpoint,',
+    'Start_UTC,',
+    'UTC,',
+    'Time',
+    'TIME_NP,',
+    'UT',
   ];
   let columnNotFound = true;
   possibleFirstColumnNames.forEach((col) => {
@@ -70,6 +81,8 @@ const splitICTFile = (filename, isTSVFormatted = false) => {
     .replace(', Gps_lon,', ',longitude,')
     .replace(', G_LAT,', ',latitude,')
     .replace(', G_LONG,', ',longitude,')
+    .replace(', G_LAT_MMS,', ',latitude,')
+    .replace(', G_LONG_MMS,', ',longitude,')
     .replace(', GPS_LAT_NP,', ',latitude,')
     .replace(', GPS_LON_NP,', ',longitude,')
     .replace(', FMS_LAT,', ',latitude,')

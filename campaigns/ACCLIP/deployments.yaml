@@ -1,0 +1,56 @@
+---
+deployments:
+- name: ACCLIP-D1_2022
+  platforms:
+  - name: WB-57
+    coords_divisor: 100000
+    rename_as_ict: true
+    files:
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220714_R0.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220716_R0.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220718_R0.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220721_R0_1.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220721_R0_2.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220724_R0.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220725_R0.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220727_R0.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220802_R0.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220804_R0.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220806_R0.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220812_R0.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220813_R0.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220815_R0.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220816_R0.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220819_R0.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220821_R0.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220823_R0.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220825_R0.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220826_R0.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220829_R0.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220831_R0.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220901_R0.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220909_R0.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220912_R0.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220913_R0.ICT
+    - https://asdc.larc.nasa.gov/data/ACCLIP/MetNav_AircraftInSitu_WB57_Data_1/ACCLIP-MMS-1HZ_WB57_20220914_R0.ICT
+  - name: B-200
+    tsv_format: true
+    process_as_ict: true
+    files:
+    - https://data.eol.ucar.edu/pub/download/data/wille279424/datawEoHOB.zip
+  - name: G-V
+    files:
+    - https://data.eol.ucar.edu/pub/download/data/wille279509/ACCLIP-CORE_GV_20220730_R1.ict
+    - https://data.eol.ucar.edu/pub/download/data/wille279509/ACCLIP-CORE_GV_20220804_R1.ict
+    - https://data.eol.ucar.edu/pub/download/data/wille279509/ACCLIP-CORE_GV_20220806_R1.ict
+    - https://data.eol.ucar.edu/pub/download/data/wille279509/ACCLIP-CORE_GV_20220807_R1.ict
+    - https://data.eol.ucar.edu/pub/download/data/wille279509/ACCLIP-CORE_GV_20220812_R1.ict
+    - https://data.eol.ucar.edu/pub/download/data/wille279509/ACCLIP-CORE_GV_20220815_R1.ict
+    - https://data.eol.ucar.edu/pub/download/data/wille279509/ACCLIP-CORE_GV_20220816_R1.ict
+    - https://data.eol.ucar.edu/pub/download/data/wille279509/ACCLIP-CORE_GV_20220819_R1.ict
+    - https://data.eol.ucar.edu/pub/download/data/wille279509/ACCLIP-CORE_GV_20220822_R1.ict
+    - https://data.eol.ucar.edu/pub/download/data/wille279509/ACCLIP-CORE_GV_20220823_R1.ict
+    - https://data.eol.ucar.edu/pub/download/data/wille279509/ACCLIP-CORE_GV_20220825_R1.ict
+    - https://data.eol.ucar.edu/pub/download/data/wille279509/ACCLIP-CORE_GV_20220826_R1.ict
+    - https://data.eol.ucar.edu/pub/download/data/wille279509/ACCLIP-CORE_GV_20220829_R1.ict
+    - https://data.eol.ucar.edu/pub/download/data/wille279509/ACCLIP-CORE_GV_20220830_R1.ict
