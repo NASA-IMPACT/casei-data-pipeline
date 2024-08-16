@@ -1,0 +1,65 @@
+---
+deployments:
+- name: ATom-D1_2016
+  platforms:
+  - name: DC-8
+    coords_divisor: 10000
+    files:
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20160823_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20160822_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20160820_R2.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20160817_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20160815_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20160812_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20160808_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20160806_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20160803_R3.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20160801_R2.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20160729_R1.ict
+- name: ATom-D2_2017-Jan
+  platforms:
+  - name: DC-8
+    coords_divisor: 10000
+    files:
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20170221_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20170219_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20170218_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20170215_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20170213_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20170210_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20170205_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20170203_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20170201_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20170129_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20170126_R1.ict
+- name: ATom-D3_2017-Sep
+  platforms:
+  - name: DC-8
+    coords_divisor: 10000
+    files:
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20171017_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20171014_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20171011_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20171008_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20171006_R2.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20171004_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20171001_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20170928_R1.ict
+- name: ATom-D4_2018
+  platforms:
+  - name: DC-8
+    coords_divisor: 100000
+    files:
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20180521_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20180519_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20180518_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20180517_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20180514_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20180512_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20180509_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20180506_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20180503_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20180501_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20180429_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20180427_R1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/atom/ATom_MMS_Instrument_Data/data/MMS-1HZ_DC8_20180424_R1.ict

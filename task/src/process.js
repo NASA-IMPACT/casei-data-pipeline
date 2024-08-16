@@ -30,33 +30,12 @@ const getPropertiesFromPath = (dir) => {
 */
 const splitICTFile = (filename, isTSVFormatted = false) => {
   const file = fs.readFileSync(filename);
-  let content = file.toString();
+  let content = file.toString().split('\n');
+  const dataStartLine = Number(content[0].split(/\s*,?\s*1001/g)[0]);
+  content = content.slice(dataStartLine - 1).join('\n');
   if (isTSVFormatted) {
     content = tsv2csv(content);
   }
-
-  // ICART files can have different column names for the start time
-  const possibleFirstColumnNames = [
-    'index, time_start,',
-    'Gps_time,',
-    'Time_Start,',
-    'TIME_START,',
-    'StartTime_UTsec,',
-    'Time_mid,',
-    'Gps_time_midpoint,',
-    'Start_UTC,',
-    'UTC,',
-    'Time',
-    'TIME_NP,',
-    'UT',
-  ];
-  let columnNotFound = true;
-  possibleFirstColumnNames.forEach((col) => {
-    if (content.indexOf(col) !== -1 && columnNotFound) {
-      content = content.substr(content.lastIndexOf(col));
-      columnNotFound = false;
-    }
-  });
 
   // some files have different column names for latitude and longitude
   content = content
@@ -65,6 +44,7 @@ const splitICTFile = (filename, isTSVFormatted = false) => {
     .replace(',Lon,', ',longitude,')
     .replace(', LAT,', ',latitude,')
     .replace(', LONG,', ',longitude,')
+    .replace(',LONG,', ',longitude,')
     .replace(',LAT,', ',latitude,')
     .replace(',LON,', ',longitude,')
     .replace(',FMS_LAT,', ',latitude,')

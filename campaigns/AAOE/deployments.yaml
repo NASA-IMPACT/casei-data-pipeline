@@ -1,0 +1,46 @@
+---
+deployments:
+- name: AAOE-D1_1987
+  platforms:
+  - name: ER-2
+    tsv_format: true
+    rename_as_ict: true
+    coords_divisor: 1000
+    files:
+    - https://espoarchive.nasa.gov/archive/download/FP19870812.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870814.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870815.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870817.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870828.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870830.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870902.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870904.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870909.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870916.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870920.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870921.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870922.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870929.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19871003.ER2
+  - name: DC-8
+    tsv_format: true
+    rename_as_ict: true
+    coords_divisor: 1000
+    files:
+    - https://espoarchive.nasa.gov/archive/download/NP19870819.DC8
+    - https://espoarchive.nasa.gov/archive/download/NP19870822.DC8
+    - https://espoarchive.nasa.gov/archive/download/NP19870828.DC8
+    - https://espoarchive.nasa.gov/archive/download/NP19870830.DC8
+    - https://espoarchive.nasa.gov/archive/download/NP19870902.DC8
+    - https://espoarchive.nasa.gov/archive/download/NP19870905.DC8
+    - https://espoarchive.nasa.gov/archive/download/NP19870908.DC8
+    - https://espoarchive.nasa.gov/archive/download/NP19870911.DC8
+    - https://espoarchive.nasa.gov/archive/download/NP19870914.DC8
+    - https://espoarchive.nasa.gov/archive/download/NP19870916.DC8
+    - https://espoarchive.nasa.gov/archive/download/NP19870919.DC8
+    - https://espoarchive.nasa.gov/archive/download/NP19870921.DC8
+    - https://espoarchive.nasa.gov/archive/download/NP19870924.DC8
+    - https://espoarchive.nasa.gov/archive/download/NP19870926.DC8
+    - https://espoarchive.nasa.gov/archive/download/NP19870929.DC8
+    - https://espoarchive.nasa.gov/archive/download/NP19871002.DC8
+    - https://espoarchive.nasa.gov/archive/download/NP19871004.DC8
