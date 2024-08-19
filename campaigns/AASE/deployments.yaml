@@ -1,0 +1,109 @@
+---
+deployments:
+- name: AASE-D1_1988-Dec
+  platforms:
+  - name: ER-2
+    tsv_format: true
+    rename_as_ict: true
+    coords_divisor: 1000
+    files:
+    - https://espo.nasa.gov/aase/archive/download/FP19881229.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19881231.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19890103.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19890106.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19890107.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19890112.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19890116.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19890119.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19890120.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19890124.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19890125.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19890130.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19890207.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19890208.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19890209.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19890210.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19890220.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19890221.ER2
+  - name: DC-8
+    tsv_format: true
+    rename_as_ict: true
+    coords_divisor: 1000
+    files:
+    - https://espo.nasa.gov/aase/archive/download/NP19890102.DC8
+    - https://espo.nasa.gov/aase/archive/download/NP19890106.DC8
+    - https://espo.nasa.gov/aase/archive/download/NP19890109.DC8
+    - https://espo.nasa.gov/aase/archive/download/NP19890111.DC8
+    - https://espo.nasa.gov/aase/archive/download/NP19890114.DC8
+    - https://espo.nasa.gov/aase/archive/download/NP19890117.DC8
+    - https://espo.nasa.gov/aase/archive/download/NP19890119.DC8
+    - https://espo.nasa.gov/aase/archive/download/NP19890124.DC8
+    - https://espo.nasa.gov/aase/archive/download/NP19890126.DC8
+    - https://espo.nasa.gov/aase/archive/download/NP19890129.DC8
+    - https://espo.nasa.gov/aase/archive/download/NP19890131.DC8
+    - https://espo.nasa.gov/aase/archive/download/NP19890202.DC8
+    - https://espo.nasa.gov/aase/archive/download/NP19890205.DC8
+    - https://espo.nasa.gov/aase/archive/download/NP19890207.DC8
+    - https://espo.nasa.gov/aase/archive/download/NP19890209.DC8
+    - https://espo.nasa.gov/aase/archive/download/NP19890215.DC8
+- name: AASE-D2_1991-Sep
+  platforms:
+  - name: ER-2
+    tsv_format: true
+    rename_as_ict: true
+    coords_divisor: 1000
+    files:
+    - https://espo.nasa.gov/aase/archive/download/FP19910917.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19910919.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19911004.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19911006.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19911008.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19911010.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19911012.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19911014.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19911102.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19911104.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19911208.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19911210.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19911212.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19911214.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19920104.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19920106.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19920108.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19920111.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19920112.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19920116.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19920120.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19920213.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19920215.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19920217.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19920222.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19920315.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19920318.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19920320.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19920322.ER2
+    - https://espo.nasa.gov/aase/archive/download/FP19920326.ER2
+  - name: DC-8
+    tsv_format: true
+    rename_as_ict: true
+    coords_divisor: 1000
+    files:
+    - https://espo.nasa.gov/aase/archive/download/DF19920108.DC8
+    - https://espo.nasa.gov/aase/archive/download/DF19920111.DC8
+    - https://espo.nasa.gov/aase/archive/download/DF19920114.DC8
+    - https://espo.nasa.gov/aase/archive/download/DF19920116.DC8
+    - https://espo.nasa.gov/aase/archive/download/DF19920119.DC8
+    - https://espo.nasa.gov/aase/archive/download/DF19920122.DC8
+    - https://espo.nasa.gov/aase/archive/download/DF19920123.DC8
+    - https://espo.nasa.gov/aase/archive/download/DF19920128.DC8
+    - https://espo.nasa.gov/aase/archive/download/DF19920129.DC8
+    - https://espo.nasa.gov/aase/archive/download/DF19920212.DC8
+    - https://espo.nasa.gov/aase/archive/download/DF19920214.DC8
+    - https://espo.nasa.gov/aase/archive/download/DF19920217.DC8
+    - https://espo.nasa.gov/aase/archive/download/DF19920220.DC8
+    - https://espo.nasa.gov/aase/archive/download/DF19920222.DC8
+    - https://espo.nasa.gov/aase/archive/download/DF19920310.DC8
+    - https://espo.nasa.gov/aase/archive/download/DF19920312.DC8
+    - https://espo.nasa.gov/aase/archive/download/DF19920314.DC8
+    - https://espo.nasa.gov/aase/archive/download/DF19920318.DC8
+    - https://espo.nasa.gov/aase/archive/download/DF19920320.DC8
