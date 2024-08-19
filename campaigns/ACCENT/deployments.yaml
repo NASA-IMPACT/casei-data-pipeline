@@ -1,0 +1,52 @@
+---
+deployments:
+- name: ACCENT-D1_1999-Mar
+  platforms:
+  - name: WB-57
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://espoarchive.nasa.gov/archive/download/NP19990326.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990409.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990412.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990413.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990415.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990416.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990422.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990423.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990903.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990908.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990913.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990915.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990917.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990920.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990921.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990922.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990924.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19991004.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19991007.WB57
+- name: ACCENT-D2_1999-Sep
+  platforms:
+  - name: WB-57
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://espoarchive.nasa.gov/archive/download/NP19990326.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990409.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990412.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990413.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990415.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990416.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990422.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990423.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990903.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990908.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990913.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990915.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990917.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990920.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990921.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990922.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19990924.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19991004.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19991007.WB57
