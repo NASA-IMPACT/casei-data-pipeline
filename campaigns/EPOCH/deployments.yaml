@@ -1,0 +1,11 @@
+---
+deployments:
+- name: EPOCH-D1_2017
+  platforms:
+  - name: GH
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/navghepoch__1/GH_Nav_EPOCH_N872NA_IWG1_20170830.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/navghepoch__1/GH_Nav_EPOCH_N827NA_IWG1_20170823.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/navghepoch__1/GH_Nav_EPOCH_N872NA_IWG1_20170818.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/navghepoch__1/GH_Nav_EPOCH_N827NA_IWG1_20170809.csv
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/navghepoch__1/GH_Nav_EPOCH_N827NA_IWG1_20170727.csv
