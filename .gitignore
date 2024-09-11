@@ -1,9 +1,5 @@
 task/node_modules/
-task/casei-flights-js-main/
 campaigns/**/*.geojson
-campaigns/**/*.ict
-campaigns/**/*.txt
-campaigns/**/*.xml
-campaigns/**/*.csv
+campaigns/*/*/*
 !campaigns/**/static.csv
 .DS_Store

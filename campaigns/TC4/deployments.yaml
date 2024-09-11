@@ -1,0 +1,37 @@
+---
+deployments:
+- name: TC4-D1_2007
+  platforms:
+  - name: WB-57
+    tsv_format: true
+    rename_as_ict: true
+    coords_divisor: 1000
+    files:
+    - https://espoarchive.nasa.gov/archive/download/FP20070801.WB57
+    - https://espoarchive.nasa.gov/archive/download/FP20070803.WB57
+    - https://espoarchive.nasa.gov/archive/download/FP20070805.WB57
+    - https://espoarchive.nasa.gov/archive/download/FP20070806.WB57
+    - https://espoarchive.nasa.gov/archive/download/FP20070808.WB57
+    - https://espoarchive.nasa.gov/archive/download/FP20070809.WB57
+    - https://espoarchive.nasa.gov/archive/download/FP20070813.WB57
+  - name: DC-8
+    tsv_format: true
+    rename_as_ict: true
+    coords_divisor: 1000
+    files:
+    - https://espoarchive.nasa.gov/archive/download/FP20070628.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP20070630.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP20070702.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP20070713.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP20070717.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP20070721.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP20070722.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP20070724.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP20070728.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP20070729.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP20070731.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP20070803.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP20070805.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP20070806.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP20070808.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP20070810.DC8

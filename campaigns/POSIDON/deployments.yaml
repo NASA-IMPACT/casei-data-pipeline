@@ -1,0 +1,26 @@
+---
+deployments:
+- name: POSIDON-D1_2016
+  platforms:
+  - name: WB-57
+    files:
+    - https://espoarchive.nasa.gov/archive/download/NP_WB57_20160913_R1.ict
+    - https://espoarchive.nasa.gov/archive/download/NP_WB57_20160915_R1.ict
+    - https://espoarchive.nasa.gov/archive/download/NP_WB57_20161001_R1.ict
+    - https://espoarchive.nasa.gov/archive/download/NP_WB57_20161002_R1.ict
+    - https://espoarchive.nasa.gov/archive/download/NP_WB57_20161003_R1.ict
+    - https://espoarchive.nasa.gov/archive/download/NP_WB57_20161008_R1.ict
+    - https://espoarchive.nasa.gov/archive/download/NP_WB57_20161012_R1.ict
+    - https://espoarchive.nasa.gov/archive/download/NP_WB57_20161014_R1.ict
+    - https://espoarchive.nasa.gov/archive/download/NP_WB57_20161015_R1.ict
+    - https://espoarchive.nasa.gov/archive/download/NP_WB57_20161018_R1.ict
+    - https://espoarchive.nasa.gov/archive/download/NP_WB57_20161019_R1.ict
+    - https://espoarchive.nasa.gov/archive/download/NP_WB57_20161021_R1.ict
+    - https://espoarchive.nasa.gov/archive/download/NP_WB57_20161024_R1.ict
+    - https://espoarchive.nasa.gov/archive/download/NP_WB57_20161025_R1.ict
+    - https://espoarchive.nasa.gov/archive/download/NP_WB57_20161026_R1.ict
+    - https://espoarchive.nasa.gov/archive/download/NP_WB57_20161028_R1.ict
+    - https://espoarchive.nasa.gov/archive/download/NP_WB57_20161030_R1.ict
+    - https://espoarchive.nasa.gov/archive/download/NP_WB57_20161031_R1.ict
+    - https://espoarchive.nasa.gov/archive/download/NP_WB57_20161101_R1.ict
+    - https://espoarchive.nasa.gov/archive/download/NP_WB57_20161102_R1.ict

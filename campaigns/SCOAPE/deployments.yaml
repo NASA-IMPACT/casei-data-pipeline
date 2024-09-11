@@ -1,0 +1,7 @@
+---
+deployments:
+- name: SCOAPE-D1_2019
+  platforms:
+  - name: Point Sur
+    files:
+    - https://asdc.larc.nasa.gov/data/SCOAPE/RVPointSur_Data_1/scoape-InSituMetChem_RV-POINT-SUR_20190509_R0_thru20190518.ict

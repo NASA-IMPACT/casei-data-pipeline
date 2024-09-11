@@ -74,4 +74,5 @@ module.exports = {
   downloadCampaign,
   downloadPlatform,
   downloadFile,
+  renameAsIct,
 };
