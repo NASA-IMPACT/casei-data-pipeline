@@ -1,0 +1,79 @@
+---
+deployments:
+- name: SUCCESS-D1_1996
+  platforms:
+  - name: ER-2
+    tsv_format: true
+    rename_as_ict: true
+    coords_divisor: 10000
+    files:
+    - https://espoarchive.nasa.gov/archive/download/NP19960402.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19960403.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19960408.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19960409.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19960413.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19960415.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19960416.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19960420.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19960421.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19960423.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19960426.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19960427.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19960502.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19960503.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19960504.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19960507.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19960508.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19960510.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19960512.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19960515.ER2
+  - name: DC-8
+    tsv_format: true
+    rename_as_ict: true
+    coords_divisor: 1000
+    files:
+    - https://espoarchive.nasa.gov/archive/download/FP19960413.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP19960415.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP19960416.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP19960418.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP19960420.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP19960421.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP19960424.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP19960427.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP19960429.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP19960430.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP19960502.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP19960503.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP19960504.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP19960507.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP19960508.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP19960510.DC8
+    - https://espoarchive.nasa.gov/archive/download/FP19960512.DC8
+  - name: Sabreliner
+    tsv_format: true
+    rename_as_ict: true
+    coords_divisor: 10000
+    files:
+    - https://espoarchive.nasa.gov/archive/download/NA19960415.T39
+    - https://espoarchive.nasa.gov/archive/download/NA19960416.T39
+    - https://espoarchive.nasa.gov/archive/download/NA19960418.T39
+    - https://espoarchive.nasa.gov/archive/download/NA19960423.T39
+    - https://espoarchive.nasa.gov/archive/download/NA19960424.T39
+    - https://espoarchive.nasa.gov/archive/download/NA19960426.T39
+    - https://espoarchive.nasa.gov/archive/download/NA19960427.T39
+    - https://espoarchive.nasa.gov/archive/download/NA19960429.T39
+    - https://espoarchive.nasa.gov/archive/download/NA19960430.T39
+    - https://espoarchive.nasa.gov/archive/download/NA19960503.T39
+    - https://espoarchive.nasa.gov/archive/download/NA19960504.T39
+    - https://espoarchive.nasa.gov/archive/download/NA19960507.T39
+    - https://espoarchive.nasa.gov/archive/download/NA19960507__L2.T39
+    - https://espoarchive.nasa.gov/archive/download/NA19960508.T39
+  - name: B-757
+    tsv_format: true
+    rename_as_ict: true
+    coords_divisor: 100000
+    files:
+    - https://espoarchive.nasa.gov/archive/download/AT19960430.B757
+    - https://espoarchive.nasa.gov/archive/download/AT19960503.B757
+    - https://espoarchive.nasa.gov/archive/download/AT19960504.B757
+    - https://espoarchive.nasa.gov/archive/download/AT19960507.B757

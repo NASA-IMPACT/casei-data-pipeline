@@ -1,0 +1,18 @@
+---
+deployments:
+- name: MidCiX-D1_2004
+  platforms:
+  - name: WB-57
+    tsv_format: true
+    rename_as_ict: true
+    coords_divisor: 1000
+    files:
+    - https://espoarchive.nasa.gov/archive/download/FP20040417.WB57
+    - https://espoarchive.nasa.gov/archive/download/FP20040419.WB57
+    - https://espoarchive.nasa.gov/archive/download/FP20040422.WB57
+    - https://espoarchive.nasa.gov/archive/download/FP20040427.WB57
+    - https://espoarchive.nasa.gov/archive/download/FP20040430.WB57
+    - https://espoarchive.nasa.gov/archive/download/FP20040502.WB57
+    - https://espoarchive.nasa.gov/archive/download/FP20040503.WB57
+    - https://espoarchive.nasa.gov/archive/download/FP20040505.WB57
+    - https://espoarchive.nasa.gov/archive/download/FP20040506.WB57

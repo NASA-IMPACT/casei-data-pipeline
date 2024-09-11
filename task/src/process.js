@@ -7,9 +7,10 @@ const simplify = require('simplify-geojson');
 const geojsonMerge = require('@mapbox/geojson-merge');
 const dist = require('@turf/distance');
 const splitGeoJSON = require('geojson-antimeridian-cut');
-const geoPrecision = require("geojson-precision");
+const geoPrecision = require('geojson-precision');
 
 const { getStats, tsv2csv, divideCoordinates } = require('./utils');
+const { formatHeaderRow } = require('./headers');
 
 /**
 * Read a directory structure and return the properties metadata that needs to be added to a GeoJSON
@@ -25,56 +26,34 @@ const getPropertiesFromPath = (dir) => {
 };
 
 /**
-* Reads an ICT file and creates a CSV file, containing only the relevant data.
-* @param {String} filePath - XML file path
+* Reads an ICT file and returns only the data rows.
+* @param {String} filename - XML file path
+* @param {Number} dataStartLineFix - sum or substract a value to/from the dataStartLine
+* value in the ict header
 */
-const splitICTFile = (filename, isTSVFormatted = false) => {
+const getDataContentFromICT = (filename, dataStartLineFix = 0) => {
   const file = fs.readFileSync(filename);
   let content = file.toString().split('\n');
   const dataStartLine = Number(content[0].split(/\s*,?\s*1001/g)[0]);
-  content = content.slice(dataStartLine - 1).join('\n');
+  content = content.slice(dataStartLine - 1 + dataStartLineFix).join('\n');
+  return content;
+};
+
+/**
+* Reads an ICT file and creates a CSV file, containing only the relevant data.
+* @param {String} filePath - XML file path
+* @param {Boolean} isTSVFormatted - whether the file is formatted as a TSV
+* @param {Number} dataStartLineFix - sum or substract a value to/from the dataStartLine
+* value in the ict header
+*/
+const splitICTFile = (filename, isTSVFormatted = false, dataStartLineFix = 0) => {
+  let content = getDataContentFromICT(filename, dataStartLineFix);
+
   if (isTSVFormatted) {
     content = tsv2csv(content);
   }
 
-  // some files have different column names for latitude and longitude
-  content = content
-    .replace(',Lat,', ',latitude,')
-    .replace(',Long,', ',longitude,')
-    .replace(',Lon,', ',longitude,')
-    .replace(', LAT,', ',latitude,')
-    .replace(', LONG,', ',longitude,')
-    .replace(',LONG,', ',longitude,')
-    .replace(',LAT,', ',latitude,')
-    .replace(',LON,', ',longitude,')
-    .replace(',FMS_LAT,', ',latitude,')
-    .replace(',FMS_LON,', ',longitude,')
-    .replace(',GGLAT,', ',latitude,')
-    .replace(',GGLON,', ',longitude,')
-    .replace(',GLAT,', ',latitude,')
-    .replace(',GLON,', ',longitude,')
-    .replace(',gLat,', ',latitude,')
-    .replace(',gLon,', ',longitude,')
-    .replace(', GPSLat,', ',latitude,')
-    .replace(', GPSLon,', ',longitude,')
-    .replace(', Gps_lat,', ',latitude,')
-    .replace(', Gps_lon,', ',longitude,')
-    .replace(', G_LAT,', ',latitude,')
-    .replace(', G_LONG,', ',longitude,')
-    .replace(', G_LAT_MMS,', ',latitude,')
-    .replace(', G_LONG_MMS,', ',longitude,')
-    .replace(', GPS_LAT_NP,', ',latitude,')
-    .replace(', GPS_LON_NP,', ',longitude,')
-    .replace(', FMS_LAT,', ',latitude,')
-    .replace(', FMS_LON,', ',longitude,')
-    .replace(',POS_Lat,', ',latitude,')
-    .replace(',POS_Lon,', ',longitude,')
-    .replace(', Latitude,', ',latitude,')
-    .replace(', Longitude,', ',longitude,')
-    .replace(', ship_log_interp_lat,', ',latitude,')
-    .replace(', ship_log_interp_lon,', ',longitude,');
-
-  const header = content.substr(0, content.indexOf('\n')).replaceAll(',,', ',');
+  const header = formatHeaderRow(content.substr(0, content.indexOf('\n')));
   content = `${header}${content.substr(content.indexOf('\n'))}`;
 
   const newFileName = filename.endsWith('.ict')

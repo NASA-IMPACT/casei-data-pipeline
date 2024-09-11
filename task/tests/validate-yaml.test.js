@@ -21,6 +21,7 @@ const structure = array(
         rename_as_ict: optional(boolean()),
         process_as_ict: optional(boolean()),
         coords_divisor: optional(number()),
+        data_start_line_fix: optional(number()),
         files: array(string()),
       })
     ),

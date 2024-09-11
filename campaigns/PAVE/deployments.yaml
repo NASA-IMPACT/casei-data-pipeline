@@ -1,0 +1,20 @@
+---
+deployments:
+- name: PAVE-D1_2005
+  platforms:
+  - name: DC-8
+    tsv_format: true
+    rename_as_ict: true
+    data_start_line_fix: -1
+    files:
+    - https://espoarchive.nasa.gov/archive/download/O320050114.DC8
+    - https://espoarchive.nasa.gov/archive/download/O320050118.DC8
+    - https://espoarchive.nasa.gov/archive/download/O320050120.DC8
+    - https://espoarchive.nasa.gov/archive/download/O320050124.DC8
+    - https://espoarchive.nasa.gov/archive/download/O320050127.DC8
+    - https://espoarchive.nasa.gov/archive/download/O320050129.DC8
+    - https://espoarchive.nasa.gov/archive/download/O320050131.DC8
+    - https://espoarchive.nasa.gov/archive/download/O320050203.DC8
+    - https://espoarchive.nasa.gov/archive/download/O320050205.DC8
+    - https://espoarchive.nasa.gov/archive/download/O320050207.DC8
+    - https://espoarchive.nasa.gov/archive/download/O320050209.DC8
