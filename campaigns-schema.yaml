@@ -18,19 +18,19 @@ deployments:
               required: true
               type: string
             tsv_format:
-              require: false
+              required: false
               type: boolean
             rename_as_ict:
-              require: false
+              required: false
               type: boolean
             process_as_ict:
-              require: false
+              required: false
               type: boolean
             coords_divisor:
-              require: false
+              required: false
               type: integer
             data_start_line_fix:
-              require: false
+              required: false
               type: integer
             files:
               required: true

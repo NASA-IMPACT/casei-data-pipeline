@@ -2,6 +2,37 @@ const fs = require('fs');
 const path = require('path');
 const { XMLParser } = require('fast-xml-parser');
 
+const LONGITUDE_COL_NAMES = [
+  'lon',
+  'long',
+  'fms_lon',
+  'g_long',
+  'g_long_mms',
+  'glon',
+  'gglon',
+  'gps_lon',
+  'gps_lon_np',
+  'gpslon',
+  'longitude_deg',
+  'pos_lon',
+  'ship_log_interp_lon',
+];
+
+const LATITUDE_COL_NAMES = [
+  'lat',
+  'fms_lat',
+  'g_lat',
+  'g_lat_mms',
+  'gglat',
+  'glat',
+  'gps_lat',
+  'gps_lat_np',
+  'gpslat',
+  'latitude_deg',
+  'pos_lat',
+  'ship_log_interp_lat',
+];
+
 /**
 * Read a XML file and get the headers information.
 * @param {String} filename - path to the XML file
@@ -41,6 +72,25 @@ const exportHeaders = (dir) => {
   }
 };
 
+/**
+* Some files have different column names for latitude and longitude,
+* this function replaces the possible names for latitude and longitude
+* @param {String} headerContent - Header row content
+*/
+const formatHeaderRow = (headerContent) => {
+  let header = headerContent.toLowerCase().replaceAll(' ', '');
+  LONGITUDE_COL_NAMES
+    .filter((name) => header.lastIndexOf(name) > 0)
+    .forEach((name) => header = header.replace(`,${name},`, ',longitude,'));
+  LATITUDE_COL_NAMES
+    .filter((name) => header.lastIndexOf(name) > 0)
+    .forEach((name) => header = header.replace(`,${name},`, ',latitude,'));
+  // some TSV formatted files have empty header columns after converting it to CSV
+  header.replaceAll(',,', ',');
+  return header;
+};
+
 module.exports = {
   exportHeaders,
+  formatHeaderRow,
 };
