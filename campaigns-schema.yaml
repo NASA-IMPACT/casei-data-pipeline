@@ -29,6 +29,9 @@ deployments:
             coords_divisor:
               require: false
               type: integer
+            data_start_line_fix:
+              require: false
+              type: integer
             files:
               required: true
               type: list

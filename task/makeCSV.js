@@ -17,11 +17,15 @@ const makeCSV = (platformPath) => {
 
   // process .ict files
   const ictFiles = findFiles(platformPath, '.ict');
-  ictFiles.forEach((f) => splitICTFile(f, platformConfig.tsv_format));
+  ictFiles.forEach(
+    (f) => splitICTFile(f, platformConfig.tsv_format, platformConfig.data_start_line_fix)
+  );
 
   // some platforms have txt files formatted as icartt
   if (platformConfig.process_as_ict) {
-    txtFiles.forEach((f) => splitICTFile(f, platformConfig.tsv_format));
+    txtFiles.forEach(
+      (f) => splitICTFile(f, platformConfig.tsv_format, platformConfig.data_start_line_fix)
+    );
   }
 };
 

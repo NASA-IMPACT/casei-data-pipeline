@@ -25,14 +25,29 @@ const getPropertiesFromPath = (dir) => {
 };
 
 /**
-* Reads an ICT file and creates a CSV file, containing only the relevant data.
-* @param {String} filePath - XML file path
+* Reads an ICT file and returns only the data rows.
+* @param {String} filename - XML file path
+* @param {Number} dataStartLineFix - sum or substract a value to/from the dataStartLine
+* value in the ict header
 */
-const splitICTFile = (filename, isTSVFormatted = false) => {
+const getDataContentFromICT = (filename, dataStartLineFix = 0) => {
   const file = fs.readFileSync(filename);
   let content = file.toString().split('\n');
   const dataStartLine = Number(content[0].split(/\s*,?\s*1001/g)[0]);
-  content = content.slice(dataStartLine - 1).join('\n');
+  content = content.slice(dataStartLine - 1 + dataStartLineFix).join('\n');
+  return content;
+};
+
+/**
+* Reads an ICT file and creates a CSV file, containing only the relevant data.
+* @param {String} filePath - XML file path
+* @param {Boolean} isTSVFormatted - whether the file is formatted as a TSV
+* @param {Number} dataStartLineFix - sum or substract a value to/from the dataStartLine
+* value in the ict header
+*/
+const splitICTFile = (filename, isTSVFormatted = false, dataStartLineFix = 0) => {
+  let content = getDataContentFromICT(filename, dataStartLineFix);
+
   if (isTSVFormatted) {
     content = tsv2csv(content);
   }
