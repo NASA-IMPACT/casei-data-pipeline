@@ -1,0 +1,37 @@
+---
+deployments:
+- name: AVE-D1_2004
+  platforms:
+  - name: WB-57
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://espoarchive.nasa.gov/archive/download/FT20041022.WB57
+    - https://espoarchive.nasa.gov/archive/download/FT20041026.WB57
+    - https://espoarchive.nasa.gov/archive/download/FT20041029.WB57
+    - https://espoarchive.nasa.gov/archive/download/FT20041031.WB57
+    - https://espoarchive.nasa.gov/archive/download/FT20041103.WB57
+    - https://espoarchive.nasa.gov/archive/download/FT20041105.WB57
+    - https://espoarchive.nasa.gov/archive/download/FT20041107.WB57
+    - https://espoarchive.nasa.gov/archive/download/FT20041109.WB57
+    - https://espoarchive.nasa.gov/archive/download/FT20041110.WB57
+    - https://espoarchive.nasa.gov/archive/download/FT20041112.WB57
+- name: AVE-D2_2005
+  platforms:
+  - name: WB-57
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://espoarchive.nasa.gov/archive/download/FT20050630.WB57	
+    - https://espoarchive.nasa.gov/archive/download/FT20050703.WB57
+    - https://espoarchive.nasa.gov/archive/download/FT20050705.WB57
+    - https://espoarchive.nasa.gov/archive/download/FT20050707.WB57
+    - https://espoarchive.nasa.gov/archive/download/FT20050609.WB57
+    - https://espoarchive.nasa.gov/archive/download/FT20050611.WB57
+    - https://espoarchive.nasa.gov/archive/download/FT20050613.WB57
+    - https://espoarchive.nasa.gov/archive/download/FT20050615.WB57
+    - https://espoarchive.nasa.gov/archive/download/FT20050617.WB57
+    - https://espoarchive.nasa.gov/archive/download/FT20050619.WB57
+    - https://espoarchive.nasa.gov/archive/download/FT20050621.WB57
+    - https://espoarchive.nasa.gov/archive/download/FT20050622.WB57
+    - https://espoarchive.nasa.gov/archive/download/FT20050624.WB57

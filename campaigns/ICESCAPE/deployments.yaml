@@ -1,0 +1,16 @@
+---
+deployments:
+- name: ICESCAPE-D1_2010
+  platforms:
+  - name: Healy
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://oceandata.sci.gsfc.nasa.gov/cmr/getfile/0551bc1751_ICESCAPE2010-HEALY1001_HPLC_16Oct2012.sb
+- name: ICESCAPE-D2_2011
+  platforms:
+  - name: Healy
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://oceandata.sci.gsfc.nasa.gov/getfile/99a21b356f_ICESCAPE2011-HEALY1101_HPLC_31Oct2012.sb
