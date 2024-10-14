@@ -1,0 +1,45 @@
+---
+deployments:
+- name: SPADE-D1_1992-Oct
+  platforms:
+  - name: ER-2
+    tsv_format: true
+    rename_as_ict: true
+    coords_divisor: 1000
+    files:
+    - https://espoarchive.nasa.gov/archive/download/NP19921013.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19921015.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19921027.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19921103.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19921109.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19921112.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19921116.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19921120.ER2
+- name: SPADE-D2_1993-Apr
+  platforms:
+  - name: ER-2
+    tsv_format: true
+    rename_as_ict: true
+    coords_divisor: 1000
+    files:
+    - https://espoarchive.nasa.gov/archive/download/NP19930419.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19930426.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19930430.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19930501.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19930503.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19930506.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19930507.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19930511.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19930512.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19930514.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19930518.ER2
+- name: SPADE-D3_1993-Oct
+  platforms:
+  - name: ER-2
+    tsv_format: true
+    rename_as_ict: true
+    coords_divisor: 1000
+    files:
+    - https://espoarchive.nasa.gov/archive/download/NP19931021.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19931022.ER2
+    - https://espoarchive.nasa.gov/archive/download/NP19931025.ER2

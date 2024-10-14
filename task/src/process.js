@@ -34,7 +34,14 @@ const getPropertiesFromPath = (dir) => {
 const getDataContentFromICT = (filename, dataStartLineFix = 0) => {
   const file = fs.readFileSync(filename);
   let content = file.toString().split('\n');
-  const dataStartLine = Number(content[0].split(/\s*,?\s*1001/g)[0]);
+  let dataStartLine;
+  // some campaigns have a different header identifier
+  if (content[0] === '/begin_header') {
+    dataStartLine = content.indexOf('/end_header');
+    const header = content[dataStartLine - 2].replace('/fields=', '');
+    return [header, ...content.slice(dataStartLine + 1)].join('\n');
+  }
+  dataStartLine = Number(content[0].split(/\s*,?\s*1001/g)[0]);
   content = content.slice(dataStartLine - 1 + dataStartLineFix).join('\n');
   return content;
 };
