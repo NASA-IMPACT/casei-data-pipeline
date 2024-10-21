@@ -1,0 +1,28 @@
+---
+deployments:
+- name: DEVOTE-D1_2011
+  platforms:
+  - name: B-200
+    files:
+    - https://asdc.larc.nasa.gov/data/DEVOTE/MetNav_AircraftInSitu_UC12_Data_1/DEVOTE-APPLANIX_UC12_20111025_R0_L2.ict
+    - https://asdc.larc.nasa.gov/data/DEVOTE/MetNav_AircraftInSitu_UC12_Data_1/DEVOTE-APPLANIX_UC12_20111025_R0_L1.ict
+    - https://asdc.larc.nasa.gov/data/DEVOTE/MetNav_AircraftInSitu_UC12_Data_1/DEVOTE-APPLANIX_UC12_20111024_R0_L1.ict
+    - https://asdc.larc.nasa.gov/data/DEVOTE/MetNav_AircraftInSitu_UC12_Data_1/DEVOTE-APPLANIX_UC12_20111023_R0_L1.ict
+    - https://asdc.larc.nasa.gov/data/DEVOTE/MetNav_AircraftInSitu_UC12_Data_1/DEVOTE-APPLANIX_UC12_20111021_R0_L1.ict
+    - https://asdc.larc.nasa.gov/data/DEVOTE/MetNav_AircraftInSitu_UC12_Data_1/DEVOTE-APPLANIX_UC12_20111018_R0_L1.ict
+    - https://asdc.larc.nasa.gov/data/DEVOTE/MetNav_AircraftInSitu_UC12_Data_1/DEVOTE-APPLANIX_UC12_20111009_R0_L1.ict
+    - https://asdc.larc.nasa.gov/data/DEVOTE/MetNav_AircraftInSitu_UC12_Data_1/DEVOTE-APPLANIX_UC12_20111008_R0_L2.ict
+    - https://asdc.larc.nasa.gov/data/DEVOTE/MetNav_AircraftInSitu_UC12_Data_1/DEVOTE-APPLANIX_UC12_20111008_R0_L1.ict
+    - https://asdc.larc.nasa.gov/data/DEVOTE/MetNav_AircraftInSitu_UC12_Data_1/DEVOTE-APPLANIX_UC12_20111004_R0_L1.ict
+    - https://asdc.larc.nasa.gov/data/DEVOTE/MetNav_AircraftInSitu_UC12_Data_1/DEVOTE-APPLANIX_UC12_20110930_R0_L1.ict
+    - https://asdc.larc.nasa.gov/data/DEVOTE/MetNav_AircraftInSitu_B200_Data_1/DEVOTE-IMU_BE200_20111025_R0_L2.ict
+    - https://asdc.larc.nasa.gov/data/DEVOTE/MetNav_AircraftInSitu_B200_Data_1/DEVOTE-IMU_BE200_20111025_R0_L1.ict
+    - https://asdc.larc.nasa.gov/data/DEVOTE/MetNav_AircraftInSitu_B200_Data_1/DEVOTE-IMU_BE200_20111024_R0.ict
+    - https://asdc.larc.nasa.gov/data/DEVOTE/MetNav_AircraftInSitu_B200_Data_1/DEVOTE-IMU_BE200_20111023_R0.ict
+    - https://asdc.larc.nasa.gov/data/DEVOTE/MetNav_AircraftInSitu_B200_Data_1/DEVOTE-IMU_BE200_20111021_R0.ict
+    - https://asdc.larc.nasa.gov/data/DEVOTE/MetNav_AircraftInSitu_B200_Data_1/DEVOTE-IMU_BE200_20111018_R0.ict
+    - https://asdc.larc.nasa.gov/data/DEVOTE/MetNav_AircraftInSitu_B200_Data_1/DEVOTE-IMU_BE200_20111009_R0_L2.ict
+    - https://asdc.larc.nasa.gov/data/DEVOTE/MetNav_AircraftInSitu_B200_Data_1/DEVOTE-IMU_BE200_20111009_R0_L1.ict
+    - https://asdc.larc.nasa.gov/data/DEVOTE/MetNav_AircraftInSitu_B200_Data_1/DEVOTE-IMU_BE200_20111008_R0.ict
+    - https://asdc.larc.nasa.gov/data/DEVOTE/MetNav_AircraftInSitu_B200_Data_1/DEVOTE-IMU_BE200_20111004_R0.ict
+    - https://asdc.larc.nasa.gov/data/DEVOTE/MetNav_AircraftInSitu_B200_Data_1/DEVOTE-IMU_BE200_20110930_R0.ict
