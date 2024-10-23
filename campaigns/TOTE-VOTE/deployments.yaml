@@ -1,0 +1,27 @@
+---
+deployments:
+- name: TOTE-VOTE-D1_1995
+  platforms:
+  - name: DC-8
+    coords_divisor: 1000
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://asdc.larc.nasa.gov/data/TOTE-VOTE/MetNav_AircraftInSitu_DC8_Data_1/1996/02/TOTE-VOTE-DF19960219.DC8
+    - https://asdc.larc.nasa.gov/data/TOTE-VOTE/MetNav_AircraftInSitu_DC8_Data_1/1996/02/TOTE-VOTE-DF19960217.DC8
+    - https://asdc.larc.nasa.gov/data/TOTE-VOTE/MetNav_AircraftInSitu_DC8_Data_1/1996/02/TOTE-VOTE-DF19960208.DC8
+    - https://asdc.larc.nasa.gov/data/TOTE-VOTE/MetNav_AircraftInSitu_DC8_Data_1/1996/02/TOTE-VOTE-DF19960204.DC8
+    - https://asdc.larc.nasa.gov/data/TOTE-VOTE/MetNav_AircraftInSitu_DC8_Data_1/1996/02/TOTE-VOTE-DF19960201.DC8
+    - https://asdc.larc.nasa.gov/data/TOTE-VOTE/MetNav_AircraftInSitu_DC8_Data_1/1996/01/TOTE-VOTE-DF19960130.DC8
+    - https://asdc.larc.nasa.gov/data/TOTE-VOTE/MetNav_AircraftInSitu_DC8_Data_1/1996/01/TOTE-VOTE-DF19960128.DC8
+    - https://asdc.larc.nasa.gov/data/TOTE-VOTE/MetNav_AircraftInSitu_DC8_Data_1/1996/01/TOTE-VOTE-DF19960124.DC8
+    - https://asdc.larc.nasa.gov/data/TOTE-VOTE/MetNav_AircraftInSitu_DC8_Data_1/1996/01/TOTE-VOTE-DF19960120.DC8
+    - https://asdc.larc.nasa.gov/data/TOTE-VOTE/MetNav_AircraftInSitu_DC8_Data_1/1995/12/TOTE-VOTE-DF19951222.DC8
+    - https://asdc.larc.nasa.gov/data/TOTE-VOTE/MetNav_AircraftInSitu_DC8_Data_1/1995/12/TOTE-VOTE-DF19951220.DC8
+    - https://asdc.larc.nasa.gov/data/TOTE-VOTE/MetNav_AircraftInSitu_DC8_Data_1/1995/12/TOTE-VOTE-DF19951218.DC8
+    - https://asdc.larc.nasa.gov/data/TOTE-VOTE/MetNav_AircraftInSitu_DC8_Data_1/1995/12/TOTE-VOTE-DF19951215.DC8
+    - https://asdc.larc.nasa.gov/data/TOTE-VOTE/MetNav_AircraftInSitu_DC8_Data_1/1995/12/TOTE-VOTE-DF19951213.DC8
+    - https://asdc.larc.nasa.gov/data/TOTE-VOTE/MetNav_AircraftInSitu_DC8_Data_1/1995/12/TOTE-VOTE-DF19951211.DC8
+    - https://asdc.larc.nasa.gov/data/TOTE-VOTE/MetNav_AircraftInSitu_DC8_Data_1/1995/12/TOTE-VOTE-DF19951209.DC8
+    - https://asdc.larc.nasa.gov/data/TOTE-VOTE/MetNav_AircraftInSitu_DC8_Data_1/1995/12/TOTE-VOTE-DF19951208.DC8
+    - https://asdc.larc.nasa.gov/data/TOTE-VOTE/MetNav_AircraftInSitu_DC8_Data_1/1995/12/TOTE-VOTE-DF19951206.DC8

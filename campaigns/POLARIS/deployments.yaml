@@ -1,0 +1,54 @@
+---
+deployments:
+- name: POLARIS-D1_1997-Apr
+  platforms:
+  - name: ER-2
+    coords_divisor: 1000
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/05/POLARIS-FP19970515.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/05/POLARIS-FP19970513.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/05/POLARIS-FP19970511.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/05/POLARIS-FP19970509.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/05/POLARIS-FP19970506.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/05/POLARIS-FP19970502.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/04/POLARIS-FP19970430.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/04/POLARIS-FP19970426.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/04/POLARIS-FP19970424.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/04/POLARIS-FP19970422.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/04/POLARIS-FP19970418.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/04/POLARIS-FP19970416.ER2
+- name: POLARIS-D2_1997-Jun
+  platforms:
+  - name: ER-2
+    coords_divisor: 1000
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/07/POLARIS-FP19970712.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/07/POLARIS-FP19970710.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/07/POLARIS-FP19970707.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/07/POLARIS-FP19970704.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/06/POLARIS-FP19970630.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/06/POLARIS-FP19970629.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/06/POLARIS-FP19970626.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/06/POLARIS-FP19970623.ER2
+- name: POLARIS-D3_1997-Sep
+  platforms:
+  - name: ER-2
+    coords_divisor: 1000
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/09/POLARIS-FP19970925.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/09/POLARIS-FP19970923.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/09/POLARIS-FP19970921.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/09/POLARIS-FP19970919.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/09/POLARIS-FP19970918.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/09/POLARIS-FP19970915.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/09/POLARIS-FP19970914.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/09/POLARIS-FP19970911.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/09/POLARIS-FP19970910.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/09/POLARIS-FP19970908.ER2
+    - https://asdc.larc.nasa.gov/data/POLARIS/MetNav_AircraftInSitu_ER2_Data_1/1997/09/POLARIS-FP19970902.ER2
