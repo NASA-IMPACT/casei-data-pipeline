@@ -1,0 +1,57 @@
+---
+deployments:
+- name: NAAMES-D1_2015
+  platforms:
+  - name: C-130
+    files:
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20151109_R3.ict
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20151112_R3.ict
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20151114_R3.ict
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20151117_R3.ict
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20151118_R3.ict
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20151123_R3.ict
+  - name: Atlantis
+    files:
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_ShipInSitu_Data_1/NAAMES-NAVWINDPMEL_ATLANTIS_20151106_R0.ict
+- name: NAAMES-D2_2016
+  platforms:
+  - name: C-130
+    files:
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20151109_R3.ict
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20151112_R3.ict
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20151114_R3.ict
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20151117_R3.ict
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20151118_R3.ict
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20151123_R3.ict
+  - name: Atlantis
+    files:
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_ShipInSitu_Data_1/NAAMES-PMEL-NAVWIND_ATLANTIS_20160511_R0.ict
+- name: NAAMES-D3_2017
+  platforms:
+  - name: C-130
+    files:
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20170920_R1.ict
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20170919_R1.ict
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20170917_R1.ict
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20170916_R1.ict
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20170912_R1.ict
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20170909_R1.ict
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20170908_R1.ict
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20170906_R1.ict
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20170904_R1.ict
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20170831_R1.ict
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20170828_R1.ict
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20170826_R1.ict
+  - name: Atlantis
+    files:
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_ShipInSitu_Data_1/NAAMES-PMEL-NAVWIND_ATLANTIS_20170830_R0.ict
+- name: NAAMES-D4_2018
+  platforms:
+  - name: C-130
+    files:
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20180324_R0_L2.ict
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20180324_R0_L1.ict
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_AircraftInSitu_Data_1/NAAMES-HSKPING_C130_20180318_R0.ict
+  - name: Atlantis
+    files:
+    - https://asdc.larc.nasa.gov/data/NAAMES/MetNav_ShipInSitu_Data_1/NAAMES-PMEL-NAVWIND_ATLANTIS_20180320_R0.ict
