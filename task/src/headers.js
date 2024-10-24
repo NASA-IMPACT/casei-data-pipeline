@@ -5,6 +5,7 @@ const { XMLParser } = require('fast-xml-parser');
 const LONGITUDE_COL_NAMES = [
   'lon',
   'long',
+  'longt',
   'fms_lon',
   'g_long',
   'g_long_mms',

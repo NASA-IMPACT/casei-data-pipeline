@@ -1,0 +1,90 @@
+---
+deployments:
+- name: ORACLES-D1_2016
+  platforms:
+  - name: P-3
+    files:
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20160802_R1.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20160805_R1.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20160824_R3.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20160825_R3.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20160827_R3.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20160830_R3.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20160831_R3.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20160902_R3.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20160904_R3.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20160906_R3.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20160908_R3.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20160910_R3.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20160912_R3.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20160914_R3.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20160918_R3.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20160920_R3.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20160924_R3.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20160925_R3.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20160927_R3.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20160929_R1.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20160930_R1.ict
+  - name: ER-2
+    files:
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_ER2_20160826_R1.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_ER2_20160910_R1.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_ER2_20160912_R1.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_ER2_20160914_R1.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_ER2_20160916_R1.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_ER2_20160918_R1.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_ER2_20160920_R1.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_ER2_20160922_R1.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_ER2_20160924_R0.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_ER2_20160925_R1.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_ER2_20160927_R1.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_ER2_20160929_R0.ict
+- name: ORACLES-D2_2017
+  platforms:
+  - name: P-3
+    files:
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20170716_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20170717_R1.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20170801_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20170802_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20170807_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20170809_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20170812_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20170813_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20170815_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20170817_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20170818_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20170819_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20170821_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20170824_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20170826_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20170828_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20170830_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20170831_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20170902_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20170903_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20170904_R2.ict
+- name: ORACLES-D3_2018
+  platforms:
+  - name: P-3
+    files:
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20180919_R1.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20180921_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20180922_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20180924_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20180927_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20180930_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20181002_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20181003_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20181005_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20181007_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20181010_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20181012_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20181015_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20181017_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20181019_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20181021_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20181023_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20181025_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20181026_R2.ict
+    - https://asdc.larc.nasa.gov/data/ORACLES/MetNav_AircraftInSitu_Data_1/ORACLES-HSKPING_P3_20181027_R2.ict
