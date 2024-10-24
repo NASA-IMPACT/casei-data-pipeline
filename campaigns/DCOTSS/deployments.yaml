@@ -1,0 +1,44 @@
+---
+deployments:
+- name: DCOTSS-D1_2021-May
+  platforms:
+  - name: ER-2
+    files:
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20210609_R0.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20210614_R0.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20210617_R0.ict
+- name: DCOTSS-D2_2021-Jul
+  platforms:
+  - name: ER-2
+    files:
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20210712_R0.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20210716_R0.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20210720_R0.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20210723_R0.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20210726_R0.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20210729_R0.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20210802_R0.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20210806_R0.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20210810_R0.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20210814_R0.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20210817_R0.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20210819_R0.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20210823_R0.ict
+- name: DCOTSS-D3_2022-Apr
+  platforms:
+  - name: ER-2
+    files:
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20220526_R1.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20220529_R1.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20220531_R1.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20220602_R0.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20220605_R0.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20220608_R0.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20220610_R0.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20220621_R0.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20220624_R0.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20220627_R0.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20220629_R0.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20220706_R0.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20220708_R0.ict
+    - https://asdc.larc.nasa.gov/data/DCOTSS/Aircraft-Data_1/DCOTSS-MetNav_ER2_20220711_R0.ict
