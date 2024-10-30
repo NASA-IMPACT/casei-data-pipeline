@@ -31,17 +31,21 @@ const getPropertiesFromPath = (dir) => {
 * @param {Number} dataStartLineFix - sum or substract a value to/from the dataStartLine
 * value in the ict header
 */
-const getDataContentFromICT = (filename, dataStartLineFix = 0) => {
+const getDataContentFromICT = (filename, dataStartLineFix = 0, replaceHeaderContent = '') => {
   const file = fs.readFileSync(filename);
   let content = file.toString().split('\n');
   let dataStartLine;
+  let header;
   // some campaigns have a different header identifier
   if (content[0] === '/begin_header') {
     dataStartLine = content.indexOf('/end_header');
-    const header = content[dataStartLine - 2].replace('/fields=', '');
+    header = content[dataStartLine - 2].replace('/fields=', '');
     return [header, ...content.slice(dataStartLine + 1)].join('\n');
   }
   dataStartLine = Number(content[0].split(/\s*,?\s*1001/g)[0]);
+  if (replaceHeaderContent) {
+    return [replaceHeaderContent, ...content.slice(dataStartLine - 1)].join('\n');
+  }
   content = content.slice(dataStartLine - 1 + dataStartLineFix).join('\n');
   return content;
 };
@@ -53,8 +57,13 @@ const getDataContentFromICT = (filename, dataStartLineFix = 0) => {
 * @param {Number} dataStartLineFix - sum or substract a value to/from the dataStartLine
 * value in the ict header
 */
-const splitICTFile = (filename, isTSVFormatted = false, dataStartLineFix = 0) => {
-  let content = getDataContentFromICT(filename, dataStartLineFix);
+const splitICTFile = (
+  filename,
+  isTSVFormatted = false,
+  dataStartLineFix = 0,
+  replaceHeaderContent = ''
+) => {
+  let content = getDataContentFromICT(filename, dataStartLineFix, replaceHeaderContent);
 
   if (isTSVFormatted) {
     content = tsv2csv(content);

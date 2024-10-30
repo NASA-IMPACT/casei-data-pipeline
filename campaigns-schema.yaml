@@ -8,6 +8,7 @@ deployments:
       name:
         required: true
         type: string
+        description: Deployment identifier
       platforms:
         required: true
         type: list
@@ -17,21 +18,33 @@ deployments:
             name:
               required: true
               type: string
+              description: Platform name
             tsv_format:
               required: false
               type: boolean
+              description: Whether the files are in TSV format
             rename_as_ict:
               required: false
-              type: boolean
+              description: Whether the files are ICARTT, but have another file extension. If true, they will be renamed to .ict after the download.
             process_as_ict:
               required: false
               type: boolean
+              description: Whether a .txt file should be processed as a .ict file.
             coords_divisor:
               required: false
               type: integer
+              description: It will divide the coordinates values by an integer number.
             data_start_line_fix:
               required: false
               type: integer
+              description: Some ICARTT files have a wrong data start line. This field value will be summed to the ICARTT start line to fix the error.
+            header_content:
+              required: false
+              type: string
+              description: Set a new value to the ICARTT header, as some files don't have a header.
             files:
               required: true
               type: list
+              items:
+                type: string
+                description: URL of the file
