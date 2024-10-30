@@ -1,0 +1,25 @@
+---
+deployments:
+- name: STEP-D2_1987
+  platforms:
+  - name: ER-2
+    coords_divisor: 1000
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://espoarchive.nasa.gov/archive/download/FP19870108.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870110.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870113.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870116.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870118.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870122.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870129.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870131.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870202.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870203.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870208.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870210.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870212.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870216.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870217.ER2
+    - https://espoarchive.nasa.gov/archive/download/FP19870219.ER2
