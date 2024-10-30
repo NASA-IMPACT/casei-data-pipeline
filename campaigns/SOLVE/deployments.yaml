@@ -1,0 +1,56 @@
+---
+deployments:
+- name: SOLVE-D1_1999
+  platforms:
+  - name: DC-8
+    coords_divisor: 1000
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_DC8_Data_1/1999/11/SOLVE-DG19991116.DC8
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_DC8_Data_1/1999/11/SOLVE-DG19991119.DC8
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_DC8_Data_1/1999/11/SOLVE-DG19991122.DC8
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_DC8_Data_1/1999/11/SOLVE-DG19991130.DC8
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_DC8_Data_1/1999/12/SOLVE-DG19991202.DC8
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_DC8_Data_1/1999/12/SOLVE-DG19991205.DC8
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_DC8_Data_1/1999/12/SOLVE-DG19991207.DC8
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_DC8_Data_1/1999/12/SOLVE-DG19991210.DC8
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_DC8_Data_1/1999/12/SOLVE-DG19991212.DC8
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_DC8_Data_1/1999/12/SOLVE-DG19991214.DC8
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_DC8_Data_1/1999/12/SOLVE-DG19991216.DC8
+  - name: ER-2
+    coords_divisor: 1000
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_ER2_Data_1/1999/12/SOLVE-FP19991211.ER2
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_ER2_Data_1/1999/12/SOLVE-FP19991215.ER2
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_ER2_Data_1/1999/12/SOLVE-FP19991216.ER2
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_ER2_Data_1/2000/01/SOLVE-FP20000106.ER2
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_ER2_Data_1/2000/01/SOLVE-FP20000109.ER2
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_ER2_Data_1/2000/01/SOLVE-FP20000111.ER2
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_ER2_Data_1/2000/01/SOLVE-FP20000114.ER2
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_ER2_Data_1/2000/01/SOLVE-FP20000120.ER2
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_ER2_Data_1/2000/01/SOLVE-FP20000123.ER2
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_ER2_Data_1/2000/01/SOLVE-FP20000127.ER2
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_ER2_Data_1/2000/01/SOLVE-FP20000131.ER2
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_ER2_Data_1/2000/02/SOLVE-FP20000202.ER2
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_ER2_Data_1/2000/02/SOLVE-FP20000203.ER2
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_ER2_Data_1/2000/02/SOLVE-FP20000226.ER2
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_ER2_Data_1/2000/03/SOLVE-FP20000305.ER2
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_ER2_Data_1/2000/03/SOLVE-FP20000307.ER2
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_ER2_Data_1/2000/03/SOLVE-FP20000311.ER2
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_ER2_Data_1/2000/03/SOLVE-FP20000312.ER2
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_ER2_Data_1/2000/03/SOLVE-FP20000316.ER2
+    - https://asdc.larc.nasa.gov/data/SOLVE/MetNav_AircraftInSitu_ER2_Data_1/2000/03/SOLVE-FP20000318.ER2
+- name: SOLVE-D2_2002
+  platforms:
+  - name: DC-8
+    coords_divisor: 10000
+    tsv_format: true
+    rename_as_ict: true
+    header_content: a,b,latitude,longitude,speed
+    files:
+    - https://asdc.larc.nasa.gov/data/SOLVE_II/MetNav_AircraftInSitu_DC8_Data_1/2002/12/SOLVE-ID20021213__FLT.DC8
+    - https://asdc.larc.nasa.gov/data/SOLVE_II/MetNav_AircraftInSitu_DC8_Data_1/2002/12/SOLVE-ID20021217__FLT.DC8
+    - https://asdc.larc.nasa.gov/data/SOLVE_II/MetNav_AircraftInSitu_DC8_Data_1/2002/12/SOLVE-ID20021219__FLT.DC8

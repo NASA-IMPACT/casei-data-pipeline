@@ -1,0 +1,25 @@
+---
+deployments:
+- name: SONEX-D1_1997
+  platforms:
+  - name: DC-8
+    coords_divisor: 1000
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://asdc.larc.nasa.gov/data/SONEX/MetNav_AircraftInSitu_DC8_Data_1/1997/10/SONEX-FP19971007.DC8
+    - https://asdc.larc.nasa.gov/data/SONEX/MetNav_AircraftInSitu_DC8_Data_1/1997/10/SONEX-FP19971009.DC8
+    - https://asdc.larc.nasa.gov/data/SONEX/MetNav_AircraftInSitu_DC8_Data_1/1997/10/SONEX-FP19971013.DC8
+    - https://asdc.larc.nasa.gov/data/SONEX/MetNav_AircraftInSitu_DC8_Data_1/1997/10/SONEX-FP19971015.DC8
+    - https://asdc.larc.nasa.gov/data/SONEX/MetNav_AircraftInSitu_DC8_Data_1/1997/10/SONEX-FP19971018.DC8
+    - https://asdc.larc.nasa.gov/data/SONEX/MetNav_AircraftInSitu_DC8_Data_1/1997/10/SONEX-FP19971020.DC8
+    - https://asdc.larc.nasa.gov/data/SONEX/MetNav_AircraftInSitu_DC8_Data_1/1997/10/SONEX-FP19971023.DC8
+    - https://asdc.larc.nasa.gov/data/SONEX/MetNav_AircraftInSitu_DC8_Data_1/1997/10/SONEX-FP19971025.DC8
+    - https://asdc.larc.nasa.gov/data/SONEX/MetNav_AircraftInSitu_DC8_Data_1/1997/10/SONEX-FP19971028.DC8
+    - https://asdc.larc.nasa.gov/data/SONEX/MetNav_AircraftInSitu_DC8_Data_1/1997/10/SONEX-FP19971029.DC8
+    - https://asdc.larc.nasa.gov/data/SONEX/MetNav_AircraftInSitu_DC8_Data_1/1997/10/SONEX-FP19971031.DC8
+    - https://asdc.larc.nasa.gov/data/SONEX/MetNav_AircraftInSitu_DC8_Data_1/1997/11/SONEX-FP19971103.DC8
+    - https://asdc.larc.nasa.gov/data/SONEX/MetNav_AircraftInSitu_DC8_Data_1/1997/11/SONEX-FP19971105.DC8
+    - https://asdc.larc.nasa.gov/data/SONEX/MetNav_AircraftInSitu_DC8_Data_1/1997/11/SONEX-FP19971109.DC8
+    - https://asdc.larc.nasa.gov/data/SONEX/MetNav_AircraftInSitu_DC8_Data_1/1997/11/SONEX-FP19971110.DC8
+    - https://asdc.larc.nasa.gov/data/SONEX/MetNav_AircraftInSitu_DC8_Data_1/1997/11/SONEX-FP19971112.DC8
