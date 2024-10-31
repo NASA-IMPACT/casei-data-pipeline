@@ -1,0 +1,96 @@
+---
+deployments:
+- name: STRAT-D1_1995-May
+  platforms:
+  - name: ER-2
+    coords_divisor: 10000
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1995/04/STRAT-NP19950427.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1995/05/STRAT-NP19950503.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1995/05/STRAT-NP19950508.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1995/05/STRAT-NP19950511.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1995/05/STRAT-NP19950512.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1995/05/STRAT-NP19950515.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1995/05/STRAT-NP19950516.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1995/05/STRAT-NP19950517.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1995/05/STRAT-NP19950518.ER2
+- name: STRAT-D2_1995-Oct
+  platforms:
+  - name: ER-2
+    coords_divisor: 10000
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1995/10/STRAT-NP19951017.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1995/10/STRAT-NP19951020.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1995/10/STRAT-NP19951024.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1995/10/STRAT-NP19951026.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1995/10/STRAT-NP19951031.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1995/11/STRAT-NP19951102.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1995/11/STRAT-NP19951105.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1995/11/STRAT-NP19951107.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1995/11/STRAT-NP19951109.ER2
+- name: STRAT-D3_1996-Jan
+  platforms:
+  - name: ER-2
+    coords_divisor: 10000
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/02/STRAT-NP19960201.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/02/STRAT-NP19960202.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/02/STRAT-NP19960205.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/02/STRAT-NP19960208.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/02/STRAT-NP19960212.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/02/STRAT-NP19960213.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/02/STRAT-NP19960215.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/01/STRAT-NP19960126.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/01/STRAT-NP19960129.ER2
+- name: STRAT-D4_1996-Jul
+  platforms:
+  - name: ER-2
+    coords_divisor: 10000
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/08/STRAT-NP19960801.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/08/STRAT-NP19960803.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/08/STRAT-NP19960805.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/08/STRAT-NP19960807.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/08/STRAT-NP19960808.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/08/STRAT-NP19960810.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/07/STRAT-NP19960712.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/07/STRAT-NP19960715.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/07/STRAT-NP19960718.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/07/STRAT-NP19960722.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/07/STRAT-NP19960725.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/07/STRAT-NP19960730.ER2
+- name: STRAT-D5-1996-Sep
+  platforms:
+  - name: ER-2
+    coords_divisor: 10000
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/09/STRAT-NP19960916.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/09/STRAT-NP19960918.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/09/STRAT-NP19960921.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/09/STRAT-NP19960923.ER2
+- name: STRAT-D6_1996-Dec
+  platforms:
+  - name: ER-2
+    coords_divisor: 10000
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/12/STRAT-NP19961204.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/12/STRAT-NP19961206.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/12/STRAT-NP19961208.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/12/STRAT-NP19961209.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/12/STRAT-NP19961211.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/12/STRAT-NP19961213.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/12/STRAT-NP19961216.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/12/STRAT-NP19961218.ER2
+    - https://asdc.larc.nasa.gov/data/STRAT/MetNav_AircraftInSitu_ER2_Data_1/1996/12/STRAT-NP19961219.ER2
