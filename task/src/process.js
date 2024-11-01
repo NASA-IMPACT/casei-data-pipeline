@@ -42,7 +42,7 @@ const getDataContentFromICT = (filename, dataStartLineFix = 0, replaceHeaderCont
     header = content[dataStartLine - 2].replace('/fields=', '');
     return [header, ...content.slice(dataStartLine + 1)].join('\n');
   }
-  dataStartLine = Number(content[0].split(/\s*,?\s*1001/g)[0]);
+  dataStartLine = Number(content[0].match(/[^,\s]+/)[0]);
   if (replaceHeaderContent) {
     return [replaceHeaderContent, ...content.slice(dataStartLine - 1)].join('\n');
   }
@@ -180,7 +180,12 @@ const makeGeoJSON = (
   let geojson;
   csv2geojson.csv2geojson(
     content,
-    { latfield: latField, lonfield: lonField, delimiter: ',' },
+    {
+      latfield: latField,
+      lonfield: lonField,
+      delimiter: ',',
+      numericFields: `${latField},${lonField}`,
+    },
     (err, data) => geojson = data
   );
   if (coordsDivisor) {

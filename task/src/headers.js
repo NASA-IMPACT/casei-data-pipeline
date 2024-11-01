@@ -12,12 +12,15 @@ const LONGITUDE_COL_NAMES = [
   'glon',
   'gglon',
   'gps_lon',
+  'gps_long',
   'gps_lon_np',
   'gpslon',
   'longitude_deg',
   'pos_lon',
   'ship_log_interp_lon',
+  'aimmslon',
   'longitude_er2',
+  'longitude_w',
 ];
 
 const LATITUDE_COL_NAMES = [
@@ -33,6 +36,7 @@ const LATITUDE_COL_NAMES = [
   'latitude_deg',
   'pos_lat',
   'ship_log_interp_lat',
+  'aimmlat',
   'latitude_er2',
 ];
 
@@ -89,7 +93,7 @@ const formatHeaderRow = (headerContent) => {
     .filter((name) => header.lastIndexOf(name) > 0)
     .forEach((name) => header = header.replace(`,${name},`, ',latitude,'));
   // some TSV formatted files have empty header columns after converting it to CSV
-  header.replaceAll(',,', ',');
+  header = header.replaceAll(',,', ',');
   return header;
 };
 

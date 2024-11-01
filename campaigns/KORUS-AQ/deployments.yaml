@@ -1,0 +1,68 @@
+---
+deployments:
+- name: KORUS-AQ-D1_2016
+  platforms:
+  - name: DC-8
+    files:
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160421_R1.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160426_R2_L1.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160426_R2_L2.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160501_R4.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160503_R4.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160504_R4.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160506_R4.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160510_R4.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160511_R4.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160512_R4.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160516_R4.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160517_R4.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160519_R4.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160521_R4.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160524_R4.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160526_R4.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160529_R4.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160530_R4.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160601_R4.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160602_R4.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160604_R4.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160608_R4.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160609_R4.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160614_R1_L1.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160614_R1_L2.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160617_R0.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_DC8_Data_1/KORUSAQ-HSKPING_DC8_20160618_R0.ict
+  - name: B-200
+    files:
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160609_R0_20160609KST.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160608_R0.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160605_R0.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160604_R0.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160602_R0_20160602KST.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160601_R0_20160602KST.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160601_R0_20160601KST.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160530_R0.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160529_R0.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160528_R0.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160525_R0.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160524_R0.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160521_R0.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160520_R0.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160519_R0.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160518_R0.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160517_R0.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160516_R0.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160512_R0.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160510_R0.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160507_R0.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160506_R0.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160504_R0_L2.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160504_R0_L1.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160503_R0.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160502_R0.ict
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/MetNav_AircraftInSitu_B200_Data_1/KORUSAQ-NAV_B200_20160501_R0.ict
+  - name: JangMok
+    files:
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/RVJangMokShip_Data_1/KORUSAQ-TRACE-GASES_SHIP-JANG-MOK_20160520_R2_THRU_20160605.ict
+  - name: Onnuri
+    files:
+    - https://asdc.larc.nasa.gov/data/KORUS-AQ/RVOnnuriShip_Data_1/KORUSAQ-MICROTOPSAEROSOLSJORDAN_SHIP-ONNURI_20160520_R1_THRU20160601.ict
