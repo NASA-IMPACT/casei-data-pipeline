@@ -1,0 +1,164 @@
+---
+deployments:
+- name: INTEX-NA-D1_2004
+  platforms:
+  - name: DC-8
+    tsv_format: true
+    files:
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_DC8_AIRCRAFT/nav/2004/06/INTEXA_nav_dc8_20040626_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_DC8_AIRCRAFT/nav/2004/06/INTEXA_nav_dc8_20040629_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_DC8_AIRCRAFT/nav/2004/07/INTEXA_nav_dc8_20040701_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_DC8_AIRCRAFT/nav/2004/07/INTEXA_nav_dc8_20040706_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_DC8_AIRCRAFT/nav/2004/07/INTEXA_nav_dc8_20040708_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_DC8_AIRCRAFT/nav/2004/07/INTEXA_nav_dc8_20040710_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_DC8_AIRCRAFT/nav/2004/07/INTEXA_nav_dc8_20040712_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_DC8_AIRCRAFT/nav/2004/07/INTEXA_nav_dc8_20040715_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_DC8_AIRCRAFT/nav/2004/07/INTEXA_nav_dc8_20040718_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_DC8_AIRCRAFT/nav/2004/07/INTEXA_nav_dc8_20040720_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_DC8_AIRCRAFT/nav/2004/07/INTEXA_nav_dc8_20040722_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_DC8_AIRCRAFT/nav/2004/07/INTEXA_nav_dc8_20040725_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_DC8_AIRCRAFT/nav/2004/07/INTEXA_nav_dc8_20040728_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_DC8_AIRCRAFT/nav/2004/07/INTEXA_nav_dc8_20040731_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_DC8_AIRCRAFT/nav/2004/08/INTEXA_nav_dc8_20040802_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_DC8_AIRCRAFT/nav/2004/08/INTEXA_nav_dc8_20040806_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_DC8_AIRCRAFT/nav/2004/08/INTEXA_nav_dc8_20040807_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_DC8_AIRCRAFT/nav/2004/08/INTEXA_nav_dc8_20040811_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_DC8_AIRCRAFT/nav/2004/08/INTEXA_nav_dc8_20040813_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_DC8_AIRCRAFT/nav/2004/08/INTEXA_nav_dc8_20040814_r0.zip
+  - name: J-31
+    tsv_format: true
+    files:
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_J31_AIRCRAFT/AATS14/2004/07/INTEXA_AATS14_J31_20040712_R2.ict
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_J31_AIRCRAFT/AATS14/2004/07/INTEXA_AATS14_J31_20040715_R2.ict
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_J31_AIRCRAFT/AATS14/2004/07/INTEXA_AATS14_J31_20040716_R2.ict
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_J31_AIRCRAFT/AATS14/2004/07/INTEXA_AATS14_J31_20040717_R2.ict
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_J31_AIRCRAFT/AATS14/2004/07/INTEXA_AATS14_J31_20040720_R2.ict
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_J31_AIRCRAFT/AATS14/2004/07/INTEXA_AATS14_J31_20040721_R2.ict
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_J31_AIRCRAFT/AATS14/2004/07/INTEXA_AATS14_J31_20040722_R2.ict
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_J31_AIRCRAFT/AATS14/2004/07/INTEXA_AATS14_J31_20040723_R2.ict
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_J31_AIRCRAFT/AATS14/2004/07/INTEXA_AATS14_J31_20040726_R2.ict
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_J31_AIRCRAFT/AATS14/2004/07/INTEXA_AATS14_J31_20040729_R2_L1.ict
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_J31_AIRCRAFT/AATS14/2004/07/INTEXA_AATS14_J31_20040729_R2_L2.ict
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_J31_AIRCRAFT/AATS14/2004/07/INTEXA_AATS14_J31_20040731_R2.ict
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_J31_AIRCRAFT/AATS14/2004/08/INTEXA_AATS14_J31_20040802_R2_L1.ict
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_J31_AIRCRAFT/AATS14/2004/08/INTEXA_AATS14_J31_20040802_R2_L2.ict
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_J31_AIRCRAFT/AATS14/2004/08/INTEXA_AATS14_J31_20040803_R2.ict
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_J31_AIRCRAFT/AATS14/2004/08/INTEXA_AATS14_J31_20040807_R2_L1.ict
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_J31_AIRCRAFT/AATS14/2004/08/INTEXA_AATS14_J31_20040807_R2_L2.ict
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_J31_AIRCRAFT/AATS14/2004/08/INTEXA_AATS14_J31_20040808_R2_L1.ict
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_J31_AIRCRAFT/AATS14/2004/08/INTEXA_AATS14_J31_20040808_R2_L2.ict
+  - name: Proteus
+    tsv_format: true
+    files:
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_PROTEUS_AIRCRAFT/nav/2004/19/INTEXA_nav_proteus_20040719_R0.ict
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_PROTEUS_AIRCRAFT/nav/2004/21/INTEXA_nav_proteus_20040721_R0.ict
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_PROTEUS_AIRCRAFT/nav/2004/22/INTEXA_nav_proteus_20040722_R0.ict
+    - https://asdc.larc.nasa.gov/data/INTEXA/INTEXA_PROTEUS_AIRCRAFT/nav/2004/25/INTEXA_nav_proteus_20040725_R0.ict
+- name: INTEX-NA-D2_2006
+  platforms:
+  - name: DC-8
+    tsv_format: true
+    files:
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_DC8_AIRCRAFT/2006/05/INTEXB_nav_dc8_20060501_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_DC8_AIRCRAFT/2006/05/INTEXB_nav_dc8_20060504_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_DC8_AIRCRAFT/2006/05/INTEXB_nav_dc8_20060507_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_DC8_AIRCRAFT/2006/05/INTEXB_nav_dc8_20060509_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_DC8_AIRCRAFT/2006/05/INTEXB_nav_dc8_20060512_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_DC8_AIRCRAFT/2006/05/INTEXB_nav_dc8_20060515_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_DC8_AIRCRAFT/2006/02/INTEXB_nav_dc8_20060222_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_DC8_AIRCRAFT/2006/02/INTEXB_nav_dc8_20060224_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_DC8_AIRCRAFT/2006/03/INTEXB_nav_dc8_20060304_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_DC8_AIRCRAFT/2006/03/INTEXB_nav_dc8_20060309_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_DC8_AIRCRAFT/2006/03/INTEXB_nav_dc8_20060311_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_DC8_AIRCRAFT/2006/03/INTEXB_nav_dc8_20060312_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_DC8_AIRCRAFT/2006/03/INTEXB_nav_dc8_20060316_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_DC8_AIRCRAFT/2006/03/INTEXB_nav_dc8_20060319_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_DC8_AIRCRAFT/2006/03/INTEXB_nav_dc8_20060322_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_DC8_AIRCRAFT/2006/04/INTEXB_nav_dc8_20060417_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_DC8_AIRCRAFT/2006/04/INTEXB_nav_dc8_20060423_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_DC8_AIRCRAFT/2006/04/INTEXB_nav_dc8_20060425_r0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_DC8_AIRCRAFT/2006/04/INTEXB_nav_dc8_20060428_r0.zip
+  - name: C-130
+    tsv_format: true
+    files:
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/02/INTEXB_nav_c130_20060228_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/03/INTEXB_nav_c130_20060304_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/03/INTEXB_nav_c130_20060308_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/03/INTEXB_nav_c130_20060310_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/03/INTEXB_nav_c130_20060312_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/03/INTEXB_nav_c130_20060316_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/03/INTEXB_nav_c130_20060318_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/03/INTEXB_nav_c130_20060319_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/03/INTEXB_nav_c130_20060322_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/03/INTEXB_nav_c130_20060323_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/03/INTEXB_nav_c130_20060326_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/03/INTEXB_nav_c130_20060328_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/03/INTEXB_nav_c130_20060329_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/03/INTEXB_nav_c130_20060331_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/04/INTEXB_nav_c130_20060417_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/04/INTEXB_nav_c130_20060421_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/04/INTEXB_nav_c130_20060424_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/04/INTEXB_nav_c130_20060426_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/04/INTEXB_nav_c130_20060428_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/05/INTEXB_nav_c130_20060501_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/05/INTEXB_nav_c130_20060503_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/05/INTEXB_nav_c130_20060505_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/05/INTEXB_nav_c130_20060508_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/05/INTEXB_nav_c130_20060509_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/05/INTEXB_nav_c130_20060511_r1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_C130_AIRCRAFT/2006/05/INTEXB_nav_c130_20060515_r1.zip
+  - name: J-31
+    tsv_format: true
+    files:
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_J31_AIRCRAFT/2006/03/INTEXB_POSAV_J31_20060303_R0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_J31_AIRCRAFT/2006/03/INTEXB_POSAV_J31_20060305_R0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_J31_AIRCRAFT/2006/03/INTEXB_POSAV_J31_20060306_R0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_J31_AIRCRAFT/2006/03/INTEXB_POSAV_J31_20060310_R0_L1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_J31_AIRCRAFT/2006/03/INTEXB_POSAV_J31_20060310_R0_L2.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_J31_AIRCRAFT/2006/03/INTEXB_POSAV_J31_20060311_R0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_J31_AIRCRAFT/2006/03/INTEXB_POSAV_J31_20060312_R0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_J31_AIRCRAFT/2006/03/INTEXB_POSAV_J31_20060313_R0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_J31_AIRCRAFT/2006/03/INTEXB_POSAV_J31_20060315_R0_V1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_J31_AIRCRAFT/2006/03/INTEXB_POSAV_J31_20060315_R0_V2.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_J31_AIRCRAFT/2006/03/INTEXB_POSAV_J31_20060317_R0_V1.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_J31_AIRCRAFT/2006/03/INTEXB_POSAV_J31_20060317_R0_V2.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_J31_AIRCRAFT/2006/03/INTEXB_POSAV_J31_20060318_R0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_J31_AIRCRAFT/2006/03/INTEXB_POSAV_J31_20060319_R0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_J31_AIRCRAFT/2006/03/INTEXB_POSAV_J31_20060320_R0.zip
+  - name: Cessna 207
+    tsv_format: true
+    files:
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Cessna_AIRCRAFT/2006/04/INTEXB_NavMet_Cessna_20060423_R0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Cessna_AIRCRAFT/2006/04/INTEXB_NavMet_Cessna_20060424_R0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Cessna_AIRCRAFT/2006/04/INTEXB_NavMet_Cessna_20060425_R0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Cessna_AIRCRAFT/2006/04/INTEXB_NavMet_Cessna_20060426_R0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Cessna_AIRCRAFT/2006/04/INTEXB_NavMet_Cessna_20060428_R0.zip
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Cessna_AIRCRAFT/2006/04/INTEXB_NavMet_Cessna_20060430_R0.zip
+  - name: B-200
+    tsv_format: true
+    files:
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Be200_AIRCRAFT/2006/03/INTEXB_HSRL-WVD_BE200_20060301_R1_L1.ict
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Be200_AIRCRAFT/2006/03/INTEXB_HSRL-WVD_BE200_20060301_R1_L2.ict
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Be200_AIRCRAFT/2006/03/INTEXB_HSRL-WVD_BE200_20060302_R1.ict
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Be200_AIRCRAFT/2006/03/INTEXB_HSRL-WVD_BE200_20060303_R1.ict
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Be200_AIRCRAFT/2006/03/INTEXB_HSRL-WVD_BE200_20060306_R1.ict
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Be200_AIRCRAFT/2006/03/INTEXB_HSRL-WVD_BE200_20060307_R1.ict
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Be200_AIRCRAFT/2006/03/INTEXB_HSRL-WVD_BE200_20060308_R1.ict
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Be200_AIRCRAFT/2006/03/INTEXB_HSRL-WVD_BE200_20060309_R1_L1.ict
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Be200_AIRCRAFT/2006/03/INTEXB_HSRL-WVD_BE200_20060309_R1_L2.ict
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Be200_AIRCRAFT/2006/03/INTEXB_HSRL-WVD_BE200_20060310_R1.ict
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Be200_AIRCRAFT/2006/03/INTEXB_HSRL-WVD_BE200_20060312_R1.ict
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Be200_AIRCRAFT/2006/03/INTEXB_HSRL-WVD_BE200_20060313_R1.ict
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Be200_AIRCRAFT/2006/03/INTEXB_HSRL-WVD_BE200_20060315_R1.ict
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Be200_AIRCRAFT/2006/03/INTEXB_HSRL-WVD_BE200_20060325_R1.ict
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Be200_AIRCRAFT/2006/03/INTEXB_HSRL-WVD_BE200_20060327_R1.ict
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Be200_AIRCRAFT/2006/03/INTEXB_HSRL-WVD_BE200_20060328_R1.ict
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Be200_AIRCRAFT/2006/03/INTEXB_HSRL-WVD_BE200_20060329_R1_L1.ict
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Be200_AIRCRAFT/2006/03/INTEXB_HSRL-WVD_BE200_20060329_R1_L2.ict
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Be200_AIRCRAFT/2006/03/INTEXB_HSRL-WVD_BE200_20060331_R1_L1.ict
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Be200_AIRCRAFT/2006/03/INTEXB_HSRL-WVD_BE200_20060331_R1_L2.ict
+  - name: Beechcraft Duchess
+    tsv_format: true
+    header_content: "start_utcdoy,end_utcdoy,mid_utcdoy,p_mb,t_c,rh_%,o3_ppbv,scat_m^-1,co_ppbv,hg0_ngm^-3,gps_altitude,longitude,latitude"
+    files:
+    - https://asdc.larc.nasa.gov/data/INTEXB/INTEXB_Duchess_AIRCRAFT/DUCHESS_AIRCRAFT/2006/04/INTEXB_UWB_Duchess_20060412_R1.ict
