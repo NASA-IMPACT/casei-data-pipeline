@@ -1,0 +1,123 @@
+---
+deployments:
+- name: ABLE-D2_1985
+  platforms:
+  - name: Electra
+    rename_as_ict: true
+    header_content: "day,time,altitude,latitude,longitude,bearing"
+    files:
+    - https://www-air.larc.nasa.gov/pub/ABLE2A/AIRCRAFT/PROJECT.LARC/po_10e02.a2a
+    - https://www-air.larc.nasa.gov/pub/ABLE2A/AIRCRAFT/PROJECT.LARC/po_10e03.a2a
+    - https://www-air.larc.nasa.gov/pub/ABLE2A/AIRCRAFT/PROJECT.LARC/po_10e04.a2a
+    - https://www-air.larc.nasa.gov/pub/ABLE2A/AIRCRAFT/PROJECT.LARC/po_10e05.a2a
+    - https://www-air.larc.nasa.gov/pub/ABLE2A/AIRCRAFT/PROJECT.LARC/po_10e06.a2a
+    - https://www-air.larc.nasa.gov/pub/ABLE2A/AIRCRAFT/PROJECT.LARC/po_10e07.a2a
+    - https://www-air.larc.nasa.gov/pub/ABLE2A/AIRCRAFT/PROJECT.LARC/po_10e08.a2a
+    - https://www-air.larc.nasa.gov/pub/ABLE2A/AIRCRAFT/PROJECT.LARC/po_10e09.a2a
+    - https://www-air.larc.nasa.gov/pub/ABLE2A/AIRCRAFT/PROJECT.LARC/po_10e10.a2a
+    - https://www-air.larc.nasa.gov/pub/ABLE2A/AIRCRAFT/PROJECT.LARC/po_10e11.a2a
+    - https://www-air.larc.nasa.gov/pub/ABLE2A/AIRCRAFT/PROJECT.LARC/po_10e12.a2a
+    - https://www-air.larc.nasa.gov/pub/ABLE2A/AIRCRAFT/PROJECT.LARC/po_10e13.a2a
+    - https://www-air.larc.nasa.gov/pub/ABLE2A/AIRCRAFT/PROJECT.LARC/po_10e15.a2a
+    - https://www-air.larc.nasa.gov/pub/ABLE2A/AIRCRAFT/PROJECT.LARC/po_10e17.a2a
+    - https://www-air.larc.nasa.gov/pub/ABLE2A/AIRCRAFT/PROJECT.LARC/po_10e18.a2a
+    - https://www-air.larc.nasa.gov/pub/ABLE2A/AIRCRAFT/PROJECT.LARC/po_10e19.a2a
+    - https://www-air.larc.nasa.gov/pub/ABLE2A/AIRCRAFT/PROJECT.LARC/poa10e14.a2a
+    - https://www-air.larc.nasa.gov/pub/ABLE2A/AIRCRAFT/PROJECT.LARC/pob10e14.a2a
+- name: ABLE-D3_1987
+  platforms:
+  - name: Electra
+    rename_as_ict: true
+    header_content: "day,time,latitude,longitude,speed"
+    files:
+    - https://www-air.larc.nasa.gov/pub/ABLE2B/AIRCRAFT/PROJECT.LARC/pomete01.a2b
+    - https://www-air.larc.nasa.gov/pub/ABLE2B/AIRCRAFT/PROJECT.LARC/pomete02.a2b
+    - https://www-air.larc.nasa.gov/pub/ABLE2B/AIRCRAFT/PROJECT.LARC/pomete03.a2b
+    - https://www-air.larc.nasa.gov/pub/ABLE2B/AIRCRAFT/PROJECT.LARC/pomete04.a2b
+    - https://www-air.larc.nasa.gov/pub/ABLE2B/AIRCRAFT/PROJECT.LARC/pomete05.a2b
+    - https://www-air.larc.nasa.gov/pub/ABLE2B/AIRCRAFT/PROJECT.LARC/pomete06.a2b
+    - https://www-air.larc.nasa.gov/pub/ABLE2B/AIRCRAFT/PROJECT.LARC/pomete07.a2b
+    - https://www-air.larc.nasa.gov/pub/ABLE2B/AIRCRAFT/PROJECT.LARC/pomete08.a2b
+    - https://www-air.larc.nasa.gov/pub/ABLE2B/AIRCRAFT/PROJECT.LARC/pomete09.a2b
+    - https://www-air.larc.nasa.gov/pub/ABLE2B/AIRCRAFT/PROJECT.LARC/pomete10.a2b
+    - https://www-air.larc.nasa.gov/pub/ABLE2B/AIRCRAFT/PROJECT.LARC/pomete11.a2b
+    - https://www-air.larc.nasa.gov/pub/ABLE2B/AIRCRAFT/PROJECT.LARC/pomete12.a2b
+    - https://www-air.larc.nasa.gov/pub/ABLE2B/AIRCRAFT/PROJECT.LARC/pomete13.a2b
+    - https://www-air.larc.nasa.gov/pub/ABLE2B/AIRCRAFT/PROJECT.LARC/pomete14.a2b
+    - https://www-air.larc.nasa.gov/pub/ABLE2B/AIRCRAFT/PROJECT.LARC/pomete15.a2b
+    - https://www-air.larc.nasa.gov/pub/ABLE2B/AIRCRAFT/PROJECT.LARC/pomete16.a2b
+    - https://www-air.larc.nasa.gov/pub/ABLE2B/AIRCRAFT/PROJECT.LARC/pomete17.a2b
+    - https://www-air.larc.nasa.gov/pub/ABLE2B/AIRCRAFT/PROJECT.LARC/pomete18.a2b
+    - https://www-air.larc.nasa.gov/pub/ABLE2B/AIRCRAFT/PROJECT.LARC/pomete19.a2b
+    - https://www-air.larc.nasa.gov/pub/ABLE2B/AIRCRAFT/PROJECT.LARC/pomete20.a2b
+    - https://www-air.larc.nasa.gov/pub/ABLE2B/AIRCRAFT/PROJECT.LARC/pomete21.a2b
+    - https://www-air.larc.nasa.gov/pub/ABLE2B/AIRCRAFT/PROJECT.LARC/pomete22.a2b
+    - https://www-air.larc.nasa.gov/pub/ABLE2B/AIRCRAFT/PROJECT.LARC/pomete23.a2b
+    - https://www-air.larc.nasa.gov/pub/ABLE2B/AIRCRAFT/PROJECT.LARC/pomete24.a2b
+- name: ABLE-D4_1988
+  platforms:
+  - name: Electra
+    rename_as_ict: true
+    header_content: "day,time,BaroAlt,statp,diffp,latitude,longitude,speed"
+    files:
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d01.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d02.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d03.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d04.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d05.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d06.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d07.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d08.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d09.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d10.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d11.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d12.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d13.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d14.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d15.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d16.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d17.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d18.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d19.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d20.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d21.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d22.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d23.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d24.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d25.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d26.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d27.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d28.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d29.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d30.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d31.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d32.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3A/AIRCRAFT/PROJECT.LARC/po101d33.asc
+- name: ABLE-D5_1990
+  platforms:
+  - name: Electra
+    rename_as_ict: true
+    header_content: "day,time,latitude,longitude,speed"
+    files:
+    - https://www-air.larc.nasa.gov/pub/ABLE3B/AIRCRAFT/PROJECT.LRC/po101e01.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3B/AIRCRAFT/PROJECT.LRC/po101e02.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3B/AIRCRAFT/PROJECT.LRC/po101e03.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3B/AIRCRAFT/PROJECT.LRC/po101e04.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3B/AIRCRAFT/PROJECT.LRC/po101e05.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3B/AIRCRAFT/PROJECT.LRC/po101e06.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3B/AIRCRAFT/PROJECT.LRC/po101e07.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3B/AIRCRAFT/PROJECT.LRC/po101e08.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3B/AIRCRAFT/PROJECT.LRC/po101e09.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3B/AIRCRAFT/PROJECT.LRC/po101e10.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3B/AIRCRAFT/PROJECT.LRC/po101e11.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3B/AIRCRAFT/PROJECT.LRC/po101e12.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3B/AIRCRAFT/PROJECT.LRC/po101e13.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3B/AIRCRAFT/PROJECT.LRC/po101e14.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3B/AIRCRAFT/PROJECT.LRC/po101e15.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3B/AIRCRAFT/PROJECT.LRC/po101e16.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3B/AIRCRAFT/PROJECT.LRC/po101e17.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3B/AIRCRAFT/PROJECT.LRC/po101e18.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3B/AIRCRAFT/PROJECT.LRC/po101e19.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3B/AIRCRAFT/PROJECT.LRC/po101e20.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3B/AIRCRAFT/PROJECT.LRC/po101e21.asc
+    - https://www-air.larc.nasa.gov/pub/ABLE3B/AIRCRAFT/PROJECT.LRC/po101e22.asc
