@@ -1,0 +1,12 @@
+---
+deployments:
+- name: CARAFE-D1_2016
+  platforms:
+  - name: C-23 Sherpa
+    files:
+    - https://www-air.larc.nasa.gov/img/tmp/WWW-AIR_1730865968791.zip
+- name: CARAFE-D2_2017
+  platforms:
+  - name: C-23 Sherpa
+    files:
+    - https://www-air.larc.nasa.gov/img/tmp/WWW-AIR_1730865929216.zip
