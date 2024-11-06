@@ -4,7 +4,7 @@ const fs = require('fs');
 const { findDirectories, findFiles } = require('./src/find');
 const { exportHeaders } = require('./src/headers');
 const { makeCSV } = require('./makeCSV');
-const { convertAll } = require('./convertAll');
+const { makePlatformGeoJSON } = require('./processPlatform');
 const { convert } = require('./convert');
 const { mergeGeoJSONCollection } = require('./src/process');
 
@@ -14,7 +14,7 @@ const platforms = findDirectories(campaignPath, 2);
 platforms.forEach((p) => {
   exportHeaders(p);
   makeCSV(p);
-  convertAll(p);
+  makePlatformGeoJSON(p);
 });
 
 // convert the static CSV file to GeoJSON

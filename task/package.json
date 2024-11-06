@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "@mapbox/geojson-merge": "^1.1.1",
+    "@tmcw/togeojson": "^5.8.1",
     "@turf/distance": "^6.5.0",
-    "adm-zip": "^0.5.12",
     "csv2geojson": "^5.1.2",
     "d3-dsv": "1.0.1",
     "download": "8.0.0",
@@ -24,8 +24,10 @@
     "simplify-geojson": "^1.0.5",
     "slugify": "^1.6.6",
     "superstruct": "^1.0.4",
+    "unzipper": "^0.12.3",
     "xlsx": "^0.18.5",
     "xml2js": "^0.6.2",
+    "xmldom": "^0.6.0",
     "yaml": "2.3.4"
   },
   "devDependencies": {

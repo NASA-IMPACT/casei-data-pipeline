@@ -1,0 +1,25 @@
+---
+deployments:
+- name: AfriSAR-D1_2016
+  platforms:
+  - name: B-200
+    files:
+    - https://lvis.gsfc.nasa.gov/images/kmz/traj57438_LVIS.kmz
+    - https://lvis.gsfc.nasa.gov/images/kmz/traj57440_LVIS.kmz
+    - https://lvis.gsfc.nasa.gov/images/kmz/traj57441_LVIS.kmz
+    - https://lvis.gsfc.nasa.gov/images/kmz/traj57443_LVIS.kmz
+    - https://lvis.gsfc.nasa.gov/images/kmz/traj57449_LVIS.kmz
+    - https://lvis.gsfc.nasa.gov/images/kmz/traj57450_LVIS.kmz
+    - https://lvis.gsfc.nasa.gov/images/kmz/traj57451_LVIS.kmz
+    - https://lvis.gsfc.nasa.gov/images/kmz/traj57454_LVIS.kmz
+    - https://lvis.gsfc.nasa.gov/images/kmz/traj57455_LVIS.kmz
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt16008/PLAN_16008.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt16009/PLAN_16009.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt16010/PLAN_16010.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt16011/PLAN_16011.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt16012/PLAN_16012.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt16013/PLAN_16013.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt16014/PLAN_16014.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt16015/PLAN_16015.kml

@@ -1,8 +1,9 @@
 const fs = require('fs');
 const path = require('path');
-const AdmZip = require('adm-zip');
+const unzipper = require('unzipper');
 const download = require('download');
 const { getPlatformConfig, readCampaignYaml, urlHasFileExtension } = require('./utils');
+const { kmz2kml } = require('./convert-kml');
 
 const replaceSlash = (str) => str.replaceAll('/', '-');
 
@@ -15,14 +16,20 @@ const downloadFile = async (url, dir) => {
   // if the file is a zip, decompress it
   if (url.endsWith('.zip')) {
     const filePath = path.join(dir, path.basename(url));
-    const zip = new AdmZip(filePath);
-    zip.extractAllTo(dir);
+    const zip = await unzipper.Open.file(filePath);
+    await zip.extract({ path: dir });
     fs.unlinkSync(filePath);
   }
   // The GRIP campaign has files without an extension and others with .dat that should be txt
   if (!urlHasFileExtension(url) || url.endsWith('.dat')) {
     const filePath = path.join(dir, path.basename(url));
     fs.renameSync(filePath, `${filePath}.txt`);
+  }
+  if (url.endsWith('.kmz')) {
+    const filePath = path.join(dir, path.basename(url));
+    const kml = await kmz2kml(filePath);
+    fs.writeFileSync(filePath.replace('.kmz', '.kml'), kml);
+    fs.unlinkSync(filePath);
   }
 };
 
