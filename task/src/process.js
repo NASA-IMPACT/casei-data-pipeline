@@ -169,22 +169,15 @@ const makeGeoJSON = (
 ) => {
   const file = fs.readFileSync(filePath);
   const content = file.toString();
-  // configure latitude and longitude fields
-  let latField = 'latitude';
-  let lonField = 'longitude';
-  if (content.includes('Latitude,') && content.includes('Longitude,')) {
-    latField = 'Latitude';
-    lonField = 'Longitude';
-  }
 
   let geojson;
   csv2geojson.csv2geojson(
     content,
     {
-      latfield: latField,
-      lonfield: lonField,
+      latfield: 'latitude',
+      lonfield: 'longitude',
       delimiter: ',',
-      numericFields: `${latField},${lonField}`,
+      numericFields: 'latitude,longitude',
     },
     (err, data) => geojson = data
   );
@@ -192,10 +185,14 @@ const makeGeoJSON = (
     geojson.features = divideCoordinates(geojson.features, coordsDivisor);
   }
   // remove invalid coordinates
-  geojson.features = geojson.features.filter((i) => (
-    i.geometry.coordinates[0] >= -180 && i.geometry.coordinates[1] >= -90
-    && i.geometry.coordinates[0] <= 180 && i.geometry.coordinates[1] <= 90
-  ));
+  geojson.features = geojson.features
+    .filter((i) => (
+      i.geometry.coordinates[0] >= -180 && i.geometry.coordinates[1] >= -90
+      && i.geometry.coordinates[0] <= 180 && i.geometry.coordinates[1] <= 90
+    ))
+    .filter((i) => (
+      i.geometry.coordinates[0] !== 0 && i.geometry.coordinates[1] !== 0
+    ));
   geojson = csv2geojson.toLine(geojson);
   if (fixCoords) {
     const newCoords = cleanCoords(geojson.features[0].geometry.coordinates, 300);
