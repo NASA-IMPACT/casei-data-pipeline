@@ -8,16 +8,26 @@ const {
   mergeGeoJSONCollection,
 } = require('./src/process');
 const { getPlatformConfig } = require('./src/utils');
+const { kml2geojson } = require('./src/convert-kml');
 
-const convertAll = (dir) => {
+const makePlatformGeoJSON = (dir) => {
   const properties = getPropertiesFromPath(dir);
   const platformConfig = getPlatformConfig(dir);
 
   const files = fs.readdirSync(dir);
-  const collection = files
+  let collection;
+  // convert CSV files to GeoJSON
+  collection = files
     .filter((f) => f.endsWith('.csv') && !f.endsWith('headers.csv'))
     .map((f) => path.join(dir, f))
     .map((f) => convertToGeoJSON(f, properties, platformConfig.coords_divisor));
+
+  // if the platform has
+  if (!collection.length && files.every((f) => f.endsWith('.kml'))) {
+    collection = files
+      .map((f) => path.join(dir, f))
+      .map((f) => kml2geojson(f, properties));
+  }
 
   const resultFile = path.join(
     dir,
@@ -28,5 +38,5 @@ const convertAll = (dir) => {
 };
 
 module.exports = {
-  convertAll,
+  makePlatformGeoJSON,
 };
