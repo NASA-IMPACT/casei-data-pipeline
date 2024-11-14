@@ -5,7 +5,7 @@ const {
   convertToGeoJSON,
   makeStaticLocationsGeoJSON,
   getPropertiesFromPath,
-} = require('./src/process');
+} = require('./process');
 
 const convert = (filename) => {
   let geojson;

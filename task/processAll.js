@@ -3,9 +3,9 @@ const fs = require('fs');
 
 const { findDirectories, findFiles } = require('./src/find');
 const { exportHeaders } = require('./src/headers');
-const { makeCSV } = require('./makeCSV');
-const { makePlatformGeoJSON } = require('./processPlatform');
-const { convert } = require('./convert');
+const { makeCSV } = require('./src/makeCSV');
+const { makePlatformGeoJSON } = require('./src/processPlatform');
+const { convert } = require('./src/convert');
 const { mergeGeoJSONCollection } = require('./src/process');
 
 const campaignPath = process.argv[2];
