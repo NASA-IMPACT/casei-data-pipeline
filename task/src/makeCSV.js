@@ -1,9 +1,9 @@
 const path = require('path');
 const fs = require('fs');
 
-const { splitICTFile } = require('./src/process');
-const { concatenateFiles, getPlatformConfig } = require('./src/utils');
-const { findFiles } = require('./src/find');
+const { splitICTFile } = require('./process');
+const { concatenateFiles, getPlatformConfig } = require('./utils');
+const { findFiles } = require('./find');
 
 const makeCSV = (platformPath) => {
   const platformConfig = getPlatformConfig(platformPath);

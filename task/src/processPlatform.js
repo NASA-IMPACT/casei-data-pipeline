@@ -6,9 +6,9 @@ const {
   convertToGeoJSON,
   getPropertiesFromPath,
   mergeGeoJSONCollection,
-} = require('./src/process');
-const { getPlatformConfig } = require('./src/utils');
-const { kml2geojson } = require('./src/convert-kml');
+} = require('./process');
+const { getPlatformConfig } = require('./utils');
+const { kml2geojson } = require('./convert-kml');
 
 const makePlatformGeoJSON = (dir) => {
   const properties = getPropertiesFromPath(dir);
