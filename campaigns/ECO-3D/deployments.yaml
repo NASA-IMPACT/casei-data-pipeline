@@ -1,0 +1,18 @@
+---
+deployments:
+- name: ECO-3D-D1_2011
+  platforms:
+  - name: P-3
+    files:
+    - https://car.gsfc.nasa.gov/sites/default/files/imagesdb/CAR2024.kmz
+    - https://car.gsfc.nasa.gov/sites/default/files/imagesdb/CAR2025.kmz
+    - https://car.gsfc.nasa.gov/sites/default/files/imagesdb/CAR2026.kmz
+    - https://car.gsfc.nasa.gov/sites/default/files/imagesdb/CAR2027.kml
+    - https://car.gsfc.nasa.gov/sites/default/files/imagesdb/CAR2028.kml
+    - https://car.gsfc.nasa.gov/sites/default/files/imagesdb/CAR2029.kml
+    - https://car.gsfc.nasa.gov/sites/default/files/imagesdb/CAR2030.kml
+    - https://car.gsfc.nasa.gov/sites/default/files/imagesdb/CAR2031.kml
+    - https://car.gsfc.nasa.gov/sites/default/files/imagesdb/CAR2033.kml
+    - https://car.gsfc.nasa.gov/sites/default/files/imagesdb/CAR2034.kml
+    - https://car.gsfc.nasa.gov/sites/default/files/imagesdb/CAR2035.kml
+    - https://car.gsfc.nasa.gov/sites/default/files/imagesdb/CAR2036.kml

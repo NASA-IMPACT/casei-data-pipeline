@@ -1,0 +1,28 @@
+---
+deployments:
+- name: CPEX-D1_2017
+  platforms:
+  - name: DC-8
+    files:
+    - https://asp-archive.arc.nasa.gov/CPEX/N817NA/2017-05-17/IWG1-10hz.xml
+    - https://asp-archive.arc.nasa.gov/CPEX/N817NA/2017-05-17/IWG1.17May2017-2220
+    - https://asp-archive.arc.nasa.gov/CPEX/N817NA/2017-05-25/IWG1.25May2017-2106
+    - https://asp-archive.arc.nasa.gov/CPEX/N817NA/2017-05-27/IWG1.27May2017-2337
+    - https://asp-archive.arc.nasa.gov/CPEX/N817NA/2017-05-29/IWG1.29May2017-2140
+    - https://asp-archive.arc.nasa.gov/CPEX/N817NA/2017-05-31/IWG1.31May2017-2322
+    - https://asp-archive.arc.nasa.gov/CPEX/N817NA/2017-06-01/IWG1.01Jun2017-2258
+    - https://asp-archive.arc.nasa.gov/CPEX/N817NA/2017-06-02/IWG1.02Jun2017-2324
+    - https://asp-archive.arc.nasa.gov/CPEX/N817NA/2017-06-06/IWG1.06Jun2017-2220
+    - https://asp-archive.arc.nasa.gov/CPEX/N817NA/2017-06-10/IWG1.10Jun2017-2335
+    - https://asp-archive.arc.nasa.gov/CPEX/N817NA/2017-06-11/IWG1.11Jun2017-2244
+    - https://asp-archive.arc.nasa.gov/CPEX/N817NA/2017-06-15/IWG1.15Jun2017-2201
+    - https://asp-archive.arc.nasa.gov/CPEX/N817NA/2017-06-16/IWG1.16Jun2017-2257
+    - https://asp-archive.arc.nasa.gov/CPEX/N817NA/2017-06-17/IWG1.18Jun2017-0013
+    - https://asp-archive.arc.nasa.gov/CPEX/N817NA/2017-06-19/IWG1.19Jun2017-2305
+    - https://asp-archive.arc.nasa.gov/CPEX/N817NA/2017-06-20/IWG1.20Jun2017-2248
+    - https://asp-archive.arc.nasa.gov/CPEX/N817NA/2017-06-21/IWG1.21Jun2017-1601
+    - https://asp-archive.arc.nasa.gov/CPEX/N817NA/2017-06-21/IWG1.22Jun2017-0010
+    - https://asp-archive.arc.nasa.gov/CPEX/N817NA/2017-06-23/IWG1.23Jun2017-2150
+    - https://asp-archive.arc.nasa.gov/CPEX/N817NA/2017-06-24/IWG1.24Jun2017-2253
+    - https://asp-archive.arc.nasa.gov/CPEX/N817NA/2017-06-28/IWG1.28Jun2017-1319
+    - https://asp-archive.arc.nasa.gov/CPEX/N817NA/2017-06-28/IWG1.28Jun2017-1915
