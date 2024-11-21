@@ -1,0 +1,19 @@
+---
+deployments:
+- name: ALOFT-D1_2023
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/ALOFT/N806NA/2023-06-29/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/ALOFT/N806NA/2023-06-29/IWG1.29Jun2023-2050
+    - https://asp-archive.arc.nasa.gov/ALOFT/N806NA/2023-07-03/IWG1.04Jul2023-0326
+    - https://asp-archive.arc.nasa.gov/ALOFT/N806NA/2023-07-06/IWG1.06Jul2023-1016
+    - https://asp-archive.arc.nasa.gov/ALOFT/N806NA/2023-07-08/IWG1.08Jul2023-0955
+    - https://asp-archive.arc.nasa.gov/ALOFT/N806NA/2023-07-12/IWG1.13Jul2023-0216
+    - https://asp-archive.arc.nasa.gov/ALOFT/N806NA/2023-07-16/IWG1.16Jul2023-1911
+    - https://asp-archive.arc.nasa.gov/ALOFT/N806NA/2023-07-20/IWG1.21Jul2023-0052
+    - https://asp-archive.arc.nasa.gov/ALOFT/N806NA/2023-07-24/IWG1.24Jul2023-1104
+    - https://asp-archive.arc.nasa.gov/ALOFT/N806NA/2023-07-25/IWG1.26Jul2023-0638
+    - https://asp-archive.arc.nasa.gov/ALOFT/N806NA/2023-07-28/IWG1.28Jul2023-2100
+    - https://asp-archive.arc.nasa.gov/ALOFT/N806NA/2023-07-29/IWG1.29Jul2023-2248
+    - https://asp-archive.arc.nasa.gov/ALOFT/N806NA/2023-07-31/IWG1.31Jul2023-1753
