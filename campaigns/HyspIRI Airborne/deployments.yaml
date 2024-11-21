@@ -1,0 +1,218 @@
+---
+deployments:
+- name: HyspIRI Airborne-D1_2013-Mar
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-05-16/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2013-02-03/IWG1.03Feb2013-1452
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2013-02-03/IWG1.03Feb2013-2312
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2013-03-26/IWG1.26Mar2013-1851
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2013-03-29/IWG1.29Mar2013-2106
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2013-04-10/IWG1.10Apr2013-2324
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2013-04-11/IWG1.11Apr2013-2347
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2013-04-12/IWG1.13Apr2013-0127
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2013-04-19/IWG1.20Apr2013-0040
+- name: HyspIRI Airborne-D2_2013-May
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-05-16/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2013-05-02/IWG1.02May2013-2311
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2013-05-03/IWG1.03May2013-2345
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-05-16/IWG1.16May2013-2306
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-06-04/IWG1.04Jun2013-2134
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-06-06/IWG1.07Jun2013-0020
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-06-07/IWG1.08Jun2013-0054
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-06-10/IWG1.10Jun2013-1814
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-06-26/IWG1.26Jun2013-2202
+- name: HyspIRI Airborne-D3_2013-Sep
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-05-16/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-09-16/IWG1.16Sep2013-2036
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-09-18/IWG1.18Sep2013-1851
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-09-19/IWG1.19Sep2013-2223
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-09-24/IWG1.24Sep2013-2347
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2013-10-30/IWG1.30Oct2013-1503
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2013-10-30/IWG1.30Oct2013-2240
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2013-10-31/IWG1.31Oct2013-2227
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2013-11-05/IWG1.05Nov2013-1447
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2013-11-05/IWG1.05Nov2013-2340
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2013-11-08/IWG1.08Nov2013-1436
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2013-11-08/IWG1.08Nov2013-1731
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2013-11-17/IWG1.17Nov2013-2155
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2013-11-22/IWG1.22Nov2013-2251
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2013-11-25/IWG1.25Nov2013-2349
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2013-12-04/IWG1.04Dec2013-1456
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2013-12-04/IWG1.04Dec2013-2228
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2013-12-05/IWG1.05Dec2013-1446
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2013-12-05/IWG1.05Dec2013-2128
+- name: HyspIRI Airborne-D4_2014-Mar
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-05-16/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2014-03-31/IWG1.31Mar2014-2020
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2014-04-07/IWG1.07Apr2014-2310
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2014-04-10/IWG1.10Apr2014-2236
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2014-04-14/IWG1.15Apr2014-0015
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2014-04-16/IWG1.16Apr2014-1622
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2014-04-18/IWG1.18Apr2014-2038
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2014-04-19/IWG1.20Apr2014-0058
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2014-04-23/IWG1.23Apr2014-1944
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2014-04-28/IWG1.29Apr2014-0014
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2014-05-07/IWG1.07May2014-2253
+- name: HyspIRI Airborne-D5_2014-May
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-05-16/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2014-05-28/IWG1.28May2014-2314
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2014-05-30/IWG1.30May2014-1913
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2014-06-02/IWG1.02Jun2014-2119
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2014-06-03/IWG1.03Jun2014-2304
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2014-06-04/IWG1.04Jun2014-2316
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2014-06-06/IWG1.06Jun2014-2310
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2014-06-13/IWG1.14Jun2014-0003
+- name: HyspIRI Airborne-D6_2014-Aug
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-05-16/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2014-08-18/IWG1.19Aug2014-1722
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2014-08-26/IWG1.27Aug2014-0047
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2014-08-28/IWG1.28Aug2014-1309
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2014-08-29/IWG1.29Aug2014-2133
+- name: HyspIRI Airborne-D7_2014-Sep
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-05-16/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2014-09-19/IWG1.19Sep2014-2329
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2014-10-06/IWG1.06Oct2014-2258
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2014-10-21/IWG1.21Oct2014-2144
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2014-10-27/IWG1.27Oct2014-2318
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2014-11-07/IWG1.07Nov2014-2043
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2014-11-17/IWG1.17Nov2014-2235
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2014-11-24/IWG1.24Nov2014-2303
+- name: HyspIRI Airborne-D8_2015-Apr
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-05-16/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2015-04-16/IWG1.16Apr2015-2258
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2015-04-17/IWG1.17Apr2015-1939
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2015-04-21/IWG1.21Apr2015-1942
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2015-04-28/IWG1.28Apr2015-2326
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2015-04-29/IWG1.29Apr2015-2154
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2015-04-30/IWG1.30Apr2015-2233
+- name: HyspIRI Airborne-D9_2015-May
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-05-16/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2015-05-28/IWG1.29May2015-0029
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2015-06-01/IWG1.01Jun2015-2129
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2015-06-02/IWG1.03Jun2015-0014
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2015-06-03/IWG1.03Jun2015-1936
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2015-06-08/IWG1.08Jun2015-2220
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2015-06-11/IWG1.12Jun2015-0052
+- name: HyspIRI Airborne-D10_2015-Aug
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-05-16/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2015-08-24/IWG1.24Aug2015-2323
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2015-08-26/IWG1.26Aug2015-2036
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2015-08-27/IWG1.27Aug2015-2134
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2015-10-02/IWG1.02Oct2015-2333
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2015-10-13/IWG1.13Oct2015-2148
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2015-10-20/IWG1.20Oct2015-2226
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2015-10-21/IWG1.21Oct2015-2253
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2015-10-22/IWG1.22Oct2015-2237
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2015-10-26/IWG1.26Oct2015-2221
+- name: HyspIRI Airborne-D11_2016-Jun
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-05-16/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2016-06-09/IWG1.09Jun2016-2141
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2016-06-15/IWG1.15Jun2016-1907
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2016-06-16/IWG1.16Jun2016-2355
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2016-06-17/IWG1.18Jun2016-0053
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2016-06-20/IWG1.21Jun2016-0151
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2016-06-21/IWG1.22Jun2016-0212
+- name: HyspIRI Airborne-D12_2017-Jan
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-05-16/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-01-10/IWG1.11Jan2017-0201
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-01-17/IWG1.18Jan2017-0112
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-01-19/IWG1.19Jan2017-2302
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-01-26/IWG1.26Jan2017-0802
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-01-26/IWG1.27Jan2017-0311
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-01-27/IWG1.27Jan2017-2342
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-01-29/IWG1.29Jan2017-0953
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-02-02/IWG1.02Feb2017-2255
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-02-03/IWG1.04Feb2017-0014
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-02-07/IWG1.08Feb2017-0146
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-02-08/IWG1.08Feb2017-2222
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-02-09/IWG1.09Feb2017-2245
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-02-10/IWG1.10Feb2017-2143
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-02-12/IWG1.12Feb2017-2053
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-02-21/IWG1.22Feb2017-0013
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-02-22/IWG1.22Feb2017-2158
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-02-23/IWG1.23Feb2017-2217
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-02-24/IWG1.25Feb2017-0456
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-03-03/IWG1.04Mar2017-0234
+- name: HyspIRI Airborne-D13_2017-Jun
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-05-16/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-06-07/IWG1.07Jun2017-2305
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-06-09/IWG1.09Jun2017-2128
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-06-12/IWG1.13Jun2017-0031
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-06-13/IWG1.13Jun2017-2350
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-06-14/IWG1.14Jun2017-2309
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-06-20/IWG1.20Jun2017-2243
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-06-22/IWG1.22Jun2017-2330
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-06-26/IWG1.27Jun2017-0120
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2017-06-28/IWG1.28Jun2017-2243
+- name: HyspIRI Airborne-D14_2018-Jan
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-05-16/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2018-01-11/IWG1.12Jan2018-0006
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2018-01-16/IWG1.17Jan2018-0308
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2018-01-18/IWG1.18Jan2018-2333
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2018-01-26/IWG1.27Jan2018-0040
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2018-01-29/IWG1.30Jan2018-0144
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2018-01-30/IWG1.30Jan2018-2358
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2018-02-01/IWG1.01Feb2018-0947
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2018-02-03/IWG1.03Feb2018-0754
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2018-02-06/IWG1.06Feb2018-2338
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2018-02-08/IWG1.08Feb2018-1017
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2018-02-09/IWG1.09Feb2018-2359
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2018-02-10/IWG1.10Feb2018-2246
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2018-02-12/IWG1.12Feb2018-2137
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2018-02-20/IWG1.21Feb2018-0310
+- name: HyspIRI Airborne-D15_2018-Jun
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2013-05-16/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2018-06-21/IWG1.21Jun2018-2248
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2018-06-22/IWG1.22Jun2018-2149
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2018-06-25/IWG1.25Jun2018-2347
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2018-08-16/IWG1.17Aug2018-0030
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2018-08-20/IWG1.20Aug2018-2350
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2018-08-28/IWG1.28Aug2018-2348
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2018-08-31/IWG1.31Aug2018-2209
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2018-09-04/IWG1.04Sep2018-2222
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2018-09-05/IWG1.05Sep2018-2157
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N806NA/2018-09-06/IWG1.06Sep2018-1930

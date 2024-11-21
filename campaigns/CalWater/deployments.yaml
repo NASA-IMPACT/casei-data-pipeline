@@ -1,0 +1,17 @@
+---
+deployments:
+- name: CalWater-D5_2015
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/CalWater/N806NA/2015-01-20/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/CalWater/N806NA/2015-01-20/IWG1.20Jan2015-2314
+    - https://asp-archive.arc.nasa.gov/CalWater/N806NA/2015-01-27/IWG1.27Jan2015-2330
+    - https://asp-archive.arc.nasa.gov/CalWater/N806NA/2015-01-31/IWG1.31Jan2015-2249
+    - https://asp-archive.arc.nasa.gov/CalWater/N806NA/2015-02-05/IWG1.05Feb2015-2335
+    - https://asp-archive.arc.nasa.gov/CalWater/N806NA/2015-02-06/IWG1.06Feb2015-2207
+    - https://asp-archive.arc.nasa.gov/CalWater/N806NA/2015-02-10/IWG1.11Feb2015-0148
+    - https://asp-archive.arc.nasa.gov/CalWater/N806NA/2015-02-17/IWG1.17Feb2015-2254
+    - https://asp-archive.arc.nasa.gov/CalWater/N806NA/2015-02-20/IWG1.20Feb2015-2151
+    - https://asp-archive.arc.nasa.gov/CalWater/N806NA/2015-02-22/IWG1.22Feb2015-0511
+    - https://asp-archive.arc.nasa.gov/CalWater/N806NA/2015-02-24/IWG1.24Feb2015-2316

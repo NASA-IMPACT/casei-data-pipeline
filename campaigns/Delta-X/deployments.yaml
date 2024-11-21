@@ -1,0 +1,27 @@
+---
+deployments:
+- name: Delta-X-D1_2021-Mar
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21023/PLAN_21023.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21026/PLAN_21026.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21029/PLAN_21029.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21055/PLAN_21055.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21056/PLAN_21056.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21024/PLAN_21024.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21027/PLAN_21027.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21030/PLAN_21030.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21025/PLAN_21025.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21028/PLAN_21028.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21031/PLAN_21031.kml
+- name: Delta-X-D2_2021-Aug
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21050/PLAN_21050.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21051/PLAN_21051.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21052/PLAN_21052.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21053/PLAN_21053.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21054/PLAN_21054.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21055/PLAN_21055.kml
