@@ -1,0 +1,18 @@
+---
+deployments:
+- name: PODEX-D1_2013
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/PODEX/N809NA/2013-01-14/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/PODEX/N809NA//2013-01-14/IWG1.15Jan2013-0002
+    - https://asp-archive.arc.nasa.gov/PODEX/N809NA//2013-01-16/IWG1.16Jan2013-2108
+    - https://asp-archive.arc.nasa.gov/PODEX/N809NA//2013-01-18/IWG1.18Jan2013-2203
+    - https://asp-archive.arc.nasa.gov/PODEX/N809NA//2013-01-20/IWG1.20Jan2013-2149
+    - https://asp-archive.arc.nasa.gov/PODEX/N809NA//2013-01-22/IWG1.23Jan2013-0030
+    - https://asp-archive.arc.nasa.gov/PODEX/N809NA//2013-01-28/IWG1.28Jan2013-2322
+    - https://asp-archive.arc.nasa.gov/PODEX/N809NA//2013-01-31/IWG1.31Jan2013-2257
+    - https://asp-archive.arc.nasa.gov/PODEX/N809NA//2013-02-01/IWG1.01Feb2013-2317
+    - https://asp-archive.arc.nasa.gov/PODEX/N809NA//2013-02-03/IWG1.03Feb2013-1452
+    - https://asp-archive.arc.nasa.gov/PODEX/N809NA//2013-02-03/IWG1.03Feb2013-2312
+    - https://asp-archive.arc.nasa.gov/PODEX/N809NA//2013-02-06/IWG1.07Feb2013-0001

@@ -33,6 +33,9 @@ describe('getPlatformConfig', () => {
 
 describe('urlHasFileExtension', () => {
   it('return true if an URL ends with any 3 or 4 letters file extension', () => {
+    expect(urlHasFileExtension(
+      'https://nasa.gov/PolarWindsI_DAWN_KingAirUC-12B_1.20141113-140215_txt.zip'
+    )).toBeTruthy();
     expect(urlHasFileExtension('https://a.com/b/c/d.ext')).toBeTruthy();
     expect(urlHasFileExtension('https://a.com/b/c/d.WB57')).toBeTruthy();
     expect(urlHasFileExtension('https://a.com/b/c/d.WB57')).toBeTruthy();

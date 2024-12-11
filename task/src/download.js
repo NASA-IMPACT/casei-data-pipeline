@@ -3,11 +3,11 @@ const path = require('path');
 const unzipper = require('unzipper');
 const download = require('download');
 const { getPlatformConfig, readCampaignYaml, urlHasFileExtension } = require('./utils');
-const { kmz2kml } = require('./convert-kml');
+const { kmz2kml, extractKmlContent } = require('./convert-kml');
 
 const replaceSlash = (str) => str.replaceAll('/', '-');
 
-const downloadFile = async (url, dir) => {
+const downloadFile = async (url, dir, platformConfig) => {
   await download(
     url,
     dir,
@@ -16,8 +16,14 @@ const downloadFile = async (url, dir) => {
   // if the file is a zip, decompress it
   if (url.endsWith('.zip')) {
     const filePath = path.join(dir, path.basename(url));
-    const zip = await unzipper.Open.file(filePath);
-    await zip.extract({ path: dir });
+    // some zip files, have only a kmz file that needs to be extracted as kml
+    if (platformConfig.filter_kmz) {
+      const kml = await extractKmlContent(filePath);
+      fs.writeFileSync(filePath.replace('.zip', '.kml'), kml);
+    } else {
+      const zip = await unzipper.Open.file(filePath);
+      await zip.extract({ path: dir });
+    }
     fs.unlinkSync(filePath);
   }
   // The GRIP campaign has files without an extension and others with .dat that should be txt
@@ -62,7 +68,9 @@ const downloadPlatform = async (campaignPath, deployment, platform, files) => {
   const platformPath = path.join(campaignPath, deployment, platform);
   const platformConfig = getPlatformConfig(platformPath);
   await createDir(platformPath);
-  await Promise.all(files.map((file) => downloadFile(file, platformPath)));
+  await Promise.all(
+    files.map((file) => downloadFile(file, platformPath, platformConfig))
+  );
   // some .ict files have a .ER2 or .WB57 extension,
   // so we need to rename it after the download
   if (platformConfig.rename_as_ict) {

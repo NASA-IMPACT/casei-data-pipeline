@@ -1,0 +1,37 @@
+---
+deployments:
+- name: Polar Winds-D1_2014
+  platforms:
+  - name: B-200
+    filter_kmz: true
+    files:
+    - https://asdc.larc.nasa.gov/data/PolarWindsI/DAWN_KingAirUC-12B_1/PolarWindsI_DAWN_KingAirUC-12B_1.20141029-115154_txt.zip
+    - https://asdc.larc.nasa.gov/data/PolarWindsI/DAWN_KingAirUC-12B_1/PolarWindsI_DAWN_KingAirUC-12B_1.20141030-132302_txt.zip
+    - https://asdc.larc.nasa.gov/data/PolarWindsI/DAWN_KingAirUC-12B_1/PolarWindsI_DAWN_KingAirUC-12B_1.20141031-110108_txt.zip
+    - https://asdc.larc.nasa.gov/data/PolarWindsI/DAWN_KingAirUC-12B_1/PolarWindsI_DAWN_KingAirUC-12B_1.20141103-135618_txt.zip
+    - https://asdc.larc.nasa.gov/data/PolarWindsI/DAWN_KingAirUC-12B_1/PolarWindsI_DAWN_KingAirUC-12B_1.20141104-135816_txt.zip
+    - https://asdc.larc.nasa.gov/data/PolarWindsI/DAWN_KingAirUC-12B_1/PolarWindsI_DAWN_KingAirUC-12B_1.20141105-141140_txt.zip
+    - https://asdc.larc.nasa.gov/data/PolarWindsI/DAWN_KingAirUC-12B_1/PolarWindsI_DAWN_KingAirUC-12B_1.20141106-140534_txt.zip
+    - https://asdc.larc.nasa.gov/data/PolarWindsI/DAWN_KingAirUC-12B_1/PolarWindsI_DAWN_KingAirUC-12B_1.20141107-141738_txt.zip
+    - https://asdc.larc.nasa.gov/data/PolarWindsI/DAWN_KingAirUC-12B_1/PolarWindsI_DAWN_KingAirUC-12B_1.20141108-155441_txt.zip
+    - https://asdc.larc.nasa.gov/data/PolarWindsI/DAWN_KingAirUC-12B_1/PolarWindsI_DAWN_KingAirUC-12B_1.20141110-142837_txt.zip
+    - https://asdc.larc.nasa.gov/data/PolarWindsI/DAWN_KingAirUC-12B_1/PolarWindsI_DAWN_KingAirUC-12B_1.20141111-140700_txt.zip
+    - https://asdc.larc.nasa.gov/data/PolarWindsI/DAWN_KingAirUC-12B_1/PolarWindsI_DAWN_KingAirUC-12B_1.20141112-110621_txt.zip
+    - https://asdc.larc.nasa.gov/data/PolarWindsI/DAWN_KingAirUC-12B_1/PolarWindsI_DAWN_KingAirUC-12B_1.20141113-140215_txt.zip
+- name: Polar Winds-D2_2015
+  platforms:
+  - name: DC-8
+    files:
+    - https://asp-archive.arc.nasa.gov/N817NA/FY2015/2014-10-25/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/N817NA/FY2015/2015-05-07/IWG1.07May2015-2226
+    - https://asp-archive.arc.nasa.gov/N817NA/FY2015/2015-05-09/IWG1.09May2015-1401
+    - https://asp-archive.arc.nasa.gov/N817NA/FY2015/2015-05-11/IWG1.11May2015-1728
+    - https://asp-archive.arc.nasa.gov/N817NA/FY2015/2015-05-13/IWG1.13May2015-1509
+    - https://asp-archive.arc.nasa.gov/N817NA/FY2015/2015-05-15/IWG1.15May2015-2032
+    - https://asp-archive.arc.nasa.gov/N817NA/FY2015/2015-05-16/IWG1.16May2015-2115
+    - https://asp-archive.arc.nasa.gov/N817NA/FY2015/2015-05-17/IWG1.17May2015-2117
+    - https://asp-archive.arc.nasa.gov/N817NA/FY2015/2015-05-19/IWG1.19May2015-1708
+    - https://asp-archive.arc.nasa.gov/N817NA/FY2015/2015-05-21/IWG1.21May2015-2202
+    - https://asp-archive.arc.nasa.gov/N817NA/FY2015/2015-05-23/IWG1.23May2015-2001
+    - https://asp-archive.arc.nasa.gov/N817NA/FY2015/2015-05-24/IWG1.24May2015-1835
+    - https://asp-archive.arc.nasa.gov/N817NA/FY2015/2015-05-25/IWG1.25May2015-1729

@@ -30,6 +30,10 @@ deployments:
               required: false
               type: boolean
               description: Whether a .txt file should be processed as a .ict file.
+            filter_kmz:
+              required: false
+              type: boolean
+              description: Some zip files contain a kmz file that is the only file needed. In that case, it will only extract the kmz and uncompress it, resulting in a kml file.
             coords_divisor:
               required: false
               type: integer

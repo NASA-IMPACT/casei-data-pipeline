@@ -65,8 +65,7 @@ const divideCoordinates = (features, coordsDivisor) => features.map((i) => {
 });
 
 const urlHasFileExtension = (url) => {
-  // eslint-disable-next-line no-unused-vars
-  const [name, ext] = path.basename(url).split('.');
+  const ext = path.basename(url).split('.').slice(-1)[0];
   return ext && [3, 4].includes(ext.length);
 };
 
