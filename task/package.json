@@ -6,6 +6,7 @@
   "scripts": {
     "download": "node downloadCampaign.js",
     "lint": "eslint --ext .js",
+    "list-files": "node get-files-list.js",
     "process": "node processAll.js",
     "test": "jest",
     "xls2csv": "node xls2csv.js"
@@ -13,7 +14,10 @@
   "dependencies": {
     "@mapbox/geojson-merge": "^1.1.1",
     "@tmcw/togeojson": "^5.8.1",
-    "@turf/distance": "^6.5.0",
+    "@turf/distance": "^7.1.0",
+    "@turf/helpers": "^7.1.0",
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0",
     "csv2geojson": "^5.1.2",
     "d3-dsv": "1.0.1",
     "download": "8.0.0",
