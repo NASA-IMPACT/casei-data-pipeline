@@ -53,7 +53,9 @@ const getPlatformConfig = (platformPath) => {
   const platform = path.basename(platformPath);
   return campaignConfig
     .find((d) => d.name === deployment).platforms
-    .find((p) => p.name === platform);
+    // As we remove the slashes from the platform folder,
+    // we need to put it back when reading the yaml file
+    .find((p) => p.name === platform || p.name === platform.replaceAll('-', '/'));
 };
 
 const divideCoordinates = (features, coordsDivisor) => features.map((i) => {

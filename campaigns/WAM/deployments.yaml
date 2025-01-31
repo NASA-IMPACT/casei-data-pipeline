@@ -1,0 +1,18 @@
+---
+deployments:
+- name: WAM-D1_1998
+  platforms:
+  - name: WB-57
+    rename_as_ict: true
+    tsv_format: true
+    files:
+    - https://espoarchive.nasa.gov/archive/download/NP19980323.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19980407.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19980408.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19980409.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19980411.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19980501.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19980504.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19980506.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19980507.WB57
+    - https://espoarchive.nasa.gov/archive/download/NP19980511.WB57

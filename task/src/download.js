@@ -8,11 +8,16 @@ const { kmz2kml, extractKmlContent } = require('./convert-kml');
 const replaceSlash = (str) => str.replaceAll('/', '-');
 
 const downloadFile = async (url, dir, platformConfig) => {
-  await download(
-    url,
-    dir,
-    { headers: { Authorization: `Bearer ${process.env.EARTH_DATA_TOKEN}` } }
-  );
+  try {
+    await download(
+      url,
+      dir,
+      { headers: { Authorization: `Bearer ${process.env.EARTH_DATA_TOKEN}` } }
+    );
+  } catch (HTTPError) {
+    // some urls redirect to S3 and don't accept the Authorization header
+    await download(url, dir, { followRedirect: true });
+  }
   // if the file is a zip, decompress it
   if (url.endsWith('.zip')) {
     const filePath = path.join(dir, path.basename(url));
