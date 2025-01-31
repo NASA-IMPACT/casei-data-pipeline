@@ -1,0 +1,10 @@
+---
+deployments:
+- name: SO GasEx-D1_2008
+  platforms:
+  - name: R/V RHB
+    header_content: "date,time,longitude,latitude,SOG,COG,GYRO"
+    rename_as_ict: true
+    process_as_ict: true
+    files:
+    - https://datadocs.bco-dmo.org/file/k66gx19SOp1407/CruiseTrack.csv
