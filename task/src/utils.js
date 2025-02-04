@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const { parse } = require('yaml');
+const tar = require('tar');
 
 const getMax = (arr) => {
   let len = arr.length;
@@ -73,6 +74,25 @@ const urlHasFileExtension = (url) => {
   return ext && [3, 4].includes(ext.length);
 };
 
+const extractFromTar = async (tarFilePath, destination, extension) => {
+  await tar.list({
+    file: tarFilePath,
+    onentry: (entry) => {
+      if (entry.path.endsWith(extension)) {
+        entry.pipe(fs.createWriteStream(`${destination}/${entry.path}`));
+      } else {
+        entry.resume(); // Skip non-.txt files
+      }
+    },
+  }, (err) => {
+    if (err) {
+      console.error('Error extracting tar file:', err);
+    } else {
+      console.log('Tar file extracted successfully!');
+    }
+  });
+};
+
 module.exports = {
   getStats,
   tsv2csv,
@@ -81,4 +101,5 @@ module.exports = {
   readCampaignYaml,
   divideCoordinates,
   urlHasFileExtension,
+  extractFromTar,
 };
