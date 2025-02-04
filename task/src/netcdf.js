@@ -2,6 +2,16 @@ const fs = require('fs');
 const hdf5 = require("jsfive");
 const { NetCDFReader } = require("netcdfjs");
 
+/**
+* Converts a NetCDF file to CSV, extracting the time, latitude and longitude information.
+* @param {String} filePath - path to a NetCDF file
+* @param {String} latitudeField - name of the field in the NetCDF file that contains the
+  latitude information
+* @param {String} longitudeField - name of the field in the NetCDF file that contains the
+  longitude information
+* @param {String} timeField - name of the field in the NetCDF file that contains the
+  time information
+*/
 const netcdf2csv = (filePath, latitudeField = 'latitude', longitudeField = 'longitude', timeField = 'time') => {
   const file = fs.readFileSync(filePath);
   let csvContent = 'time,latitude,longitude\n';

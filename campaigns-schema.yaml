@@ -46,6 +46,18 @@ deployments:
               required: false
               type: string
               description: Set a new value to the ICARTT header, as some files don't have a header.
+            latitude_field:
+              required: false
+              type: string
+              description: Name of the field in the NetCDF file that contains the latitude information.
+            longitude_field:
+              required: false
+              type: string
+              description: Name of the field in the NetCDF file that contains the longitude information.
+            time_field:
+              required: false
+              type: string
+              description: Name of the field in the NetCDF file that contains the time information.
             files:
               required: true
               type: list
