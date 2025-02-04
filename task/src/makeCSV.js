@@ -4,6 +4,7 @@ const fs = require('fs');
 const { splitICTFile } = require('./process');
 const { concatenateFiles, getPlatformConfig } = require('./utils');
 const { findFiles } = require('./find');
+const { netcdf2csv } = require('./netcdf');
 
 const makeCSV = (platformPath) => {
   const platformConfig = getPlatformConfig(platformPath);
@@ -23,6 +24,17 @@ const makeCSV = (platformPath) => {
       platformConfig.tsv_format,
       platformConfig.data_start_line_fix,
       platformConfig.header_content
+    )
+  );
+
+  // process .nc files (NetCDF-4)
+  const ncFiles = findFiles(platformPath, '.nc');
+  ncFiles.forEach(
+    (f) => netcdf2csv(
+      f,
+      platformConfig.latitudeField,
+      platformConfig.longitudeField,
+      platformConfig.timeField
     )
   );
 
