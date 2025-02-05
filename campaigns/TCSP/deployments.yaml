@@ -1,0 +1,33 @@
+---
+deployments:
+- name: TCSP_D1_2005
+  platforms:
+  - name: ER-2
+    process_as_ict: true
+    tsv_format: true
+    data_start_line_fix: 6
+    header_content: "time,latitude,longitude,extra"
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/tcsper2nav__1/tcsp_naver2_20050702_9024.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/tcsper2nav__1/tcsp_naver2_20050705_9025.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/tcsper2nav__1/tcsp_naver2_20050706_9026.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/tcsper2nav__1/tcsp_naver2_20050709_9027.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/tcsper2nav__1/tcsp_naver2_20050715_9028.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/tcsper2nav__1/tcsp_naver2_20050716_9029.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/tcsper2nav__1/tcsp_naver2_20050717_9030.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/tcsper2nav__1/tcsp_naver2_20050720_9031.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/tcsper2nav__1/tcsp_naver2_20050723_9032.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/tcsper2nav__1/tcsp_naver2_20050724_9033.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/tcsper2nav__1/tcsp_naver2_20050725_9034.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/tcsper2nav__1/tcsp_naver2_20050727_9035.txt
+  - name: Aerosonde
+    process_as_ict: true
+    data_start_line_fix: 1
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/tcspaero__1/aerosonde_2005.202.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/tcspaero__1/aerosonde_2005.199.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/tcspaero__1/aerosonde_2005.195.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/tcspaero__1/aerosonde_2005.194.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/tcspaero__1/aerosonde_2005.192.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/tcspaero__1/aerosonde_2005.191.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/tcspaero__1/aerosonde_2005.188.tar

@@ -47,9 +47,15 @@ const getDataContentFromICT = (filename, dataStartLineFix = 0, replaceHeaderCont
     dataStartLine = content.indexOf('/end_header');
     return [header, ...content.slice(dataStartLine + 1)].join('\n');
   }
-  dataStartLine = Number(content[0].match(/[^,\s]+/)[0]);
+  const ictDataStartLine = parseInt(content[0].match(/[^,\s]+/)[0], 10);
+  // some .ict files have a wrong dataStartLine, in that case, we don't use that value
+  if (ictDataStartLine <= content.length) dataStartLine = ictDataStartLine;
+
   if (replaceHeaderContent) {
-    return [replaceHeaderContent, ...content.slice(dataStartLine - 1)].join('\n');
+    return [
+      replaceHeaderContent,
+      ...content.slice(dataStartLine + dataStartLineFix - 1),
+    ].join('\n');
   }
   content = content.slice(dataStartLine - 1 + dataStartLineFix).join('\n');
   return content;
@@ -99,9 +105,9 @@ Stats include the average, minimum and maximum values.
 const getPropertiesFromCSV = (data, extraProperties = {}, columnsStats = []) => {
   const properties = { ...extraProperties };
   const csvContent = dsv.dsvFormat(',').parse(data, (r) => r);
-  properties.product = csvContent[0].product;
-  properties.start = csvContent[0].timestamp;
-  properties.end = csvContent[csvContent.length - 1].timestamp;
+  properties.product = csvContent[0]?.product;
+  properties.start = csvContent[0]?.timestamp;
+  properties.end = csvContent[csvContent.length - 1]?.timestamp;
   columnsStats.forEach(
     (p) => {
       properties[p] = getStats(
@@ -254,6 +260,7 @@ module.exports = {
   convertToGeoJSON,
   splitICTFile,
   getPropertiesFromPath,
+  getDataContentFromICT,
   mergeGeoJSONCollection,
   cleanCoords,
 };

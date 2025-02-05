@@ -2,7 +2,12 @@ const fs = require('fs');
 const path = require('path');
 const unzipper = require('unzipper');
 const download = require('download');
-const { getPlatformConfig, readCampaignYaml, urlHasFileExtension } = require('./utils');
+const {
+  getPlatformConfig,
+  readCampaignYaml,
+  urlHasFileExtension,
+  extractFromTar,
+} = require('./utils');
 const { kmz2kml, extractKmlContent } = require('./convert-kml');
 
 const replaceSlash = (str) => str.replaceAll('/', '-');
@@ -29,6 +34,12 @@ const downloadFile = async (url, dir, platformConfig) => {
       const zip = await unzipper.Open.file(filePath);
       await zip.extract({ path: dir });
     }
+    fs.unlinkSync(filePath);
+  }
+  // extract .tar files
+  if (url.endsWith('.tar')) {
+    const filePath = path.join(dir, path.basename(url));
+    await extractFromTar(filePath, dir, '.txt');
     fs.unlinkSync(filePath);
   }
   // The GRIP campaign has files without an extension and others with .dat that should be txt
