@@ -29,7 +29,16 @@ const getStats = (arr) => ({
   avg: arr.reduce((a, b) => a + b, 0) / arr.length,
 });
 
-const tsv2csv = (tsvContent) => tsvContent.replace(/( |\t)+/g, ',').replace(/^,+/gm, '');
+const tsv2csv = (tsvContent) => tsvContent
+  // replace "G 123:" with "123:". 123 can be any number between 1 and 3 digits
+  .replace(/G\s(\d{1,3}):/g, '$1:')
+  // replace " N 1" or " E 1" with " 1"
+  .replaceAll(/\s([NE])\s?(\d{1,3})./g, ' $2.')
+  // replace " W 1" or " S 1" with " -1"
+  .replaceAll(/\s([WS])\s?(\d{1,3})./g, ' -$2.')
+  // replace whitespaces with commas
+  .replace(/( |\t)+/g, ',')
+  .replace(/^,+/gm, '');
 
 const concatenateFiles = (file1, file2, output) => {
   const data1 = fs.readFileSync(file1);
