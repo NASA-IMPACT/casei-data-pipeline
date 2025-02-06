@@ -1,0 +1,35 @@
+---
+deployments:
+- name: EXPORTS-D1_2018
+  platforms:
+  - name: Roger Revelle
+    rename_as_ict: true
+    data_start_line_fix: 18
+    header_content: "iso_time,longitude,latitude,speed_made_good,course_made_good"
+    files:
+    - https://www.ncei.noaa.gov/data/oceans/archive/arc0150/0207862/1.1/data/0-data/RR1813_608487_r2rnav/data/RR1813_1min.geoCSV
+  - name: Sally Ride
+    rename_as_ict: true
+    data_start_line_fix: 18
+    header_content: "iso_time,longitude,latitude,speed_made_good,course_made_good"
+    files:
+    - https://service.rvdata.us/data/cruise/SR1812/fileset/610438
+  - name: SeaGlider
+    rename_as_ict: true
+    files:
+    - https://oceandata.sci.gsfc.nasa.gov/ob/getfile/73f9b3d712_EXPORTS-EXPORTSNP_seaglider_L3_ctd_optics_20180727_R0.sb
+  - name: Discovery
+    rename_as_ict: true
+    files:
+    - https://oceandata.sci.gsfc.nasa.gov/cmr/getfile/f842d9c65b_EXPORTS_EXPORTSNA_POC_rosette_dy130_20210402_0759_R1.sb
+- name: EXPORTS-D2_2021
+  platforms:
+  - name: James Cook
+    rename_as_ict: true
+    files:
+    - https://oceandata.sci.gsfc.nasa.gov/cmr/getfile/f842d9c65b_EXPORTSNA_ADCP_jc214_os150nb_currents.sb
+  - name: SeaGlider
+    latitude_field: lat
+    longitude_field: lon
+    files:
+    - https://oceandata.sci.gsfc.nasa.gov/ob/getfile/605defc4e0_EXPORTS-EXPORTSNA_seaglider_sg219_L1toL3_netcdf_associated.tgz.sb

@@ -1,0 +1,15 @@
+---
+deployments:
+- name: MOOSE-D1_2021
+  platforms:
+  - name: G-III
+    latitude_field: lat
+    longitude_field: lon
+    files:
+    - https://asdc.larc.nasa.gov/data/MOOSE/AircraftRemoteSensing_NASA-G3_GCAS_Data_1/MOOSE-GCAS-NO2_NASA-G3_20210629_R0.nc
+    - https://asdc.larc.nasa.gov/data/MOOSE/AircraftRemoteSensing_NASA-G3_GCAS_Data_1/MOOSE-GCAS-NO2_NASA-G3_20210624_R0.nc
+    - https://asdc.larc.nasa.gov/data/MOOSE/AircraftRemoteSensing_NASA-G3_GCAS_Data_1/MOOSE-GCAS-NO2_NASA-G3_20210622_R0.nc
+    - https://asdc.larc.nasa.gov/data/MOOSE/AircraftRemoteSensing_NASA-G3_GCAS_Data_1/MOOSE-GCAS-NO2_NASA-G3_20210617_R0.nc
+    - https://asdc.larc.nasa.gov/data/MOOSE/AircraftRemoteSensing_NASA-G3_GCAS_Data_1/MOOSE-GCAS-NO2_NASA-G3_20210616_R0.nc
+    - https://asdc.larc.nasa.gov/data/MOOSE/AircraftRemoteSensing_NASA-G3_GCAS_Data_1/MOOSE-GCAS-NO2_NASA-G3_20210611_R0.nc
+    - https://asdc.larc.nasa.gov/data/MOOSE/AircraftRemoteSensing_NASA-G3_GCAS_Data_1/MOOSE-GCAS-NO2_NASA-G3_20210605_R0.nc
