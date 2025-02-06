@@ -37,9 +37,9 @@ const downloadFile = async (url, dir, platformConfig) => {
     fs.unlinkSync(filePath);
   }
   // extract .tar files
-  if (url.endsWith('.tar')) {
+  if (url.endsWith('.tar') || url.endsWith('.tgz') || url.endsWith('.tgz.sb')) {
     const filePath = path.join(dir, path.basename(url));
-    await extractFromTar(filePath, dir, '.txt');
+    await extractFromTar(filePath, dir);
     fs.unlinkSync(filePath);
   }
   // The GRIP campaign has files without an extension and others with .dat that should be txt
