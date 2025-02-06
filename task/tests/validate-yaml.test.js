@@ -24,6 +24,9 @@ const structure = array(
         coords_divisor: optional(number()),
         data_start_line_fix: optional(number()),
         header_content: optional(string()),
+        latitude_field: optional(string()),
+        longitude_field: optional(string()),
+        time_field: optional(string()),
         files: array(string()),
       })
     ),

@@ -1,0 +1,25 @@
+---
+deployments:
+- name: LPVEx-D1_2010
+  platforms:
+  - name: B-200
+    latitude_field: LAT
+    longitude_field: LON
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmwkacmlpvex__1/UWKA_cloudmicro_20100911.c1.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmwkacmlpvex__1/UWKA_cloudmicro_20100913.c1.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmwkacmlpvex__1/UWKA_cloudmicro_20100916.c1.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmwkacmlpvex__1/UWKA_cloudmicro_20100919.c1.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmwkacmlpvex__1/UWKA_cloudmicro_20100921.c1.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmwkacmlpvex__1/UWKA_cloudmicro_20100923.c1.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmwkacmlpvex__1/UWKA_cloudmicro_20100925.c1.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmwkacmlpvex__1/UWKA_cloudmicro_20100929.c1.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmwkacmlpvex__1/UWKA_cloudmicro_20101004.c1.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmwkacmlpvex__1/UWKA_cloudmicro_20101008.c1.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmwkacmlpvex__1/UWKA_cloudmicro_20101010.c1.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmwkacmlpvex__1/UWKA_cloudmicro_20101012.c1.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmwkacmlpvex__1/UWKA_cloudmicro_20101014.c1.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmwkacmlpvex__1/UWKA_cloudmicro_20101016.c1.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmwkacmlpvex__1/UWKA_cloudmicro_20101017.c1.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmwkacmlpvex__1/UWKA_cloudmicro_20101019.c1.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmwkacmlpvex__1/UWKA_cloudmicro_20101020.c1.nc

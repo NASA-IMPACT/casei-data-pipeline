@@ -79,15 +79,16 @@ const divideCoordinates = (features, coordsDivisor) => features.map((i) => {
 const urlHasFileExtension = (url) => {
   const ext = path.basename(url).split('.').slice(-1)[0];
   // .nc is the only extension that doesn't have a length of 3 or 4 chars
-  if (ext === 'nc') return ext;
+  if (ext === 'nc' || ext === 'sb') return ext;
   return ext && [3, 4].includes(ext.length);
 };
 
-const extractFromTar = async (tarFilePath, destination, extension) => {
+const extractFromTar = async (tarFilePath, destination) => {
+  const extensions = ['.sb', '.nc', '.txt'];
   await tar.list({
     file: tarFilePath,
     onentry: (entry) => {
-      if (entry.path.endsWith(extension)) {
+      if (extensions.includes(path.extname(entry.path))) {
         entry.pipe(fs.createWriteStream(`${destination}/${entry.path}`));
       } else {
         entry.resume(); // Skip non-.txt files
