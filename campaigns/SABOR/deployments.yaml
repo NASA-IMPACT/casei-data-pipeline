@@ -1,0 +1,10 @@
+---
+deployments:
+- name: SABOR-D1_2014
+  platforms:
+  - name: Endeavor
+    tsv_format: true
+    rename_as_ict: true
+    files:
+    - https://oceandata.sci.gsfc.nasa.gov/ob/getfile/3e4720724e_Behrenfeld_HPLC_SABOR.sb
+
