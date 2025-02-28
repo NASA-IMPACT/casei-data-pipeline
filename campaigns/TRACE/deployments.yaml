@@ -1,0 +1,82 @@
+---
+deployments:
+- name: TRACE-D1_1992
+  platforms:
+  - name: DC-8
+    rename_as_ict: true
+    header_content: "day,time,qflag,latitude,longitude,other"
+    files:
+    - https://www-air.larc.nasa.gov/pub/TRACEA/AIRCRAFT/PROJECT.LARC/po101d01.tra
+    - https://www-air.larc.nasa.gov/pub/TRACEA/AIRCRAFT/PROJECT.LARC/po101d02.tra
+    - https://www-air.larc.nasa.gov/pub/TRACEA/AIRCRAFT/PROJECT.LARC/po101d03.tra
+    - https://www-air.larc.nasa.gov/pub/TRACEA/AIRCRAFT/PROJECT.LARC/po101d04.tra
+    - https://www-air.larc.nasa.gov/pub/TRACEA/AIRCRAFT/PROJECT.LARC/po101d05.tra
+    - https://www-air.larc.nasa.gov/pub/TRACEA/AIRCRAFT/PROJECT.LARC/po101d06.tra
+    - https://www-air.larc.nasa.gov/pub/TRACEA/AIRCRAFT/PROJECT.LARC/po101d07.tra
+    - https://www-air.larc.nasa.gov/pub/TRACEA/AIRCRAFT/PROJECT.LARC/po101d08.tra
+    - https://www-air.larc.nasa.gov/pub/TRACEA/AIRCRAFT/PROJECT.LARC/po101d09.tra
+    - https://www-air.larc.nasa.gov/pub/TRACEA/AIRCRAFT/PROJECT.LARC/po101d10.tra
+    - https://www-air.larc.nasa.gov/pub/TRACEA/AIRCRAFT/PROJECT.LARC/po101d11.tra
+    - https://www-air.larc.nasa.gov/pub/TRACEA/AIRCRAFT/PROJECT.LARC/po101d12.tra
+    - https://www-air.larc.nasa.gov/pub/TRACEA/AIRCRAFT/PROJECT.LARC/po101d13.tra
+    - https://www-air.larc.nasa.gov/pub/TRACEA/AIRCRAFT/PROJECT.LARC/po101d14.tra
+    - https://www-air.larc.nasa.gov/pub/TRACEA/AIRCRAFT/PROJECT.LARC/po101d15.tra
+    - https://www-air.larc.nasa.gov/pub/TRACEA/AIRCRAFT/PROJECT.LARC/po101d16.tra
+    - https://www-air.larc.nasa.gov/pub/TRACEA/AIRCRAFT/PROJECT.LARC/po101d17.tra
+    - https://www-air.larc.nasa.gov/pub/TRACEA/AIRCRAFT/PROJECT.LARC/po101d18.tra
+    - https://www-air.larc.nasa.gov/pub/TRACEA/AIRCRAFT/PROJECT.LARC/po101d19.tra
+- name: TRACE-D2_2001
+  platforms:
+  - name: DC-8
+    rename_as_ict: true
+    header_content: "jday,time,latitude,longitude,pitch,roll"
+    data_start_line_fix: 3
+    files:
+    - https://www-air.larc.nasa.gov/pub/TRACEP/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/PO_01D01.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/PO_01D02.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/PO_01D03.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/PO_01D04.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/PO_01D05.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/PO_01D06.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/PO_01D07.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/PO_01D08.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/PO_01D09.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/PO_01D10.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/PO_01D11.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/PO_01D12.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/PO_01D13.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/PO_01D14.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/PO_01D15.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/PO_01D16.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/PO_01D17.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/PO_01D18.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/PO_01D19.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/PO_01D20.zip
+  - name: P-3
+    rename_as_ict: true 
+    files:
+    - https://www-air.larc.nasa.gov/pub/TRACEP/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01P01.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01P02.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01P03.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01P19.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01P21.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01p04.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01p05.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01p06.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01p07.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01p08.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01p09.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01p10.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01p11.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01p12.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01p13.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01p14.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01p15.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01p16.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01p17.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01p18.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01p20.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01p22.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01p23.zip
+    - https://www-air.larc.nasa.gov/pub/TRACEP/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01p24.zip
+    

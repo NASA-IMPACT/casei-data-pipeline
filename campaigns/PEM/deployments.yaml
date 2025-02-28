@@ -1,0 +1,152 @@
+---
+deployments:
+- name: PEM-D1_1991-Sep
+  platforms:
+  - name: DC-8
+    rename_as_ict: true
+    header_content: "day,time,quality,latitude,longitude,pitch"
+    files:
+    - https://www-air.larc.nasa.gov/pub/PEMWESTA/AIRCRAFT/PROJECT.LARC/po101d01.pwa
+    - https://www-air.larc.nasa.gov/pub/PEMWESTA/AIRCRAFT/PROJECT.LARC/po101d02.pwa
+    - https://www-air.larc.nasa.gov/pub/PEMWESTA/AIRCRAFT/PROJECT.LARC/po101d03.pwa
+    - https://www-air.larc.nasa.gov/pub/PEMWESTA/AIRCRAFT/PROJECT.LARC/po101d04.pwa
+    - https://www-air.larc.nasa.gov/pub/PEMWESTA/AIRCRAFT/PROJECT.LARC/po101d05.pwa
+    - https://www-air.larc.nasa.gov/pub/PEMWESTA/AIRCRAFT/PROJECT.LARC/po101d06.pwa
+    - https://www-air.larc.nasa.gov/pub/PEMWESTA/AIRCRAFT/PROJECT.LARC/po101d07.pwa
+    - https://www-air.larc.nasa.gov/pub/PEMWESTA/AIRCRAFT/PROJECT.LARC/po101d08.pwa
+    - https://www-air.larc.nasa.gov/pub/PEMWESTA/AIRCRAFT/PROJECT.LARC/po101d09.pwa
+    - https://www-air.larc.nasa.gov/pub/PEMWESTA/AIRCRAFT/PROJECT.LARC/po101d10.pwa
+    - https://www-air.larc.nasa.gov/pub/PEMWESTA/AIRCRAFT/PROJECT.LARC/po101d11.pwa
+    - https://www-air.larc.nasa.gov/pub/PEMWESTA/AIRCRAFT/PROJECT.LARC/po101d12.pwa
+    - https://www-air.larc.nasa.gov/pub/PEMWESTA/AIRCRAFT/PROJECT.LARC/po101d13.pwa
+    - https://www-air.larc.nasa.gov/pub/PEMWESTA/AIRCRAFT/PROJECT.LARC/po101d14.pwa
+    - https://www-air.larc.nasa.gov/pub/PEMWESTA/AIRCRAFT/PROJECT.LARC/po101d15.pwa
+    - https://www-air.larc.nasa.gov/pub/PEMWESTA/AIRCRAFT/PROJECT.LARC/po101d16.pwa
+    - https://www-air.larc.nasa.gov/pub/PEMWESTA/AIRCRAFT/PROJECT.LARC/po101d17.pwa
+    - https://www-air.larc.nasa.gov/pub/PEMWESTA/AIRCRAFT/PROJECT.LARC/po101d18.pwa
+    - https://www-air.larc.nasa.gov/pub/PEMWESTA/AIRCRAFT/PROJECT.LARC/po101d19.pwa
+    - https://www-air.larc.nasa.gov/pub/PEMWESTA/AIRCRAFT/PROJECT.LARC/po101d20.pwa
+    - https://www-air.larc.nasa.gov/pub/PEMWESTA/AIRCRAFT/PROJECT.LARC/po101d21.pwa
+- name: PEM-D2_1994-Feb
+  platforms:
+  - name: DC-8
+    rename_as_ict: true
+    header_content: "day,time,quality,latitude,longitude,pitch"
+    files:
+    - https://www-air.larc.nasa.gov/pub/PEMWESTB/AIRCRAFT/PROJECT.LRC/10sec/po101d01.pwb
+    - https://www-air.larc.nasa.gov/pub/PEMWESTB/AIRCRAFT/PROJECT.LRC/10sec/po101d02.pwb
+    - https://www-air.larc.nasa.gov/pub/PEMWESTB/AIRCRAFT/PROJECT.LRC/10sec/po101d03.pwb
+    - https://www-air.larc.nasa.gov/pub/PEMWESTB/AIRCRAFT/PROJECT.LRC/10sec/po101d04.pwb
+    - https://www-air.larc.nasa.gov/pub/PEMWESTB/AIRCRAFT/PROJECT.LRC/10sec/po101d05.pwb
+    - https://www-air.larc.nasa.gov/pub/PEMWESTB/AIRCRAFT/PROJECT.LRC/10sec/po101d06.pwb
+    - https://www-air.larc.nasa.gov/pub/PEMWESTB/AIRCRAFT/PROJECT.LRC/10sec/po101d07.pwb
+    - https://www-air.larc.nasa.gov/pub/PEMWESTB/AIRCRAFT/PROJECT.LRC/10sec/po101d08.pwb
+    - https://www-air.larc.nasa.gov/pub/PEMWESTB/AIRCRAFT/PROJECT.LRC/10sec/po101d09.pwb
+    - https://www-air.larc.nasa.gov/pub/PEMWESTB/AIRCRAFT/PROJECT.LRC/10sec/po101d10.pwb
+    - https://www-air.larc.nasa.gov/pub/PEMWESTB/AIRCRAFT/PROJECT.LRC/10sec/po101d11.pwb
+    - https://www-air.larc.nasa.gov/pub/PEMWESTB/AIRCRAFT/PROJECT.LRC/10sec/po101d12.pwb
+    - https://www-air.larc.nasa.gov/pub/PEMWESTB/AIRCRAFT/PROJECT.LRC/10sec/po101d13.pwb
+    - https://www-air.larc.nasa.gov/pub/PEMWESTB/AIRCRAFT/PROJECT.LRC/10sec/po101d14.pwb
+    - https://www-air.larc.nasa.gov/pub/PEMWESTB/AIRCRAFT/PROJECT.LRC/10sec/po101d15.pwb
+    - https://www-air.larc.nasa.gov/pub/PEMWESTB/AIRCRAFT/PROJECT.LRC/10sec/po101d16.pwb
+    - https://www-air.larc.nasa.gov/pub/PEMWESTB/AIRCRAFT/PROJECT.LRC/10sec/po101d17.pwb
+    - https://www-air.larc.nasa.gov/pub/PEMWESTB/AIRCRAFT/PROJECT.LRC/10sec/po101d18.pwb
+    - https://www-air.larc.nasa.gov/pub/PEMWESTB/AIRCRAFT/PROJECT.LRC/10sec/po101d19.pwb
+- name: PEM-D3_1996-Aug
+  platforms:
+  - name: DC-8
+    rename_as_ict: true
+    header_content: "day,secs,event,days,dadstim,latitude,longitude,pitch"
+    files:
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d03.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d04.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d05.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d06.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d07.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d08.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d09.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d10.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d11.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d12.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d13.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d14.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d15.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d16.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d17.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d18.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d19.zip
+  - name: P-3
+    rename_as_ict: true
+    header_content: "day,time,event,hhmmss,hms,altitude,speed,ts,latitude,longitude,knots"
+    files:
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p01.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p02.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p03.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p04.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p05.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p06.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p07.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p08.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p09.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p10.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p11.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p12.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p13.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p14.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p15.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p16.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p17.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p18.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p19.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p20.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSA/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p21.zip
+- name: PEM-D4_1999-Mar
+  platforms:
+  - name: DC-8
+    rename_as_ict: true
+    header_content: "day,time,latitude,longitude,speed"
+    files:
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01d17.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d02.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d03.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d04.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d05.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d06.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d07.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d08.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d09.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d10.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d11.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d12.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d13.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d14.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d15.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d16.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d18.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d19.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d20.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d21.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/DC8-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01d22.zip
+  - name: P-3
+    rename_as_ict: true
+    header_content: "day,time,latitude,longitude,altitude,pressure"
+    files:
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/Po_01p18.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p01.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p02.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p03.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p04.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p05.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p06.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p07.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p08.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p09.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p10.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p11.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p12.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p13.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p14.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p15.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p16.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p17.zip
+    - https://www-air.larc.nasa.gov/pub/PEMTROPICSB/P3B-AIRCRAFT/AIRCRAFT/PROJECT.LRC/po_01p19.zip

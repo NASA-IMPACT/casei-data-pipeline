@@ -1,0 +1,132 @@
+---
+deployments:
+- name: RADEX-D1_2014
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/IPHEX/N809NA/2014-05-01/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/IPHEX/N809NA//2014-05-01/IWG1.01May2014-2153
+    - https://asp-archive.arc.nasa.gov/IPHEX/N809NA//2014-05-03/IWG1.03May2014-2027
+    - https://asp-archive.arc.nasa.gov/IPHEX/N809NA//2014-05-04/IWG1.04May2014-1834
+    - https://asp-archive.arc.nasa.gov/IPHEX/N809NA//2014-05-07/IWG1.07May2014-1951
+    - https://asp-archive.arc.nasa.gov/IPHEX/N809NA//2014-05-12/IWG1.12May2014-1634
+    - https://asp-archive.arc.nasa.gov/IPHEX/N809NA//2014-05-15/IWG1.15May2014-1907
+    - https://asp-archive.arc.nasa.gov/IPHEX/N809NA//2014-05-16/IWG1.16May2014-1910
+    - https://asp-archive.arc.nasa.gov/IPHEX/N809NA//2014-05-18/IWG1.18May2014-1626
+    - https://asp-archive.arc.nasa.gov/IPHEX/N809NA//2014-05-19/IWG1.19May2014-1435
+    - https://asp-archive.arc.nasa.gov/IPHEX/N809NA//2014-05-23/IWG1.24May2014-0302
+    - https://asp-archive.arc.nasa.gov/IPHEX/N809NA//2014-05-24/IWG1.25May2014-0137
+    - https://asp-archive.arc.nasa.gov/IPHEX/N809NA//2014-05-26/IWG1.26May2014-2207
+    - https://asp-archive.arc.nasa.gov/IPHEX/N809NA//2014-05-28/IWG1.28May2014-1734
+    - https://asp-archive.arc.nasa.gov/IPHEX/N809NA//2014-05-29/IWG1.29May2014-2354
+    - https://asp-archive.arc.nasa.gov/IPHEX/N809NA//2014-06-02/IWG1.02Jun2014-1826
+    - https://asp-archive.arc.nasa.gov/IPHEX/N809NA//2014-06-05/IWG1.05Jun2014-1031
+    - https://asp-archive.arc.nasa.gov/IPHEX/N809NA//2014-06-06/IWG1.06Jun2014-2044
+    - https://asp-archive.arc.nasa.gov/IPHEX/N809NA//2014-06-08/IWG1.08Jun2014-2124
+    - https://asp-archive.arc.nasa.gov/IPHEX/N809NA//2014-06-11/IWG1.11Jun2014-2315
+    - https://asp-archive.arc.nasa.gov/IPHEX/N809NA//2014-06-12/IWG1.13Jun2014-0006
+    - https://asp-archive.arc.nasa.gov/IPHEX/N809NA//2014-06-14/IWG1.15Jun2014-2939
+  - name: Citation
+    tsv_format: true
+    rename_as_ict: true
+    data_start_line_fix: -1
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_06_13_18_51_49.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_06_12_16_05_01.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_06_11_16_42_00.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_06_08_18_07_30.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_06_06_18_21_47.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_06_05_07_11_34.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_05_29_17_25_29.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_05_28_19_07_10.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_05_28_13_10_57.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_05_27_21_13_09.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_05_27_13_49_05.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_05_26_19_58_48.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_05_25_18_59_17.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_05_23_22_04_48.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_05_23_18_08_42.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_05_23_13_21_31.Combined.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_05_19_15_27_23.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_05_19_09_01_04.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_05_19_06_07_13.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_05_18_10_55_51.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_05_16_17_00_32.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_05_16_12_37_36.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_05_16_10_14_27.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_05_15_12_58_40.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_05_12_17_45_18.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_05_12_12_07_16.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_05_12_09_08_18.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_05_10_15_38_13.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_05_09_18_43_16.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_04_29_15_21_03.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_04_22_20_46_40.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_04_16_16_33_26.iphex
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavcitiphx__1/nav_2014_03_06_17_45_37.iphex
+- name: RADEX-D2_2015
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/RADEX/N809NA/2015-11-09/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/RADEX/N809NA//2015-11-09/IWG1.09Nov2015-2159
+    - https://asp-archive.arc.nasa.gov/RADEX/N809NA//2015-11-10/IWG1.10Nov2015-1937
+    - https://asp-archive.arc.nasa.gov/RADEX/N809NA//2015-11-16/IWG1.17Nov2015-0311
+    - https://asp-archive.arc.nasa.gov/RADEX/N809NA//2015-11-18/IWG1.19Nov2015-0046
+    - https://asp-archive.arc.nasa.gov/RADEX/N809NA//2015-11-23/IWG1.23Nov2015-2228
+    - https://asp-archive.arc.nasa.gov/RADEX/N809NA//2015-11-24/IWG1.24Nov2015-2232
+    - https://asp-archive.arc.nasa.gov/RADEX/N809NA//2015-12-01/IWG1.02Dec2015-0228
+    - https://asp-archive.arc.nasa.gov/RADEX/N809NA//2015-12-03/IWG1.03Dec2015-1749
+    - https://asp-archive.arc.nasa.gov/RADEX/N809NA//2015-12-04/IWG1.04Dec2015-2018
+    - https://asp-archive.arc.nasa.gov/RADEX/N809NA//2015-12-05/IWG1.05Dec2015-1812
+    - https://asp-archive.arc.nasa.gov/RADEX/N809NA//2015-12-08/IWG1.09Dec2015-0045
+    - https://asp-archive.arc.nasa.gov/RADEX/N809NA//2015-12-10/IWG1.10Dec2015-2210
+    - https://asp-archive.arc.nasa.gov/RADEX/N809NA//2015-12-12/IWG1.12Dec2015-2220
+    - https://asp-archive.arc.nasa.gov/RADEX/N809NA//2015-12-13/IWG1.14Dec2015-0014
+    - https://asp-archive.arc.nasa.gov/RADEX/N809NA//2015-12-15/IWG1.15Dec2015-2007
+  - name: DC-8
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_20151105-2308.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_10hz_20151105-2308.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_20151110-2138.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_10hz_parameters_20151110.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_10hz_20151110-2138.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_20151112-2245.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_10hz_20151112-2245.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_20151113-2012.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_10hz_20151113-2012.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_20151114-2349.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_10hz_20151114-2349.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_20151119-0039.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_10hz_20151119-0039.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_20151123-2212.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_10hz_20151123-2212.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_20151124-2028.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_parameters_20151124.xml
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_10hz_20151124-2028.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_20151125-1945.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_10hz_20151125-1945.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_20151202-0158.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_10hz_20151202-0158.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_20151203-1736.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_10hz_20151203-1736.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_20151204-1806.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_10hz_20151204-1806.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_20151205-1900.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_10hz_20151205-1900.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_20151208-2033.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_10hz_20151208-2033.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_20151210-1404.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_10hz_20151210-1404.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_20151210-2011.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_10hz_20151210-2011.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_20151212-2206.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_10hz_20151212-2206.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_20151213-1900.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_10hz_20151213-1900.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_20151218-0748.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_10hz_20151218-0748.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_20151219-0357.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_10hz_20151219-0357.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_20151219-2153.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/gpmnavdc8olyx__1/olympex_navdc8_IWG1_10hz_20151219-2153.txt
