@@ -20,7 +20,13 @@ const makePlatformGeoJSON = (dir) => {
   collection = files
     .filter((f) => f.endsWith('.csv') && !f.endsWith('headers.csv'))
     .map((f) => path.join(dir, f))
-    .map((f) => convertToGeoJSON(f, properties, platformConfig.coords_divisor));
+    .map((f) => convertToGeoJSON(
+      f,
+      // as some platforms can have a slash in the name, we use its original name
+      // from the yaml config file, instead of the one from the DIR name
+      { ...properties, platform_name: platformConfig.name },
+      platformConfig.coords_divisor
+    ));
 
   // if the platform has
   if (!collection.length && files.every((f) => f.endsWith('.kml'))) {
