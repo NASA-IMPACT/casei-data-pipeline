@@ -1,0 +1,14 @@
+---
+deployments:
+- name: CALIPSO-NVF-D1_2022
+  platforms:
+  - name: B-200
+    latitude_field: "/Nav_Data/gps_lat"
+    longitude_field: "/Nav_Data/gps_lon"
+    time_field: "/Nav_Data/gps_time"
+    files:
+    - https://asdc.larc.nasa.gov/data/CALIPSO-NVF/HSRL2/KingAir_DATA_1/CALIPSO-NVF-HSRL2_KingAir_20220807_R1.h5
+    - https://asdc.larc.nasa.gov/data/CALIPSO-NVF/HSRL2/KingAir_DATA_1/CALIPSO-NVF-HSRL2_KingAir_20220810_R1.h5
+    - https://asdc.larc.nasa.gov/data/CALIPSO-NVF/HSRL2/KingAir_DATA_1/CALIPSO-NVF-HSRL2_KingAir_20220812_R1.h5
+    - https://asdc.larc.nasa.gov/data/CALIPSO-NVF/HSRL2/KingAir_DATA_1/CALIPSO-NVF-HSRL2_KingAir_20220817_R1.h5
+    - https://asdc.larc.nasa.gov/data/CALIPSO-NVF/HSRL2/KingAir_DATA_1/CALIPSO-NVF-HSRL2_KingAir_20220818_R1.h5
