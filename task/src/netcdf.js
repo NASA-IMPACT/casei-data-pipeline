@@ -1,6 +1,6 @@
 const fs = require('fs');
-const hdf5 = require("jsfive");
-const { NetCDFReader } = require("netcdfjs");
+const hdf5 = require('jsfive');
+const { NetCDFReader } = require('netcdfjs');
 
 /**
 * Converts a NetCDF file to CSV, extracting the time, latitude and longitude information.

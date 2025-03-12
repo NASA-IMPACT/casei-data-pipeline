@@ -78,8 +78,8 @@ const divideCoordinates = (features, coordsDivisor) => features.map((i) => {
 
 const urlHasFileExtension = (url) => {
   const ext = path.basename(url).split('.').slice(-1)[0];
-  // .nc is the only extension that doesn't have a length of 3 or 4 chars
-  if (ext === 'nc' || ext === 'sb') return ext;
+  // nc, sb, and h5 are the only extension that don't have a length of 3 or 4 chars
+  if (['nc', 'sb', 'h5'].includes(ext)) return ext;
   return ext && [3, 4].includes(ext.length);
 };
 
