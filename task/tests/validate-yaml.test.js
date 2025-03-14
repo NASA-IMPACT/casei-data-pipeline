@@ -27,6 +27,7 @@ const structure = array(
         latitude_field: optional(string()),
         longitude_field: optional(string()),
         time_field: optional(string()),
+        set_file_extension: optional(string()),
         files: array(string()),
       })
     ),

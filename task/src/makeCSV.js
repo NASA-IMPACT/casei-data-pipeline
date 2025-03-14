@@ -33,9 +33,9 @@ const makeCSV = (platformPath) => {
   ncFiles.forEach(
     (f) => netcdf2csv(
       f,
-      platformConfig.latitude_field,
-      platformConfig.longitude_field,
-      platformConfig.time_field
+      platformConfig?.latitude_field,
+      platformConfig?.longitude_field,
+      platformConfig?.time_field
     )
   );
 
