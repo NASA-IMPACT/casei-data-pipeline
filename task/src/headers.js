@@ -18,6 +18,7 @@ const LONGITUDE_COL_NAMES = [
   'longitude_deg',
   'pos_lon',
   'ship_log_interp_lon',
+  'ship_lon',
   'aimmslon',
   'longitude_er2',
   'longitude_w',
@@ -36,6 +37,7 @@ const LATITUDE_COL_NAMES = [
   'latitude_deg',
   'pos_lat',
   'ship_log_interp_lat',
+  'ship_lat',
   'aimmlat',
   'latitude_er2',
 ];

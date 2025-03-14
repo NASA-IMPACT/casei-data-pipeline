@@ -11,7 +11,12 @@ const hdf5 = require('jsfive');
 * @param {String} timeField - name of the field in the NetCDF file that contains the
   time information
 */
-const hdf52csv = (filePath, latitudeField = 'latitude', longitudeField = 'longitude', timeField = 'time') => {
+const hdf52csv = (
+  filePath,
+  latitudeField = '/Nav_Data/gps_lat',
+  longitudeField = '/Nav_Data/gps_lon',
+  timeField = '/Nav_Data/gps_time'
+) => {
   const file = fs.readFileSync(filePath);
   let csvContent = 'time,latitude,longitude\n';
 

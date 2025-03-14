@@ -58,6 +58,10 @@ deployments:
               required: false
               type: string
               description: Name of the field in the NetCDF file that contains the time information.
+            set_file_extension:
+              required: false
+              type: string
+              description: Some download links don't have the name of the file, neither the extension. This field will set the extension of the file and a random name for it.
             files:
               required: true
               type: list

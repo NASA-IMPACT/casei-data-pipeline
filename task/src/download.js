@@ -13,6 +13,19 @@ const { kmz2kml, extractKmlContent } = require('./convert-kml');
 const replaceSlash = (str) => str.replaceAll('/', '-');
 
 const downloadFile = async (url, dir, platformConfig) => {
+  // some download URLs don't have a file extension, the set_file_extension option
+  // allows to download those files and set a specific file extension
+  if (platformConfig.set_file_extension) {
+    const randomId = globalThis.crypto.getRandomValues(new Uint32Array(1))[0];
+    fs.writeFileSync(
+      path.join(
+        dir,
+        `${randomId}.${platformConfig.set_file_extension}`
+      ),
+      await download(url)
+    );
+    return;
+  }
   try {
     await download(
       url,
