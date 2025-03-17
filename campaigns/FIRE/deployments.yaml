@@ -1,0 +1,25 @@
+---
+deployments:
+- name: FIRE-D3_1991
+  platforms:
+  - name: Sabreliner
+    rename_as_ict: true
+    tsv_format: true
+    data_start_line_fix: 26
+    header_content: "start_time,end_time,pressure,temperature,altitude,latitude,longitude,ustar"
+    files:
+    - https://asdc.larc.nasa.gov/data/FIRE/FIRE_CI2_SABRLNR_IWC/fire_ci2_sbiwc17_911207
+    - https://asdc.larc.nasa.gov/data/FIRE/FIRE_CI2_SABRLNR_IWC/fire_ci2_sbiwc15_911206
+    - https://asdc.larc.nasa.gov/data/FIRE/FIRE_CI2_SABRLNR_IWC/fire_ci2_sbiwc16_911206
+    - https://asdc.larc.nasa.gov/data/FIRE/FIRE_CI2_SABRLNR_IWC/fire_ci2_sbiwc14_911205
+    - https://asdc.larc.nasa.gov/data/FIRE/FIRE_CI2_SABRLNR_IWC/fire_ci2_sbiwc13_911205
+    - https://asdc.larc.nasa.gov/data/FIRE/FIRE_CI2_SABRLNR_IWC/fire_ci2_sbiwc11_911203
+    - https://asdc.larc.nasa.gov/data/FIRE/FIRE_CI2_SABRLNR_IWC/fire_ci2_sbiwc10_911130
+    - https://asdc.larc.nasa.gov/data/FIRE/FIRE_CI2_SABRLNR_IWC/fire_ci2_sbiwc09_911128
+    - https://asdc.larc.nasa.gov/data/FIRE/FIRE_CI2_SABRLNR_IWC/fire_ci2_sbiwc07_911126
+    - https://asdc.larc.nasa.gov/data/FIRE/FIRE_CI2_SABRLNR_IWC/fire_ci2_sbiwc08_911126
+    - https://asdc.larc.nasa.gov/data/FIRE/FIRE_CI2_SABRLNR_IWC/fire_ci2_sbiwc06_911125
+    - https://asdc.larc.nasa.gov/data/FIRE/FIRE_CI2_SABRLNR_IWC/fire_ci2_sbiwc05_911124
+    - https://asdc.larc.nasa.gov/data/FIRE/FIRE_CI2_SABRLNR_IWC/fire_ci2_sbiwc04_911122
+    - https://asdc.larc.nasa.gov/data/FIRE/FIRE_CI2_SABRLNR_IWC/fire_ci2_sbiwc03_911121
+    - https://asdc.larc.nasa.gov/data/FIRE/FIRE_CI2_SABRLNR_IWC/fire_ci2_sbiwc01_911117
