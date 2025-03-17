@@ -2,6 +2,15 @@ const fs = require('fs');
 const hdf5 = require('jsfive');
 
 /**
+* Load a HDF5 file and return its content as a file buffer.
+* @param {String} filePath - path to a HDF5 file
+*/
+const loadHdf5 = (filePath) => {
+  const file = fs.readFileSync(filePath);
+  return new hdf5.File(file.buffer);
+};
+
+/**
 * Converts a HDF5 file to CSV, extracting the time, latitude and longitude information.
 * @param {String} filePath - path to a HDF5 file
 * @param {String} latitudeField - name of the field in the NetCDF file that contains the
@@ -17,12 +26,14 @@ const hdf52csv = (
   longitudeField = '/Nav_Data/gps_lon',
   timeField = '/Nav_Data/gps_time'
 ) => {
-  const file = fs.readFileSync(filePath);
+  let data;
+  try {
+    data = loadHdf5(filePath).get('Nav_Data');
+  } catch (e) {
+    data = loadHdf5(filePath).get('GEOLOCATION_PARAMETERS');
+  }
+
   let csvContent = 'time,latitude,longitude\n';
-
-  // Deal with NetCDF-4 files
-  const data = new hdf5.File(file.buffer).get('Nav_Data');
-
   const latitudes = data.values.find((i) => i.name === latitudeField).value;
   const longitudes = data.values.find((i) => i.name === longitudeField).value;
   const times = data.values.find((i) => i.name === timeField).value;
@@ -38,4 +49,5 @@ const hdf52csv = (
 
 module.exports = {
   hdf52csv,
+  loadHdf5,
 };
