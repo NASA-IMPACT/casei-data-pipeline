@@ -1,0 +1,290 @@
+---
+deployments:
+- name: IceBridge-D1_2009-Mar
+  platforms:
+  - name: P-3
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2014/09/2009arctic.kmz
+- name: IceBridge-D2_2009-Aug
+  platforms:
+  - name: DHC-3
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2018/02/UAF_LiDAR_2009.kmz
+- name: IceBridge-D3_2009-Oct
+  platforms:
+  - name: DC-8
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2014/09/2009antarctic.kmz
+  - name: BT-67
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2018/02/2009_Antarctic_UTIG_flown.kmz
+- name: IceBridge-D4_2010-Mar
+  platforms:
+  - name: DC-8
+    files:
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.03.22/IPFLT1B_20100322_063329.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.03.23/IPFLT1B_20100323_105412.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.03.24/IPFLT1B_20100324_105537.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.03.26/IPFLT1B_20100326_110518.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.03.29/IPFLT1B_20100329_110037.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.03.30/IPFLT1B_20100330_105940.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.04.02/IPFLT1B_20100402_105348.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.04.05/IPFLT1B_20100405_105615.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.04.09/IPFLT1B_20100409_110107.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.04.12/IPFLT1B_20100412_112317.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.04.13/IPFLT1B_20100413_111738.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.04.14/IPFLT1B_20100414_105954.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.04.19/IPFLT1B_20100419_113704.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.04.20/IPFLT1B_20100420_105737.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.04.21/IPFLT1B_20100421_111023.kml
+  - name: P-3
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2014/09/2010arctic.kmz
+  - name: DHC-3
+    files:
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.05.16/IPFLT1B_20100516_165615.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.05.17/IPFLT1B_20100517_165146.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.05.21/IPFLT1B_20100521_172221.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.05.21/IPFLT1B_20100521_193614.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.05.22/IPFLT1B_20100522_130148.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.05.26/IPFLT1B_20100526_142837.kml
+- name: IceBridge-D5_2010-Aug
+  platforms:
+  - name: DHC-3
+    files:
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.08.21/IPFLT1B_20100821_173738.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.08.23/IPFLT1B_20100823_191834.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.08.24/IPFLT1B_20100824_164043.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2010.08.29/IPFLT1B_20100829_182404.kml
+- name: IceBridge-D6_2010-Oct
+  platforms:
+  - name: DC-8
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2014/09/2010antarctic.kmz
+  - name: BT-67
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2018/02/2010_Antarctic_UTIG.kmz
+- name: IceBridge-D7_2011-Mar
+  platforms:
+  - name: P-3
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2014/09/2011arctic.kmz
+  - name: BT-67
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2018/02/Arctic2011_BT-67_UTIG_GROGG.kmz
+  - name: DHC-3
+    files:
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2011.05.16/IPFLT1B_20110516_110129.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2011.05.29/IPFLT1B_20110529_221328.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2011.05.30/IPFLT1B_20110530_022919.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2011.05.30/IPFLT1B_20110530_144950.kml
+- name: IceBridge-D8_2011-Aug
+  platforms:
+  - name: DHC-3
+    files:
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2011.08.16/IPFLT1B_20110816_173229.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2011.08.28/IPFLT1B_20110828_230507.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2011.08.29/IPFLT1B_20110829_170638.kml
+- name: IceBridge-D9_2011-Oct
+  platforms:
+  - name: DC-8
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2014/09/2011antarctic.kmz
+  - name: BT-67
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2018/02/2011antarctic_UTIG.kmz
+- name: IceBridge-D10_2012-Mar
+  platforms:
+  - name: P-3
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2014/09/2012arctic.kmz
+- name: IceBridge-D11_2012-Aug
+  platforms:
+  - name: DHC-3
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2018/02/UAF_LiDAR_2012.kmz
+- name: IceBridge-D12_2012-Oct
+  platforms:
+  - name: DC-8
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2014/09/2012antarctic.kmz
+  - name: BT-67
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2018/02/UTIG_ANT_2012_all_final.kmz
+- name: IceBridge-D13_2013-Mar
+  platforms:
+  - name: P-3
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2014/09/2013arctic.kmz
+  - name: DHC-3
+    files:
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2013.05.21/IPFLT1B_20130521_174330.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2013.05.21/IPFLT1B_20130521_201131.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2013.05.22/IPFLT1B_20130522_225413.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2013.05.23/IPFLT1B_20130523_170148.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2013.05.24/IPFLT1B_20130524_174136.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2013.05.24/IPFLT1B_20130524_201428.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2013.05.26/IPFLT1B_20130526_173248.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2013.05.27/IPFLT1B_20130527_002313.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2013.05.28/IPFLT1B_20130528_144241.kml
+- name: IceBridge-D14_2013-Jun
+  platforms:
+  - name: DHC-3
+    files:
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2013.06.17/IPFLT1B_20130617_195248.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2013.06.19/IPFLT1B_20130619_170748.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2013.08.25/IPFLT1B_20130825_182218.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2013.08.25/IPFLT1B_20130825_204205.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2013.08.26/IPFLT1B_20130826_194848.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2013.08.27/IPFLT1B_20130827_175348.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2013.08.29/IPFLT1B_20130829_173048.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2013.08.29/IPFLT1B_20130829_224318.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2013.08.30/IPFLT1B_20130830_222536.kml
+- name: IceBridge-D16_2013-Nov
+  platforms:
+  - name: P-3
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2014/09/2013antarctic.kmz
+- name: IceBridge-D17_2014-Mar
+  platforms:
+  - name: P-3
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2014/09/2014arctic.kmz
+  - name: DHC-3
+    files:
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2014.05.13/IPFLT1B_20140513_200242.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2014.05.14/IPFLT1B_20140514_110844.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2014.05.15/IPFLT1B_20140515_101021.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2014.05.16/IPFLT1B_20140516_005818.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2014.05.16/IPFLT1B_20140516_101652.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2014.05.16/IPFLT1B_20140516_162918.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2014.05.16/IPFLT1B_20140516_194242.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2014.05.17/IPFLT1B_20140517_184748.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2014.05.19/IPFLT1B_20140519_103014.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2014.05.20/IPFLT1B_20140520_115114.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2014.05.21/IPFLT1B_20140521_101949.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2014.05.22/IPFLT1B_20140522_175721.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2014.05.23/IPFLT1B_20140523_095920.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2014.05.23/IPFLT1B_20140523_180448.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2014.05.24/IPFLT1B_20140524_174718.kml
+- name: IceBridge-D18_2014-Aug
+  platforms:
+  - name: DHC-3
+    files:
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2014.08.19/IPFLT1B_20140819_201918.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2014.08.19/IPFLT1B_20140819_223148.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2014.08.20/IPFLT1B_20140820_180307.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2014.08.21/IPFLT1B_20140821_150948.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2014.08.22/IPFLT1B_20140822_175944.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2014.08.23/IPFLT1B_20140823_180848.kml
+- name: IceBridge-D19_2014-Oct
+  platforms:
+  - name: DC-8
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2014/09/2014antarctic.kmz
+- name: IceBridge-D20_2015-Mar
+  platforms:
+  - name: C-130
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2015/01/2015arctic.kmz
+  - name: DHC-3
+    files:
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2015.05.14/IPFLT1B_20150514_193948.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2015.05.15/IPFLT1B_20150515_000351.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2015.05.15/IPFLT1B_20150515_105047.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2015.05.15/IPFLT1B_20150515_205242.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2015.05.17/IPFLT1B_20150517_174505.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2015.05.20/IPFLT1B_20150520_171542.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2015.05.21/IPFLT1B_20150521_145034.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2015.05.22/IPFLT1B_20150522_131706.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2015.05.22/IPFLT1B_20150522_164918.kml
+- name: IceBridge-D21_2015-Aug
+  platforms:
+  - name: DHC-3
+    files:
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2015.08.20/IPFLT1B_20150820_174346.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2015.08.21/IPFLT1B_20150821_172234.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2015.08.23/IPFLT1B_20150823_175040.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2015.08.25/IPFLT1B_20150825_180503.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2015.08.26/IPFLT1B_20150826_180410.kml
+- name: IceBridge-D22_2015-Sep_Antarctica
+  platforms:
+  - name: G-V
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2018/02/trajAllAN2015_LVIS.kmz
+- name: IceBridge-D23_2015-Sep_Greenland
+  platforms:
+  - name: HU-25
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2016/03/2015arctic2.kmz
+- name: IceBridge-D24_2016-Apr
+  platforms:
+  - name: P-3
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2016/03/arctic2016.kmz
+  - name: DHC-3
+    files:
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2016.05.14/IPFLT1B_20160514_131607.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2016.05.16/IPFLT1B_20160516_111257.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2016.05.17/IPFLT1B_20160517_104636.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2016.05.18/IPFLT1B_20160518_104235.kml
+    - https://n5eil01u.ecs.nsidc.org/DP4/ICEBRIDGE/IPFLT1B.001/2016.05.19/IPFLT1B_20160519_105505.kml
+- name: IceBridge-D25_2016-Jul
+  platforms:
+  - name: HU-25
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2016/08/2016arcticsummer.kmz
+  - name: DHC-3
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2018/02/UAF_LiDAR_2016.kmz
+- name: IceBridge-D26_2016-Oct
+  platforms:
+  - name: DC-8
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2016/08/2016antarctic.kmz
+- name: IceBridge-D27_2017-Mar
+  platforms:
+  - name: P-3
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2017/01/2017arctic.kmz
+- name: IceBridge-D28_2017-Jul
+  platforms:
+  - name: B-200
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2018/02/LVIS_B-200_Arctic_Summer_2017_flown_all.kmz
+  - name: HU-25
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2018/02/2017arcticsummer.kmz
+- name: IceBridge-D29_2017-Oct
+  platforms:
+  - name: P-3
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2018/02/2017antarctic_flown_P-3.kmz
+  - name: BT-67
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2018/02/2017_Antarctica_Basler.kmz
+- name: IceBridge-D30_2018-Mar
+  platforms:
+  - name: P-3
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2019/07/2018arctic.kmz
+- name: IceBridge-D32_2018-Oct
+  platforms:
+  - name: DC-8
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2018/12/2018antarctic.kmz
+- name: IceBridge-D33_2019-Apr
+  platforms:
+  - name: P-3
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2019/07/2019arctic.kmz
+- name: IceBridge-D34_2019-Sep
+  platforms:
+  - name: G-V
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2019/12/2019arcticsummer.kmz
+- name: IceBridge-D35_2019-Oct
+  platforms:
+  - name: G-V
+    files:
+    - https://icebridge.gsfc.nasa.gov/wp-content/uploads/2021/04/2019antarctic.kmz
