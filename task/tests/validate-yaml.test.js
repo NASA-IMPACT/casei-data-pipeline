@@ -20,6 +20,7 @@ const structure = array(
         tsv_format: optional(boolean()),
         rename_as_ict: optional(boolean()),
         process_as_ict: optional(boolean()),
+        use_python_hdf: optional(boolean()),
         filter_kmz: optional(boolean()),
         coords_divisor: optional(number()),
         data_start_line_fix: optional(number()),
