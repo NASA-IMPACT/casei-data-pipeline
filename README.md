@@ -18,6 +18,13 @@ Set your [NASA Earth Data Token](https://urs.earthdata.nasa.gov/) as an environm
 export EARTH_DATA_TOKEN="<token>"
 ```
 
+Some campaigns require the use of the Python `pyhdf` library. Install it with:
+
+```
+cd task/
+pip install -r requirements.txt
+```
+
 ### Downloading data
 
 You can download the campaign files with:

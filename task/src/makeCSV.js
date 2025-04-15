@@ -1,5 +1,6 @@
 const path = require('path');
 const fs = require('fs');
+const { execSync } = require('child_process');
 
 const { splitICTFile } = require('./process');
 const { concatenateFiles, getPlatformConfig } = require('./utils');
@@ -38,6 +39,14 @@ const makeCSV = (platformPath) => {
       platformConfig?.time_field
     )
   );
+
+  // process .hdf files with Python module
+  if (platformConfig.use_python_hdf) {
+    const hdfFiles = findFiles(platformPath, '.hdf');
+    hdfFiles.forEach(
+      (f) => execSync(`python src/python/hdf.py ${f} ${platformConfig.header_content || ''}`)
+    );
+  }
 
   // process .h5 files (HDF5)
   const h5Files = findFiles(platformPath, '.h5');
