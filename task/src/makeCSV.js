@@ -40,12 +40,8 @@ const makeCSV = (platformPath) => {
     )
   );
 
-  // process .hdf files with Python module
   if (platformConfig.use_python_hdf) {
-    const hdfFiles = findFiles(platformPath, '.hdf');
-    hdfFiles.forEach(
-      (f) => execSync(`python src/python/hdf.py ${f} ${platformConfig.header_content || ''}`)
-    );
+    console.log('HDF files are already converted to CSV.');
   }
 
   // process .h5 files (HDF5)

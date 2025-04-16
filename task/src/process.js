@@ -232,10 +232,6 @@ const convertToGeoJSON = (
     makeGeoJSON(filePath, extraProperties, columnsStats, coordsDivisor),
     0.001
   );
-  // some files have the same pair coordinates repeated in all rows, what generates
-  // an invalid LineString starting and ending in the same location, so we need to
-  // exclude those items from the final GeoJSON
-  geojson.features = geojson.features.filter((i) => i.geometry.coordinates.length > 2);
   // split features if it crosses the antimeridian
   return splitGeoJSON(geojson);
 };

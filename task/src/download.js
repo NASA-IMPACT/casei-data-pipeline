@@ -9,6 +9,7 @@ const {
   extractFromTar,
 } = require('./utils');
 const { kmz2kml, extractKmlContent } = require('./convert-kml');
+const { execSync } = require('child_process');
 
 const replaceSlash = (str) => str.replaceAll('/', '-');
 
@@ -97,13 +98,25 @@ const downloadPlatform = async (campaignPath, deployment, platform, files) => {
   const platformPath = path.join(campaignPath, deployment, platform);
   const platformConfig = getPlatformConfig(platformPath);
   await createDir(platformPath);
-  await Promise.all(
-    files.map((file) => downloadFile(file, platformPath, platformConfig))
-  );
-  // some .ict files have a .ER2 or .WB57 extension,
-  // so we need to rename it after the download
-  if (platformConfig.rename_as_ict) {
-    renameAsIct(platformPath);
+
+  // as HDF files are too big, we download it one by one, do the conversion to CSV
+  // and delete the file
+  if (platformConfig.use_python_hdf) {
+    files.map(async (file) => {
+      const filePath = path.join(platformPath, path.basename(file));
+      await downloadFile(file, platformPath, platformConfig);
+      execSync(`python src/python/hdf.py ${filePath} ${platformConfig.header_content || ''}`);
+      fs.unlinkSync(filePath);
+    });
+  } else {
+    await Promise.all(
+      files.map((file) => downloadFile(file, platformPath, platformConfig))
+    );
+    // some .ict files have a .ER2 or .WB57 extension,
+    // so we need to rename it after the download
+    if (platformConfig.rename_as_ict) {
+      renameAsIct(platformPath);
+    }
   }
 };
 
