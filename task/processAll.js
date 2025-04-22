@@ -1,12 +1,12 @@
-const path = require('path');
-const fs = require('fs');
+import path from 'path';
+import fs from 'fs';
 
-const { findDirectories, findFiles } = require('./src/find');
-const { exportHeaders } = require('./src/headers');
-const { makeCSV } = require('./src/makeCSV');
-const { makePlatformGeoJSON } = require('./src/processPlatform');
-const { convert } = require('./src/convert');
-const { mergeGeoJSONCollection } = require('./src/process');
+import { findDirectories, findFiles } from './src/find.js';
+import { exportHeaders } from './src/headers.js';
+import { makeCSV } from './src/makeCSV.js';
+import { makePlatformGeoJSON } from './src/processPlatform.js';
+import { convert } from './src/convert.js';
+import { mergeGeoJSONCollection } from './src/process.js';
 
 const campaignPath = process.argv[2];
 const platforms = findDirectories(campaignPath, 2);

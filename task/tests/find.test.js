@@ -1,4 +1,4 @@
-const { findFiles } = require('../src/find');
+import { findFiles } from '../src/find';
 
 describe('findFiles', () => {
   it('return all files filtered by extension', () => {

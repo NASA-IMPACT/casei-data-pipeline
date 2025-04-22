@@ -1,5 +1,5 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
 function findDirectories(dirPath, minDepth = 0) {
   const directories = [];
@@ -46,7 +46,7 @@ function findFiles(dir, ext) {
   return files;
 }
 
-module.exports = {
+export {
   findDirectories,
   findFiles,
 };

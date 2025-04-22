@@ -1,6 +1,6 @@
-const fs = require('fs');
-const axios = require('axios');
-const cheerio = require('cheerio');
+import fs from 'fs';
+import axios from 'axios';
+import cheerio from 'cheerio';
 
 async function getLinks(url) {
   /**
@@ -33,6 +33,6 @@ async function listLinks(url, outputFileName) {
   );
 }
 
-module.exports = {
+export {
   listLinks,
 };

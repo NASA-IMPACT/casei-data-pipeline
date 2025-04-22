@@ -1,5 +1,5 @@
-const XLSX = require('xlsx');
-const fs = require('fs');
+import XLSX from 'xlsx';
+import fs from 'fs';
 
 // Load the xlsx file
 const workbook = XLSX.readFile(process.argv[2]);

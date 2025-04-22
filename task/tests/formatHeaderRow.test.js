@@ -1,4 +1,4 @@
-const { formatHeaderRow } = require('../src/headers');
+import { formatHeaderRow } from '../src/headers';
 
 describe('formatHeaderRow', () => {
   it('formats it with the correct latitude and longitude columns names', () => {

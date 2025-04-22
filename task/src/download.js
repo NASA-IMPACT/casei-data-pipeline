@@ -1,15 +1,19 @@
-const fs = require('fs');
-const path = require('path');
-const unzipper = require('unzipper');
-const download = require('download');
-const {
+import fs from 'fs';
+import path from 'path';
+import unzipper from 'unzipper';
+import download from 'download';
+import pLimit from 'p-limit';
+import { execSync } from 'child_process';
+
+import {
   getPlatformConfig,
   readCampaignYaml,
   urlHasFileExtension,
   extractFromTar,
-} = require('./utils');
-const { kmz2kml, extractKmlContent } = require('./convert-kml');
-const { execSync } = require('child_process');
+} from './utils.js';
+import { kmz2kml, extractKmlContent } from './convert-kml.js';
+
+const CONCURRENT_DOWNLOADS = process.env.CONCURRENT_DOWNLOADS || 10;
 
 const replaceSlash = (str) => str.replaceAll('/', '-');
 
@@ -102,15 +106,19 @@ const downloadPlatform = async (campaignPath, deployment, platform, files) => {
   // as HDF files are too big, we download it one by one, do the conversion to CSV
   // and delete the file
   if (platformConfig.use_python_hdf) {
-    files.map(async (file) => {
-      const filePath = path.join(platformPath, path.basename(file));
-      await downloadFile(file, platformPath, platformConfig);
-      execSync(`python src/python/hdf.py ${filePath} ${platformConfig.header_content || ''}`);
-      fs.unlinkSync(filePath);
-    });
-  } else {
+    const limit = pLimit(1);
     await Promise.all(
-      files.map((file) => downloadFile(file, platformPath, platformConfig))
+      files.map((file) => limit(async () => {
+        const filePath = path.join(platformPath, path.basename(file));
+        await downloadFile(file, platformPath, platformConfig);
+        execSync(`python src/python/hdf.py ${filePath} ${platformConfig.header_content || ''}`);
+        fs.unlinkSync(filePath);
+      }))
+    );
+  } else {
+    const limit = pLimit(Number(CONCURRENT_DOWNLOADS));
+    await Promise.all(
+      files.map((file) => limit(async () => downloadFile(file, platformPath, platformConfig)))
     );
     // some .ict files have a .ER2 or .WB57 extension,
     // so we need to rename it after the download
@@ -127,7 +135,7 @@ const createDir = async (dir) =>
     (e) => e ? console.log(e.message) : console.log(`Created ${dir}`)
 );
 
-module.exports = {
+export {
   downloadCampaign,
   downloadPlatform,
   downloadFile,

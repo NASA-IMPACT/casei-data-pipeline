@@ -1,14 +1,14 @@
-const fs = require('fs');
-const path = require('path');
-const slugify = require('slugify');
+import fs from 'fs';
+import path from 'path';
+import slugify from 'slugify';
 
-const {
+import {
   convertToGeoJSON,
   getPropertiesFromPath,
   mergeGeoJSONCollection,
-} = require('./process');
-const { getPlatformConfig } = require('./utils');
-const { kml2geojson } = require('./convert-kml');
+} from './process.js';
+import { getPlatformConfig } from './utils.js';
+import { kml2geojson } from './convert-kml.js';
 
 const makePlatformGeoJSON = (dir) => {
   const properties = getPropertiesFromPath(dir);
@@ -43,6 +43,4 @@ const makePlatformGeoJSON = (dir) => {
   mergeGeoJSONCollection(collection, resultFile);
 };
 
-module.exports = {
-  makePlatformGeoJSON,
-};
+export { makePlatformGeoJSON };

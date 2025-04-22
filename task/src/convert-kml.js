@@ -1,14 +1,14 @@
-const toGeojson = require('@tmcw/togeojson');
-const fs = require('fs');
-const { DOMParser } = require('xmldom');
-const unzipper = require('unzipper');
-const { lineString } = require('@turf/helpers');
-const simplify = require('simplify-geojson');
+import { kml } from '@tmcw/togeojson';
+import fs from 'fs';
+import { DOMParser } from 'xmldom';
+import unzipper from 'unzipper';
+import { lineString } from '@turf/helpers';
+import simplify from 'simplify-geojson';
 
 const kml2geojson = (filePath, properties) => {
   const file = fs.readFileSync(filePath);
-  const kml = new DOMParser().parseFromString(file.toString());
-  const geojson = toGeojson.kml(kml);
+  const kmlContent = new DOMParser().parseFromString(file.toString());
+  const geojson = kml(kmlContent);
   let features;
   // some kml files have all features as points, in that case,
   // we need to convert it to a single LineString
@@ -69,7 +69,7 @@ const extractKmlContent = (filePath) => new Promise((resolve, reject) => {
     .on('error', reject);
 });
 
-module.exports = {
+export {
   kml2geojson,
   extractKmlContent,
   kmz2kml,

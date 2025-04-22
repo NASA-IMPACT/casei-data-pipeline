@@ -1,12 +1,11 @@
-const path = require('path');
-const fs = require('fs');
-const { execSync } = require('child_process');
+import fs from 'fs';
+import path from 'path';
 
-const { splitICTFile } = require('./process');
-const { concatenateFiles, getPlatformConfig } = require('./utils');
-const { findFiles } = require('./find');
-const { netcdf2csv } = require('./netcdf');
-const { hdf52csv } = require('./hdf5');
+import { splitICTFile } from './process.js';
+import { concatenateFiles, getPlatformConfig } from './utils.js';
+import { findFiles } from './find.js';
+import { netcdf2csv } from './netcdf.js';
+import { hdf52csv } from './hdf5.js';
 
 const makeCSV = (platformPath) => {
   const platformConfig = getPlatformConfig(platformPath);
@@ -68,6 +67,4 @@ const makeCSV = (platformPath) => {
   }
 };
 
-module.exports = {
-  makeCSV,
-};
+export { makeCSV };

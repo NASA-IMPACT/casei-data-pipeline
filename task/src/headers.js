@@ -1,6 +1,6 @@
-const fs = require('fs');
-const path = require('path');
-const { XMLParser } = require('fast-xml-parser');
+import fs from 'fs';
+import path from 'path';
+import { XMLParser } from 'fast-xml-parser';
 
 const LONGITUDE_COL_NAMES = [
   'lon',
@@ -99,7 +99,7 @@ const formatHeaderRow = (headerContent) => {
   return header;
 };
 
-module.exports = {
+export {
   exportHeaders,
   formatHeaderRow,
 };
