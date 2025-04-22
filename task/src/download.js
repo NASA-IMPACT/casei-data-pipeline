@@ -13,6 +13,8 @@ import {
 } from './utils.js';
 import { kmz2kml, extractKmlContent } from './convert-kml.js';
 
+const CONCURRENT_DOWNLOADS = process.env.CONCURRENT_DOWNLOADS || 10;
+
 const replaceSlash = (str) => str.replaceAll('/', '-');
 
 const downloadFile = async (url, dir, platformConfig) => {
@@ -114,7 +116,7 @@ const downloadPlatform = async (campaignPath, deployment, platform, files) => {
       }))
     );
   } else {
-    const limit = pLimit(3);
+    const limit = pLimit(Number(CONCURRENT_DOWNLOADS));
     await Promise.all(
       files.map((file) => limit(async () => downloadFile(file, platformPath, platformConfig)))
     );

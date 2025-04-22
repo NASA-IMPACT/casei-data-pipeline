@@ -27,10 +27,16 @@ pip install -r requirements.txt
 
 ### Downloading data
 
-You can download the campaign files with:
+To download a campaign's files, use the following command:
 
 ```
 yarn download ../campaigns/<campaign_name>
+```
+
+Files are downloaded asynchronously with a default limit of 10 concurrent downloads. It's possible to set another limit with the `CONCURRENT_DOWNLOADS` environment variable, for example:
+
+```
+export CONCURRENT_DOWNLOADS=20
 ```
 
 ### Process a campaign file collection
