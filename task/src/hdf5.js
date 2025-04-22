@@ -1,5 +1,5 @@
-const fs = require('fs');
-const hdf5 = require('jsfive');
+import fs from 'fs';
+import * as hdf5 from 'jsfive';
 
 /**
 * Load a HDF5 file and return its content as a file buffer.
@@ -44,10 +44,10 @@ const hdf52csv = (
     }
   }
 
-  fs.writeFileSync(filePath.replace('.h5', '.csv'), csvContent);
+  fs.writeFileSync(`${filePath}.csv`, csvContent);
 };
 
-module.exports = {
+export {
   hdf52csv,
   loadHdf5,
 };

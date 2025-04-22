@@ -1,6 +1,6 @@
-const fs = require('fs');
-const path = require('path');
-const {
+import fs from 'fs';
+import path from 'path';
+import {
   array,
   assert,
   boolean,
@@ -8,8 +8,9 @@ const {
   object,
   optional,
   string,
-} = require('superstruct');
-const { readCampaignYaml } = require('../src/utils');
+} from 'superstruct';
+
+import { readCampaignYaml } from '../src/utils';
 
 const structure = array(
   object({

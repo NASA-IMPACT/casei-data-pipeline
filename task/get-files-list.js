@@ -1,4 +1,4 @@
-const { listLinks } = require('./src/list-links');
+import { listLinks } from './src/list-links.js';
 
 const url = process.argv[2];
 const outputFile = process.argv[3];

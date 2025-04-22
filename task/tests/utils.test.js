@@ -1,11 +1,11 @@
-const fs = require('fs');
-const {
+import fs from 'fs';
+import {
   tsv2csv,
   getStats,
   getPlatformConfig,
   divideCoordinates,
   urlHasFileExtension,
-} = require('../src/utils');
+} from '../src/utils';
 
 describe('tsv2csv', () => {
   it('converts the tsv file format to csv', () => {

@@ -1,4 +1,4 @@
-const { getPropertiesFromPath } = require('../src/process');
+import { getPropertiesFromPath } from '../src/process';
 
 describe('getPropertiesFromPath', () => {
   it('return correct object', () => {

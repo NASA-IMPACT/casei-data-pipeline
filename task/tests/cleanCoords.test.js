@@ -1,7 +1,6 @@
-const { cleanCoords } = require('../src/process');
-
-const geojson = require('./geo-1.json');
-const geojsonGood = require('./geo-2.json');
+import { cleanCoords } from '../src/process';
+import geojson from './geo-1.json';
+import geojsonGood from './geo-2.json';
 
 describe('cleanCoords', () => {
   it('drops coords with distance from previous coordinates greater than maxDistance', () => {

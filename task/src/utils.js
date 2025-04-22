@@ -1,7 +1,7 @@
-const fs = require('fs');
-const path = require('path');
-const { parse } = require('yaml');
-const tar = require('tar');
+import fs from 'fs';
+import path from 'path';
+import { parse } from 'yaml';
+import tar from 'tar';
 
 const getMax = (arr) => {
   let len = arr.length;
@@ -103,7 +103,7 @@ const extractFromTar = async (tarFilePath, destination) => {
   });
 };
 
-module.exports = {
+export {
   getStats,
   tsv2csv,
   concatenateFiles,

@@ -1,11 +1,11 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
-const {
+import {
   convertToGeoJSON,
   makeStaticLocationsGeoJSON,
   getPropertiesFromPath,
-} = require('./process');
+} from './process.js';
 
 const convert = (filename) => {
   let geojson;
@@ -28,6 +28,4 @@ const convert = (filename) => {
   console.log(`Converted ${filename} to ${geoJsonFilename}.`);
 };
 
-module.exports = {
-  convert,
-};
+export { convert };
