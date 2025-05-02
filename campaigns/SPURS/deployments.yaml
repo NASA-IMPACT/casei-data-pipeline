@@ -1,0 +1,96 @@
+---
+deployments:
+- name: SPURS-D1_2012
+  platforms:
+  - name: Thalassa
+    latitude_field: "lat"
+    longitude_field: "lon"
+    time_field: "time"
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS1_TSG/SPURS_Thalassa_tsg.nc
+  - name: Endeavor
+    latitude_field: "lat"
+    longitude_field: "lon"
+    time_field: "time"
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS1_TSG/SPURS_Endeavor1_tsg.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS1_TSG/SPURS_Endeavor2_tsg.nc
+  - name: Knorr
+    latitude_field: "lat"
+    longitude_field: "lon"
+    time_field: "time"
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS1_TSG/SPURS_Knorr_tsg.nc
+  - name: Sarmiento
+    latitude_field: "lat"
+    longitude_field: "lon"
+    time_field: "time"
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS1_TSG/SPURS_Sarmiento_tsg.nc
+  - name: Slocum Glider
+    latitude_field: "lat"
+    longitude_field: "lon"
+    time_field: "time"
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS1_TENUSEGLIDER/SPURS_Tenuse_Glider.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS1_TENUSEGLIDER/SPURS_Crate_Glider.nc
+  - name: Wave Glider
+    latitude_field: "lat"
+    longitude_field: "lon"
+    time_field: "time"
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS1_WAVEGLIDER/SPURS_wg_ASL32.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS1_WAVEGLIDER/SPURS_wg_ASL22.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS1_WAVEGLIDER/SPURS_wg_ASL4.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS1_WAVEGLIDER/SPURS_wg_ASL42.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS1_WAVEGLIDER/SPURS_wg_ASL2.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS1_WAVEGLIDER/SPURS_wg_ASL3.nc
+  - name: SeaGlider
+    latitude_field: "lat_ctd"
+    longitude_field: "lon_ctd"
+    time_field: "time_ctd"
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS1_SEAGLIDER/SPURS_sg189.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS1_SEAGLIDER/SPURS_sg191.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS1_SEAGLIDER/SPURS_sg190.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS1_SEAGLIDER/SPURS_sg122.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS1_SEAGLIDER/SPURS_sg160.nc
+  - name: SeaSoar
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS1_SEASOAR/SPURS_Sarmiento_seasoar.nc
+- name: SPURS-D2_2016
+  platforms:
+  - name: Roger Revelle
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS2_METEO/SPURS2_RR1610_WHOI_Met.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS2_METEO/SPURS2_RR1720_WHOI_Met.nc
+  - name: Lady Amber
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS2_LADYAMBER/SPURS2_LadyAmber2.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS2_LADYAMBER/SPURS2_LadyAmber3.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS2_LADYAMBER/SPURS2_LadyAmber4.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS2_LADYAMBER/SPURS2_LadyAmber5.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS2_LADYAMBER/SPURS2_LadyAmber6.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS2_LADYAMBER/SPURS2_LadyAmber7.nc
+  - name: Saildrone
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS2_SAILDRONE/SPURS2_Saildrone1005.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS2_SAILDRONE/SPURS2_Saildrone1006.nc
+  - name: Wave Glider
+    latitude_field: "upper_latitude"
+    longitude_field: "upper_longitude"
+    time_field: "upper_time"
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS2_WAVEGLIDER/SPURS2_Waveglider_ASL32.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS2_WAVEGLIDER/SPURS2_Waveglider_ASL22.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS2_WAVEGLIDER/SPURS2_Waveglider_ASL42.nc
+  - name: SeaGlider
+    latitude_field: "latitude"
+    longitude_field: "longitude"
+    time_field: "ctd_time"
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS2_SEAGLIDER/SPURS2_Seaglider_RR1610_220.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS2_SEAGLIDER/SPURS2_Seaglider_RR1610_190.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS2_SEAGLIDER/SPURS2_Seaglider_RR1610_191.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS2_SEAGLIDER/SPURS2_Seaglider_RR1720_144.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SPURS2_SEAGLIDER/SPURS2_Seaglider_RR1720_219.nc
