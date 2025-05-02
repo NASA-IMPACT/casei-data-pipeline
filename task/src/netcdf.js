@@ -22,10 +22,25 @@ const netcdf2csv = (filePath, latitudeField = 'latitude', longitudeField = 'long
   try {
     // Deal with NetCDF-4 files
     const data = new hdf5.File(file.buffer);
+
+    // Verify that the file has the latitude, longitude and time fields.
+    // eslint-disable-next-line no-underscore-dangle
+    const fields = Object.keys(data._links);
+    const missingVars = [latitudeField, longitudeField, timeField].filter(
+      (v) => !fields.includes(v)
+    );
+    if (missingVars.length) {
+      console.log(`Failed to read ${missingVars.join(', ')} on ${filePath}`);
+      console.log(fields);
+      return;
+    }
+
+    // Extract values
     latitudes = data.get(latitudeField).value;
     longitudes = data.get(longitudeField).value;
     times = data.get(timeField).value;
   } catch (e) {
+    console.log(filePath);
     // Fallback to NetCDF-3 files
     const reader = new NetCDFReader(file);
     latitudes = reader.getDataVariable(latitudeField);
