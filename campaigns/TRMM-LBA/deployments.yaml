@@ -1,0 +1,22 @@
+---
+deployments:
+- name: TRMM-LBA-D1_1999
+  platforms:
+  - name: ER-2
+    latitude_field: GPSLatitude
+    longitude_field: GPSLongitude
+    time_field: Time
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtblba__1/lba_ampr_19990223_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtblba__1/lba_ampr_19990221_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtblba__1/lba_ampr_19990217_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtblba__1/lba_ampr_19990214_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtblba__1/lba_ampr_19990212_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtblba__1/lba_ampr_19990210_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtblba__1/lba_ampr_19990208_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtblba__1/lba_ampr_19990207_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtblba__1/lba_ampr_19990205_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtblba__1/lba_ampr_19990201_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtblba__1/lba_ampr_19990130_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtblba__1/lba_ampr_19990127_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtblba__1/lba_ampr_19990124_ghrc_ver2.nc
