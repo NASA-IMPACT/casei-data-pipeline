@@ -1,0 +1,69 @@
+---
+deployments:
+- name: GEMx-D1_2023-Apr
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/N806NA/FY2023/2022-12-15/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/N806NA/FY2023//2023-03-31/IWG1.31Mar2023-2319
+    - https://asp-archive.arc.nasa.gov/N806NA/FY2023//2023-04-05/IWG1.05Apr2023-2116
+    - https://asp-archive.arc.nasa.gov/N806NA/FY2023//2023-04-10/IWG1.10Apr2023-2312
+    - https://asp-archive.arc.nasa.gov/N806NA/FY2023//2023-04-11/IWG1.11Apr2023-1931
+    - https://asp-archive.arc.nasa.gov/N806NA/FY2023//2023-04-12/IWG1.12Apr2023-2346
+    - https://asp-archive.arc.nasa.gov/N806NA/FY2023//2023-04-20/IWG1.20Apr2023-1937
+    - https://asp-archive.arc.nasa.gov/N806NA/FY2023//2023-04-21/IWG1.21Apr2023-2311
+    - https://asp-archive.arc.nasa.gov/N806NA/FY2023//2023-04-25/IWG1.25Apr2023-2341
+    - https://asp-archive.arc.nasa.gov/N806NA/FY2023//2023-04-26/IWG1.27Apr2023-0014
+    - https://asp-archive.arc.nasa.gov/N806NA/FY2023//2023-04-27/IWG1.27Apr2023-2332
+    - https://asp-archive.arc.nasa.gov/N806NA/FY2023//2023-04-28/IWG1.28Apr2023-2142
+    - https://asp-archive.arc.nasa.gov/N806NA/FY2023//2023-05-02/IWG1.02May2023-1849
+- name: GEMx-D2_2023-Aug
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA/2023-09-05/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2023-09-05/IWG1.05Sep2023-2359
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2023-09-11/IWG1.11Sep2023-1946
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2023-09-12/IWG1.12Sep2023-2221
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2023-09-14/IWG1.14Sep2023-2052
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2023-09-15/IWG1.15Sep2023-2312
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2023-09-18/IWG1.18Sep2023-2256
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2023-09-19/IWG1.19Sep2023-2257
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2023-09-20/IWG1.20Sep2023-2308
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2023-09-25/IWG1.25Sep2023-1400
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2023-09-25/IWG1.25Sep2023-2316
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2023-09-26/IWG1.26Sep2023-2252
+- name: GEMx-D3_2024
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA/2023-09-05/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-04-02/IWG1.02Apr2024-2110
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-04-03/IWG1.03Apr2024-2248
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-04-10/IWG1.10Apr2024-2246
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-04-11/IWG1.11Apr2024-2333
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-04-16/IWG1.16Apr2024-2339
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-04-17/IWG1.17Apr2024-2358
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-04-23/IWG1.23Apr2024-2241
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-04-24/IWG1.24Apr2024-2308
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-04-30/IWG1.30Apr2024-2122
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-05-01/IWG1.01May2024-2118
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-05-02/IWG1.02May2024-2158
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-05-06/IWG1.06May2024-2131
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-05-08/IWG1.08May2024-2228
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-05-09/IWG1.09May2024-2224
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-05-13/IWG1.13May2024-2253
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-05-16/IWG1.16May2024-2203
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-05-21/IWG1.21May2024-2204
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-05-22/IWG1.22May2024-2103
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-05-28/IWG1.28May2024-2212
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-05-30/IWG1.30May2024-2230
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-05-31/IWG1.31May2024-2232
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-06-04/IWG1.04Jun2024-2206
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-06-05/IWG1.05Jun2024-2222
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-06-06/IWG1.06Jun2024-2146
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-06-10/IWG1.10Jun2024-2217
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-06-14/IWG1.14Jun2024-2101
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-06-21/IWG1.21Jun2024-2213
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-06-26/IWG1.26Jun2024-2008
+    - https://asp-archive.arc.nasa.gov/GEMX/N809NA//2024-06-28/IWG1.28Jun2024-2211

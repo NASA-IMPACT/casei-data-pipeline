@@ -1,0 +1,37 @@
+---
+deployments:
+- name: TRMM-KWAJEX-D1_1999
+  platforms:
+  - name: DC-8
+    latitude_field: GPSLatitude
+    longitude_field: GPSLongitude
+    time_field: Time
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990914_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990912_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990911_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990910_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990909_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990908_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990906_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990904_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990903_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990902_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990901_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990830_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990829_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990828_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990826_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990825_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990824_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990823_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990822_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990819_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990817_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990816_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990814_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990811_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990809_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990806_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990803_ghrc_ver2.nc
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/amprtbkwj__1/kwajex_ampr_19990730_ghrc_ver2.nc
