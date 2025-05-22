@@ -1,0 +1,7 @@
+---
+deployments:
+- name: BioSCape-D1_2023
+  platforms:
+  - name: G-V
+    files:
+    - https://lvis.gsfc.nasa.gov/images/kmz/trajAll_BioSCape2023.kmz
