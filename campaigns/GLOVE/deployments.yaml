@@ -1,0 +1,15 @@
+---
+deployments:
+- name: GLOVE-D1_2025
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/GLOVE/N809NA/2025-02-03/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/GLOVE/N809NA/2025-02-03/IWG1.04Feb2025-0007
+    - https://asp-archive.arc.nasa.gov/GLOVE/N809NA/2025-02-04/IWG1.05Feb2025-0029
+    - https://asp-archive.arc.nasa.gov/GLOVE/N809NA/2025-02-07/IWG1.08Feb2025-0010
+    - https://asp-archive.arc.nasa.gov/GLOVE/N809NA/2025-02-10/IWG1.11Feb2025-0100
+    - https://asp-archive.arc.nasa.gov/GLOVE/N809NA/2025-02-12/IWG1.13Feb2025-0055
+    - https://asp-archive.arc.nasa.gov/GLOVE/N809NA/2025-02-18/IWG1.18Feb2025-2332
+    - https://asp-archive.arc.nasa.gov/GLOVE/N809NA/2025-02-19/IWG1.20Feb2025-0048
+    - https://asp-archive.arc.nasa.gov/GLOVE/N809NA/2025-02-20/IWG1.21Feb2025-0038
