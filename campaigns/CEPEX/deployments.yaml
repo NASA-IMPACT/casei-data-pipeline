@@ -1,0 +1,10 @@
+---
+deployments:
+- name: CEPEX-D1_1993
+  platforms:
+  - name: Electra
+    time_field: PTIME
+    latitude_field: GLAT
+    longitude_field: GLON
+    files:
+    - https://data.eol.ucar.edu/dataset/6.261 # the download needs to be manual
