@@ -1,0 +1,63 @@
+---
+deployments:
+- name: ABoVE-D1_2017
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17062/PLAN_17062.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17063/PLAN_17063.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17064/PLAN_17064.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17065/PLAN_17065.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17066/PLAN_17066.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17067/PLAN_17067.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17068/PLAN_17068.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17069/PLAN_17069.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17070/PLAN_17070.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17092/PLAN_17092.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17093/PLAN_17093.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17094/PLAN_17094.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17095/PLAN_17095.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17096/PLAN_17096.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17097/PLAN_17097.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17098/PLAN_17098.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17099/PLAN_17099.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17100/PLAN_17100.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17101/PLAN_17101.kml
+  - name: B-200
+    files:
+    - https://lvis.gsfc.nasa.gov/images/kmz/trajAllABoVE2017_LVIS.kmz
+    - https://above.nasa.gov/kml/2017/AVIRIS-NG_2017.kml
+    - https://above.nasa.gov/kml/AAC_20170826_AirSWOT.kml
+  - name: Twin Otter
+    files:
+    - https://above.nasa.gov/kml/AAC_20170830_CFIS.kml
+- name: ABoVE-D2_2018
+  platforms:
+  - name: DO-228
+    files:
+    - https://above.nasa.gov/Documents/DLR_PermASAR_4NASA.kmz
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22031/PLAN_22031.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22032/PLAN_22032.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22033/PLAN_22033.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22034/PLAN_22034.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22035/PLAN_22035.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22036/PLAN_22036.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22037/PLAN_22037.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22038/PLAN_22038.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22039/PLAN_22039.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22040/PLAN_22040.kml
+- name: ABoVE-D6_2024
+  platforms:
+  - name: B-200
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt24054/PLAN_24054.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt24055/PLAN_24055.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt24056/PLAN_24056.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt24057/PLAN_24057.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt24058/PLAN_24058.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt24059/PLAN_24059.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt24060/PLAN_24060.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt24061/PLAN_24061.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt24062/PLAN_24062.kml
