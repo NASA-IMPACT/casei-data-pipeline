@@ -24,7 +24,7 @@ function findDirectories(dirPath, minDepth = 0) {
   return directories;
 }
 
-function findFiles(dir, ext) {
+function findFiles(dir, extensions) {
   const files = [];
 
   function search(directory) {
@@ -34,7 +34,7 @@ function findFiles(dir, ext) {
       const itemPath = path.join(directory, item);
       const stat = fs.statSync(itemPath);
 
-      if (stat.isFile() && path.extname(item) === ext) {
+      if (stat.isFile() && extensions.includes(path.extname(item))) {
         files.push(itemPath);
       } else if (stat.isDirectory()) {
         search(itemPath);

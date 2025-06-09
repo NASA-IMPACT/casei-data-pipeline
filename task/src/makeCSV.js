@@ -12,13 +12,13 @@ const makeCSV = (platformPath) => {
   const headersFile = path.join(platformPath, 'headers.csv');
 
   // process .txt files
-  const txtFiles = findFiles(platformPath, '.txt');
+  const txtFiles = findFiles(platformPath, ['.txt']);
   if (fs.existsSync(headersFile)) {
     txtFiles.forEach((f) => concatenateFiles(headersFile, f, `${f}.csv`));
   }
 
   // process .ict files
-  const ictFiles = findFiles(platformPath, '.ict');
+  const ictFiles = findFiles(platformPath, ['.ict']);
   ictFiles.forEach(
     (f) => splitICTFile(
       f,
@@ -29,7 +29,7 @@ const makeCSV = (platformPath) => {
   );
 
   // process .nc files (NetCDF-4)
-  const ncFiles = findFiles(platformPath, '.nc');
+  const ncFiles = findFiles(platformPath, ['.nc', '.nc4']);
   ncFiles.forEach(
     (f) => netcdf2csv(
       f,
@@ -44,7 +44,7 @@ const makeCSV = (platformPath) => {
   }
 
   // process .h5 files (HDF5)
-  const h5Files = findFiles(platformPath, '.h5');
+  const h5Files = findFiles(platformPath, ['.h5']);
   h5Files.forEach(
     (f) => hdf52csv(
       f,
