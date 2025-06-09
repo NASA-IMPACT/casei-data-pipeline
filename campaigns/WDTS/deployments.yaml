@@ -1,0 +1,67 @@
+---
+deployments:
+- name: WDTS-D1_2020
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2020-10-05/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2020-09-17/IWG1.17Sep2020-2219
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2020-09-24/IWG1.24Sep2020-2355
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2020-09-25/IWG1.25Sep2020-2011
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2020-09-30/IWG1.30Sep2020-2325
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2020-10-05/IWG1.05Oct2020-2045
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2020-10-06/IWG1.06Oct2020-1931
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2020-10-07/IWG1.08Oct2020-0010
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2020-10-12/IWG1.12Oct2020-1807
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2020-10-13/IWG1.13Oct2020-2357
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2020-10-15/IWG1.15Oct2020-2252
+- name: WDTS-D2_2021
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2021-02-10/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2021-02-09/IWG1.09Feb2021-2137
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2021-02-10/IWG1.10Feb2021-2240
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2021-02-24/IWG1.24Feb2021-2157
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2021-03-16/IWG1.16Mar2021-2047
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2021-03-24/IWG1.24Mar2021-2255
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2021-03-26/IWG1.26Mar2021-2322
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2021-03-29/IWG1.29Mar2021-2324
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2021-03-30/IWG1.30Mar2021-2300
+    - https://asp-archive.arc.nasa.gov/HISPIRI/N809NA/2021-04-02/IWG1.03Apr2021-0001
+- name: WDTS-D3_2022
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/WDTS/N806NA/2022-09-02/IWG1.02Sep2022-2127
+    - https://asp-archive.arc.nasa.gov/WDTS/N806NA/2022-09-05/IWG1.06Sep2022-0022
+    - https://asp-archive.arc.nasa.gov/WDTS/N806NA/2022-09-06/IWG1.06Sep2022-2242
+    - https://asp-archive.arc.nasa.gov/WDTS/N806NA/2022-09-08/IWG1.08Sep2022-2227
+    - https://asp-archive.arc.nasa.gov/WDTS/N806NA/2022-09-09/IWG1.09Sep2022-2132
+    - https://asp-archive.arc.nasa.gov/WDTS/N806NA/2022-09-02/IWG1.xml
+- name: WDTS-D4_2023
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/WDTS/N806NA/2023-04-27/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/WDTS/N806NA/2023-03-31/IWG1.31Mar2023-2319
+    - https://asp-archive.arc.nasa.gov/WDTS/N806NA/2023-04-05/IWG1.05Apr2023-2116
+    - https://asp-archive.arc.nasa.gov/WDTS/N806NA/2023-04-10/IWG1.10Apr2023-2312
+    - https://asp-archive.arc.nasa.gov/WDTS/N806NA/2023-04-11/IWG1.11Apr2023-1931
+    - https://asp-archive.arc.nasa.gov/WDTS/N806NA/2023-04-12/IWG1.12Apr2023-2346
+    - https://asp-archive.arc.nasa.gov/WDTS/N806NA/2023-04-20/IWG1.20Apr2023-1937
+    - https://asp-archive.arc.nasa.gov/WDTS/N806NA/2023-04-21/IWG1.21Apr2023-2311
+    - https://asp-archive.arc.nasa.gov/WDTS/N806NA/2023-04-25/IWG1.25Apr2023-2341
+    - https://asp-archive.arc.nasa.gov/WDTS/N806NA/2023-04-26/IWG1.27Apr2023-0014
+    - https://asp-archive.arc.nasa.gov/WDTS/N806NA/2023-04-27/IWG1.27Apr2023-2332
+    - https://asp-archive.arc.nasa.gov/WDTS/N806NA/2023-04-28/IWG1.28Apr2023-2142
+    - https://asp-archive.arc.nasa.gov/WDTS/N806NA/2023-05-02/IWG1.02May2023-1849
+- name: WDTS-D5_2024
+  platforms:
+  - name: ER-2
+    files:
+    - https://asp-archive.arc.nasa.gov/N809NA/FY2024/2024-06-21/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/N809NA/FY2024/2024-06-04/IWG1.04Jun2024-2206
+    - https://asp-archive.arc.nasa.gov/N809NA/FY2024/2024-06-21/IWG1.21Jun2024-2213
+    - https://asp-archive.arc.nasa.gov/N809NA/FY2024/2024-06-26/IWG1.26Jun2024-2008
+    - https://asp-archive.arc.nasa.gov/N809NA/FY2024/2024-06-28/IWG1.28Jun2024-2211

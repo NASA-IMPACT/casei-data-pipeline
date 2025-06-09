@@ -25,7 +25,7 @@ if (fs.existsSync(staticFile)) {
 
 // move platforms GeoJSON files to the campaign folder
 platforms.forEach((p) => {
-  findFiles(p, '.geojson').forEach(
+  findFiles(p, ['.geojson']).forEach(
     (f) => fs.renameSync(f, path.join(campaignPath, path.basename(f)))
   );
 });

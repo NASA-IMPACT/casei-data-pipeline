@@ -1,0 +1,90 @@
+---
+deployments:
+- name: STAQS-D1_2023
+  platforms:
+  - name: G-V
+    files:
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_JSC-GV_HSRL2_Data_1/staqs-HSRL2_JSC-GV_20230815_R1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_JSC-GV_HSRL2_Data_1/staqs-HSRL2_JSC-GV_20230812_R1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_JSC-GV_HSRL2_Data_1/staqs-HSRL2_JSC-GV_20230809_R1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_JSC-GV_HSRL2_Data_1/staqs-HSRL2_JSC-GV_20230808_R1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_JSC-GV_HSRL2_Data_1/staqs-HSRL2_JSC-GV_20230805_R1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_JSC-GV_HSRL2_Data_1/staqs-HSRL2_JSC-GV_20230804_R1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_JSC-GV_HSRL2_Data_1/staqs-HSRL2_JSC-GV_20230802_R1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_JSC-GV_HSRL2_Data_1/staqs-HSRL2_JSC-GV_20230801_R1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_JSC-GV_HSRL2_Data_1/staqs-HSRL2_JSC-GV_20230728_R1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_JSC-GV_HSRL2_Data_1/staqs-HSRL2_JSC-GV_20230726_R1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_JSC-GV_HSRL2_Data_1/staqs-HSRL2_JSC-GV_20230629_R1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_JSC-GV_HSRL2_Data_1/staqs-HSRL2_JSC-GV_20230628_R1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_JSC-GV_HSRL2_Data_1/staqs-HSRL2_JSC-GV_20230627_R1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_JSC-GV_HSRL2_Data_1/staqs-HSRL2_JSC-GV_20230626_R1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_JSC-GV_HSRL2_Data_1/staqs-HSRL2_JSC-GV_20230624_R1.h5
+  - name: G-III
+    files:
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230826_R1_F2.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230826_R1_F1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230825_R1_F2.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230825_R1_F1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230823_R1_F2.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230823_R1_F1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230822_R1_F2.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230822_R1_F1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230815_R1_F1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230812_R1_F1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230809_R2_F1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230808_R1_F1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230805_R2_F1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230804_R1_F1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230802_R1_F2.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230802_R1_F1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230801_R1_F1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230728_R2_F2.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230728_R1_F1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230726_R2_F2.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230726_R1_F1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230723_R1_F1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230628_R1_F2.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230628_R1_F1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230627_R1_F2.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230627_R1_F1.h5
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_AircraftRemoteSensing_NASA-G3_HALO_Data_1/staqs-HALO_LARC-G3_20230626_R1_F1.h5
+  - name: SeaRey
+    files:
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230818_R0.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230816_R0_L2.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230816_R0_L1.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230815_R0.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230813_R0.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230812_R0_L4.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230812_R0_L3.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230812_R0_L2.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230812_R0_L1.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230811_R0.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230810_R0.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230809_R0_L2.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230809_R0_L1.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230808_R0.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230805_R0.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230804_R0.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230802_R0_L3.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230802_R0_L2.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230802_R0_L1.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230801_R0_L2.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230801_R0_L1.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230725_R0_L2.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230725_R0_L1.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230724_R0.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230723_R0_L2.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230723_R0_L1.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230722_R0.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230721_R0.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230719_R0.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_SeaRey_Data_1/STAQS-O3-NO2-PM25-MET_SEAREY_20230718_R0.ict
+  - name: UAV
+    files:
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_Drone_Data_1/staqs-UWEC-UAS_DRONE_20230810_R0.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_Drone_Data_1/staqs-UWEC-UAS_DRONE_20230809_R0.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_Drone_Data_1/staqs-UWEC-UAS_DRONE_20230808_R0.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_Drone_Data_1/staqs-UWEC-UAS_DRONE_20230804_R0.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_Drone_Data_1/staqs-UWEC-UAS_DRONE_20230803_R0.ict
+    - https://data.asdc.earthdata.nasa.gov/asdc-prod-protected/FIELDCAMPAIGN/STAQS/STAQS_Drone_Data_1/staqs-UWEC-UAS_DRONE_20230802_R0.ict

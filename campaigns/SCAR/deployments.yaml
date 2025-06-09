@@ -1,0 +1,88 @@
+---
+deployments:
+- name: SCAR-D1_1993
+  platforms:
+  - name: C-131A
+    latitude_field: AircraftLatitude
+    longitude_field: AircraftLongitude
+    time_field: Time
+    files:
+    - https://acdisc.gsfc.nasa.gov/opendap/CAR/CAR_SCARA_L1C.1/Scara-car_c131_19930712_R2_1605_Level1C_20171201.nc.dap.nc4
+    - https://acdisc.gsfc.nasa.gov/opendap/CAR/CAR_SCARA_L1C.1/Scara-car_c131_19930714_R2_1606_Level1C_20171201.nc.dap.nc4
+    - https://acdisc.gsfc.nasa.gov/opendap/CAR/CAR_SCARA_L1C.1/Scara-car_c131_19930716_R2_1607_Level1C_20171201.nc.dap.nc4
+    - https://acdisc.gsfc.nasa.gov/opendap/CAR/CAR_SCARA_L1C.1/Scara-car_c131_19930719_R2_1608_Level1C_20171201.nc.dap.nc4
+    - https://acdisc.gsfc.nasa.gov/opendap/CAR/CAR_SCARA_L1C.1/Scara-car_c131_19930725_R2_1610_Level1C_20171201.nc.dap.nc4
+    - https://acdisc.gsfc.nasa.gov/opendap/CAR/CAR_SCARA_L1C.1/Scara-car_c131_19930728_R2_1611_Level1C_20171201.nc.dap.nc4
+    - https://acdisc.gsfc.nasa.gov/opendap/CAR/CAR_SCARA_L1C.1/Scara-car_c131_19930728_R2_1612_Level1C_20171201.nc.dap.nc4
+- name: SCAR-D3_1995
+  platforms:
+  - name: C-131A
+    latitude_field: AircraftLatitude
+    longitude_field: AircraftLongitude
+    time_field: Time
+    files:
+    - https://acdisc.gsfc.nasa.gov/opendap/CAR/CAR_SCARB_L1C.1/Scarb-car_c131_19950817_R2_1688_Level1C_20171201.nc.dap.nc4
+    - https://acdisc.gsfc.nasa.gov/opendap/CAR/CAR_SCARB_L1C.1/Scarb-car_c131_19950818_R2_1689_Level1C_20171201.nc.dap.nc4
+    - https://acdisc.gsfc.nasa.gov/opendap/CAR/CAR_SCARB_L1C.1/Scarb-car_c131_19950824_R2_1692_Level1C_20171201.nc.dap.nc4
+    - https://acdisc.gsfc.nasa.gov/opendap/CAR/CAR_SCARB_L1C.1/Scarb-car_c131_19950825_R2_1693_Level1C_20171201.nc.dap.nc4
+    - https://acdisc.gsfc.nasa.gov/opendap/CAR/CAR_SCARB_L1C.1/Scarb-car_c131_19950827_R2_1694_Level1C_20171201.nc.dap.nc4
+    - https://acdisc.gsfc.nasa.gov/opendap/CAR/CAR_SCARB_L1C.1/Scarb-car_c131_19950830_R2_1696_Level1C_20171201.nc.dap.nc4
+    - https://acdisc.gsfc.nasa.gov/opendap/CAR/CAR_SCARB_L1C.1/Scarb-car_c131_19950901_R2_1697_Level1C_20171201.nc.dap.nc4
+    - https://acdisc.gsfc.nasa.gov/opendap/CAR/CAR_SCARB_L1C.1/Scarb-car_c131_19950904_R2_1698_Level1C_20171201.nc.dap.nc4
+    - https://acdisc.gsfc.nasa.gov/opendap/CAR/CAR_SCARB_L1C.1/Scarb-car_c131_19950904_R2_1699_Level1C_20171201.nc.dap.nc4
+    - https://acdisc.gsfc.nasa.gov/opendap/CAR/CAR_SCARB_L1C.1/Scarb-car_c131_19950905_R2_1700_Level1C_20171201.nc.dap.nc4
+    - https://acdisc.gsfc.nasa.gov/opendap/CAR/CAR_SCARB_L1C.1/Scarb-car_c131_19950906_R2_1701_Level1C_20171201.nc.dap.nc4
+    - https://acdisc.gsfc.nasa.gov/opendap/CAR/CAR_SCARB_L1C.1/Scarb-car_c131_19950907_R2_1703_Level1C_20171201.nc.dap.nc4
+  - name: ER-2
+    use_python_hdf: true
+    files:
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95160_01_19950816_1401_1411_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95160_02_19950816_1416_1436_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95160_03_19950816_1440_1457_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95160_04_19950816_1458_1510_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95160_05_19950816_1514_1529_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95160_06_19950816_1534_1546_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95160_07_19950816_1550_1601_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95160_08_19950816_1610_1612_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95161_01_19950818_1657_1703_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95161_02_19950818_1706_1731_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95161_03_19950818_1737_1800_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95161_04_19950818_1804_1828_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95161_05_19950818_1832_1843_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95161_06_19950818_1843_1856_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95161_07_19950818_1859_1921_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95161_08_19950818_1921_1936_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95161_09_19950818_1936_1950_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95161_10_19950818_1950_2007_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95161_11_19950818_2008_2024_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95161_12_19950818_2028_2041_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95161_13_19950818_2042_2044_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95161_14_19950818_2044_2106_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95161_15_19950818_2106_2127_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95161_16_19950818_2128_2143_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95161_17_19950818_2144_2146_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95162_01_19950820_1426_1434_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95162_02_19950820_1435_1500_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95162_03_19950820_1501_1517_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95162_04_19950820_1517_1533_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95162_05_19950820_1533_1541_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95162_06_19950820_1542_1544_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95162_07_19950820_1545_1602_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95162_08_19950820_1602_1618_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95162_09_19950820_1620_1635_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95162_10_19950820_1639_1707_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95162_11_19950820_1707_1735_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95162_12_19950820_1736_1746_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95162_13_19950820_1746_1758_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95162_14_19950820_1758_1810_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95162_15_19950820_1813_1824_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95162_16_19950820_1827_1844_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95162_17_19950820_1848_1904_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95162_18_19950820_1907_1917_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95162_19_19950820_1917_1926_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95163_01_19950823_1502_1506_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95163_02_19950823_1508_1526_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95163_03_19950823_1526_1544_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95163_04_19950823_1548_1607_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95163_05_19950823_1611_1629_V09.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_95163_06_19950823_1629_1647_V09.hdf
