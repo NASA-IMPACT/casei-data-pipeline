@@ -1,0 +1,66 @@
+---
+deployments:
+- name: TOGA COARE-D1_1993
+  platforms:
+  - name: Electra
+    longitude_field: GLON
+    latitude_field: GLAT
+    time_field: PTIME
+    files:
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF01A.19921115.214859_020540.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF01B.19921116.020541_042225.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF02A.19921119.150719_192400.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF02B.19921119.192401_212425.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF03.19921126.234152_055544.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF04.19921128.015011_075027.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF05A.19921202.170031_211712.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF05B.19921202.211713_235857.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF06A.19921203.165405_211046.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF06B.19921203.211047_232823.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF07.19921205.164914_230300.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF08A.19921206.165146_210827.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF08B.19921206.210828_231636.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF09.19921207.165237_182649.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF10A.19921208.165006_210647.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF10B.19921208.210648_234052.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF11A.19921209.173543_215224.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF11B.19921209.215225_235345.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF12A.19921210.165119_210800.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF12B.19921210.210801_233445.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF13A.19921213.165214_210855.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF13B.19921213.210856_230808.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF14A.19921214.165611_211252.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF14B.19921214.211253_231749.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF15.19921215.165207_230137.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF16.19921216.233657_054149.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF17A.19930109.205400_011041.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF17B.19930110.011042_032404.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF18A.19930112.200438_002119.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF18B.19930113.002120_031656.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF19A.19930113.210458_012139.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF19B.19930114.012140_033318.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF20A.19930114.204643_010324.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF20B.19930115.010325_033005.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF21.19930116.210944_031722.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF22A.19930117.224142_025823.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF22B.19930118.025824_051800.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF23A.19930118.223838_025519.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF23B.19930119.025520_051318.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF24A.19930126.205250_010931.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF24B.19930127.010932_032624.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF25A.19930127.210206_011847.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF25B.19930128.011848_035300.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF26A.19930128.210140_011821.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF26B.19930129.011822_033502.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF27A.19930204.204603_010244.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF27B.19930205.010245_035827.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF28A.19930206.150056_191737.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF28B.19930206.191738_212430.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF29A.19930209.141449_183130.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF29B.19930209.183131_211955.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF30A.19930210.180133_221814.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF30B.19930210.221815_004951.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF31A.19930217.181729_223410.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF31B.19930217.223411_011701.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF32A.19930218.204630_010311.PNI.nc
+    - https://data.eol.ucar.edu/pub/download/data/wille3435101/RF32B.19930219.010312_030342.PNI.nc

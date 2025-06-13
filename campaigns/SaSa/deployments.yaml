@@ -1,0 +1,13 @@
+---
+deployments:
+- name: SaSa-D1_2022
+  platforms:
+  - name: P-3
+    files:
+    - https://asp-archive.arc.nasa.gov/SaSa/N426NA//2022-06-30/IWG1.30Jun2022-1727
+    - https://asp-archive.arc.nasa.gov/SaSa/N426NA//2022-07-06/IWG1.06Jul2022-1748
+    - https://asp-archive.arc.nasa.gov/SaSa/N426NA//2022-07-08/IWG1.08Jul2022-1651
+    - https://asp-archive.arc.nasa.gov/SaSa/N426NA//2022-07-11/IWG1.11Jul2022-1759
+    - https://asp-archive.arc.nasa.gov/SaSa/N426NA//2022-07-12/IWG1.12Jul2022-1716
+    - https://asp-archive.arc.nasa.gov/SaSa/N426NA//2022-07-12/IWG1.12Jul2022-2114
+    - https://asp-archive.arc.nasa.gov/SaSa/N426NA/2022-06-30/IWG1.xml
