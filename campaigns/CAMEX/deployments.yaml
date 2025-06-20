@@ -1,0 +1,77 @@
+---
+deployments:
+- name: CAMEX-D3_1998
+  platforms:
+  - name: DC-8
+    tsv_format: true
+    coords_divisor: 1000
+    process_as_ict: true
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/dc8mms__1/dc8mms_1998.265_daily.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/dc8mms__1/dc8mms_1998.264_daily.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/dc8mms__1/dc8mms_1998.260_daily.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/dc8mms__1/dc8mms_1998.258_daily.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/dc8mms__1/dc8mms_1998.257_daily.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/dc8mms__1/dc8mms_1998.256_daily.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/dc8mms__1/dc8mms_1998.248_daily.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/dc8mms__1/dc8mms_1998.245_daily.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/dc8mms__1/dc8mms_1998.242_daily.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/dc8mms__1/dc8mms_1998.241_daily.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/dc8mms__1/dc8mms_1998.238_daily.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/dc8mms__1/dc8mms_1998.236_daily.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/dc8mms__1/dc8mms_1998.235_daily.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/dc8mms__1/dc8mms_1998.233_daily.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/dc8mms__1/dc8mms_1998.232_daily.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/dc8mms__1/dc8mms_1998.227_daily.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/dc8mms__1/dc8mms_1998.225_daily.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/dc8mms__1/dc8mms_1998.222_daily.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/dc8mms__1/dc8mms_1998.218_daily.tar
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/dc8mms__1/dc8mms_1998.215_daily.tar
+  - name: ER-2
+    tsv_format: true
+    process_as_ict: true
+    data_start_line_fix: 6
+    header_content: "day,time,latitude,longitude,altitude"
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2nav__1/camex3_er2_98270.flt_data.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2nav__1/camex3_er2_98268.flt_data.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2nav__1/camex3_er2_98266.flt_data.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2nav__1/camex3_er2_98265.flt_data.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2nav__1/camex3_er2_98264.flt_data.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2nav__1/camex3_er2_98260.flt_data.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2nav__1/camex3_er2_98256.flt_data.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2nav__1/camex3_er2_98251.flt_data.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2nav__1/camex3_er2_98248.flt_data.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2nav__1/camex3_er2_98238.flt_data.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2nav__1/camex3_er2_98235.flt_data.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2nav__1/camex3_er2_98227.flt_data.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2nav__1/camex3_er2_98225.flt_data.txt
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/er2nav__1/camex3_er2_98220.flt_data.txt
+- name: CAMEX-D4_2001
+  platforms:
+  - name: ER-2
+    tsv_format: true
+    rename_as_ict: true
+    data_start_line_fix: 6
+    header_content: "day,time,latitude,longitude,altitude"
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/c4enav__1/c4enav_2001-142.f13
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/c4enav__1/c4enav_2001-141.f13
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/c4enav__1/c4enav_2001-140.f13
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/c4enav__1/c4enav_2001-139.f13
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/c4enav__1/c4enav_2001-138.f13
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/c4enav__1/c4enav_2001-135.f13
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/c4enav__1/c4enav_2001-134.f13
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/c4enav__1/c4enav_2001-133.f13
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/c4enav__1/c4enav_2001-132.f13
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/c4enav__1/c4enav_2001-131.f13
+  - name: Aerosonde
+    header_content: "date,s,latitude,longitude,altitude"
+    files:
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/c4aaero__1/c4aaero_2001.251_53.xls
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/c4aaero__1/c4aaero_2001.249_38.xls
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/c4aaero__1/c4aaero_2001.247_55.xls
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/c4aaero__1/c4aaero_2001.242_38.xls
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/c4aaero__1/c4aaero_2001.240_22.xls
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/c4aaero__1/c4aaero_2001.236_53.xls
+    - https://data.ghrc.earthdata.nasa.gov/ghrcw-protected/c4aaero__1/c4aaero_2001.234_53.xls
