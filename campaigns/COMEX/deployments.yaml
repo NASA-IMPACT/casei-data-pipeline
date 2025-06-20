@@ -1,0 +1,20 @@
+---
+deployments:
+- name: COMEX-D1_2014-May
+  platforms:
+  - name: Alpha Jet
+    coords_divisor: 100000
+    files:
+    - https://asdc.larc.nasa.gov/soot-api/zip_file/soot_AJAX_20250613_35f1c64971fad1022c364962c784dfce.zip
+- name: COMEX-D2_2014-Aug
+  platforms:
+  - name: Alpha Jet
+    coords_divisor: 100000
+    files:
+    - https://asdc.larc.nasa.gov/soot-api/zip_file/soot_AJAX_20250613_444ec3d3554bee43192843417611c40f.zip
+- name: COMEX-D3_2015-Aug
+  platforms:
+  - name: Alpha Jet
+    coords_divisor: 100000
+    files:
+    - https://asdc.larc.nasa.gov/soot-api/zip_file/soot_AJAX_20250613_5b988acd93c491f41fc6ce092bf346c4.zip

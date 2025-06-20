@@ -6,6 +6,7 @@ import { concatenateFiles, getPlatformConfig } from './utils.js';
 import { findFiles } from './find.js';
 import { netcdf2csv } from './netcdf.js';
 import { hdf52csv } from './hdf5.js';
+import { xlsx2csv } from './xlsx.js';
 
 const makeCSV = (platformPath) => {
   const platformConfig = getPlatformConfig(platformPath);
@@ -44,7 +45,7 @@ const makeCSV = (platformPath) => {
   }
 
   // process .h5 files (HDF5)
-  const h5Files = findFiles(platformPath, ['.h5']);
+  const h5Files = findFiles(platformPath, ['.h5', '.hdf5']);
   h5Files.forEach(
     (f) => hdf52csv(
       f,
@@ -52,6 +53,12 @@ const makeCSV = (platformPath) => {
       platformConfig.longitude_field,
       platformConfig.time_field
     )
+  );
+
+  // process .xls and .xlsx files
+  const xlsFiles = findFiles(platformPath, ['.xls', '.xlsx']);
+  xlsFiles.forEach(
+    (f) => xlsx2csv(f, platformConfig.header_content)
   );
 
   // some platforms have txt files formatted as icartt
