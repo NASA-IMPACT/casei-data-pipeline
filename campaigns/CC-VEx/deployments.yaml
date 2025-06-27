@@ -1,0 +1,139 @@
+---
+deployments:
+- name: CC-VEx-D1_2016
+  platforms:
+  - name: ER-2
+    use_python_hdf: true
+    files:
+    # - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06612_01_20060726_1427_1454_V01.hdf
+    # - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06612_02_20060726_1454_1521_V01.hdf
+    # - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06612_03_20060726_1521_1547_V01.hdf
+    # - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06612_04_20060726_1547_1614_V01.hdf
+    # - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06612_05_20060726_1614_1641_V01.hdf
+    # - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06612_06_20060726_1641_1708_V01.hdf
+    # - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06612_07_20060726_1708_1735_V01.hdf
+    # - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06612_08_20060726_1735_1801_V01.hdf
+    # - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06612_09_20060726_1801_1830_V01.hdf
+    # - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06612_10_20060726_1834_1836_V01.hdf
+    # - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06612_11_20060726_1839_1841_V01.hdf
+    # - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06612_12_20060726_1850_1919_V01.hdf
+    # - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06613_01_20060728_1714_1723_V01.hdf
+    # - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06613_02_20060728_1723_1734_V01.hdf
+    # - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06613_03_20060728_1743_1809_V01.hdf
+    # - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06613_04_20060728_1809_1829_V01.hdf
+    # - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06613_05_20060728_1834_1901_V01.hdf
+    # - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06613_06_20060728_1901_1917_V01.hdf
+    # - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06613_07_20060728_1920_1940_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06613_08_20060728_1940_1955_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06613_09_20060728_2000_2015_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06613_10_20060728_2021_2034_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06613_11_20060728_2039_2054_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06613_12_20060728_2100_2113_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06613_13_20060728_2118_2125_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06613_14_20060728_2127_2151_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06614_01_20060730_1617_1629_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06614_02_20060730_1632_1659_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06614_03_20060730_1659_1726_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06614_05_20060730_1748_1751_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06614_06_20060730_1754_1756_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06614_07_20060730_1803_1830_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06614_08_20060730_1830_1856_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06614_09_20060730_1856_1913_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06614_10_20060730_1918_1924_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06614_11_20060730_1924_1951_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06614_12_20060730_1951_2003_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06614_13_20060730_2005_2008_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06614_14_20060730_2010_2027_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06614_15_20060730_2028_2030_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06614_16_20060730_2035_2050_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06614_17_20060730_2051_2055_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06614_18_20060730_2100_2112_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06615_01_20060731_1640_1707_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06615_02_20060731_1707_1725_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06615_03_20060731_1729_1735_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06615_04_20060731_1736_1752_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06615_05_20060731_1758_1816_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06615_06_20060731_1817_1852_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06615_07_20060731_1857_1932_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06615_08_20060731_1932_1938_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06615_09_20060731_1939_2006_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06615_10_20060731_2007_2034_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06615_11_20060731_2034_2107_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06616_01_20060802_1741_1747_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06616_02_20060802_1749_1815_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06616_03_20060802_1815_1828_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06616_04_20060802_1829_1831_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06616_05_20060802_1842_1924_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06616_06_20060802_1927_1936_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06617_01_20060803_1544_1611_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06617_02_20060803_1611_1638_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06617_03_20060803_1638_1700_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06617_04_20060803_1701_1720_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06617_05_20060803_1726_1744_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06617_06_20060803_1750_1812_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06617_07_20060803_1817_1844_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06617_08_20060803_1844_1851_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06617_09_20060803_1851_1918_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06617_10_20060803_1918_1934_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06617_11_20060803_1934_2004_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06617_12_20060803_2007_2017_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06617_13_20060803_2018_2045_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06617_14_20060803_2045_2112_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06617_15_20060803_2112_2146_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06617_16_20060803_2146_2153_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06617_17_20060803_2153_2200_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06617_18_20060803_2200_2211_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06618_01_20060808_0645_0707_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06618_02_20060808_0714_0741_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06618_03_20060808_0741_0808_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06618_04_20060808_0808_0823_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06618_05_20060808_0829_0856_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06618_06_20060808_0856_0909_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06619_01_20060810_0516_0531_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06619_02_20060810_0538_0554_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06619_03_20060810_0556_0623_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06619_04_20060810_0623_0650_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06619_05_20060810_0650_0653_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06619_06_20060810_0659_0734_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06619_07_20060810_0735_0738_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06619_08_20060810_0741_0750_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06619_09_20060810_0752_0755_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06619_10_20060810_0756_0803_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06619_11_20060810_0804_0806_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06619_12_20060810_0810_0818_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06619_13_20060810_0819_0823_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06619_14_20060810_0825_0832_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06619_15_20060810_0834_0837_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06619_16_20060810_0839_0847_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06619_17_20060810_0850_0853_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06619_18_20060810_0854_0901_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06619_19_20060810_0902_0918_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06620_01_20060811_0614_0639_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06620_02_20060811_0641_0708_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06620_03_20060811_0708_0724_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06620_04_20060811_0738_0810_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06620_05_20060811_0812_0815_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06620_06_20060811_0816_0821_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06620_07_20060811_0823_0831_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06620_08_20060811_0833_0835_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06620_09_20060811_0837_0845_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06620_10_20060811_0846_0849_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06620_11_20060811_0851_0859_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06620_12_20060811_0859_0920_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06621_01_20060812_0500_0527_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06621_02_20060812_0535_0543_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06621_03_20060812_0543_0552_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06621_04_20060812_0554_0620_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06621_05_20060812_0620_0637_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06621_06_20060812_0641_0645_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06621_07_20060812_0650_0717_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06621_08_20060812_0717_0732_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06621_09_20060812_0734_0801_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06621_10_20060812_0801_0817_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06622_01_20060813_1643_1654_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06622_02_20060813_1654_1721_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06622_03_20060813_1721_1747_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06622_04_20060813_1747_1800_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06622_05_20060813_1815_1830_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06622_06_20060813_1830_1900_V01.hdf
+    - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_06622_07_20060813_1900_1921_V01.hdf

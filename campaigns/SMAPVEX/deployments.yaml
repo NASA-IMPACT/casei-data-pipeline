@@ -1,0 +1,190 @@
+---
+deployments:
+- name: SMAPVEX-D1_2008
+  platforms:
+  - name: Twin Otter
+    rename_as_ict: true
+    tsv_format: true
+    header_content: "time,latitude,longitude,angle"
+    files:
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10031358jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10041508jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_09291538jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10041304jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_09291455jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_09291430jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10031435jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10131509jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10101438jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10071442jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_09291324jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_09291514jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10131620jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10021623jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10101328jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10021441jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10131443jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10061311jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10061417jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10081526jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10131531jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10041335jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10101413jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10061506jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_09291623jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10131354jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10061449jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10081403jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10041442jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10131312jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10081450jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_09291343jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10021407jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10021532jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10131300jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10081505jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10021458jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10081425jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10031622jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10101308jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10071458jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10031537jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10041423jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10101523jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10101352jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10101459jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10131557jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10021318jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10031454jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10131420jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10061328jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10061538jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_09291559jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10081552jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10061239jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_09291259jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10021551jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10061400jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10021351jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_09291409jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10131332jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10041526jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10081338jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10041353jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10031518jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10081318jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10071428jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10081252jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10031417jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10101243jv1.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV08PLTB/1/2008/09/29/SV08PLTB_10031603jv1.txt
+- name: SMAPVEX-D2_2012
+  platforms:
+  - name: Twin Otter
+    rename_as_ict: true
+    tsv_format: true
+    header_content: "time,latitude,longitude,angle"
+    files:
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120710_LoAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120615_LoAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120708_LoAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120617_LoAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120714_HiAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120714_LoAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120717_LoAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120705_HiAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120713_LoAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120607_LoAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120629_LoAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120717_HiAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120703_LoAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120625_LoAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120607_HiAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120623_LoAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120615_HiAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120719_LoAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120705_LoAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120612_LoAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120622_HiAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120627_LoAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120627_HiAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120622_LoAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120713_HiAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120612_HiAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120703_HiAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120708_HiAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120625_HiAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120629_HiAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120710_HiAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120623_HiAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120719_HiAlt_v150.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV12PLTB/1/2012/06/07/SV12PLTB_PALS_TA_20120617_HiAlt_v150.txt
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12044/PLAN_12044.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12045/PLAN_12045.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12046/PLAN_12046.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12047/PLAN_12047.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12048/PLAN_12048.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12049/PLAN_12049.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12050/PLAN_12050.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12055/PLAN_12055.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12056/PLAN_12056.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12057/PLAN_12057.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12058/PLAN_12058.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12059/PLAN_12059.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12060/PLAN_12060.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12061/PLAN_12061.kml
+- name: SMAPVEX-D3_2015
+  platforms:
+  - name: Twin Otter
+    rename_as_ict: true
+    data_start_line_fix: 2
+    header_content: "Date,latitude,longitude,TAV"
+    files:
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV15PLTB/1/2015/08/18/SV15PLTB_PALS_TA_WG_M500_v040_20150818_both.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV15PLTB/1/2015/08/16/SV15PLTB_PALS_TA_WG_M500_v040_20150816_both.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV15PLTB/1/2015/08/13/SV15PLTB_PALS_TA_WG_M500_v040_20150813_both.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV15PLTB/1/2015/08/10/SV15PLTB_PALS_TA_WG_M500_v040_20150810_both.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV15PLTB/1/2015/08/08/SV15PLTB_PALS_TA_WG_M500_v040_20150808_both.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV15PLTB/1/2015/08/05/SV15PLTB_PALS_TA_WG_M500_v040_20150805_both.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV15PLTB/1/2015/08/02/SV15PLTB_PALS_TA_WG_M500_v040_20150802_both.txt
+- name: SMAPVEX-D4_2016
+  platforms:
+  - name: DC-3
+    rename_as_ict: true
+    data_start_line_fix: 2
+    header_content: "date,SecUTC,Row,Col,latitude,longitude,VSM"
+    files:
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV16I_PLTBSM/1/2016/08/16/SV16I_PLTBSM_PALS_VSM_SFhi_M500_v033_v064_20160816_both.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV16I_PLTBSM/1/2016/08/14/SV16I_PLTBSM_PALS_VSM_SFhi_M500_v033_v064_20160814_both.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV16I_PLTBSM/1/2016/08/13/SV16I_PLTBSM_PALS_VSM_SFhi_M500_v033_v064_20160813_both.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV16I_PLTBSM/1/2016/08/06/SV16I_PLTBSM_PALS_VSM_SFhi_M500_v033_v064_20160806_both.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV16I_PLTBSM/1/2016/08/05/SV16I_PLTBSM_PALS_VSM_SFhi_M500_v033_v064_20160805_both.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV16I_PLTBSM/1/2016/08/03/SV16I_PLTBSM_PALS_VSM_SFhi_M500_v033_v064_20160803_both.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV16I_PLTBSM/1/2016/06/05/SV16I_PLTBSM_PALS_VSM_SFhi_M500_v033_v064_20160605_both.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV16I_PLTBSM/1/2016/06/03/SV16I_PLTBSM_PALS_VSM_SFhi_M500_v033_v064_20160603_both.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV16I_PLTBSM/1/2016/06/02/SV16I_PLTBSM_PALS_VSM_SFhi_M500_v033_v064_20160602_both.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV16I_PLTBSM/1/2016/06/01/SV16I_PLTBSM_PALS_VSM_SFhi_M500_v033_v064_20160601_both.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV16I_PLTBSM/1/2016/05/31/SV16I_PLTBSM_PALS_VSM_SFhi_M500_v033_v064_20160531_both.txt
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SMAP-VAL/SV16I_PLTBSM/1/2016/05/28/SV16I_PLTBSM_PALS_VSM_SFhi_M500_v033_v064_20160528_both.txt
+- name: SMAPVEX-D5_2022
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22004/PLAN_22004.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22005/PLAN_22005.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22006/PLAN_22006.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22007/PLAN_22007.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22008/PLAN_22008.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22009/PLAN_22009.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22010/PLAN_22010.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22011/PLAN_22011.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22019/PLAN_22019.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22020/PLAN_22020.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22021/PLAN_22021.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22022/PLAN_22022.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22023/PLAN_22023.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22024/PLAN_22024.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22026/PLAN_22026.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt22027/PLAN_22027.kml
