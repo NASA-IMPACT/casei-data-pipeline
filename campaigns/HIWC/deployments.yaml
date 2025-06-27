@@ -1,0 +1,66 @@
+---
+deployments:
+- name: HIWC-D1_2015
+  platforms:
+  - name: DC-8
+    files:
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA/2015-08-07/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-05/IWG1.06Aug2015-2131
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-05/IWG1.07Aug2015-0339
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-05/IWG1.07Aug2015-0513
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-05/IWG1.07Aug2015-2309
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-05/IWG1.10Aug2015-2217
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-05/IWG1.10Aug2015-2235
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-05/IWG1.11Aug2015-1907
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-05/IWG1.12Aug2015-1222
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-05/IWG1.12Aug2015-1953
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-07/IWG1.07Aug2015-0513
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-07/IWG1.07Aug2015-1517
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-07/IWG1.07Aug2015-2309
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-10/IWG1.10Aug2015-2217
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-12/IWG1.12Aug2015-1953
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-13/IWG1.13Aug2015-1937
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-14/IWG1.14Aug2015-1845
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-16/IWG1.16Aug2015-2034
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-19/IWG1.19Aug2015-1934
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-21/IWG1.21Aug2015-2110
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-23/IWG1.23Aug2015-1947
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-26/IWG1.26Aug2015-1614
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-26/IWG1.26Aug2015-2101
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-27/IWG1.27Aug2015-1117
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-27/IWG1.27Aug2015-2207
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-28/IWG1.28Aug2015-2112
+    - https://asp-archive.arc.nasa.gov/HIWC/N817NA//2015-08-30/IWG1.30Aug2015-1902
+- name: HIWC-D2_2018
+  platforms:
+  - name: DC-8
+    files:
+    - https://asp-archive.arc.nasa.gov/HIWCII/N817NA//2018-07-25/IWG1.26Jul2018-0052
+    - https://asp-archive.arc.nasa.gov/HIWCII/N817NA//2018-07-27/IWG1.27Jul2018-2328
+    - https://asp-archive.arc.nasa.gov/HIWCII/N817NA//2018-07-30/IWG1.30Jul2018-2102
+    - https://asp-archive.arc.nasa.gov/HIWCII/N817NA//2018-08-02/IWG1.02Aug2018-1911
+    - https://asp-archive.arc.nasa.gov/HIWCII/N817NA//2018-08-06/IWG1.06Aug2018-1652
+    - https://asp-archive.arc.nasa.gov/HIWCII/N817NA//2018-08-08/IWG1.08Aug2018-1917
+    - https://asp-archive.arc.nasa.gov/HIWCII/N817NA//2018-08-15/IWG1.16Aug2018-0136
+    - https://asp-archive.arc.nasa.gov/HIWCII/N817NA//2018-08-16/IWG1.17Aug2018-0247
+    - https://asp-archive.arc.nasa.gov/HIWCII/N817NA//2018-08-18/IWG1.18Aug2018-2247
+    - https://asp-archive.arc.nasa.gov/HIWCII/N817NA//2018-08-19/IWG1.20Aug2018-0027
+    - https://asp-archive.arc.nasa.gov/HIWCII/N817NA//2018-08-20/IWG1.21Aug2018-0323
+    - https://asp-archive.arc.nasa.gov/HIWCII/N817NA/2018-07-30/IWG1.xml
+- name: HIWC-D3_2022
+  platforms:
+  - name: DC-8
+    files:
+    - https://asp-archive.arc.nasa.gov/HIWC_2022/N817NA//2022-07-05/IWG1.05Jul2022-1417
+    - https://asp-archive.arc.nasa.gov/HIWC_2022/N817NA//2022-07-05/IWG1.05Jul2022-2024
+    - https://asp-archive.arc.nasa.gov/HIWC_2022/N817NA//2022-07-08/IWG1.08Jul2022-2054
+    - https://asp-archive.arc.nasa.gov/HIWC_2022/N817NA//2022-07-10/IWG1.10Jul2022-2226
+    - https://asp-archive.arc.nasa.gov/HIWC_2022/N817NA//2022-07-14/IWG1.14Jul2022-2053
+    - https://asp-archive.arc.nasa.gov/HIWC_2022/N817NA//2022-07-16/IWG1.16Jul2022-1828
+    - https://asp-archive.arc.nasa.gov/HIWC_2022/N817NA//2022-07-18/IWG1.18Jul2022-2133
+    - https://asp-archive.arc.nasa.gov/HIWC_2022/N817NA//2022-07-22/IWG1.22Jul2022-1845
+    - https://asp-archive.arc.nasa.gov/HIWC_2022/N817NA//2022-07-24/IWG1.24Jul2022-1908
+    - https://asp-archive.arc.nasa.gov/HIWC_2022/N817NA//2022-07-26/IWG1.26Jul2022-1526
+    - https://asp-archive.arc.nasa.gov/HIWC_2022/N817NA//2022-07-27/IWG1.27Jul2022-1917
+    - https://asp-archive.arc.nasa.gov/HIWC_2022/N817NA//2022-07-30/IWG1.30Jul2022-2055
+    - https://asp-archive.arc.nasa.gov/HIWC_2022/N817NA/2022-07-10/IWG1.xml

@@ -28,7 +28,7 @@ const makePlatformGeoJSON = (dir) => {
       platformConfig.coords_divisor
     ));
 
-  // if the platform has
+  // if the platform has only kml files, convert them to geojson
   if (!collection.length && files.every((f) => f.endsWith('.kml'))) {
     collection = files
       .map((f) => path.join(dir, f))
