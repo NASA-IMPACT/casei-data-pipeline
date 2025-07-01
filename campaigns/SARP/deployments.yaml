@@ -182,7 +182,9 @@ deployments:
   platforms:
   - name: P-3
     files:
-    - https://asp-archive.arc.nasa.gov/N426NA/FY2024/2024-07-29/IWG1.29Jul2024-1853
-    - https://asp-archive.arc.nasa.gov/N426NA/FY2024/2024-07-29/IWG1.xml
-    - https://asp-archive.arc.nasa.gov/N426NA/FY2024/2024-08-01/IWG1.01Aug2024-1848
-    - https://asp-archive.arc.nasa.gov/N426NA/FY2024/2024-08-02/IWG1.02Aug2024-1916
+    - https://asp-archive.arc.nasa.gov/SARP_2024/N426NA/2024-06-29/IWG1.29Jun2024-1756
+    - https://asp-archive.arc.nasa.gov/SARP_2024/N426NA/2024-06-29/IWG1.29Jun2024-2125
+    - https://asp-archive.arc.nasa.gov/SARP_2024/N426NA/2024-06-29/IWG1.xml
+    - https://asp-archive.arc.nasa.gov/SARP_2024/N426NA/2024-07-01/IWG1.01Jul2024-1840
+    - https://asp-archive.arc.nasa.gov/SARP_2024/N426NA/2024-07-01/IWG1.01Jul2024-2310
+    - https://asp-archive.arc.nasa.gov/SARP_2024/N426NA/2024-07-02/IWG1.02Jul2024-2053
