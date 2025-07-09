@@ -88,6 +88,10 @@ const exportHeaders = (dir) => {
 */
 const formatHeaderRow = (headerContent) => {
   let header = headerContent.toLowerCase().replaceAll(' ', '');
+  // some ict files have the header file starting with a slash
+  if (header.startsWith('/,')) {
+    header = header.replace('/,', '');
+  }
   LONGITUDE_COL_NAMES
     .filter((name) => header.lastIndexOf(name) > 0)
     .forEach((name) => header = header.replace(`,${name},`, ',longitude,'));

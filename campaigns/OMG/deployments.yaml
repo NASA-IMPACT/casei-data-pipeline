@@ -1,0 +1,192 @@
+---
+deployments:
+- name: OMG-D1_2015
+  platforms:
+  - name: Ault
+    time_field: altitude
+    latitude_field: lat
+    longitude_field: lon
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L2_Bathy_SBES_Gridded/OMG_Bathy_SBES_L2_20150804000000.nc
+  - name: Cape Race
+    time_field: altitude
+    latitude_field: lat
+    longitude_field: lon
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L2_Bathy_MBES_Gridded/OMG_Bathy_MBES_L2_20150725000000.nc
+- name: OMG-D2_2016-Mar
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt16018/PLAN_16018.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt16022/PLAN_16022.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt16023/PLAN_16023.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt16024/PLAN_16024.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt16026/PLAN_16026.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt16027/PLAN_16027.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt16028/PLAN_16028.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt16031/PLAN_16031.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt16033/PLAN_16033.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt16035/PLAN_16035.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt16036/PLAN_16036.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt16037/PLAN_16037.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt16043/PLAN_16043.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt16050/PLAN_16050.kml
+  - name: Cessna 208
+    rename_as_ict: true
+    tsv_format: true
+    data_start_line_fix: 3
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L1B_AIRGRAV/2016/OMG_Gravity_AIRGrav_L1B_20160423125030.xyz
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L1B_AIRGRAV/2016/OMG_Gravity_AIRGrav_L1B_20160426153019.xyz
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L1B_AIRGRAV/2016/OMG_Gravity_AIRGrav_L1B_20160426191245.xyz
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L1B_AIRGRAV/2016/OMG_Gravity_AIRGrav_L1B_20160528115634.xyz
+- name: OMG_D3_2016-Jul
+  platforms:
+  - name: Cessna 208
+    rename_as_ict: true
+    tsv_format: true
+    data_start_line_fix: 3
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L1B_AIRGRAV/2016/OMG_Gravity_AIRGrav_L1B_20160705124536.xyz
+  - name: Ault
+    time_field: altitude
+    latitude_field: lat
+    longitude_field: lon
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L2_Bathy_SBES_Gridded/OMG_Bathy_SBES_L2_20160711000000.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L2_Bathy_SBES_Gridded/OMG_Bathy_SBES_L2_20160720000000.nc
+- name: OMG-D4_2016-Sep
+  platforms:
+  - name: Ivilia
+    time_field: altitude
+    latitude_field: lat
+    longitude_field: lon
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L2_Bathy_MBES_Gridded/OMG_Bathy_MBES_L2_20160914000000.nc
+  - name: Neptune
+    time_field: altitude
+    latitude_field: lat
+    longitude_field: lon
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L2_Bathy_MBES_Gridded/OMG_Bathy_MBES_L2_20160907000000.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L2_Bathy_MBES_Gridded/OMG_Bathy_MBES_L2_20160914000000.nc
+- name: OMG-D5_2017-Mar
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17027/PLAN_17027.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17028/PLAN_17028.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17029/PLAN_17029.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17031/PLAN_17031.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17033/PLAN_17033.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17034/PLAN_17034.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17035/PLAN_17035.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17036/PLAN_17036.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17037/PLAN_17037.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17038/PLAN_17038.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17042/PLAN_17042.kml
+- name: OMG-D6_2017-Aug
+  platforms:
+  - name: Ivilia
+    time_field: altitude
+    latitude_field: lat
+    longitude_field: lon
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L2_Bathy_MBES_Gridded/OMG_Bathy_MBES_L2_20170822000000.nc
+- name: OMG-D7_2018-Mar
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt18008/PLAN_18008.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt18009/PLAN_18009.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt18010/PLAN_18010.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt18011/PLAN_18011.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt18012/PLAN_18012.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt18013/PLAN_18013.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt18014/PLAN_18014.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt18015/PLAN_18015.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt18016/PLAN_18016.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt18017/PLAN_18017.kml
+- name: OMG-D8_2018-Aug
+  platforms:
+  - name: Ivilia
+    time_field: altitude
+    latitude_field: lat
+    longitude_field: lon
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L2_Bathy_MBES_Gridded/OMG_Bathy_MBES_L2_20180802000000.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L2_Bathy_MBES_Gridded/OMG_Bathy_MBES_L2_20180814000000.nc
+- name: OMG-D9_2019-Mar
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19003/PLAN_19003.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19004/PLAN_19004.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19007/PLAN_19007.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19008/PLAN_19008.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19009/PLAN_19009.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19010/PLAN_19010.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19011/PLAN_19011.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19012/PLAN_19012.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19013/PLAN_19013.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19014/PLAN_19014.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19015/PLAN_19015.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19019/PLAN_19019.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19020/PLAN_19020.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19021/PLAN_19021.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19022/PLAN_19022.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19023/PLAN_19023.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19024/PLAN_19024.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19027/PLAN_19027.kml
+- name: OMG-D10_2019-Aug
+  platforms:
+  - name: Arii Moana
+    time_field: altitude
+    latitude_field: lat
+    longitude_field: lon
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L2_Bathy_MBES_Gridded/OMG_Bathy_MBES_L2_20190817000000.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L2_Bathy_MBES_Gridded/OMG_Bathy_MBES_L2_20190819000000.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L2_Bathy_MBES_Gridded/OMG_Bathy_MBES_L2_20190822000000.nc
+- name: OMG-D11_2020-Mar
+  platforms:
+  - name: Arii Moana
+    time_field: altitude
+    latitude_field: lat
+    longitude_field: lon
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L2_Bathy_MBES_Gridded/OMG_Bathy_MBES_L2_20200329000000.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L2_Bathy_MBES_Gridded/OMG_Bathy_MBES_L2_20200408000000.nc
+- name: OMG-D12_2020-Aug
+  platforms:
+  - name: Cessna 208
+    rename_as_ict: true
+    tsv_format: true
+    data_start_line_fix: 3
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L1B_AIRGRAV/2020/OMG_Gravity_AIRGrav_L1B_20200907131250.xyz
+  # this platform is commented out because the files have more than 4GB
+  # - name: M/V Wave
+  #   time_field: altitude
+  #   latitude_field: lat
+  #   longitude_field: lon
+  #   files:
+  #   - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L2_Bathy_MBES_Gridded/OMG_Bathy_MBES_L2_20200816000000.nc
+  #   - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L2_Bathy_MBES_Gridded/OMG_Bathy_MBES_L2_20200819000000.nc
+- name: OMG-D13_2021-Apr
+  platforms:
+  - name: M/V Wave
+    time_field: altitude
+    latitude_field: lat
+    longitude_field: lon
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L2_Bathy_MBES_Gridded/OMG_Bathy_MBES_L2_20210421000000.nc
+- name: OMG-D14_2021-Aug
+  platforms:
+  - name: M/V Wave
+    time_field: altitude
+    latitude_field: lat
+    longitude_field: lon
+    files:
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/OMG_L2_Bathy_MBES_Gridded/OMG_Bathy_MBES_L2_20210819000000.nc

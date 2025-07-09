@@ -14,7 +14,8 @@ import { NetCDFReader } from 'netcdfjs';
 */
 const netcdf2csv = (filePath, latitudeField = 'latitude', longitudeField = 'longitude', timeField = 'time') => {
   const file = fs.readFileSync(filePath);
-  let csvContent = 'time,latitude,longitude\n';
+  const header = 'time,latitude,longitude\n';
+  let csvContent = header;
   let latitudes;
   let longitudes;
   let times;
@@ -48,9 +49,17 @@ const netcdf2csv = (filePath, latitudeField = 'latitude', longitudeField = 'long
     times = reader.getDataVariable(timeField);
   }
 
-  for (let i = 0; i < times.length; i++) {
-    if (!Number.isNaN(times[i]) && !Number.isNaN(latitudes[i])) {
-      csvContent += `${times[i]},${latitudes[i]},${longitudes[i]}\n`;
+  for (let i = 0; i < latitudes.length && i < longitudes.length; i++) {
+    if (!Number.isNaN(longitudes[i]) && !Number.isNaN(latitudes[i])) {
+      try {
+        csvContent += `${times[i]},${latitudes[i]},${longitudes[i]}\n`;
+      } catch (e) {
+        // the main reason it can fail is because the length of csvContent exceeded the memory,
+        // so we write a partial file and start a new csvContent
+        fs.writeFileSync(`${filePath}-${i}.csv`, csvContent);
+        csvContent = `${header}`;
+        csvContent += `${times[i]},${latitudes[i]},${longitudes[i]}\n`;
+      }
     }
   }
 
