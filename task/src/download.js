@@ -111,7 +111,10 @@ const downloadPlatform = async (campaignPath, deployment, platform, files) => {
       files.map((file) => limit(async () => {
         const filePath = path.join(platformPath, path.basename(file));
         await downloadFile(file, platformPath, platformConfig);
-        execSync(`python src/python/hdf.py ${filePath} ${platformConfig.header_content || ''}`);
+        execSync(
+          `python src/python/hdf.py "${filePath}" ${platformConfig.header_content || ''}`,
+          { stdio: 'inherit', shell: true }
+        );
         fs.unlinkSync(filePath);
       }))
     );
