@@ -295,215 +295,80 @@ deployments:
     - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_00180_19_20000925_1344_1400_V03.hdf
     - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_00180_20_20000925_1402_1405_V03.hdf
     - https://data.laadsdaac.earthdatacloud.nasa.gov/prod-lads/MASL1B/MASL1B_00180_21_20000925_1405_1421_V03.hdf
-  # - name: C-130
-  #   files:
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/uk_met_c-130/data/c130_a792_20000916.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/uk_met_c-130/data/c130_a791_20000914.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/uk_met_c-130/data/c130_a790_20000913.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/uk_met_c-130/data/c130_a789_20000911.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/uk_met_c-130/data/c130_a788_20000910.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/uk_met_c-130/data/c130_a787_20000907.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/uk_met_c-130/data/c130_a786_20000906.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/uk_met_c-130/data/c130_a785_20000905.zip
-  # - name: CV-580
-  #   files:
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1810_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1810_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1810_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1810_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1810_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1810_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1811_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1811_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1811_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1811_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1811_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1811_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1812_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1812_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1812_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1812_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1812_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1812_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1813_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1813_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1813_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1813_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1813_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1813_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1814_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1814_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1814_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1814_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1814_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1814_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1815_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1815_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1815_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1815_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1815_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1815_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1816_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1816_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1816_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1816_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1816_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1816_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1818_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1818_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1818_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1818_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1818_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1818_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1819_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1819_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1819_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1819_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1819_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1819_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1820_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1820_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1820_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1820_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1820_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1820_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1821_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1821_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1821_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1821_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1821_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1821_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1822_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1822_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1822_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1822_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1822_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1822_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1823_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1823_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1823_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1823_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1823_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1823_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1824_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1824_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1824_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1824_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1824_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1824_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1825_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1825_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1825_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1825_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1825_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1825_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1826_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1826_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1826_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1826_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1826_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1826_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1828_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1828_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1828_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1828_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1828_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1828_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1829_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1829_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1829_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1829_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1829_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1829_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1830_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1830_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1830_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1830_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1830_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1830_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1831_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1831_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1831_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1831_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1831_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1831_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1832_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1832_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1832_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1832_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1832_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1832_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1833_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1833_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1833_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1833_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1833_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1833_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1834_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1834_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1834_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1834_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1834_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1834_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1835_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1835_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1835_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1835_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1835_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1835_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1836_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1836_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1836_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1836_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1836_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1836_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1837_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1837_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1837_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1837_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1837_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1837_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1838_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1838_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1838_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1838_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1838_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1838_rad.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1839_aer.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1839_chm.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1839_cld.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1839_met.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1839_nav.zip
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1839_rad.zip
-  # - name: Aerocommander
-  #   rename_as_ict: true
-  #   files:
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000903_1.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000815_1.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000815_2.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000816_1.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000816_2.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000820_1.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000820_2.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000822_1.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000822_2.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000823.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000824_1.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000824_2.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000824_3.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000825_1.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000825_2.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000826_1.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000827_1.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000827_2.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000829_1.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000829_3.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000831.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000902_1.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000902_2.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000903_2.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000905_1.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000905_2.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000906.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000907_1.dat
-  #   - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000907_2.dat
+  - name: C-130
+    files:
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/uk_met_c-130/data/c130_a792_20000916.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/uk_met_c-130/data/c130_a791_20000914.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/uk_met_c-130/data/c130_a790_20000913.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/uk_met_c-130/data/c130_a789_20000911.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/uk_met_c-130/data/c130_a788_20000910.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/uk_met_c-130/data/c130_a787_20000907.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/uk_met_c-130/data/c130_a786_20000906.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/uk_met_c-130/data/c130_a785_20000905.zip
+  - name: CV-580
+    process_as_ict: true
+    tsv_format: true
+    header_content: "time,latitude,longitude,altitude"
+    data_start_line_fix: 1
+    files:
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1810_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1811_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1812_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1813_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1814_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1815_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1816_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1818_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1819_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1820_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1821_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1822_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1823_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1824_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1825_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1826_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1828_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1829_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1830_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1831_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1832_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1833_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1834_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1835_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1836_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1837_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1838_nav.zip
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/CV-580/data/carg_1839_nav.zip
+  - name: Aerocommander
+    rename_as_ict: true
+    data_start_line_fix: 1
+    files:
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000903_1.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000815_1.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000815_2.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000816_1.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000816_2.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000820_1.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000820_2.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000822_1.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000822_2.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000823.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000824_1.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000824_2.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000824_3.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000825_1.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000825_2.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000826_1.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000827_1.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000827_2.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000829_1.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000829_3.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000831.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000902_1.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000902_2.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000903_2.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000905_1.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000905_2.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000906.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000907_1.dat
+    - https://data.ornldaac.earthdata.nasa.gov/protected/safari2k/atmospheric/SAWB_JRB/data/b20000907_2.dat
