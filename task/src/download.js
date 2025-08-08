@@ -22,13 +22,16 @@ const downloadFile = async (url, dir, platformConfig) => {
   // allows to download those files and set a specific file extension
   if (platformConfig.set_file_extension) {
     const randomId = globalThis.crypto.getRandomValues(new Uint32Array(1))[0];
-    fs.writeFileSync(
-      path.join(
-        dir,
-        `${randomId}.${platformConfig.set_file_extension}`
-      ),
-      await download(url)
+    const filePath = path.join(
+      dir,
+      `${randomId}.${platformConfig.set_file_extension}`
     );
+    fs.writeFileSync(filePath, await download(url));
+    if (platformConfig.set_file_extension === 'zip') {
+      const zip = await unzipper.Open.file(filePath);
+      await zip.extract({ path: dir });
+      fs.unlinkSync(filePath);
+    }
     return;
   }
   try {
