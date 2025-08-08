@@ -1,0 +1,340 @@
+---
+deployments:
+- name: AirMOSS-D2_2012-Oct_Canada_Oregon
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12089/PLAN_12089.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12090/PLAN_12090.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12095/PLAN_12095.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12096/PLAN_12096.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12100/PLAN_12100.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12101/PLAN_12101.kml
+- name: AirMOSS-D3_2012-Oct_NorthCarolina_Maine_Massachusetts
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12104/PLAN_12104.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12105/PLAN_12105.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12106/PLAN_12106.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12107/PLAN_12107.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12110/PLAN_12110.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12111/PLAN_12111.kml
+- name: AirMOSS-D4_2012-Oct_Arizona_Oklahoma
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12119/PLAN_12119.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12120/PLAN_12120.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12121/PLAN_12121.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12122/PLAN_12122.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt12123/PLAN_12123.kml
+- name: AirMOSS-D5_2013-Feb_California_Arizona
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13017/PLAN_13017.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13019/PLAN_13019.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13020/PLAN_13020.kml
+- name: AirMOSS-D6_2013-Feb_CostaRica
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13023/PLAN_13023.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13024/PLAN_13024.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13025/PLAN_13025.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13026/PLAN_13026.kml
+- name: AirMOSS-D7_2013-Apr_CostaRica
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13061/PLAN_13061.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13062/PLAN_13062.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13063/PLAN_13063.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13064/PLAN_13064.kml
+- name: AirMOSS-D8_2013-Apr_Canada_Oregon
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13067/PLAN_13067.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13070/PLAN_13070.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13071/PLAN_13071.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13077/PLAN_13077.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13078/PLAN_13078.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13079/PLAN_13079.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13084/PLAN_13084.kml
+- name: AirMOSS-D9_2013-May_NorthCarolina_Maine_Massachusetts
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13099/PLAN_13099.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13101/PLAN_13101.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13103/PLAN_13103.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13104/PLAN_13104.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13105/PLAN_13105.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13106/PLAN_13106.kml
+- name: AirMOSS-D10_2013-Jun_Mexico_Oklahoma
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13108/PLAN_13108.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13109/PLAN_13109.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13110/PLAN_13110.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13111/PLAN_13111.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13112/PLAN_13112.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13113/PLAN_13113.kml
+- name: AirMOSS-D11_2013-Jul_NorthCarolina_Maine_Massachusetts
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13117/PLAN_13117.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13118/PLAN_13118.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13119/PLAN_13119.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13120/PLAN_13120.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13121/PLAN_13121.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13122/PLAN_13122.kml
+- name: AirMOSS-D12_2013-Jul_Arizona_Oklahoma
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13124/PLAN_13124.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13125/PLAN_13125.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13128/PLAN_13128.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13130/PLAN_13130.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13131/PLAN_13131.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13132/PLAN_13132.kml
+- name: AirMOSS-D13_2013-Jul_Canada_Oregon
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13136/PLAN_13136.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13137/PLAN_13137.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13138/PLAN_13138.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13139/PLAN_13139.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13140/PLAN_13140.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13141/PLAN_13141.kml
+- name: AirMOSS-D14_2013-Aug_NorthCarolina_Maine_Massachusetts
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13145/PLAN_13145.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13146/PLAN_13146.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13147/PLAN_13147.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13148/PLAN_13148.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13150/PLAN_13150.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13151/PLAN_13151.kml
+- name: AirMOSS-D15_2013-Sep_Oklahoma
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13153/PLAN_13153.kml
+- name: AirMOSS-D16_2013-Oct_California
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13157/PLAN_13157.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13161/PLAN_13161.kml
+- name: AirMOSS-D17_2013-Nov_Arizona_Oklahoma_California
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13177/PLAN_13177.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13179/PLAN_13179.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13181/PLAN_13181.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt13183/PLAN_13183.kml
+- name: AirMOSS-D18_2014-Feb_California
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14020/PLAN_14020.kml
+- name: AirMOSS-D19_2014-Mar_CostaRica
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14028/PLAN_14028.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14029/PLAN_14029.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14030/PLAN_14030.kml
+- name: AirMOSS-D20_2014-Apr_Mexico_Oklahoma
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14040/PLAN_14040.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14042/PLAN_14042.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14044/PLAN_14044.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14046/PLAN_14046.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14049/PLAN_14049.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14050/PLAN_14050.kml
+- name: AirMOSS-D21_2014-May_NorthCarolina_Maine_Massachusetts
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14066/PLAN_14066.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14069/PLAN_14069.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14070/PLAN_14070.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14071/PLAN_14071.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14072/PLAN_14072.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14073/PLAN_14073.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14075/PLAN_14075.kml
+- name: AirMOSS-D22_2014-Jun_Canada_Oregon
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14078/PLAN_14078.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14079/PLAN_14079.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14080/PLAN_14080.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14082/PLAN_14082.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14084/PLAN_14084.kml
+- name: AirMOSS-D23_2014-Jun_NorthCarolina_Maine_Massachusetts
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14093/PLAN_14093.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14094/PLAN_14094.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14095/PLAN_14095.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14096/PLAN_14096.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14097/PLAN_14097.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14098/PLAN_14098.kml
+- name: AirMOSS-D24_2014-Jul_Arizona_Oklahoma
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14100/PLAN_14100.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14101/PLAN_14101.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14102/PLAN_14102.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14103/PLAN_14103.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14104/PLAN_14104.kml
+- name: AirMOSS-D25_2014-Aug_Canada_Oregon
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14109/PLAN_14109.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14111/PLAN_14111.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14113/PLAN_14113.kml
+- name: AirMOSS-D26_2014-Aug_NorthCarolina_Maine_Massachusetts
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14123/PLAN_14123.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14124/PLAN_14124.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14125/PLAN_14125.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14126/PLAN_14126.kml
+- name: AirMOSS-D27_2014-Sep_California
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14131/PLAN_14131.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14132/PLAN_14132.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14133/PLAN_14133.kml
+- name: AirMOSS-D28_2014-Sep_Canada_Oregon
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14135/PLAN_14135.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14136/PLAN_14136.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14138/PLAN_14138.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14139/PLAN_14139.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14141/PLAN_14141.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14143/PLAN_14143.kml
+- name: AirMOSS-D29_2014-Oct_Arizona_Oklahoma
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14148/PLAN_14148.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14152/PLAN_14152.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14153/PLAN_14153.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14155/PLAN_14155.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14156/PLAN_14156.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt14159/PLAN_14159.kml
+- name: AirMOSS-D30_2015-Feb_California
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15007/PLAN_15007.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15008/PLAN_15008.kml
+- name: AirMOSS-D31_2015-Feb_CostaRica
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15010/PLAN_15010.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15011/PLAN_15011.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15012/PLAN_15012.kml
+- name: AirMOSS-D32_2015-Apr_Oregon
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15038/PLAN_15038.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15044/PLAN_15044.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15046/PLAN_15046.kml
+- name: AirMOSS-D33_2015-Apr_Mexico_Oklahoma
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15048/PLAN_15048.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15049/PLAN_15049.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15050/PLAN_15050.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15051/PLAN_15051.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15052/PLAN_15052.kml
+- name: AirMOSS-D34_2015-May_NorthCarolina_Maine_Massachusetts
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15068/PLAN_15068.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15070/PLAN_15070.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15074/PLAN_15074.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15075/PLAN_15075.kml
+- name: AirMOSS-D35_2015-May_California
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15078/PLAN_15078.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15082/PLAN_15082.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15084/PLAN_15084.kml
+- name: AirMOSS-D36_2015-Jun_Canada
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15099/PLAN_15099.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15101/PLAN_15101.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15102/PLAN_15102.kml
+- name: AirMOSS-D37_2015-Aug_Arizona_Oklahoma
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15108/PLAN_15108.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15109/PLAN_15109.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15110/PLAN_15110.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15111/PLAN_15111.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15112/PLAN_15112.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15113/PLAN_15113.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15114/PLAN_15114.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15115/PLAN_15115.kml
+- name: AirMOSS-D38_2015-Aug_Canada_Oregon
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15117/PLAN_15117.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15118/PLAN_15118.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15119/PLAN_15119.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15120/PLAN_15120.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15121/PLAN_15121.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15122/PLAN_15122.kml
+- name: AirMOSS-D39_2015-Sep_NorthCarolina_Maine_Massachusetts
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15128/PLAN_15128.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15129/PLAN_15129.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15130/PLAN_15130.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15131/PLAN_15131.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15132/PLAN_15132.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15133/PLAN_15133.kml
+- name: AirMOSS-D40_2015-Sep_Canada_Oregon
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15135/PLAN_15135.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15136/PLAN_15136.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15137/PLAN_15137.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15138/PLAN_15138.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15139/PLAN_15139.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt15140/PLAN_15140.kml
