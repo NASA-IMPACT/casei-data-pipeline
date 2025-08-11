@@ -1,0 +1,47 @@
+---
+deployments:
+- name: BlueFlux-D1_2022-Mar
+  platforms:
+  - name: A90
+    files:
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20220419_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20220420_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20220421_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20220422_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20220424_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20220425_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20220426_R0.ict
+- name: BlueFlux-D2_2022-Oct
+  platforms:
+  - name: A90
+    files:
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20221014_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20221015_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20221017_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20221018_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20221020_R0.ict
+
+- name: BlueFlux-D3_2023-Feb
+  platforms:
+  - name: A90
+    files:
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20230205_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20230206_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20230207_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20230208_R0_L1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20230208_R0_L2.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20230210_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20230211_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20230213_R0.ict
+- name: BlueFlux-D4_2023-Mar
+  platforms:
+  - name: A90
+    files:
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20230410_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20230413_R0_L1.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20230413_R0_L2.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20230414_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20230415_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20230416_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20230418_R0.ict
+    - https://data.ornldaac.earthdata.nasa.gov/protected/cms/BlueFlux_AirborneObs_Florida/data/blueflux_aimms20_kingair_20230419_R0.ict

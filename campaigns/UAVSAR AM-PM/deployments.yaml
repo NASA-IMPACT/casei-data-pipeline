@@ -1,0 +1,24 @@
+---
+deployments:
+- name: UAVSAR AM-PM-D1_2022
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19033/PLAN_19033.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19038/PLAN_19038.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19040/PLAN_19040.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19043/PLAN_19043.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19044/PLAN_19044.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19048/PLAN_19048.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19049/PLAN_19049.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19050/PLAN_19050.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19051/PLAN_19051.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19052/PLAN_19052.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19053/PLAN_19053.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19054/PLAN_19054.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19069/PLAN_19069.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19070/PLAN_19070.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19071/PLAN_19071.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19078/PLAN_19078.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19081/PLAN_19081.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19082/PLAN_19082.kml

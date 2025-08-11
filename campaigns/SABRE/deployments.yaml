@@ -1,0 +1,13 @@
+---
+deployments:
+- name: SABRE-D1_2022
+  platforms:
+  - name: WB-57
+    files:
+    - https://csl.noaa.gov/groups/csl7/measurements/incs/temp/2022sabre_wb57_SABRE-NP_Files_33044.zip
+- name: SABRE-D2_2023
+  platforms:
+  - name: WB-57
+    header_content: "time,latitude,longitude,altitude"
+    files:
+    - https://csl.noaa.gov/groups/csl7/measurements/incs/temp/2023sabre_wb57_SABRE-NASA926_Files_92588.zip
