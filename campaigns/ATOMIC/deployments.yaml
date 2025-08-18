@@ -1,0 +1,104 @@
+---
+deployments:
+- name: ATOMIC-D1_2020
+  platforms:
+  - name: P-3
+    latitude_field: lat
+    longitude_field: lon
+    files:
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200117_v1.1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200119_v1.1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200123_v1.1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200124_v1.1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200131_v1.1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200203_v1.1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200204_v1.1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200205_v1.1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200209_v1.1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200210_v1.1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/p3/meteorology/EUREC4A_ATOMIC_P3_Flight-Level_20200211_v1.1.nc
+  - name: RHB
+    latitude_field: lat
+    longitude_field: lon
+    files:
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/rhb/nav_met_sea_flux/EUREC4A_ATOMIC_RonBrown_1min_nav_met_sea_20200109-20200212_v1.3.nc
+  - name: Saildrone
+    set_file_extension: nc
+    files:
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/saildrones_noaa/ATOMIC_Saildrone-1063_AirSea_2020_v1.1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/saildrones_noaa/ATOMIC_Saildrone-1064_AirSea_2020_v1.1.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SAILDRONE_ATOMIC/saildrone-gen_5-atomic_eurec4a_2020-sd1026-20200117T000000-20200302T235959-1_minutes-v1.1595708344687.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SAILDRONE_ATOMIC/saildrone-gen_5-atomic_eurec4a_2020-sd1061-20200117T000000-20200302T235959-1_minutes-v1.1595707641693.nc
+    - https://archive.podaac.earthdata.nasa.gov/podaac-ops-cumulus-protected/SAILDRONE_ATOMIC/saildrone-gen_5-atomic_eurec4a_2020-sd1060-20200117T000000-20200302T235959-1_minutes-v1.1595708144897.nc
+  - name: RAAVEN
+    latitude_field: lat
+    longitude_field: lon
+    files:
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200124_182849_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200125_161648_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200126_140807_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200126_182437_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200127_134726_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200127_171712_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200128_133449_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200128_181049_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200130_133207_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200130_174143_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200131_135219_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200131_171349_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200201_140937_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200201_171907_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200201_193637_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200202_131149_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200202_171848_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200203_140319_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200204_141707_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200204_173719_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200205_141913_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200205_172319_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200206_133307_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200206_174019_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200207_132518_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200207_163712_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200209_134507_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200209_171049_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200210_132019_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200210_164249_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200211_150449_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200211_182019_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200212_134818_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200212_165037_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200212_173335_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200214_134149_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200214_165107_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200215_135949_B1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/CU-RAAVEN/ATOMIC_CU-RAAVEN_20200215_170907_B1.nc
+  - name: Wave Gliders
+    latitude_field: lat
+    longitude_field: lon
+    files:
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/wavegliders/EUREC4A_ATOMIC_WG245_All_v2.4.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/wavegliders/EUREC4A_ATOMIC_WG247_All_v2.4.nc
+  - name: SWIFT
+    latitude_field: lat
+    longitude_field: lon
+    files:
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/swift_drifters/EUREC4A_ATOMIC_SWIFT16_All_v2.4.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/swift_drifters/EUREC4A_ATOMIC_SWIFT17_All_v2.4.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/swift_drifters/EUREC4A_ATOMIC_SWIFT22_All_v2.4.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/swift_drifters/EUREC4A_ATOMIC_SWIFT23_All_v2.4.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/swift_drifters/EUREC4A_ATOMIC_SWIFT24_All_v2.4.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/swift_drifters/EUREC4A_ATOMIC_SWIFT25_All_v2.4.nc
+  - name: SVP-S
+    latitude_field: lat
+    longitude_field: lon
+    files:
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/svp-s_drifters/EUREC4A_ATOMIC_drifter3101569_TSWindPres_v1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/svp-s_drifters/EUREC4A_ATOMIC_drifter3101570_TSWindPres_v1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/svp-s_drifters/EUREC4A_ATOMIC_drifter3101571_TSWindPres_v1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/svp-s_drifters/EUREC4A_ATOMIC_drifter3101572_TSWindPres_v2.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/svp-s_drifters/EUREC4A_ATOMIC_drifter3101573_TSWindPres_v1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/svp-s_drifters/EUREC4A_ATOMIC_drifter3101574_TSWindPres_v1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/svp-s_drifters/EUREC4A_ATOMIC_drifter3101575_TSWindPres_v1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/svp-s_drifters/EUREC4A_ATOMIC_drifter3101576_TSWindPres_v1.nc
+    - https://www.ncei.noaa.gov/data/oceans/oar/psl/atomic-2020/svp-s_drifters/EUREC4A_ATOMIC_drifter3101578_TSWindPres_v1.nc
