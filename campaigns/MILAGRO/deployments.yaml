@@ -1,6 +1,6 @@
 ---
 deployments:
-- name: MILARGO-D1_2006
+- name: MILAGRO-D1_2006
   platforms:
   - name: DC-8
     set_file_extension: zip
