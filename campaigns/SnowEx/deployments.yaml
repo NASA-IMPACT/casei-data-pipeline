@@ -1,0 +1,95 @@
+---
+deployments:
+- name: SnowEx-D1_2016
+  platforms:
+  - name: P-3
+    latitude_field: AircraftLatitude
+    longitude_field: AircraftLongitude
+    time_field: Time
+    files:
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX17_CAR/1/2017/02/16/SnowEx17_car_p3c_20170216_R1_2063_Level1C_20180302.nc
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX17_CAR/1/2017/02/18/SnowEx17_car_p3c_20170218_R1_2064_Level1C_20180302.nc
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX17_CAR/1/2017/02/20/SnowEx17_car_p3c_20170220_R1_2065_Level1C_20180302.nc
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX17_CAR/1/2017/02/21/SnowEx17_car_p3c_20170221_R1_2066_Level1C_20180302.nc
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX17_CAR/1/2017/02/22/SnowEx17_car_p3c_20170222_R1_2067_Level1C_20180302.nc
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17004/PLAN_17004.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17013/PLAN_17013.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17015/PLAN_17015.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt17017/PLAN_17017.kml
+- name: SnowEx-D2_2019
+  platforms:
+  - name: Twin Otter
+    rename_as_ict: true
+    data_start_line_fix: 2
+    header_content: "time,longitude,latitude,elevation"
+    files:
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/12/SNEX20_SWESARR_TB_GRMCT2_31902_20009_000_200212_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/12/SNEX20_SWESARR_TB_GRMCT2_13802_20009_000_200212_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/12/SNEX20_SWESARR_TB_GRMCT2_13901_20008_000_200212_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/12/SNEX20_SWESARR_TB_GRMST1_27503_20008_000_200212_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/12/SNEX20_SWESARR_TB_GRMCT2_13903_20008_000_200212_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/12/SNEX20_SWESARR_TB_GRMST1_27502_20008_000_200212_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/12/SNEX20_SWESARR_TB_GRMST1_27401_20008_000_200212_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/12/SNEX20_SWESARR_TB_GRMCT2_13801_20009_000_200212_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/12/SNEX20_SWESARR_TB_GRMCT2_31901_20008_000_200212_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/12/SNEX20_SWESARR_TB_GRMCT2_31903_20008_000_200212_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/12/SNEX20_SWESARR_TB_GRMNT1_09601_20008_000_200212_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/12/SNEX20_SWESARR_TB_GRMCT2_31902_20008_000_200212_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/12/SNEX20_SWESARR_TB_GRMNT1_09502_20008_000_200212_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/12/SNEX20_SWESARR_TB_GRMCT2_13902_20008_000_200212_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/12/SNEX20_SWESARR_TB_GRMCT2_31901_20009_000_200212_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/12/SNEX20_SWESARR_TB_GRMNT1_09503_20008_000_200212_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/11/SNEX20_SWESARR_TB_GRMST1_27403_20007_000_200211_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/11/SNEX20_SWESARR_TB_GRMCT2_31902_20007_000_200211_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/11/SNEX20_SWESARR_TB_GRMCT2_31803_20007_000_200211_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/11/SNEX20_SWESARR_TB_GRMNT1_09503_20007_000_200211_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/11/SNEX20_SWESARR_TB_GRMNT1_09602_20007_000_200211_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/11/SNEX20_SWESARR_TB_GRMST1_27501_20007_000_200211_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/11/SNEX20_SWESARR_TB_GRMCT2_31901_20007_000_200211_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/11/SNEX20_SWESARR_TB_GRMST1_27502_20007_000_200211_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/11/SNEX20_SWESARR_TB_GRMCT2_13802_20007_000_200211_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/11/SNEX20_SWESARR_TB_GRMCT2_13801_20007_000_200211_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/11/SNEX20_SWESARR_TB_GRMNT1_09501_20007_000_200211_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/11/SNEX20_SWESARR_TB_GRMCT2_13803_20007_000_200211_XKKa225H_v01.csv
+    - https://data.nsidc.earthdatacloud.nasa.gov/nsidc-cumulus-prod-protected/SNOWEX/SNEX20_SWESARR_TB/1/2020/02/10/SNEX20_SWESARR_TB_GRMST1_27601_20006_000_200210_XKKa225H_v01.csv
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt19084/PLAN_19084.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt20002/PLAN_20002.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt20003/PLAN_20003.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt20005/PLAN_20005.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt20006/PLAN_20006.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt20007/PLAN_20007.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt20008/PLAN_20008.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt20009/PLAN_20009.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt20011/PLAN_20011.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt20013/PLAN_20013.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt20014/PLAN_20014.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt20016/PLAN_20016.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt20017/PLAN_20017.kml
+- name: SnowEx-D3_2021
+  platforms:
+  - name: G-III
+    files:
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21002/PLAN_21002.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21003/PLAN_21003.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21004/PLAN_21004.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21005/PLAN_21005.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21007/PLAN_21007.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21008/PLAN_21008.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21009/PLAN_21009.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21010/PLAN_21010.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21011/PLAN_21011.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21012/PLAN_21012.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21013/PLAN_21013.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21014/PLAN_21014.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21015/PLAN_21015.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21016/PLAN_21016.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21017/PLAN_21017.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21018/PLAN_21018.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21019/PLAN_21019.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21020/PLAN_21020.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21021/PLAN_21021.kml
+    - https://uavsar.jpl.nasa.gov/flightplans/flt21022/PLAN_21022.kml
