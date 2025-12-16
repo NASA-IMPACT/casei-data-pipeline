@@ -1,0 +1,189 @@
+---
+deployments:
+  - name: AMIGA-Carb-D1_2011
+    platforms:
+      - name: Cessna 206
+        files:
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_11C_Aug2011/trajectory/kml/AMIGACarb_11C_Aug2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_11N_Aug2011/trajectory/kml/AMIGACarb_11N_Aug2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_11N_Sep2011/trajectory/kml/AMIGACarb_11N_Sep2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_13S_Sep2011/trajectory/kml/AMIGACarb_13S_Sep2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_16S_Sep2011/trajectory/kml/AMIGACarb_16S_Sep2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_24-25N_Sep2011/trajectory/kml/AMIGACarb_24-25N_Sep2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_26N_Sep2011/trajectory/kml/AMIGACarb_26N_Sep2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_27N_Sep2011/trajectory/kml/AMIGACarb_27N_Sep2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_3_Aug2011/trajectory/kml/AMIGACarb_3_Aug2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_4N_Aug2011/trajectory/kml/AMIGACarb_4N_Aug2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_4S_Aug2011/trajectory/kml/AMIGACarb_4S_Aug2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_5N_Aug2011/trajectory/kml/AMIGACarb_5N_Aug2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_5S_Aug2011/trajectory/kml/AMIGACarb_5S_Aug2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_6N_Aug2011/trajectory/kml/AMIGACarb_6N_Aug2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_9N_Aug2011/trajectory/kml/AMIGACarb_9N_Aug2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_9S_Aug2011/trajectory/kml/AMIGACarb_9S_Aug2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Albany_FIA_Sep2011/trajectory/kml/AMIGACarb_Albany_FIA_Sep2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Bradford_10N_Aug2011/trajectory/kml/AMIGACarb_Bradford_10N_Aug2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Bradford_FIA_Aug2011/trajectory/kml/AMIGACarb_Bradford_FIA_Aug2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Huntington_13N_Aug2011/trajectory/kml/AMIGACarb_Huntington_13N_Aug2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Huntington_15N_Aug2011/trajectory/kml/AMIGACarb_Huntington_15N_Aug2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Huntington_FIA_Aug2011/trajectory/kml/AMIGACarb_Huntington_FIA_Aug2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Myrtle_11SCN_Aug2011/trajectory/kml/AMIGACarb_Myrtle_11SCN_Aug2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Myrtle_9S_Aug2011/trajectory/kml/AMIGACarb_Myrtle_9S_Aug2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Myrtle_FIA_Aug2011/trajectory/kml/AMIGACarb_Myrtle_FIA_Aug2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Rhinelander_FIA_Sep2011/trajectory/kml/AMIGACarb_Rhinelander_FIA_Sep2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Richmond_FIA_Aug2011/trajectory/kml/AMIGACarb_Richmond_FIA_Aug2011_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/WFF_Sep2011/trajectory/kml/WFF_Sep2011_3d-trajectory.kmz
+  - name: AMIGA-Carb-D2_2012-Jun
+    platforms:
+      - name: Cessna 206
+        files:
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_11B_Jun2012/trajectory/kml/AMIGACarb_11B_Jun2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Bangor_FIA_Jun2012/trajectory/kml/AMIGACarb_Bangor_FIA_Jun2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Bangor_GLAS_Jun2012/trajectory/kml/AMIGACarb_Bangor_GLAS_Jun2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G3_Jun2012/trajectory/kml/AMIGACarb_G3_Jun2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G5_Jun2012/trajectory/kml/AMIGACarb_G5_Jun2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Rhinelander_FIA_Jun2012/trajectory/kml/AMIGACarb_Rhinelander_FIA_Jun2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/Bowie_Jun2012/trajectory/kml/Bowie_Jun2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/Headwall_Jun2012/trajectory/kml/Headwall_Jun2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/Howland_Forest_Jun2012/trajectory/kml/Howland_Forest_Jun2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/Howland_outlier_Jun2012/trajectory/kml/Howland_outlier_Jun2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/MA_20120619_Prospect_Hill/trajectory/kml/MA_20120619_Prospect_Hill_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/MA_20120619_Simes/trajectory/kml/MA_20120619_Simes_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/ME_20120620_Holt/trajectory/kml/ME_20120620_Holt_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/ME_20120620_Penobscot/trajectory/kml/ME_20120620_Penobscot_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/ME_20120621_Howland_Forest/trajectory/kml/ME_20120621_Howland_Forest_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/ME_wetland_Jun2012/trajectory/kml/ME_wetland_Jun2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/Patuxent_Refuge_Jun2012/trajectory/kml/Patuxent_Refuge_Jun2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/SERC_Jun2012/trajectory/kml/SERC_Jun2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/WCreek_Jun2012/trajectory/kml/WCreek_Jun2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/WLEF_Jun2012/trajectory/kml/WLEF_Jun2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/WLEF_low_Jun2012/trajectory/kml/WLEF_low_Jun2012_3d-trajectory.kmz
+  - name: AMIGA-Carb-D3_2012-Aug
+    platforms:
+      - name: PA-28
+        files:
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_CFR1_FIA_Sep2012/trajectory/kml/AMIGACarb_CFR1_FIA_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_CFR2_FIA_Sep2012/trajectory/kml/AMIGACarb_CFR2_FIA_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_CFR4_FIA_Sep2012/trajectory/kml/AMIGACarb_CFR4_FIA_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_FB1_FIA_Sep2012/trajectory/kml/AMIGACarb_FB1_FIA_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_FB2_FIA_Sep2012/trajectory/kml/AMIGACarb_FB2_FIA_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_FB3_FIA_Sep2012/trajectory/kml/AMIGACarb_FB3_FIA_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Flag4_FIA_Sep2012/trajectory/kml/AMIGACarb_Flag4_FIA_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Flag6_FIA_Sep2012/trajectory/kml/AMIGACarb_Flag6_FIA_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G01_Aug2012/trajectory/kml/AMIGACarb_G01_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G02_Aug2012/trajectory/kml/AMIGACarb_G02_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G03_Aug2012/trajectory/kml/AMIGACarb_G03_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G05_Aug2012/trajectory/kml/AMIGACarb_G05_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G06_Aug2012/trajectory/kml/AMIGACarb_G06_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G08_Aug2012/trajectory/kml/AMIGACarb_G08_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G09_Sep2012/trajectory/kml/AMIGACarb_G09_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G10_Sep2012/trajectory/kml/AMIGACarb_G10_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G11_Sep2012/trajectory/kml/AMIGACarb_G11_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G12_Sep2012/trajectory/kml/AMIGACarb_G12_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G13_Sep2012/trajectory/kml/AMIGACarb_G13_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G14_Sep2012/trajectory/kml/AMIGACarb_G14_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G15_Sep2012/trajectory/kml/AMIGACarb_G15_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G18N_Aug2012/trajectory/kml/AMIGACarb_G18N_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G18S_Aug2012/trajectory/kml/AMIGACarb_G18S_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G19_Aug2012/trajectory/kml/AMIGACarb_G19_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G20_Aug2012/trajectory/kml/AMIGACarb_G20_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G21_Aug2012/trajectory/kml/AMIGACarb_G21_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G22_Aug2012/trajectory/kml/AMIGACarb_G22_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G23_Sep2012/trajectory/kml/AMIGACarb_G23_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G25_Sep2012/trajectory/kml/AMIGACarb_G25_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G26_Sep2012/trajectory/kml/AMIGACarb_G26_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G27_Sep2012/trajectory/kml/AMIGACarb_G27_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G28_Sep2012/trajectory/kml/AMIGACarb_G28_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G29_Sep2012/trajectory/kml/AMIGACarb_G29_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G30_Sep2012/trajectory/kml/AMIGACarb_G30_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G31_Sep2012/trajectory/kml/AMIGACarb_G31_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G32_Sep2012/trajectory/kml/AMIGACarb_G32_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G33_Sep2012/trajectory/kml/AMIGACarb_G33_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G36_Sep2012/trajectory/kml/AMIGACarb_G36_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G37_Sep2012/trajectory/kml/AMIGACarb_G37_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G41_Sep2012/trajectory/kml/AMIGACarb_G41_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G43_Sep2012/trajectory/kml/AMIGACarb_G43_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G44_Sep2012/trajectory/kml/AMIGACarb_G44_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G4_Aug2012/trajectory/kml/AMIGACarb_G4_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_GCR1_FIA_Sep2012/trajectory/kml/AMIGACarb_GCR1_FIA_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_GCR2_FIA_Sep2012/trajectory/kml/AMIGACarb_GCR2_FIA_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_GCR3_FIA_Sep2012/trajectory/kml/AMIGACarb_GCR3_FIA_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_GCR5_FIA_Sep2012/trajectory/kml/AMIGACarb_GCR5_FIA_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_GCR6_FIA_Sep2012/trajectory/kml/AMIGACarb_GCR6_FIA_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_IM1_FIA_Aug2012/trajectory/kml/AMIGACarb_IM1_FIA_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_IM2_FIA_Aug2012/trajectory/kml/AMIGACarb_IM2_FIA_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_IM3_FIA_Aug2012/trajectory/kml/AMIGACarb_IM3_FIA_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_IM5_FIA_Aug2012/trajectory/kml/AMIGACarb_IM5_FIA_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_IM6_FIA_Aug2012/trajectory/kml/AMIGACarb_IM6_FIA_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_IM7_FIA_Aug2012/trajectory/kml/AMIGACarb_IM7_FIA_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_IM8_FIA_Aug2012/trajectory/kml/AMIGACarb_IM8_FIA_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_ND_FIA_Sep2012/trajectory/kml/AMIGACarb_ND_FIA_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_NW1R1_FIA_Aug2012/trajectory/kml/AMIGACarb_NW1R1_FIA_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_NW1R2_FIA_Aug2012/trajectory/kml/AMIGACarb_NW1R2_FIA_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_NW2R5_FIA_Aug2012/trajectory/kml/AMIGACarb_NW2R5_FIA_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_NW2R6_FIA_Aug2012/trajectory/kml/AMIGACarb_NW2R6_FIA_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_NW2R7_FIA_Aug2012/trajectory/kml/AMIGACarb_NW2R7_FIA_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_NW2R8_FIA_Aug2012/trajectory/kml/AMIGACarb_NW2R8_FIA_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_NW2R9_FIA_Aug2012/trajectory/kml/AMIGACarb_NW2R9_FIA_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_NW3R10_FIA_Aug2012/trajectory/kml/AMIGACarb_NW3R10_FIA_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_NW3R11_FIA_Aug2012/trajectory/kml/AMIGACarb_NW3R11_FIA_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_NW3R12_FIA_Aug2012/trajectory/kml/AMIGACarb_NW3R12_FIA_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_NW5R20_FIA_Aug2012/trajectory/kml/AMIGACarb_NW5R20_FIA_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_NW5R22_FIA_Aug2012/trajectory/kml/AMIGACarb_NW5R22_FIA_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_NW5R23_FIA_Aug2012/trajectory/kml/AMIGACarb_NW5R23_FIA_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_NW5R24_FIA_Aug2012/trajectory/kml/AMIGACarb_NW5R24_FIA_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_NW5R28_FIA_Aug2012/trajectory/kml/AMIGACarb_NW5R28_FIA_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_NW5_FIA_Aug2012/trajectory/kml/AMIGACarb_NW5_FIA_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_NW6_FIA_Aug2012/trajectory/kml/AMIGACarb_NW6_FIA_Aug2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_RAT1_FIA_Sep2012/trajectory/kml/AMIGACarb_RAT1_FIA_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_RAT2_FIA_Sep2012/trajectory/kml/AMIGACarb_RAT2_FIA_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_RAT3_FIA_Sep2012/trajectory/kml/AMIGACarb_RAT3_FIA_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_RAT4_FIA_Sep2012/trajectory/kml/AMIGACarb_RAT4_FIA_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_SW1R1UT_FIA_Sep2012/trajectory/kml/AMIGACarb_SW1R1UT_FIA_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_SW1R2UT_FIA_Sep2012/trajectory/kml/AMIGACarb_SW1R2UT_FIA_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_SW1R4UT_FIA_Sep2012/trajectory/kml/AMIGACarb_SW1R4UT_FIA_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_SW1R5UT_FIA_Sep2012/trajectory/kml/AMIGACarb_SW1R5UT_FIA_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_WY_FIA_Sep2012/trajectory/kml/AMIGACarb_WY_FIA_Sep2012_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/Piper_boresight_Portland_Aug2012/trajectory/kml/Piper_boresight_Portland_Aug2012_3d-trajectory.kmz
+  - name: AMIGA-Carb-D4_2013
+    platforms:
+      - name: PA-28
+        files:
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_AM_Guan_Chihuahua_GLAS_May2013/trajectory/kml/AMIGACarb_AM_Guan_Chihuahua_GLAS_May2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Chiap_Campeche_NFI_Apr2013/trajectory/kml/AMIGACarb_Chiap_Campeche_NFI_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Chiaps_1_GLAS_Apr2013/trajectory/kml/AMIGACarb_Chiaps_1_GLAS_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Chiaps_1_NFI_Apr2013/trajectory/kml/AMIGACarb_Chiaps_1_NFI_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Chihua_Sud_GLAS_May2013/trajectory/kml/AMIGACarb_Chihua_Sud_GLAS_May2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Chihua_Sud_NFI_May2013/trajectory/kml/AMIGACarb_Chihua_Sud_NFI_May2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Chihuahua_norte_GLAS_May2013/trajectory/kml/AMIGACarb_Chihuahua_norte_GLAS_May2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Chihuahua_norte_NFI_May2013/trajectory/kml/AMIGACarb_Chihuahua_norte_NFI_May2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Cuern_Oax_PM_NFI_Apr2013/trajectory/kml/AMIGACarb_Cuern_Oax_PM_NFI_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_G5_Oax_GLAS_Apr2013/trajectory/kml/AMIGACarb_G5_Oax_GLAS_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Guan_Oax_1_NFI_Apr2013/trajectory/kml/AMIGACarb_Guan_Oax_1_NFI_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Guan_Potosi_1_GLAS_Apr2013/trajectory/kml/AMIGACarb_Guan_Potosi_1_GLAS_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Guan_Potosi_1_NFI_Apr2013/trajectory/kml/AMIGACarb_Guan_Potosi_1_NFI_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Herm_AM_GLAS_Apr2013/trajectory/kml/AMIGACarb_Herm_AM_GLAS_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Herm_AM_NFI_Apr2013/trajectory/kml/AMIGACarb_Herm_AM_NFI_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Herm_Guan_GLAS_Apr2013/trajectory/kml/AMIGACarb_Herm_Guan_GLAS_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Herm_Guan_NFI_Apr2013/trajectory/kml/AMIGACarb_Herm_Guan_NFI_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Oax_Chiap_1_GLAS_Apr2013/trajectory/kml/AMIGACarb_Oax_Chiap_1_GLAS_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Oax_Chiap_1_NFI_Apr2013/trajectory/kml/AMIGACarb_Oax_Chiap_1_NFI_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Oax_local_1_GLAS_Apr2013/trajectory/kml/AMIGACarb_Oax_local_1_GLAS_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Oax_local_1_NFI_Apr2013/trajectory/kml/AMIGACarb_Oax_local_1_NFI_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Out_of_the_Yuc_GLAS_May2013/trajectory/kml/AMIGACarb_Out_of_the_Yuc_GLAS_May2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Out_of_the_Yuc_NFI_May2013/trajectory/kml/AMIGACarb_Out_of_the_Yuc_NFI_May2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_PM1_Herm_Guan_GLAS_Apr2013/trajectory/kml/AMIGACarb_PM1_Herm_Guan_GLAS_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_PM_Guan_Chihuahua_GLAS_May2013/trajectory/kml/AMIGACarb_PM_Guan_Chihuahua_GLAS_May2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_PozaRica_Hildalgo_NFI_May2013/trajectory/kml/AMIGACarb_PozaRica_Hildalgo_NFI_May2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Yuc_Centro_GLAS_Apr2013/trajectory/kml/AMIGACarb_Yuc_Centro_GLAS_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Yuc_Centro_NFI_Apr2013/trajectory/kml/AMIGACarb_Yuc_Centro_NFI_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Yuc_Norte_GLAS_Apr2013/trajectory/kml/AMIGACarb_Yuc_Norte_GLAS_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Yuc_Norte_NFI_Apr2013/trajectory/kml/AMIGACarb_Yuc_Norte_NFI_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Yuc_North_2_GLAS_Apr2013/trajectory/kml/AMIGACarb_Yuc_North_2_GLAS_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Yuc_North_2_NFI_Apr2013/trajectory/kml/AMIGACarb_Yuc_North_2_NFI_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Yuc_South_GLAS_Apr2013/trajectory/kml/AMIGACarb_Yuc_South_GLAS_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Yuc_South_NFI_Apr2013/trajectory/kml/AMIGACarb_Yuc_South_NFI_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/Hermiston_boresight_Apr2013/trajectory/kml/Hermiston_boresight_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/Hildalgo_May2013/trajectory/kml/Hildalgo_May2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/Kuiic1_Apr2013/trajectory/kml/Kuiic1_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/Kuiic2_Apr2013/trajectory/kml/Kuiic2_Apr2013_3d-trajectory.kmz
+          - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/Kuiic3_Apr2013/trajectory/kml/Kuiic3_Apr2013_3d-trajectory.kmz
