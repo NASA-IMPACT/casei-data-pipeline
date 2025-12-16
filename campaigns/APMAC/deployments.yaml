@@ -1,0 +1,29 @@
+---
+deployments:
+- name: APMAC-D1_2025
+  platforms:
+  - name: G-III
+    process_as_ict: true
+    header_content: "product,timestamp,latitude,longitude,altitude"
+    data_start_line_fix: 1
+    files:
+    - https://asp-archive.arc.nasa.gov/APMAC/N520NA/2025-07-09/IWG1.09Jul2025-1938
+    - https://asp-archive.arc.nasa.gov/APMAC/N520NA/2025-07-11/IWG1.11Jul2025-1700
+    - https://asp-archive.arc.nasa.gov/APMAC/N520NA/2025-07-12/IWG1.12Jul2025-1736
+    - https://asp-archive.arc.nasa.gov/APMAC/N520NA/2025-07-15/IWG1.15Jul2025-1935
+    - https://asp-archive.arc.nasa.gov/APMAC/N520NA/2025-07-17/IWG1.17Jul2025-1649
+    - https://asp-archive.arc.nasa.gov/APMAC/N520NA/2025-07-21/IWG1.21Jul2025-2241
+    - https://asp-archive.arc.nasa.gov/APMAC/N520NA/2025-07-22/IWG1.22Jul2025-0538
+    - https://asp-archive.arc.nasa.gov/APMAC/N520NA/2025-07-22/IWG1.22Jul2025-1741
+    - https://asp-archive.arc.nasa.gov/APMAC/N520NA/2025-07-22/IWG1.22Jul2025-2305
+    - https://asp-archive.arc.nasa.gov/APMAC/N520NA/2025-07-23/IWG1.23Jul2025-0528
+    - https://asp-archive.arc.nasa.gov/APMAC/N520NA/2025-07-23/IWG1.23Jul2025-1756
+    - https://asp-archive.arc.nasa.gov/APMAC/N520NA/2025-07-29/IWG1.29Jul2025-0421
+    - https://asp-archive.arc.nasa.gov/APMAC/N520NA/2025-07-29/IWG1.29Jul2025-2030
+    - https://asp-archive.arc.nasa.gov/APMAC/N520NA/2025-07-30/IWG1.30Jul2025-0509
+    - https://asp-archive.arc.nasa.gov/APMAC/N520NA/2025-07-30/IWG1.30Jul2025-1606
+    - https://asp-archive.arc.nasa.gov/APMAC/N520NA/2025-08-02/IWG1.02Aug2025-1743
+    - https://asp-archive.arc.nasa.gov/APMAC/N520NA/2025-08-03/IWG1.03Aug2025-2316
+    - https://asp-archive.arc.nasa.gov/APMAC/N520NA/2025-08-04/IWG1.04Aug2025-0530
+    - https://asp-archive.arc.nasa.gov/APMAC/N520NA/2025-08-04/IWG1.04Aug2025-2247
+    - https://asp-archive.arc.nasa.gov/APMAC/N520NA/2025-08-09/IWG1.09Aug2025-1842
