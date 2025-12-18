@@ -59,7 +59,7 @@ deployments:
           - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/WLEF_low_Jun2012/trajectory/kml/WLEF_low_Jun2012_3d-trajectory.kmz
   - name: AMIGA-Carb-D3_2012-Aug
     platforms:
-      - name: PA-28
+      - name: PA-32
         files:
           - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_CFR1_FIA_Sep2012/trajectory/kml/AMIGACarb_CFR1_FIA_Sep2012_3d-trajectory.kmz
           - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_CFR2_FIA_Sep2012/trajectory/kml/AMIGACarb_CFR2_FIA_Sep2012_3d-trajectory.kmz
@@ -146,7 +146,7 @@ deployments:
           - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/Piper_boresight_Portland_Aug2012/trajectory/kml/Piper_boresight_Portland_Aug2012_3d-trajectory.kmz
   - name: AMIGA-Carb-D4_2013
     platforms:
-      - name: PA-28
+      - name: PA-32
         files:
           - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_AM_Guan_Chihuahua_GLAS_May2013/trajectory/kml/AMIGACarb_AM_Guan_Chihuahua_GLAS_May2013_3d-trajectory.kmz
           - https://glihtdata.gsfc.nasa.gov/files/G-LiHT/AMIGACarb_Chiap_Campeche_NFI_Apr2013/trajectory/kml/AMIGACarb_Chiap_Campeche_NFI_Apr2013_3d-trajectory.kmz
