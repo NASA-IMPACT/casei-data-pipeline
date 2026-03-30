@@ -1,4 +1,4 @@
-campaign ,deployment,platform_name,latitude,longitude
+campaign,deployment,platform_name,latitude,longitude
 PECAN,PECAN-D1_2015,Permanent Land Site,36.61,-97.49
 PECAN,PECAN-D1_2015,Field Site,37.61,-99.28
 PECAN,PECAN-D1_2015,Field Site,38.96,-99.57
