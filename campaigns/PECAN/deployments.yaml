@@ -1,0 +1,19 @@
+---
+deployments:
+- name: PECAN-D1_2015
+  platforms:
+  - name: DC-8
+    files:
+      - https://asp-archive.arc.nasa.gov/PECAN/N817NA/2015-06-16/IWG1.xml
+      - https://asp-archive.arc.nasa.gov/PECAN/N817NA/2015-06-16/IWG1.06Jul2015-0909
+      - https://asp-archive.arc.nasa.gov/PECAN/N817NA/2015-06-16/IWG1.16Jun2015-1942
+      - https://asp-archive.arc.nasa.gov/PECAN/N817NA/2015-06-28/IWG1.28Jun2015-2307
+      - https://asp-archive.arc.nasa.gov/PECAN/N817NA/2015-07-01/IWG1.01Jul2015-0859
+      - https://asp-archive.arc.nasa.gov/PECAN/N817NA/2015-07-04/IWG1.05Jul2015-0602
+      - https://asp-archive.arc.nasa.gov/PECAN/N817NA/2015-07-05/IWG1.06Jul2015-0909
+      - https://asp-archive.arc.nasa.gov/PECAN/N817NA/2015-07-06/IWG1.07Jul2015-0544
+      - https://asp-archive.arc.nasa.gov/PECAN/N817NA/2015-07-08/IWG1.09Jul2015-0854
+      - https://asp-archive.arc.nasa.gov/PECAN/N817NA/2015-07-10/IWG1.11Jul2015-0858
+      - https://asp-archive.arc.nasa.gov/PECAN/N817NA/2015-07-11/IWG1.12Jul2015-0825
+      - https://asp-archive.arc.nasa.gov/PECAN/N817NA/2015-07-13/IWG1.14Jul2015-0730
+      - https://asp-archive.arc.nasa.gov/PECAN/N817NA/2015-07-14/IWG1.15Jul2015-0523
