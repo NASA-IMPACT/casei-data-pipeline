@@ -1,0 +1,35 @@
+---
+deployments:
+- name: PREDICT-D1_2010
+  platforms:
+  - name: G-V
+    latitude_field: LAT
+    longitude_field: LON
+    time_field: GTIME_G
+    files:
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF01.20100815.100900_151600.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF02.20100817.101600_153000.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF03.20100818.101800_174600.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF04.20100821.090000_171000.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF05.20100823.100000_135600.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF06.20100830.090000_180900.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF07.20100831.095700_170000.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF08.20100901.120000_164700.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF09.20100902.123500_213700.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF10.20100903.115700_212300.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF11.20100905.124400_200400.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF12.20100906.110200_184400.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF13.20100907.122700_182400.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF14.20100910.090000_143200.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF15.20100910.163000_214900.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF16.20100911.152000_204000.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF17.20100912.110200_155300.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF18.20100913.095600_160600.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF19.20100914.130300_213700.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF20.20100920.120000_184000.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF21.20100921.115800_174800.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF22.20100922.135800_182200.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF23.20100924.120500_202000.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF24.20100927.115600_195000.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF25.20100928.115800_202900.PNI.nc
+      - https://data.eol.ucar.edu/pub/download/data/wille3503191/RF26.20100930.115600_192900.PNI.nc

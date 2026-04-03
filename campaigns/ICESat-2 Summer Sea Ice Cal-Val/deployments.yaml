@@ -1,0 +1,7 @@
+---
+deployments:
+- name: ICESat-2 Summer Sea Ice Cal/Val-D1_2022
+  platforms:
+  - name: G-V
+    files:
+      - https://lvis.gsfc.nasa.gov/images/kmz/trajAllGL2022_ICESat2.kmz
