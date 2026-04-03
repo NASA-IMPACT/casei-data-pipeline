@@ -1,0 +1,31 @@
+---
+deployments:
+- name: CalNex-D1_2010
+  platforms:
+  - name: P-3
+    files:
+      - https://csl.noaa.gov/groups/csl7/measurements/2010calnex/data/P3/ict/flt20100603/Aircraft/AircraftPos_NP3_20100603_R1.ict
+      - https://csl.noaa.gov/groups/csl7/measurements/2010calnex/data/P3/ict/flt20100430/Aircraft/AircraftPos_NP3_20100430_RA.ict
+      - https://csl.noaa.gov/groups/csl7/measurements/2010calnex/data/P3/ict/flt20100602/Aircraft/AircraftPos_NP3_20100602_R1.ict
+      - https://csl.noaa.gov/groups/csl7/measurements/2010calnex/data/P3/ict/flt20100511/Aircraft/AircraftPos_NP3_20100511_R1.ict
+      - https://csl.noaa.gov/groups/csl7/measurements/2010calnex/data/P3/ict/flt20100516/Aircraft/AircraftPos_NP3_20100516_R1.ict
+      - https://csl.noaa.gov/groups/csl7/measurements/2010calnex/data/P3/ict/flt20100519/Aircraft/AircraftPos_NP3_20100519_R1.ict
+      - https://csl.noaa.gov/groups/csl7/measurements/2010calnex/data/P3/ict/flt20100521/Aircraft/AircraftPos_NP3_20100521_R1.ict
+      - https://csl.noaa.gov/groups/csl7/measurements/2010calnex/data/P3/ict/flt20100504/Aircraft/AircraftPos_NP3_20100504_R0.ict
+      - https://csl.noaa.gov/groups/csl7/measurements/2010calnex/data/P3/ict/flt20100620/Aircraft/AircraftPos_NP3_20100620_R1.ict
+      - https://csl.noaa.gov/groups/csl7/measurements/2010calnex/data/P3/ict/flt20100618/Aircraft/AircraftPos_NP3_20100618_R1.ict
+      - https://csl.noaa.gov/groups/csl7/measurements/2010calnex/data/P3/ict/flt20100616/Aircraft/AircraftPos_NP3_20100616_R1.ict
+      - https://csl.noaa.gov/groups/csl7/measurements/2010calnex/data/P3/ict/flt20100524/Aircraft/AircraftPos_NP3_20100524_R1.ict
+      - https://csl.noaa.gov/groups/csl7/measurements/2010calnex/data/P3/ict/flt20100512/Aircraft/AircraftPos_NP3_20100512_R1.ict
+      - https://csl.noaa.gov/groups/csl7/measurements/2010calnex/data/P3/ict/flt20100514/Aircraft/AircraftPos_NP3_20100514_R0.ict
+      - https://csl.noaa.gov/groups/csl7/measurements/2010calnex/data/P3/ict/flt20100507/Aircraft/AircraftPos_NP3_20100507_R1.ict
+      - https://csl.noaa.gov/groups/csl7/measurements/2010calnex/data/P3/ict/flt20100531/Aircraft/AircraftPos_NP3_20100531_R1.ict
+      - https://csl.noaa.gov/groups/csl7/measurements/2010calnex/data/P3/ict/flt20100530/Aircraft/AircraftPos_NP3_20100530_R1.ict
+      - https://csl.noaa.gov/groups/csl7/measurements/2010calnex/data/P3/ict/flt20100508/Aircraft/AircraftPos_NP3_20100508_R1.ict
+      - https://csl.noaa.gov/groups/csl7/measurements/2010calnex/data/P3/ict/flt20100427/Aircraft/AircraftPos_NP3_20100427_RA.ict
+      - https://csl.noaa.gov/groups/csl7/measurements/2010calnex/data/P3/ict/flt20100614/Aircraft/AircraftPos_NP3_20100614_R1.ict
+      - https://csl.noaa.gov/groups/csl7/measurements/2010calnex/data/P3/ict/flt20100622/Aircraft/AircraftPos_NP3_20100622_R1.ict
+  - name: Atlantis
+    header_content: "time,latitude,longitude,other"
+    files:
+      - https://csl.noaa.gov/groups/csl7/measurements/2010calnex/data/Atlantis/ict/AllCrz/Ship/ShipPos_Atlantis_20100514_RA.ict
