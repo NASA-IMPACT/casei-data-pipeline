@@ -1,5 +1,5 @@
-import fs from 'fs';
-import * as hdf5 from 'jsfive';
+import fs from "fs";
+import * as hdf5 from "jsfive";
 
 /**
 * Load a HDF5 file and return its content as a file buffer.
@@ -22,18 +22,18 @@ const loadHdf5 = (filePath) => {
 */
 const hdf52csv = (
   filePath,
-  latitudeField = '/Nav_Data/gps_lat',
-  longitudeField = '/Nav_Data/gps_lon',
-  timeField = '/Nav_Data/gps_time'
+  latitudeField = "/Nav_Data/gps_lat",
+  longitudeField = "/Nav_Data/gps_lon",
+  timeField = "/Nav_Data/gps_time"
 ) => {
   let data;
   try {
-    data = loadHdf5(filePath).get('Nav_Data');
+    data = loadHdf5(filePath).get("Nav_Data");
   } catch (e) {
-    data = loadHdf5(filePath).get('GEOLOCATION_PARAMETERS');
+    data = loadHdf5(filePath).get("GEOLOCATION_PARAMETERS");
   }
 
-  let csvContent = 'time,latitude,longitude\n';
+  let csvContent = "time,latitude,longitude\n";
   const latitudes = data.values.find((i) => i.name === latitudeField).value;
   const longitudes = data.values.find((i) => i.name === longitudeField).value;
   const times = data.values.find((i) => i.name === timeField).value;

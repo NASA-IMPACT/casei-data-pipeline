@@ -1,5 +1,5 @@
-import fs from 'fs';
-import path from 'path';
+import fs from "fs";
+import path from "path";
 
 function findDirectories(dirPath, minDepth = 0) {
   const directories = [];

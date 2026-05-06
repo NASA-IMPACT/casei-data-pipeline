@@ -1,25 +1,25 @@
-import fs from 'fs';
-import path from 'path';
+import fs from "fs";
+import path from "path";
 
-import { splitICTFile } from './process.js';
-import { concatenateFiles, getPlatformConfig } from './utils.js';
-import { findFiles } from './find.js';
-import { netcdf2csv } from './netcdf.js';
-import { hdf52csv } from './hdf5.js';
-import { xlsx2csv } from './xlsx.js';
+import { splitICTFile } from "./process.js";
+import { concatenateFiles, getPlatformConfig } from "./utils.js";
+import { findFiles } from "./find.js";
+import { netcdf2csv } from "./netcdf.js";
+import { hdf52csv } from "./hdf5.js";
+import { xlsx2csv } from "./xlsx.js";
 
 const makeCSV = (platformPath) => {
   const platformConfig = getPlatformConfig(platformPath);
-  const headersFile = path.join(platformPath, 'headers.csv');
+  const headersFile = path.join(platformPath, "headers.csv");
 
   // process .txt files
-  const txtFiles = findFiles(platformPath, ['.txt']);
+  const txtFiles = findFiles(platformPath, [".txt"]);
   if (fs.existsSync(headersFile)) {
     txtFiles.forEach((f) => concatenateFiles(headersFile, f, `${f}.csv`));
   }
 
   // process .ict files
-  const ictFiles = findFiles(platformPath, ['.ict']);
+  const ictFiles = findFiles(platformPath, [".ict"]);
   ictFiles.forEach(
     (f) => splitICTFile(
       f,
@@ -30,7 +30,7 @@ const makeCSV = (platformPath) => {
   );
 
   // process .nc files (NetCDF-4)
-  const ncFiles = findFiles(platformPath, ['.nc', '.nc4']);
+  const ncFiles = findFiles(platformPath, [".nc", ".nc4"]);
   ncFiles.forEach(
     (f) => netcdf2csv(
       f,
@@ -41,11 +41,11 @@ const makeCSV = (platformPath) => {
   );
 
   if (platformConfig.use_python_hdf) {
-    console.log('HDF files are already converted to CSV.');
+    console.log("HDF files are already converted to CSV.");
   }
 
   // process .h5 files (HDF5)
-  const h5Files = findFiles(platformPath, ['.h5', '.hdf5']);
+  const h5Files = findFiles(platformPath, [".h5", ".hdf5"]);
   h5Files.forEach(
     (f) => hdf52csv(
       f,
@@ -56,7 +56,7 @@ const makeCSV = (platformPath) => {
   );
 
   // process .xls and .xlsx files
-  const xlsFiles = findFiles(platformPath, ['.xls', '.xlsx']);
+  const xlsFiles = findFiles(platformPath, [".xls", ".xlsx"]);
   xlsFiles.forEach(
     (f) => xlsx2csv(f, platformConfig.header_content)
   );

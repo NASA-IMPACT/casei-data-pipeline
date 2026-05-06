@@ -1,5 +1,5 @@
-import XLSX from 'xlsx';
-import fs from 'fs';
+import XLSX from "xlsx";
+import fs from "fs";
 
 const xlsx2csv = (filePath, headerContent) => {
   const workbook = XLSX.readFile(filePath);

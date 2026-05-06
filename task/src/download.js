@@ -1,21 +1,21 @@
-import fs from 'fs';
-import path from 'path';
-import unzipper from 'unzipper';
-import download from 'download';
-import pLimit from 'p-limit';
-import { execSync } from 'child_process';
+import fs from "fs";
+import path from "path";
+import unzipper from "unzipper";
+import download from "download";
+import pLimit from "p-limit";
+import { execSync } from "child_process";
 
 import {
   getPlatformConfig,
   readCampaignYaml,
   urlHasFileExtension,
   extractFromTar,
-} from './utils.js';
-import { kmz2kml, extractKmlContent } from './convert-kml.js';
+} from "./utils.js";
+import { kmz2kml, extractKmlContent } from "./convert-kml.js";
 
 const CONCURRENT_DOWNLOADS = process.env.CONCURRENT_DOWNLOADS || 10;
 
-const replaceSlash = (str) => str.replaceAll('/', '-');
+const replaceSlash = (str) => str.replaceAll("/", "-");
 
 const downloadFile = async (url, dir, platformConfig) => {
   // some download URLs don't have a file extension, the set_file_extension option
@@ -27,7 +27,7 @@ const downloadFile = async (url, dir, platformConfig) => {
       `${randomId}.${platformConfig.set_file_extension}`
     );
     fs.writeFileSync(filePath, await download(url));
-    if (platformConfig.set_file_extension === 'zip') {
+    if (platformConfig.set_file_extension === "zip") {
       const zip = await unzipper.Open.file(filePath);
       await zip.extract({ path: dir });
       fs.unlinkSync(filePath);
@@ -45,12 +45,12 @@ const downloadFile = async (url, dir, platformConfig) => {
     await download(url, dir, { followRedirect: true });
   }
   // if the file is a zip, decompress it
-  if (url.endsWith('.zip')) {
+  if (url.endsWith(".zip")) {
     const filePath = path.join(dir, path.basename(url));
     // some zip files, have only a kmz file that needs to be extracted as kml
     if (platformConfig.filter_kmz) {
       const kml = await extractKmlContent(filePath);
-      fs.writeFileSync(filePath.replace('.zip', '.kml'), kml);
+      fs.writeFileSync(filePath.replace(".zip", ".kml"), kml);
     } else {
       const zip = await unzipper.Open.file(filePath);
       await zip.extract({ path: dir });
@@ -58,20 +58,20 @@ const downloadFile = async (url, dir, platformConfig) => {
     fs.unlinkSync(filePath);
   }
   // extract .tar files
-  if (url.endsWith('.tar') || url.endsWith('.tgz') || url.endsWith('.tgz.sb')) {
+  if (url.endsWith(".tar") || url.endsWith(".tgz") || url.endsWith(".tgz.sb")) {
     const filePath = path.join(dir, path.basename(url));
     await extractFromTar(filePath, dir);
     fs.unlinkSync(filePath);
   }
   // The GRIP campaign has files without an extension and others with .dat that should be txt
-  if (!urlHasFileExtension(url) || url.endsWith('.dat')) {
+  if (!urlHasFileExtension(url) || url.endsWith(".dat")) {
     const filePath = path.join(dir, path.basename(url));
     fs.renameSync(filePath, `${filePath}.txt`);
   }
-  if (url.endsWith('.kmz')) {
+  if (url.endsWith(".kmz")) {
     const filePath = path.join(dir, path.basename(url));
     const kml = await kmz2kml(filePath);
-    fs.writeFileSync(filePath.replace('.kmz', '.kml'), kml);
+    fs.writeFileSync(filePath.replace(".kmz", ".kml"), kml);
     fs.unlinkSync(filePath);
   }
 };
@@ -97,7 +97,7 @@ const renameAsIct = (platformPath) => {
   fs.readdirSync(platformPath)
     .forEach((i) => fs.renameSync(
       path.join(platformPath, i),
-      path.join(platformPath, i.replace(/\.[^.]+$/, '.ict'))
+      path.join(platformPath, i.replace(/\.[^.]+$/, ".ict"))
     ));
 };
 
@@ -115,8 +115,8 @@ const downloadPlatform = async (campaignPath, deployment, platform, files) => {
         const filePath = path.join(platformPath, path.basename(file));
         await downloadFile(file, platformPath, platformConfig);
         execSync(
-          `python src/python/hdf.py "${filePath}" ${platformConfig.header_content || ''}`,
-          { stdio: 'inherit', shell: true }
+          `python src/python/hdf.py "${filePath}" ${platformConfig.header_content || ""}`,
+          { stdio: "inherit", shell: true }
         );
         fs.unlinkSync(filePath);
       }))
@@ -134,11 +134,10 @@ const downloadPlatform = async (campaignPath, deployment, platform, files) => {
   }
 };
 
-const createDir = async (dir) =>
-  await fs.mkdir(
-    dir,
-    { recursive: true },
-    (e) => e ? console.log(e.message) : console.log(`Created ${dir}`)
+const createDir = async (dir) => await fs.mkdir(
+  dir,
+  { recursive: true },
+  (e) => (e ? console.log(e.message) : console.log(`Created ${dir}`))
 );
 
 export {

@@ -1,5 +1,5 @@
-import XLSX from 'xlsx';
-import fs from 'fs';
+import XLSX from "xlsx";
+import fs from "fs";
 
 // Load the xlsx file
 const workbook = XLSX.readFile(process.argv[2]);
@@ -16,9 +16,9 @@ workbook.SheetNames.forEach((sheetName) => {
     }
     fs.writeFileSync(
       `../campaigns/${sheetName}/static.csv`,
-      csv.replaceAll(',,,,\n', '').replace(',,,,', '').replaceAll(' ,', ',')
+      csv.replaceAll(",,,,\n", "").replace(",,,,", "").replaceAll(" ,", ",")
     );
   });
 });
 
-console.log('CSV files exported successfully!');
+console.log("CSV files exported successfully!");
