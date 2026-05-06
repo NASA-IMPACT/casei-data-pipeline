@@ -1,6 +1,6 @@
-import fs from 'fs';
-import * as hdf5 from 'jsfive';
-import { NetCDFReader } from 'netcdfjs';
+import fs from "fs";
+import * as hdf5 from "jsfive";
+import { NetCDFReader } from "netcdfjs";
 
 /**
 * Converts a NetCDF file to CSV, extracting the time, latitude and longitude information.
@@ -12,9 +12,9 @@ import { NetCDFReader } from 'netcdfjs';
 * @param {String} timeField - name of the field in the NetCDF file that contains the
   time information
 */
-const netcdf2csv = (filePath, latitudeField = 'latitude', longitudeField = 'longitude', timeField = 'time') => {
+const netcdf2csv = (filePath, latitudeField = "latitude", longitudeField = "longitude", timeField = "time") => {
   const file = fs.readFileSync(filePath);
-  const header = 'time,latitude,longitude\n';
+  const header = "time,latitude,longitude\n";
   let csvContent = header;
   let latitudes;
   let longitudes;
@@ -31,7 +31,7 @@ const netcdf2csv = (filePath, latitudeField = 'latitude', longitudeField = 'long
       (v) => !fields.includes(v)
     );
     if (missingVars.length) {
-      console.log(`Failed to read ${missingVars.join(', ')} on ${filePath}`);
+      console.log(`Failed to read ${missingVars.join(", ")} on ${filePath}`);
       console.log(fields);
       return;
     }

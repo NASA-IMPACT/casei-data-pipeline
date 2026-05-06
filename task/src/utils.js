@@ -29,17 +29,16 @@ const getStats = (arr) => ({
   avg: arr.reduce((a, b) => a + b, 0) / arr.length,
 });
 
-const tsv2csv = (tsvContent) =>
-  tsvContent
-    // replace "G 123:" with "123:". 123 can be any number between 1 and 3 digits
-    .replace(/G\s(\d{1,3}):/g, "$1:")
-    // replace " N 1" or " E 1" with " 1"
-    .replaceAll(/\s([NE])\s?(\d{1,3})./g, " $2.")
-    // replace " W 1" or " S 1" with " -1"
-    .replaceAll(/\s([WS])\s?(\d{1,3})./g, " -$2.")
-    // replace whitespaces with commas
-    .replace(/( |\t)+/g, ",")
-    .replace(/^,+/gm, "");
+const tsv2csv = (tsvContent) => tsvContent
+// replace "G 123:" with "123:". 123 can be any number between 1 and 3 digits
+  .replace(/G\s(\d{1,3}):/g, "$1:")
+// replace " N 1" or " E 1" with " 1"
+  .replaceAll(/\s([NE])\s?(\d{1,3})./g, " $2.")
+// replace " W 1" or " S 1" with " -1"
+  .replaceAll(/\s([WS])\s?(\d{1,3})./g, " -$2.")
+// replace whitespaces with commas
+  .replace(/( |\t)+/g, ",")
+  .replace(/^,+/gm, "");
 
 const concatenateFiles = (file1, file2, output) => {
   const data1 = fs.readFileSync(file1);
@@ -65,24 +64,23 @@ const getPlatformConfig = (platformPath) => {
   return (
     campaignConfig
       .find(
-        (d) => d.name.replace(/[-/]/g, "") === deployment.replace(/[-/]/g, ""),
+        (d) => d.name.replace(/[-/]/g, "") === deployment.replace(/[-/]/g, "")
       )
       .platforms// As we remove the slashes from the platform folder,
       // we need to put it back when reading the yaml file
       .find(
-        (p) => p.name === platform || p.name === platform.replaceAll("-", "/"),
+        (p) => p.name === platform || p.name === platform.replaceAll("-", "/")
       )
   );
 };
 
-const divideCoordinates = (features, coordsDivisor) =>
-  features.map((i) => {
-    const newGeometry = {
-      ...i.geometry,
-      coordinates: i.geometry.coordinates.map((c) => c / coordsDivisor),
-    };
-    return { ...i, geometry: newGeometry };
-  });
+const divideCoordinates = (features, coordsDivisor) => features.map((i) => {
+  const newGeometry = {
+    ...i.geometry,
+    coordinates: i.geometry.coordinates.map((c) => c / coordsDivisor),
+  };
+  return { ...i, geometry: newGeometry };
+});
 
 const urlHasFileExtension = (url) => {
   const ext = path.basename(url).split(".").slice(-1)[0];
@@ -110,7 +108,7 @@ const extractFromTar = async (tarFilePath, destination) => {
       } else {
         console.log("Tar file extracted successfully!");
       }
-    },
+    }
   );
 };
 

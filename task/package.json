@@ -6,7 +6,7 @@
   "main": "src/download.js",
   "scripts": {
     "download": "node downloadCampaign.js",
-    "lint": "eslint --ext .js",
+    "lint": "eslint --ext *.js",
     "list-files": "node get-files-list.js",
     "process": "node processAll.js",
     "test": "jest",

@@ -1,6 +1,6 @@
-import fs from 'fs';
-import axios from 'axios';
-import * as cheerio from 'cheerio';
+import fs from "fs";
+import axios from "axios";
+import * as cheerio from "cheerio";
 
 async function getLinks(url) {
   /**
@@ -10,7 +10,7 @@ async function getLinks(url) {
    */
   const response = await axios.get(url);
   const $ = cheerio.load(response.data);
-  const links = $('a').map((_, link) => `${url}/${$(link).attr('href')}`).get();
+  const links = $("a").map((_, link) => `${url}/${$(link).attr("href")}`).get();
   return links;
 }
 
@@ -20,7 +20,7 @@ function saveToCSV(links, outputFileName) {
    * @param {string[]} links - A list of links to be saved.
    * @param {string} outputFileName - The name of the output CSV file.
    */
-  fs.writeFileSync(outputFileName, links.join('\n'));
+  fs.writeFileSync(outputFileName, links.join("\n"));
 }
 
 async function listLinks(url, outputFileName) {
@@ -28,7 +28,7 @@ async function listLinks(url, outputFileName) {
   const allLinks = await Promise.all(initialLinks.map((i) => getLinks(i)));
   saveToCSV(
     allLinks
-      .flat().filter((i) => i.includes('IWG1.') && !i.includes('.xml')),
+      .flat().filter((i) => i.includes("IWG1.") && !i.includes(".xml")),
     outputFileName
   );
 }

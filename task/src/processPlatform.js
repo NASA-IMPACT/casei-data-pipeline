@@ -1,14 +1,14 @@
-import fs from 'fs';
-import path from 'path';
-import slugify from 'slugify';
+import fs from "fs";
+import path from "path";
+import slugify from "slugify";
 
 import {
   convertToGeoJSON,
   getPropertiesFromPath,
   mergeGeoJSONCollection,
-} from './process.js';
-import { getPlatformConfig } from './utils.js';
-import { kml2geojson } from './convert-kml.js';
+} from "./process.js";
+import { getPlatformConfig } from "./utils.js";
+import { kml2geojson } from "./convert-kml.js";
 
 const makePlatformGeoJSON = (dir) => {
   const properties = getPropertiesFromPath(dir);
@@ -18,7 +18,7 @@ const makePlatformGeoJSON = (dir) => {
   let collection;
   // convert CSV files to GeoJSON
   collection = files
-    .filter((f) => f.endsWith('.csv') && !f.endsWith('headers.csv'))
+    .filter((f) => f.endsWith(".csv") && !f.endsWith("headers.csv"))
     .map((f) => path.join(dir, f))
     .map((f) => convertToGeoJSON(
       f,
@@ -29,7 +29,7 @@ const makePlatformGeoJSON = (dir) => {
     ));
 
   // if the platform has only kml files, convert them to geojson
-  if (!collection.length && files.every((f) => f.endsWith('.kml'))) {
+  if (!collection.length && files.every((f) => f.endsWith(".kml"))) {
     collection = files
       .map((f) => path.join(dir, f))
       .map((f) => kml2geojson(f, properties));

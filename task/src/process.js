@@ -1,16 +1,16 @@
-import fs from 'fs';
-import path from 'path';
-import * as dsv from 'd3-dsv';
-import csv2geojson from 'csv2geojson';
-import simplify from 'simplify-geojson';
+import fs from "fs";
+import path from "path";
+import * as dsv from "d3-dsv";
+import csv2geojson from "csv2geojson";
+import simplify from "simplify-geojson";
 
-import * as geojsonMerge from '@mapbox/geojson-merge';
-import * as dist from '@turf/distance';
-import splitGeoJSON from 'geojson-antimeridian-cut';
-import geoPrecision from 'geojson-precision';
+import * as geojsonMerge from "@mapbox/geojson-merge";
+import * as dist from "@turf/distance";
+import splitGeoJSON from "geojson-antimeridian-cut";
+import geoPrecision from "geojson-precision";
 
-import { getStats, tsv2csv, divideCoordinates } from './utils.js';
-import { formatHeaderRow } from './headers.js';
+import { getStats, tsv2csv, divideCoordinates } from "./utils.js";
+import { formatHeaderRow } from "./headers.js";
 
 /**
  * Read a directory structure and return the properties metadata that needs to be added to a GeoJSON
@@ -31,21 +31,21 @@ const getPropertiesFromPath = (dir) => {
  * @param {Number} dataStartLineFix - sum or subtract a value to/from the dataStartLine
  * value in the ICT header
  */
-const getDataContentFromICT = (filename, dataStartLineFix = 0, replaceHeaderContent = '') => {
+const getDataContentFromICT = (filename, dataStartLineFix = 0, replaceHeaderContent = "") => {
   const file = fs.readFileSync(filename);
-  let content = file.toString().split('\n');
+  let content = file.toString().split("\n");
   let dataStartLine = 0;
   let header;
   // some campaigns have a different header identifier
-  if (content[0] === '/begin_header') {
-    for (let i = 0; i < content.indexOf('/end_header'); i++) {
-      if (content[i].startsWith('/fields=')) {
-        header = content[i].replace('/fields=', '');
+  if (content[0] === "/begin_header") {
+    for (let i = 0; i < content.indexOf("/end_header"); i++) {
+      if (content[i].startsWith("/fields=")) {
+        header = content[i].replace("/fields=", "");
         break;
       }
     }
-    dataStartLine = content.indexOf('/end_header');
-    return [header, ...content.slice(dataStartLine + 1)].join('\n');
+    dataStartLine = content.indexOf("/end_header");
+    return [header, ...content.slice(dataStartLine + 1)].join("\n");
   }
   const ictDataStartLine = parseInt(content[0].match(/[^,\s]+/)[0], 10);
   // some .ict files have a wrong dataStartLine, in that case, we don't use that value
@@ -55,9 +55,9 @@ const getDataContentFromICT = (filename, dataStartLineFix = 0, replaceHeaderCont
     return [
       replaceHeaderContent,
       ...content.slice(dataStartLine + dataStartLineFix - 1),
-    ].join('\n');
+    ].join("\n");
   }
-  content = content.slice(dataStartLine - 1 + dataStartLineFix).join('\n');
+  content = content.slice(dataStartLine - 1 + dataStartLineFix).join("\n");
   return content;
 };
 
@@ -72,7 +72,7 @@ const splitICTFile = (
   filename,
   isTSVFormatted = false,
   dataStartLineFix = 0,
-  replaceHeaderContent = ''
+  replaceHeaderContent = ""
 ) => {
   let content = getDataContentFromICT(filename, dataStartLineFix, replaceHeaderContent);
 
@@ -80,11 +80,11 @@ const splitICTFile = (
     content = tsv2csv(content);
   }
 
-  const header = formatHeaderRow(content.substr(0, content.indexOf('\n')));
-  content = `${header}${content.substr(content.indexOf('\n'))}`;
+  const header = formatHeaderRow(content.substr(0, content.indexOf("\n")));
+  content = `${header}${content.substr(content.indexOf("\n"))}`;
 
-  const newFileName = filename.endsWith('.ict')
-    ? filename.replace('.ict', '.csv')
+  const newFileName = filename.endsWith(".ict")
+    ? filename.replace(".ict", ".csv")
     : `${filename}.csv`;
 
   fs.writeFileSync(newFileName, content.toLowerCase());
@@ -104,7 +104,7 @@ const splitICTFile = (
  */
 const getPropertiesFromCSV = (data, extraProperties = {}, columnsStats = []) => {
   const properties = { ...extraProperties };
-  const csvContent = dsv.dsvFormat(',').parse(data, (r) => r);
+  const csvContent = dsv.dsvFormat(",").parse(data, (r) => r);
   properties.product = csvContent[0]?.product;
   properties.start = csvContent[0]?.timestamp;
   properties.end = csvContent[csvContent.length - 1]?.timestamp;
@@ -153,7 +153,7 @@ const makeStaticLocationsGeoJSON = (filePath) => {
   let geojson;
   csv2geojson.csv2geojson(
     content,
-    { latfield: 'latitude', lonfield: 'longitude', delimiter: ',' },
+    { latfield: "latitude", lonfield: "longitude", delimiter: "," },
     (err, data) => geojson = data
   );
   return geojson;
@@ -185,10 +185,10 @@ const makeGeoJSON = (
   csv2geojson.csv2geojson(
     content,
     {
-      latfield: 'latitude',
-      lonfield: 'longitude',
-      delimiter: ',',
-      numericFields: 'latitude,longitude',
+      latfield: "latitude",
+      lonfield: "longitude",
+      delimiter: ",",
+      numericFields: "latitude,longitude",
     },
     (err, data) => geojson = data
   );
@@ -226,7 +226,7 @@ const convertToGeoJSON = (
   filePath,
   extraProperties = {},
   coordsDivisor = null,
-  columnsStats = ['gps_altitude', 'pressure_altitude']
+  columnsStats = ["gps_altitude", "pressure_altitude"]
 ) => {
   const geojson = simplify(
     makeGeoJSON(filePath, extraProperties, columnsStats, coordsDivisor),
